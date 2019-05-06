@@ -1,0 +1,26 @@
+{
+  "name": "@liquid-carrot/nn",
+  "version": "0.0.0",
+  "description": "Neural networks in the browser & Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liquidcarrot/nn.git"
+  },
+  "keywords": [
+    "neural-networks",
+    "nn",
+    "browser",
+    "node",
+    "nodejs"
+  ],
+  "author": "Luis Carbonell <luis@liquidcarrot.io> (https://liquidcarrot.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liquidcarrot/nn/issues"
+  },
+  "homepage": "https://github.com/liquidcarrot/nn#readme"
+}
