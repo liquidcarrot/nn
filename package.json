@@ -4,7 +4,11 @@
   "description": "Neural networks in the browser & Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --recursive test",
+    "test:web": "cd test/ && live-server",
+    "test:node": "mocha --recursive test",
+    "test:dev": "nodemon --exec mocha --recursive test",
+    "server": "live-server static"
   },
   "repository": {
     "type": "git",
@@ -22,5 +26,12 @@
   "bugs": {
     "url": "https://github.com/liquidcarrot/nn/issues"
   },
-  "homepage": "https://github.com/liquidcarrot/nn#readme"
+  "homepage": "https://github.com/liquidcarrot/nn#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "live-server": "^1.2.1",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.1",
+    "puppeteer": "^1.18.1"
+  }
 }
