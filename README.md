@@ -12,11 +12,13 @@ Making AI amazing in JavaScript & Node.js
 * [x] Node.js Support (Dynamic Importing) - _"play with other people's toys offline"_
 * [x] Browser Support (Dynamic Importing) - _"play with other people's toys offline"_
 
+
+* [x] Threading (Node) - _"a few things at once"_
+* [ ] Threading (Browser) - _"a few things at once"_
+
 * [ ] Unit Tests - _"being safe, rather than sorry"_
 * [ ] End-to-End Tests - _"being seriously, over-the-top safe - some might even say neurotic"_
 
-* [ ] Threading (Node) - _"a few things at once"_
-* [ ] Threading (Browser) - _"a few things at once"_
 * [ ] GPU (Node) - _"a lot of things at once"_
 * [ ] GPU (Browser) - _"a lot of things at once"_
 * [ ] Streaming (Node) - _"bigger data with less computer"_
