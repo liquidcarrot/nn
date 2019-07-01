@@ -9,8 +9,8 @@ Making AI amazing in JavaScript & Node.js
 * [x] Node.js Support (Dynamic Exporting) - _"do things offline"_
 * [x] Browser Support (Dynamic Exporting) - _"do things online"_
 
-* [ ] Node.js Support (Dynamic Importing) - _"play with other people's toys offline"_
-* [ ] Browser Support (Dynamic Importing) - _"play with other people's toys offline"_
+* [x] Node.js Support (Dynamic Importing) - _"play with other people's toys offline"_
+* [x] Browser Support (Dynamic Importing) - _"play with other people's toys offline"_
 
 * [ ] Unit Tests - _"being safe, rather than sorry"_
 * [ ] End-to-End Tests - _"being seriously, over-the-top safe - some might even say neurotic"_
