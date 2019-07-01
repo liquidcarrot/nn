@@ -5,11 +5,16 @@ Making AI amazing in JavaScript & Node.js
 ## Roadmap
 
 * [x] Developer SWAG! - _"just be cool, BRO! o.O"_
+
+* [x] Node.js Support (Dynamic Exporting) - _"do things offline"_
+* [x] Browser Support (Dynamic Exporting) - _"do things online"_
+
+* [ ] Node.js Support (Dynamic Importing) - _"play with other people's toys offline"_
+* [ ] Browser Support (Dynamic Importing) - _"play with other people's toys offline"_
+
 * [ ] Unit Tests - _"being safe, rather than sorry"_
 * [ ] End-to-End Tests - _"being seriously, over-the-top safe - some might even say neurotic"_
 
-* [ ] Node.js Support - _"do things offline"_
-* [ ] Browser Support - _"do things online"_
 * [ ] Threading (Node) - _"a few things at once"_
 * [ ] Threading (Browser) - _"a few things at once"_
 * [ ] GPU (Node) - _"a lot of things at once"_
