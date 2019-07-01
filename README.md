@@ -4,16 +4,16 @@ Making AI amazing in JavaScript & Node.js
 
 ## Roadmap
 
-* [x] Developer SWAG! - _"just be cool, BRO! o.O"_
+* [x] Developer SWAG! - _"just be cool, BRO! o.O"_ - **Finished: 07/01/2019**
 
-* [x] Node.js Support (Dynamic Exporting) - _"do things offline"_
-* [x] Browser Support (Dynamic Exporting) - _"do things online"_
+* [x] Node.js Support (Dynamic Exporting) - _"do things offline"_ - **Finished: 07/01/2019**
+* [x] Browser Support (Dynamic Exporting) - _"do things online"_ - **Finished: 07/01/2019**
 
-* [x] Node.js Support (Dynamic Importing) - _"play with other people's toys offline"_
-* [x] Browser Support (Dynamic Importing) - _"play with other people's toys offline"_
+* [x] Node.js Support (Dynamic Importing) - _"play with other people's toys offline"_ - **Finished: 07/01/2019**
+* [x] Browser Support (Dynamic Importing) - _"play with other people's toys offline"_ - **Finished: 07/01/2019**
 
 
-* [x] Threading (Node) - _"a few things at once"_
+* [x] Threading (Node) - _"a few things at once"_ - **Finished: 07/01/2019**
 * [ ] Threading (Browser) - _"a few things at once"_
 
 * [ ] Unit Tests - _"being safe, rather than sorry"_
