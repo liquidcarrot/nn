@@ -4,6 +4,8 @@ Making AI amazing in JavaScript & Node.js
 
 ## Roadmap
 
+* [ ] Node.js Support - _"do things offline"_
+* [ ] Browser Support - _"do things online"_
 * [ ] Threading (Node) - _"a few things at once"_
 * [ ] Threading (Browser) - _"a few things at once"_
 * [ ] GPU (Node) - _"a lot of things at once"_
