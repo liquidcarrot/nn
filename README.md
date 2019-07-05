@@ -15,10 +15,12 @@ Making AI amazing in JavaScript & Node.js
 * [x] Threading (Node) - _"a few things at once"_ - **Finished: 07/01/2019**
 * [x] Threading (Browser) - _"a few things at once"_ - **Finished: 07/05/2019**
 
-* [ ] Streaming (Node) - _"bigger data with less computer"_
-* [ ] Streaming (Browser) - _"bigger data with less computer"_ 
+* [x] Unit Tests (Node) - _"being safe, rather than sorry"_ - **Finished: 07/05/2019**
+* [x] Unit Tests (Browser) - _"being safe, rather than sorry"_ - **Finished: 07/05/2019**
 
-* [ ] Unit Tests - _"being safe, rather than sorry"_
+* [ ] Streaming (Node) - _"bigger data with less computer"_
+* [ ] Streaming (Browser) - _"bigger data with less computer"_
+
 * [ ] End-to-End Tests - _"being seriously, over-the-top safe - some might even say neurotic"_
 
 * [ ] GPU (Node) - _"a lot of things at once"_
