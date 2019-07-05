@@ -12,17 +12,17 @@ Making AI amazing in JavaScript & Node.js
 * [x] Node.js Support (Dynamic Importing) - _"play with other people's toys offline"_ - **Finished: 07/01/2019**
 * [x] Browser Support (Dynamic Importing) - _"play with other people's toys offline"_ - **Finished: 07/01/2019**
 
-
 * [x] Threading (Node) - _"a few things at once"_ - **Finished: 07/01/2019**
-* [ ] Threading (Browser) - _"a few things at once"_
+* [x] Threading (Browser) - _"a few things at once"_ - **Finished: 07/05/2019**
+
+* [ ] Streaming (Node) - _"bigger data with less computer"_
+* [ ] Streaming (Browser) - _"bigger data with less computer"_ 
 
 * [ ] Unit Tests - _"being safe, rather than sorry"_
 * [ ] End-to-End Tests - _"being seriously, over-the-top safe - some might even say neurotic"_
 
 * [ ] GPU (Node) - _"a lot of things at once"_
 * [ ] GPU (Browser) - _"a lot of things at once"_
-* [ ] Streaming (Node) - _"bigger data with less computer"_
-* [ ] Streaming (Browser) - _"bigger data with less computer"_ 
 
 * [ ] Supervised Learning - _"if it's hot, don't touch it"; "got you, okay"_
 * [ ] Evolutionary Learning - _100 networks start; 3 "make it"; 30 die; the remaining 50 procreate and replace the 30 deaths; 16 of the original 100 are cloned/revived_
