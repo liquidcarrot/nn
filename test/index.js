@@ -1,2 +1,2 @@
 expect = require("chai").expect;
-require("./test");
+require("./unit/test");

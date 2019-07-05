@@ -4,10 +4,10 @@
   "description": "Neural networks in the browser & Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --recursive test",
+    "test": "npm run test:node",
     "test:web": "cd test/ && live-server",
-    "test:node": "mocha --recursive test",
-    "test:dev": "nodemon --exec mocha --recursive test",
+    "test:node": "mocha test/index.js",
+    "test:dev": "nodemon --exec npm run test:node",
     "server": "live-server static"
   },
   "repository": {
