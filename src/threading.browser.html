@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Liquid Carrot</title>
+  </head>
+  <body>
+    <script src="environment.js"></script>
+    <script>
+      const workers = [];
+      const cores = window.navigator.hardwareConcurrency;
+      
+      console.log(window.environment);
+      
+      function fork(fn, name) {
+        return new Worker(URL.createObjectURL(new Blob([`(${fn})()`])), {
+          name
+        });
+      }
+      
+      function worker() {
+        <!-- Can't pass any window, document, or frame variables into -->
+        <!-- a worker (i.e. window.environment) w/o passing it as a message -->
+        console.log(`Worker "${self.name}" started in a "browser" environment`);
+        self.close();
+      }
+      
+      for (let i = 0; i < cores; i++) {
+        workers.push(fork(worker, `${i}`));
+      }
+      
+    </script>
+  </body>
+</html>
