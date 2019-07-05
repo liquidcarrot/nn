@@ -1,6 +1,6 @@
 # Neural Networks in JavaScript
 
-Making AI amazing in JavaScript & Node.js
+[Making AI amazing in JavaScript & Node.js](https://github.com/liquidcarrot/nn/wiki/Creating-Liquid-Carrot)
 
 ## Roadmap
 
