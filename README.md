@@ -51,3 +51,15 @@ npm run doc:markdown
 * [ ] Generative Adverserial Networks - _"devil's advocate networks"_
 * [ ] Capsule Networks - _"I heard you like brains, so I put a brain in your brain, in your brain - in your brain"_
 * [ ] HyperNEAT - _"puberty for brains - just with better outlooks"_
+
+## Architecure
+
+### Proposed Objects
+
+* *Connection*
+* *Neuron (i.e. Node)*
+* *Group (i.e. Layer)*
+* *Network*
+* *Population*
+* *Bot* - _An data-level abstraction of `network` and `population`to facilitate File System I/O._
+* *Environment* - _An application-level abstraction of `bot`to facilitate Network I/O._
