@@ -4,6 +4,9 @@
   "description": "Neural networks in the browser & Node.js",
   "main": "index.js",
   "scripts": {
+    "doc": "npm run doc:markdown",
+    "doc:html": "jsdoc -c jsdoc.conf.json",
+    "doc:markdown": "jsdoc2md src/*.js > DOCUMENTATION.md",
     "test": "npm run test:node",
     "test:web": "cd test/ && live-server",
     "test:node": "mocha test/index.js",
@@ -29,9 +32,15 @@
   "homepage": "https://github.com/liquidcarrot/nn#readme",
   "devDependencies": {
     "chai": "^4.2.0",
+    "jsdoc": "^3.6.3",
+    "jsdoc-to-markdown": "^5.0.0",
     "live-server": "^1.2.1",
     "mocha": "^6.1.4",
     "nodemon": "^1.19.1",
     "puppeteer": "^1.18.1"
+  },
+  "dependencies": {
+    "cuid": "^2.1.6",
+    "hyperid": "^2.0.2"
   }
 }
