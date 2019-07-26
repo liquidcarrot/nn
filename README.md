@@ -18,6 +18,9 @@
 * [x] Unit Tests (Node) - _"being safe, rather than sorry"_ - **Finished: 07/05/2019**
 * [x] Unit Tests (Browser) - _"being safe, rather than sorry"_ - **Finished: 07/05/2019**
 
+* [ ] Documentation Generator (Markdown) - _"a manual you'll enjoy reading"_
+* [ ] Documentation Generator (HTML) - _"a manual you'll enjoy reading"_
+
 * [ ] Streaming (Node) - _"bigger data with less computer"_
 * [ ] Streaming (Browser) - _"bigger data with less computer"_
 
