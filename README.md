@@ -2,6 +2,19 @@
 
 [Making AI amazing in JavaScript & Node.js](https://github.com/liquidcarrot/nn/wiki/Creating-Liquid-Carrot)
 
+## Introduction
+
+**Generating Documentation (Markdown)**
+>Updates [`DOCUMENTATION.md`](DOCUMENTATION.md) with documentation generated from `/** Comments */` using [JSDoc to Markdown]().
+
+```bash
+npm run doc
+```
+
+```bash
+npm run doc:markdown
+```
+
 ## Roadmap
 
 * [x] Developer SWAG! - _"just be cool, BRO! o.O"_ - **Finished: 07/01/2019**
