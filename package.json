@@ -45,5 +45,8 @@
     "puppeteer": "^1.18.1",
     "webpack": "^4.38.0",
     "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "cuid": "^2.1.6"
   }
 }
