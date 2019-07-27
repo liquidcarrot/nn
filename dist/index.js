@@ -139,15 +139,19 @@ const uid = require("cuid");
  * @param {Object} [options]
  *
  * @example
- * const connection = new Connection(neuron, other) // Connection {}
+ * const connection = new Connection(neuron, other) // Connection { a: neuron, b: other }
  *
- * const connection = new Connection(neuron, other, 0.3) // Connection {}
+ * const connection = new Connection(neuron, other, 0.3) // Connection { a: neuron, b: other, weight: 0.3 }
  */
 function Connection(a, b, weight, options) {
   this.id = uid();
   this.a = a;
   this.b = b;
   this.weight = weight == undefined ? Math.random() * 2 - 1 : weight;
+  this.queue = {
+    forward: [],
+    backward: []
+  }
 }
 
 module.exports = Connection;
