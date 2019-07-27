@@ -1,14 +1,18 @@
 {
   "name": "@liquid-carrot/nn",
-  "version": "0.0.0",
-  "description": "Neural networks in the browser & Node.js",
+  "version": "1.0.0",
+  "description": "Neural Networks &  Deep Learning in JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test:node",
-    "test:web": "cd test/ && live-server",
-    "test:node": "mocha test/index.js",
-    "test:dev": "nodemon --exec npm run test:node",
-    "server": "live-server static"
+    "test": "npm run test:node && npm run test:browser",
+    "test:node": "mocha test/node.js",
+    "test:browser": "npm run build:test && live-server test/",
+    "build": "npm run build:src && npm run doc",
+    "build:src": "browserify src/index.js -o dist/index.js -s 'NN'",
+    "build:test": "webpack test/node.js -o test/browser.js",
+    "doc": "npm run doc:markdown && npm run doc:html",
+    "doc:html": "jsdoc -c jsdoc.conf.json",
+    "doc:markdown": "jsdoc2md src/*.js > DOCUMENTATION.md"
   },
   "repository": {
     "type": "git",
@@ -21,17 +25,25 @@
     "node",
     "nodejs"
   ],
-  "author": "Luis Carbonell <luis@liquidcarrot.io> (https://liquidcarrot.io)",
+  "author": "Liquid Carrot <people@liquidcarrot.io> (https://liquidcarrot.io)",
+  "contributors": [
+    "Luis Carbonell <lulucarbonell@protonmail.com> (https://luiscarbonell.com)"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/liquidcarrot/nn/issues"
   },
-  "homepage": "https://github.com/liquidcarrot/nn#readme",
+  "homepage": "https://liquidcarrot.io/nn",
   "devDependencies": {
+    "browserify": "^16.3.0",
     "chai": "^4.2.0",
+    "jsdoc": "^3.6.3",
+    "jsdoc-to-markdown": "^5.0.0",
     "live-server": "^1.2.1",
-    "mocha": "^6.1.4",
+    "mocha": "^6.2.0",
     "nodemon": "^1.19.1",
-    "puppeteer": "^1.18.1"
+    "puppeteer": "^1.18.1",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6"
   }
 }
