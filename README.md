@@ -34,8 +34,8 @@ npm run doc:markdown
 * [x] End-to-End Tests (Node)- _"being seriously, over-the-top safe - some might even say neurotic"_ - **Finished: 07/26/2019**
 * [x] End-to-End Tests (Node)- _"being seriously, over-the-top safe - some might even say neurotic"_ - **Finished: 07/26/2019**
 
-* [ ] Documentation Generator (Markdown) - _"a manual you'll enjoy reading"_
-* [ ] Documentation Generator (HTML) - _"a manual you'll enjoy reading"_
+* [x] Documentation Generator (Markdown) - _"a manual you'll enjoy reading"_ - **Finished: 07/27/2019**
+* [x] Documentation Generator (HTML) - _"a manual you'll enjoy reading"_ - **Finished: 07/27/2019**
 
 * [ ] Streaming (Node) - _"bigger data with less computer"_
 * [ ] Streaming (Browser) - _"bigger data with less computer"_
