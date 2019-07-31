@@ -52,3 +52,8 @@ npm run doc:markdown
 * [ ] Generative Adverserial Networks - _"devil's advocate networks"_
 * [ ] Capsule Networks - _"I heard you like brains, so I put a brain in your brain, in your brain - in your brain"_
 * [ ] HyperNEAT - _"puberty for brains - just with better outlooks"_
+
+## Bibliography
+
+- https://www.youtube.com/watch?v=0e0z28wAWfg
+- https://www.youtube.com/watch?v=uXt8qF2Zzfo

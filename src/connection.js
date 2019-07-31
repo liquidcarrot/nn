@@ -28,6 +28,10 @@ function Connection(a, b, weight, options) {
     forward: [],
     backward: []
   }
+  this.stream = {
+    forward: undefined,
+    backward: undefined
+  }
 }
 
 module.exports = Connection;

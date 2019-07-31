@@ -1,3 +1,6 @@
+# Bundled Tests
+test/browser.js
+
 # Logs
 logs
 *.log
