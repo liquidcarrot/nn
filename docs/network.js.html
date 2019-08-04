@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Source: connection.js</title>
+    <title>JSDoc: Source: network.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Source: connection.js</h1>
+    <h1 class="page-title">Source: network.js</h1>
 
     
 
@@ -26,43 +26,43 @@
     
     <section>
         <article>
-            <pre class="prettyprint source linenums"><code>const uid = require("cuid");
-
+            <pre class="prettyprint source linenums"><code>
 /**
+ * @constructs Network
  *
- * @constructs Connection
+ * @prop {Group[]} [layers=[]] An ordered list of groups in the network
  *
- * @prop {string} id Unique connection ID
- * @prop {Neuron|Neuron[]} a Side "A" of connection(s)
- * @prop {Neuron|Neuron[]} b Side "B" of connection(s)
- * @prop {number|number[]} [weight] Weight of connection(s)
- *
- * @param {Neuron|Neuron[]} a Neuron(s) on one edge of the connection
- * @param {Neuron|Neuron[]} b Neruon(s) on another edge of the connection
- * @param {number|number[]} [weight] Weight of connection(s)
- * @param {Object} [options]
- *
- * @example
- * const connection = new Connection(neuron, other) // Connection { a: neuron, b: other }
- *
- * const connection = new Connection(neuron, other, 0.3) // Connection { a: neuron, b: other, weight: 0.3 }
+ * @param {CostFunction} [cost=cost.MSE] Cost function
  */
-function Connection(a, b, weight, options) {
-  this.id = uid();
-  this.a = a;
-  this.b = b;
-  this.weight = weight == undefined ? Math.random() * 2 - 1 : weight;
-  this.queue = {
-    forward: [],
-    backward: []
+function Network() {
+  this.layers = []; // Stores order of forward/backward propagation
+  this.cost; // Function: cost(outputs, targets)
+  
+  this.activate = function(inputs) {
+    this.layers[0].activate(inputs);
+    
+    for(let l = 1, last = this.layers.length - 1; l &lt; last; l++) {
+      this.layers[l].activate();
+    }
+    
+    return this.layers[this.layers.length - 1].activate();
   }
-  this.stream = {
-    forward: undefined,
-    backward: undefined
+  
+  
+  this.propagate = function(targets) {
+    const { error, critiques } = this.cost(this.outputs, targets);
+    
+    this.layers[this.layers.length - 1].propagate(critiques); // Critques = Errors w.r.t Output Neuron
+    
+    for(let l = this.layers.length - 2; l > 0; l--) {
+      this.layers[l].propagate();
+    }
+    
+    this.layers[0].propagate();
+    
+    return error;
   }
-}
-
-module.exports = Connection;</code></pre>
+}</code></pre>
         </article>
     </section>
 
