@@ -37,7 +37,7 @@ describe("Backpropagation Test - End-to-End: https://www.youtube.com/watch?v=0e0
   connections.push(hiddens[0].connect(outputs[1], 0.5)); // w7
   connections.push(hiddens[1].connect(outputs[1], 0.55)); // w8
   
-  it("should pass all tests", function() {
+  it("should pass all tests ", function() {
     expect(inputs[0].activate(data[0])).to.eql(data[0]);
     expect(inputs[1].activate(data[1])).to.eql(data[1]);
     

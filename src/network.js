@@ -30,7 +30,7 @@ function Network() {
       this.layers[l].propagate();
     }
     
-    this.layers.[0].propagate();
+    this.layers[0].propagate();
     
     return error;
   }

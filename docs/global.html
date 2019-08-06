@@ -96,28 +96,28 @@
     
 
     
-        <h3 class="subsection-title">Methods</h3>
+
+    
+        <h3 class="subsection-title">Type Definitions</h3>
 
         
+                
+<h4 class="name" id="CSV">CSV</h4>
+
+
+
+
+
+
+    <h5>Type:</h5>
+    <ul>
+        <li>
             
-
-    
-
-    
-    <h4 class="name" id="fromPath"><span class="type-signature"></span>fromPath<span class="signature">()</span><span class="type-signature"></span></h4>
-    
-
-    
+<span class="param-type">string</span>
 
 
-
-
-
-
-
-
-
-
+        </li>
+    </ul>
 
 
 
@@ -152,7 +152,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="bot.js.html">bot.js</a>, <a href="bot.js.html#line30">line 30</a>
+        <a href="bot.js.html">bot.js</a>, <a href="bot.js.html#line59">line 59</a>
     </li></ul></dd>
     
 
@@ -162,20 +162,6 @@
 
     
 </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -183,43 +169,42 @@
 
     <h5>Examples</h5>
     
-    <pre class="prettyprint"><code>JSON
-const bot = Bot.fromPath("./data.train.json");
+    <pre class="prettyprint"><code>a,b,c
+0,0,0
+0,1,1
+1,0,1
+1,1,0</code></pre>
 
-bot.test(dataset); // { error: 0.01457, accuracy: 96.453%, fitness: 34.3412 }</code></pre>
+    <pre class="prettyprint"><code>0,0,0
+0,1,1
+1,0,1
+1,1,0</code></pre>
 
-    <pre class="prettyprint"><code>CSV
-const bot = Bot.fromPath("./data.train.csv", { outputs: ["age", "height"] });
-
-bot.test(dataset); // { error: 0.01457, accuracy: 96.453%, fitness: 34.3412 }</code></pre>
-
-    <pre class="prettyprint"><code>XML
-const bot = Bot.fromPath("./data.train.xml");
-
-bot.test(dataset); // { error: 0.01457, accuracy: 96.453%, fitness: 34.3412 }</code></pre>
+    <pre class="prettyprint"><code>0;0;0
+0;1;1
+1;0;1
+1;1;0</code></pre>
 
 
 
-        
             
-
-    
-
-    
-    <h4 class="name" id="fromString"><span class="type-signature"></span>fromString<span class="signature">()</span><span class="type-signature"></span></h4>
-    
-
-    
+                
+<h4 class="name" id="Dataset">Dataset</h4>
 
 
 
 
 
 
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">Array.&lt;<a href="global.html#Datum">Datum</a>></span>
 
 
-
-
+        </li>
+    </ul>
 
 
 
@@ -254,7 +239,7 @@ bot.test(dataset); // { error: 0.01457, accuracy: 96.453%, fitness: 34.3412 }</c
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="bot.js.html">bot.js</a>, <a href="bot.js.html#line46">line 46</a>
+        <a href="bot.js.html">bot.js</a>, <a href="bot.js.html#line17">line 17</a>
     </li></ul></dd>
     
 
@@ -269,61 +254,42 @@ bot.test(dataset); // { error: 0.01457, accuracy: 96.453%, fitness: 34.3412 }</c
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <h5>Example</h5>
     
-    <pre class="prettyprint"><code>Advanced CSV - White Wine Quality
-const dataset = require("data.cjyvyspsy0000l2m932iv07k1");
-const bot = Bot.fromString(dataset, {
-  type: "csv",
-  headers: true,
-  outputs: ["quality"],
-  delimeter: ";",
-  test: 0.2 // 20% of data will used for testing, not training
-});
+    <pre class="prettyprint"><code>[{
+  "inputs": [0,0],
+  "outputs": [0]
+}, {
+  "inputs": [0,1],
+  "outputs": [1]
+}, {
+  "inputs": [1,0],
+  "outputs": [1]
+}, {
+  "inputs": [1,1],
+  "outputs": [0]
+}]</code></pre>
 
-bot.test(); // { error: 0.01457, accuracy: 96.453%, fitness: 34.3412 }</code></pre>
 
 
-
-        
             
+                
+<h4 class="name" id="Datum">Datum</h4>
+
+
+
+
+
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
 
     
 
-    
-    <h4 class="name" id="fromURL"><span class="type-signature"></span>fromURL<span class="signature">(url, options<span class="signature-attributes">opt</span>)</span><span class="type-signature"></span></h4>
-    
-
-    
-
-
-
-
-
-
-
-
-
-
-
-    <h5>Parameters:</h5>
-    
-
-<table class="params">
+<table class="props">
     <thead>
     <tr>
         
@@ -332,8 +298,6 @@ bot.test(); // { error: 0.01457, accuracy: 96.453%, fitness: 34.3412 }</code></p
 
         <th>Type</th>
 
-        
-        <th>Attributes</th>
         
 
         
@@ -347,26 +311,18 @@ bot.test(); // { error: 0.01457, accuracy: 96.453%, fitness: 34.3412 }</code></p
 
         <tr>
             
-                <td class="name"><code>url</code></td>
+                <td class="name"><code>inputs</code></td>
             
 
             <td class="type">
             
                 
-<span class="param-type">string</span>
+<span class="param-type">Array.&lt;number></span>
 
 
             
             </td>
 
-            
-                <td class="attributes">
-                
-
-                
-
-                
-                </td>
             
 
             
@@ -378,28 +334,18 @@ bot.test(); // { error: 0.01457, accuracy: 96.453%, fitness: 34.3412 }</code></p
 
         <tr>
             
-                <td class="name"><code>options</code></td>
+                <td class="name"><code>outputs</code></td>
             
 
             <td class="type">
             
                 
-<span class="param-type">Object</span>
+<span class="param-type">Array.&lt;number></span>
 
 
             
             </td>
 
-            
-                <td class="attributes">
-                
-                    &lt;optional><br>
-                
-
-                
-
-                
-                </td>
             
 
             
@@ -414,6 +360,80 @@ bot.test(); // { error: 0.01457, accuracy: 96.453%, fitness: 34.3412 }</code></p
 
 
 
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="bot.js.html">bot.js</a>, <a href="bot.js.html#line4">line 4</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>{
+  "inputs": [0,1],
+  "outputs": [1]
+}</code></pre>
+
+
+
+            
+                
+<h4 class="name" id="JSON">JSON</h4>
+
+
+
+
+
+
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">Array.&lt;Object></span>
+
+
+        </li>
+    </ul>
+
+
+
 
 
 <dl class="details">
@@ -445,7 +465,7 @@ bot.test(); // { error: 0.01457, accuracy: 96.453%, fitness: 34.3412 }</code></p
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="bot.js.html">bot.js</a>, <a href="bot.js.html#line9">line 9</a>
+        <a href="bot.js.html">bot.js</a>, <a href="bot.js.html#line36">line 36</a>
     </li></ul></dd>
     
 
@@ -460,15 +480,90 @@ bot.test(); // { error: 0.01457, accuracy: 96.453%, fitness: 34.3412 }</code></p
 
 
 
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>[{
+  "a": 0,
+  "b": 0,
+  "c": 0
+}, {
+  "a": 0,
+  "b": 1,
+  "c": 1
+}, {
+  "a": 1,
+  "b": 0,
+  "c": 1
+}, {
+  "a": 1,
+  "b": 1,
+  "c": 0
+}]</code></pre>
+
+
+
+            
+                
+<h4 class="name" id="XML">XML</h4>
 
 
 
 
 
 
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">string</span>
+
+
+        </li>
+    </ul>
 
 
 
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="bot.js.html">bot.js</a>, <a href="bot.js.html#line82">line 82</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
 
 
 
@@ -476,13 +571,33 @@ bot.test(); // { error: 0.01457, accuracy: 96.453%, fitness: 34.3412 }</code></p
 
     <h5>Example</h5>
     
-    <pre class="prettyprint"><code>const bot = Bot.fromURL(https://liquidcarrot.io/dataset/monkeys.csv)</code></pre>
+    <pre class="prettyprint"><code>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;dataset>
+  &lt;datum>
+    &lt;a>0&lt;/a>
+    &lt;b>0&lt;/b>
+    &lt;c>0&lt;/c>
+  &lt;/datum>
+  &lt;datum>
+    &lt;a>0&lt;/a>
+    &lt;b>1&lt;/b>
+    &lt;c>1&lt;/c>
+  &lt;/datum>
+  &lt;datum>
+    &lt;a>1&lt;/a>
+    &lt;b>0&lt;/b>
+    &lt;c>1&lt;/c>
+  &lt;/datum>
+  &lt;datum>
+    &lt;a>1&lt;/a>
+    &lt;b>1&lt;/b>
+    &lt;c>0&lt;/c>
+  &lt;/datum>
+&lt;/dataset></code></pre>
 
 
 
-        
-    
-
+            
     
 
     
@@ -496,13 +611,13 @@ bot.test(); // { error: 0.01457, accuracy: 96.453%, fitness: 34.3412 }</code></p
 </div>
 
 <nav>
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Connection.html">Connection</a></li><li><a href="Network.html">Network</a></li></ul><h3>Global</h3><ul><li><a href="global.html#fromPath">fromPath</a></li><li><a href="global.html#fromString">fromString</a></li><li><a href="global.html#fromURL">fromURL</a></li></ul>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Bot.html">Bot</a></li><li><a href="Connection.html">Connection</a></li><li><a href="Network.html">Network</a></li></ul><h3><a href="global.html">Global</a></h3>
 </nav>
 
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.3</a> on Sun Aug 04 2019 18:31:13 GMT-0400 (Eastern Daylight Time)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.3</a> on Tue Aug 06 2019 04:36:18 GMT-0400 (Eastern Daylight Time)
 </footer>
 
 <script> prettyPrint(); </script>

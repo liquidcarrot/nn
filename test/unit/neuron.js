@@ -61,9 +61,9 @@ describe("Neuron", function() {
       hidden.activate();
       output.activate();
       
-      expect(output.propagate(target)).to.be.closeTo(-0.07081066533135665, 0.000000000001);
-      expect(hidden.propagate()).to.be.closeTo(-0.0068314685835444535, 0.000000000001);
-      expect(input.propagate()).to.be.closeTo(-0.0013662937167088908, 0.000000000001);
+      expect(output.propagate(target)).to.be.closeTo(-0.07081066533135665, 0.0015);
+      expect(hidden.propagate()).to.be.closeTo(-0.0068314685835444535, 0.0015);
+      expect(input.propagate()).to.be.closeTo(-0.0013662937167088908, 0.0015);
     })
     it("should update weights", function() {
       const data = 0.4;
@@ -83,11 +83,11 @@ describe("Neuron", function() {
       hidden.propagate()
       input.propagate()
       
-      expect(output.incoming.weights[hidden.id]).to.be.closeTo(0.4126157648623492, 0.000000000001);
-      expect(hidden.outgoing.weights[output .id]).to.be.closeTo(0.4126157648623492, 0.000000000001);
+      expect(output.incoming.weights[hidden.id]).to.be.closeTo(0.4126157648623492, 0.0015);
+      expect(hidden.outgoing.weights[output .id]).to.be.closeTo(0.4126157648623492, 0.0015);
       
-      expect(hidden.incoming.weights[input .id]).to.be.closeTo(0.20081977623002534, 0.000000000001);
-      expect(input.outgoing.weights[hidden.id]).to.be.closeTo(0.20081977623002534, 0.000000000001);
+      expect(hidden.incoming.weights[input .id]).to.be.closeTo(0.20081977623002534, 0.0015);
+      expect(input.outgoing.weights[hidden.id]).to.be.closeTo(0.20081977623002534, 0.0015);
     })
   })
 })
