@@ -29,64 +29,177 @@
             <pre class="prettyprint source linenums"><code>const uid = require("cuid");
 
 /**
- *
  * @constructs Neuron
  *
- * @prop {string} id Unique neuron ID
- * @prop {number} bias Neuron's signaling bias
- * @prop {Object} incoming.connections Incoming connection(s) - `{ "[ID]": connection }`
- * @prop {Object} incoming.weights Incoming weight(s) - `{ "[ID]": weight }`
- * @prop {Object} incoming.neurons Incoming neurons(s) - `{ "[ID]": neuron }`
- * @prop {Object} outgoing.connections Outgoing connection(s) - `{ "[ID]": connection }`
- * @prop {Object} outgoing.weights Outgoing weight(s) - `{ "[ID]": weight }`
- * @prop {Object} outgoing.neurons Outgoing neurons(s) - `{ "[ID]": neuron }`
+ * @param {number} [bias]
  *
- * @param {number} [bias] Neuron's signaling bias
- * @param {Object} [options]
+ * @prop {string} id
+ * @prop {number} bias
+ * @prop {Object} incoming
+ * @prop {{ "[ID]": Neuron }} incoming.targets
+ * @prop {{ "[ID]": number }} incoming.weights
+ * @prop {Object} outgoing
+ * @prop {{ "[ID]": Neuron }} outgoing.targets
+ * @prop {{ "[ID]": number }} outgoing.weights
+ * @prop {number} _output
+ * @prop {number} output
+ * @prop {number} error
  *
  * @example
- * const neuron = new Neuron(); // Neuron { bias }
+ * const { Neuron } = require("@liquidcarrot/nn")
  *
- * const neuron = new Neuron(0.2); // Neuron { bias: 0.2 }
+ * const neuron = new Neuron();
+ *
+ * neuron.activate(0); // 0
+ * neuron.propagate(1); // -1
+ *
+ * @example
+ * const { Neuron } = require("@liquidcarrot/nn")
+ *
+ * const input = new Neuron();
+ * const hidden = new Neuron(0.1);
+ * const output = new Neuron(0.2);
+ *
+ * input.connect(hidden, 0.3);
+ * hidden.connect(output, 0.4);
+ *
+ * input.activate(0); // 0
+ * hidden.activate(); // 0.52497918747894
+ * output.activate(); // 0.6010858826658407
+ *
+ * output.propagate(1); //  -0.09565228299910712
+ * hidden.propagate(); // -0.009900697661026392
+ * input.propagate(); // -0.0029702092983079176
  */
-function Neuron(bias, options) {
+function Neuron(bias) {
   this.id = uid();
+  
   this.bias = bias == undefined ? Math.random() * 2 - 1 : bias;
+  this.squash;
+  this.cost;
+  
   this.incoming = {
-    connections: {},
-    weights: {},
-    neurons: {}
+    targets: {}, //new Map(),
+    weights: {} //new Map()
   }
   this.outgoing = {
-    connections: {},
-    weights: {},
-    neurons: {}
+    targets: {}, // new Map(),
+    weights: {} // new Map()
+  }
+  
+  this._output; // f'(x)
+  this.output; // f(x)
+  this.error; // E'(f(x))
+  
+  /**
+   * @param {Neuron} neuron
+   * @param {number} [weight]
+   *
+   * @example
+   * const { Neuron } = require("@liquidcarrot/nn")
+   *
+   * const neuron = new Neuron();
+   * const other = new Neuron();
+   *
+   * neuron.connect(other);
+   */
+  this.connect = function(neuron, weight) {
+    this.outgoing.targets[neuron.id] = neuron;
+    neuron.incoming.targets[this.id] = this;
+    this.outgoing.weights[neuron.id] = neuron.incoming.weights[this.id] = weight == undefined ? Math.random() * 2 - 1 : weight;
   }
   
   /**
-   * Can bi-directionally fire a neuron
+   * @param {number} [input]
    *
-   * @param {number} input
-   * @param {boolean} [options.forward=true] Iff `!options.forward`, neuron will fire backward (i.e. backpropagate)
-   * @param {boolean} [options.update=true] Iff `!options.forward &amp;&amp; options.update`, neuron will update connection weights
+   * @returns {number} Returns the neuron's output
    *
-   * @returns {number|Feedback|Output} Returns a number or a Feedback or Output Object
+   * @example
+   * const { Neuron } = require("@liquidcarrot/nn")
+   *
+   * const neuron = new Neuron();
+   *
+   * neuron.activate(3);
+   *
+   * @example
+   * const { Neuron } = require("@liquidcarrot/nn")
+   *
+   * const neuron = new Neuron();
+   * const other = new Neuron(0.1);
+   *
+   * neuron.connect(other, 0.2);
+   *
+   * neuron.activate(3); // 3
+   * other.activate(); // 0.6681877721681662
    */
-  this.fire = function(input, options) {
+  this.activate = function(input) {
+    const self = this;
     
+    function sigmoid(x) { return 1 / (1 + Math.exp(-x)) } // f(x)
+    function _sigmoid(x) { return sigmoid(x) * (1 - sigmoid(x)) } // f'(x)
+    
+    if(input != undefined) {
+      this._output = 1; // f'(x)
+      this.output = input; // f(x)
+    } else {
+      // Σ (x • w)
+      const sum = Object.keys(this.incoming.targets).reduce(function(total, target, index) {
+        return total += self.incoming.targets[target].output * self.incoming.weights[target];
+      }, this.bias);
+      
+      this._output = _sigmoid(sum); // f'(x)
+      this.output = sigmoid(sum); // f(x)
+    }
+    
+    return this.output;
   }
   
   /**
-   * Updates neuron's weights
+   * @param {number} target
+   * @param {number} [rate=0.3]
    *
-   * @param {string|string[]} [connection_id] Connection ID(s)
-   * @param {number|number[]} [new_weights] New weight(s)
-   * @param {boolean} [options.delta] Iff `options.delta`, `neuron.update()` will return the difference (i.e. delta) between the previous and current weight(s)
+   * @return {number} Returns neuron's marginal error
    *
-   * @returns {number[]} Returns an array of weights or weight deltas
+   * @example
+   * const { Neuron } = require("@liquidcarrot/nn")
+   *
+   * const neuron = new Neuron();
+   *
+   * neuron.activate(3); // 3
+   * neuron.propagate(0); // 3
+   *
+   * @example
+   * const { Neuron } = require("@liquidcarrot/nn")
+   *
+   * const neuron = new Neuron();
+   * const other = new Neuron(0.1);
+   *
+   * neuron.connect(other, 0.2);
+   *
+   * neuron.activate(3); // 3
+   * other.activate(); // 0.6681877721681662
+   *
+   * other.propagate(0); // 0.14814583086672545
+   * neuron.propagate(); // 0.009876697690471913
    */
-  this.update = function(connection_ids, new_weights, options) {
+  this.propagate = function(target, rate=0.3) {
+    const self = this;
     
+    //𝛿E /𝛿squash
+    const sum = target == undefined ? Object.keys(this.outgoing.targets).reduce(function(total, target, index) {
+        // Δweight
+        self.outgoing.targets[target].incoming.weights[self.id] = self.outgoing.weights[target] -= rate * self.outgoing.targets[target].error * self.output;
+        
+        return total += self.outgoing.targets[target].error * self.outgoing.weights[target];
+      }, 0) : this.output - target;
+    
+    // 𝛿squash/𝛿sum
+    this.error = sum * this._output
+    
+    // Δbias
+    this.bias -= rate * this.error;
+    
+    return this.error;
   }
 }
 
@@ -100,13 +213,13 @@ module.exports = Neuron;</code></pre>
 </div>
 
 <nav>
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Connection.html">Connection</a></li><li><a href="Neuron.html">Neuron</a></li></ul>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Bot.html">Bot</a></li><li><a href="Connection.html">Connection</a></li><li><a href="Network.html">Network</a></li><li><a href="Neuron.html">Neuron</a></li></ul><h3><a href="global.html">Global</a></h3>
 </nav>
 
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.3</a> on Sat Jul 27 2019 05:29:37 GMT-0400 (Eastern Daylight Time)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.3</a> on Wed Aug 07 2019 02:31:32 GMT-0400 (Eastern Daylight Time)
 </footer>
 
 <script> prettyPrint(); </script>

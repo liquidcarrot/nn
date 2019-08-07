@@ -28,7 +28,7 @@
 
 <header>
     
-        <h2><span class="attribs"><span class="type-signature"></span></span>Neuron<span class="signature">(bias<span class="signature-attributes">opt</span>, options<span class="signature-attributes">opt</span>)</span><span class="type-signature"></span></h2>
+        <h2><span class="attribs"><span class="type-signature"></span></span>Neuron<span class="signature">(bias<span class="signature-attributes">opt</span>)</span><span class="type-signature"></span></h2>
         
     
 </header>
@@ -41,7 +41,7 @@
     
 
     
-    <h4 class="name" id="Neuron"><span class="type-signature"></span>new Neuron<span class="signature">(bias<span class="signature-attributes">opt</span>, options<span class="signature-attributes">opt</span>)</span><span class="type-signature"></span></h4>
+    <h4 class="name" id="Neuron"><span class="type-signature"></span>new Neuron<span class="signature">(bias<span class="signature-attributes">opt</span>)</span><span class="type-signature"></span></h4>
     
 
     
@@ -90,39 +90,6 @@
             
                 
 <span class="param-type">number</span>
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-                    &lt;optional><br>
-                
-
-                
-
-                
-                </td>
-            
-
-            
-
-            <td class="description last"><p>Neuron's signaling bias</p></td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>options</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">Object</span>
 
 
             
@@ -196,7 +163,7 @@
 
             
 
-            <td class="description last"><p>Unique neuron ID</p></td>
+            <td class="description last"></td>
         </tr>
 
     
@@ -219,14 +186,14 @@
 
             
 
-            <td class="description last"><p>Neuron's signaling bias</p></td>
+            <td class="description last"></td>
         </tr>
 
     
 
         <tr>
             
-                <td class="name"><code>incoming.connections</code></td>
+                <td class="name"><code>incoming</code></td>
             
 
             <td class="type">
@@ -242,14 +209,32 @@
 
             
 
-            <td class="description last"><p>Incoming connection(s) - <code>{ &quot;[ID]&quot;: connection }</code></p></td>
-        </tr>
+            <td class="description last">
+                <h6>Properties</h6>
 
+<table class="props">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
     
 
         <tr>
             
-                <td class="name"><code>incoming.weights</code></td>
+                <td class="name"><code>targets</code></td>
             
 
             <td class="type">
@@ -265,14 +250,14 @@
 
             
 
-            <td class="description last"><p>Incoming weight(s) - <code>{ &quot;[ID]&quot;: weight }</code></p></td>
+            <td class="description last"></td>
         </tr>
 
     
 
         <tr>
             
-                <td class="name"><code>incoming.neurons</code></td>
+                <td class="name"><code>weights</code></td>
             
 
             <td class="type">
@@ -288,14 +273,21 @@
 
             
 
-            <td class="description last"><p>Incoming neurons(s) - <code>{ &quot;[ID]&quot;: neuron }</code></p></td>
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+            </td>
         </tr>
 
     
 
         <tr>
             
-                <td class="name"><code>outgoing.connections</code></td>
+                <td class="name"><code>outgoing</code></td>
             
 
             <td class="type">
@@ -311,14 +303,32 @@
 
             
 
-            <td class="description last"><p>Outgoing connection(s) - <code>{ &quot;[ID]&quot;: connection }</code></p></td>
-        </tr>
+            <td class="description last">
+                <h6>Properties</h6>
 
+<table class="props">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
     
 
         <tr>
             
-                <td class="name"><code>outgoing.weights</code></td>
+                <td class="name"><code>targets</code></td>
             
 
             <td class="type">
@@ -334,14 +344,14 @@
 
             
 
-            <td class="description last"><p>Outgoing weight(s) - <code>{ &quot;[ID]&quot;: weight }</code></p></td>
+            <td class="description last"></td>
         </tr>
 
     
 
         <tr>
             
-                <td class="name"><code>outgoing.neurons</code></td>
+                <td class="name"><code>weights</code></td>
             
 
             <td class="type">
@@ -357,7 +367,83 @@
 
             
 
-            <td class="description last"><p>Outgoing neurons(s) - <code>{ &quot;[ID]&quot;: neuron }</code></p></td>
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+            </td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>_output</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>output</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>error</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
         </tr>
 
     
@@ -396,7 +482,416 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="neuron.js.html">neuron.js</a>, <a href="neuron.js.html#line24">line 24</a>
+        <a href="neuron.js.html">neuron.js</a>, <a href="neuron.js.html#line46">line 46</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Examples</h5>
+    
+    <pre class="prettyprint"><code>const { Neuron } = require("@liquidcarrot/nn")
+
+const neuron = new Neuron();
+
+neuron.activate(0); // 0
+neuron.propagate(1); // -1</code></pre>
+
+    <pre class="prettyprint"><code>const { Neuron } = require("@liquidcarrot/nn")
+
+const input = new Neuron();
+const hidden = new Neuron(0.1);
+const output = new Neuron(0.2);
+
+input.connect(hidden, 0.3);
+hidden.connect(output, 0.4);
+
+input.activate(0); // 0
+hidden.activate(); // 0.52497918747894
+output.activate(); // 0.6010858826658407
+
+output.propagate(1); //  -0.09565228299910712
+hidden.propagate(); // -0.009900697661026392
+input.propagate(); // -0.0029702092983079176</code></pre>
+
+
+
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Methods</h3>
+
+        
+            
+
+    
+
+    
+    <h4 class="name" id="activate"><span class="type-signature"></span>activate<span class="signature">(input<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {number}</span></h4>
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>input</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="neuron.js.html">neuron.js</a>, <a href="neuron.js.html#line107">line 107</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Returns the neuron's output</p>
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">number</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+
+    <h5>Examples</h5>
+    
+    <pre class="prettyprint"><code>const { Neuron } = require("@liquidcarrot/nn")
+
+const neuron = new Neuron();
+
+neuron.activate(3);</code></pre>
+
+    <pre class="prettyprint"><code>const { Neuron } = require("@liquidcarrot/nn")
+
+const neuron = new Neuron();
+const other = new Neuron(0.1);
+
+neuron.connect(other, 0.2);
+
+neuron.activate(3); // 3
+other.activate(); // 0.6681877721681662</code></pre>
+
+
+
+        
+            
+
+    
+
+    
+    <h4 class="name" id="connect"><span class="type-signature"></span>connect<span class="signature">(neuron, weight<span class="signature-attributes">opt</span>)</span><span class="type-signature"></span></h4>
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>neuron</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="Neuron.html">Neuron</a></span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>weight</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="neuron.js.html">neuron.js</a>, <a href="neuron.js.html#line78">line 78</a>
     </li></ul></dd>
     
 
@@ -427,31 +922,14 @@
 
     <h5>Example</h5>
     
-    <pre class="prettyprint"><code>const neuron = new Neuron(); // Neuron { bias }
+    <pre class="prettyprint"><code>const { Neuron } = require("@liquidcarrot/nn")
 
-const neuron = new Neuron(0.2); // Neuron { bias: 0.2 }</code></pre>
+const neuron = new Neuron();
+const other = new Neuron();
+
+neuron.connect(other);</code></pre>
 
 
-
-    
-    </div>
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-        <h3 class="subsection-title">Methods</h3>
 
         
             
@@ -459,16 +937,12 @@ const neuron = new Neuron(0.2); // Neuron { bias: 0.2 }</code></pre>
     
 
     
-    <h4 class="name" id="fire"><span class="type-signature"></span>fire<span class="signature">(input)</span><span class="type-signature"> &rarr; {number|Feedback|Output}</span></h4>
+    <h4 class="name" id="propagate"><span class="type-signature"></span>propagate<span class="signature">(target, rate<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {number}</span></h4>
     
 
     
 
 
-
-<div class="description">
-    <p>Can bi-directionally fire a neuron</p>
-</div>
 
 
 
@@ -507,7 +981,7 @@ const neuron = new Neuron(0.2); // Neuron { bias: 0.2 }</code></pre>
 
         <tr>
             
-                <td class="name"><code>input</code></td>
+                <td class="name"><code>target</code></td>
             
 
             <td class="type">
@@ -542,13 +1016,13 @@ const neuron = new Neuron(0.2); // Neuron { bias: 0.2 }</code></pre>
 
         <tr>
             
-                <td class="name"><code>options.forward</code></td>
+                <td class="name"><code>rate</code></td>
             
 
             <td class="type">
             
                 
-<span class="param-type">boolean</span>
+<span class="param-type">number</span>
 
 
             
@@ -569,51 +1043,12 @@ const neuron = new Neuron(0.2); // Neuron { bias: 0.2 }</code></pre>
             
                 <td class="default">
                 
-                    true
+                    0.3
                 
                 </td>
             
 
-            <td class="description last"><p>Iff <code>!options.forward</code>, neuron will fire backward (i.e. backpropagate)</p></td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>options.update</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">boolean</span>
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-                    &lt;optional><br>
-                
-
-                
-
-                
-                </td>
-            
-
-            
-                <td class="default">
-                
-                    true
-                
-                </td>
-            
-
-            <td class="description last"><p>Iff <code>!options.forward &amp;&amp; options.update</code>, neuron will update connection weights</p></td>
+            <td class="description last"></td>
         </tr>
 
     
@@ -654,7 +1089,7 @@ const neuron = new Neuron(0.2); // Neuron { bias: 0.2 }</code></pre>
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="neuron.js.html">neuron.js</a>, <a href="neuron.js.html#line47">line 47</a>
+        <a href="neuron.js.html">neuron.js</a>, <a href="neuron.js.html#line157">line 157</a>
     </li></ul></dd>
     
 
@@ -683,7 +1118,7 @@ const neuron = new Neuron(0.2); // Neuron { bias: 0.2 }</code></pre>
 
         
 <div class="param-desc">
-    <p>Returns a number or a Feedback or Output Object</p>
+    <p>Returns neuron's marginal error</p>
 </div>
 
 
@@ -695,12 +1130,6 @@ const neuron = new Neuron(0.2); // Neuron { bias: 0.2 }</code></pre>
     <dd>
         
 <span class="param-type">number</span>
-|
-
-<span class="param-type">Feedback</span>
-|
-
-<span class="param-type">Output</span>
 
 
     </dd>
@@ -711,247 +1140,27 @@ const neuron = new Neuron(0.2); // Neuron { bias: 0.2 }</code></pre>
 
 
 
-
-        
-            
-
+    <h5>Examples</h5>
     
+    <pre class="prettyprint"><code>const { Neuron } = require("@liquidcarrot/nn")
 
-    
-    <h4 class="name" id="update"><span class="type-signature"></span>update<span class="signature">(connection_id<span class="signature-attributes">opt</span>, new_weights<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {Array.&lt;number>}</span></h4>
-    
+const neuron = new Neuron();
 
-    
+neuron.activate(3); // 3
+neuron.propagate(0); // 3</code></pre>
 
+    <pre class="prettyprint"><code>const { Neuron } = require("@liquidcarrot/nn")
 
+const neuron = new Neuron();
+const other = new Neuron(0.1);
 
-<div class="description">
-    <p>Updates neuron's weights</p>
-</div>
+neuron.connect(other, 0.2);
 
+neuron.activate(3); // 3
+other.activate(); // 0.6681877721681662
 
-
-
-
-
-
-
-
-    <h5>Parameters:</h5>
-    
-
-<table class="params">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
-        <th>Attributes</th>
-        
-
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>connection_id</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">string</span>
-|
-
-<span class="param-type">Array.&lt;string></span>
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-                    &lt;optional><br>
-                
-
-                
-
-                
-                </td>
-            
-
-            
-
-            <td class="description last"><p>Connection ID(s)</p></td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>new_weights</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">number</span>
-|
-
-<span class="param-type">Array.&lt;number></span>
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-                    &lt;optional><br>
-                
-
-                
-
-                
-                </td>
-            
-
-            
-
-            <td class="description last"><p>New weight(s)</p></td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>options.delta</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">boolean</span>
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-                    &lt;optional><br>
-                
-
-                
-
-                
-                </td>
-            
-
-            
-
-            <td class="description last"><p>Iff <code>options.delta</code>, <code>neuron.update()</code> will return the difference (i.e. delta) between the previous and current weight(s)</p></td>
-        </tr>
-
-    
-    </tbody>
-</table>
-
-
-
-
-
-
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="neuron.js.html">neuron.js</a>, <a href="neuron.js.html#line60">line 60</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<h5>Returns:</h5>
-
-        
-<div class="param-desc">
-    <p>Returns an array of weights or weight deltas</p>
-</div>
-
-
-
-<dl>
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type">Array.&lt;number></span>
-
-
-    </dd>
-</dl>
-
-    
-
-
+other.propagate(0); // 0.14814583086672545
+neuron.propagate(); // 0.009876697690471913</code></pre>
 
 
 
@@ -971,13 +1180,13 @@ const neuron = new Neuron(0.2); // Neuron { bias: 0.2 }</code></pre>
 </div>
 
 <nav>
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Connection.html">Connection</a></li><li><a href="Neuron.html">Neuron</a></li></ul>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Bot.html">Bot</a></li><li><a href="Connection.html">Connection</a></li><li><a href="Network.html">Network</a></li><li><a href="Neuron.html">Neuron</a></li></ul><h3><a href="global.html">Global</a></h3>
 </nav>
 
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.3</a> on Sat Jul 27 2019 05:29:37 GMT-0400 (Eastern Daylight Time)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.3</a> on Wed Aug 07 2019 02:31:32 GMT-0400 (Eastern Daylight Time)
 </footer>
 
 <script> prettyPrint(); </script>

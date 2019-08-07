@@ -7,6 +7,8 @@
 <dd></dd>
 <dt><a href="#Network">Network</a></dt>
 <dd></dd>
+<dt><a href="#Neuron">Neuron</a></dt>
+<dd></dd>
 </dl>
 
 ## Typedefs
@@ -121,8 +123,8 @@ const bot = Bot.fromJSON(dataset, {
 | Name | Type | Description |
 | --- | --- | --- |
 | id | <code>string</code> | Unique connection ID |
-| a | <code>Neuron</code> \| <code>Array.&lt;Neuron&gt;</code> | Side "A" of connection(s) |
-| b | <code>Neuron</code> \| <code>Array.&lt;Neuron&gt;</code> | Side "B" of connection(s) |
+| a | [<code>Neuron</code>](#Neuron) \| [<code>Array.&lt;Neuron&gt;</code>](#Neuron) | Side "A" of connection(s) |
+| b | [<code>Neuron</code>](#Neuron) \| [<code>Array.&lt;Neuron&gt;</code>](#Neuron) | Side "B" of connection(s) |
 | [weight] | <code>number</code> \| <code>Array.&lt;number&gt;</code> | Weight of connection(s) |
 
 <a name="new_Connection_new"></a>
@@ -131,8 +133,8 @@ const bot = Bot.fromJSON(dataset, {
 
 | Param | Type | Description |
 | --- | --- | --- |
-| a | <code>Neuron</code> \| <code>Array.&lt;Neuron&gt;</code> | Neuron(s) on one edge of the connection |
-| b | <code>Neuron</code> \| <code>Array.&lt;Neuron&gt;</code> | Neruon(s) on another edge of the connection |
+| a | [<code>Neuron</code>](#Neuron) \| [<code>Array.&lt;Neuron&gt;</code>](#Neuron) | Neuron(s) on one edge of the connection |
+| b | [<code>Neuron</code>](#Neuron) \| [<code>Array.&lt;Neuron&gt;</code>](#Neuron) | Neruon(s) on another edge of the connection |
 | [weight] | <code>number</code> \| <code>Array.&lt;number&gt;</code> | Weight of connection(s) |
 | [options] | <code>Object</code> |  |
 
@@ -160,6 +162,153 @@ const connection = new Connection(neuron, other, 0.3) // Connection { a: neuron,
 | --- | --- | --- | --- |
 | [cost] | <code>CostFunction</code> | <code>cost.MSE</code> | Cost function |
 
+<a name="Neuron"></a>
+
+## Neuron
+**Kind**: global class  
+**Properties**
+
+| Name | Type |
+| --- | --- |
+| id | <code>string</code> | 
+| bias | <code>number</code> | 
+| incoming | <code>Object</code> | 
+| incoming.targets | <code>Object</code> | 
+| incoming.weights | <code>Object</code> | 
+| outgoing | <code>Object</code> | 
+| outgoing.targets | <code>Object</code> | 
+| outgoing.weights | <code>Object</code> | 
+| _output | <code>number</code> | 
+| output | <code>number</code> | 
+| error | <code>number</code> | 
+
+
+* [Neuron](#Neuron)
+    * [new Neuron([bias])](#new_Neuron_new)
+    * [.connect(neuron, [weight])](#Neuron+connect)
+    * [.activate([input])](#Neuron+activate) ⇒ <code>number</code>
+    * [.propagate(target, [rate])](#Neuron+propagate) ⇒ <code>number</code>
+
+<a name="new_Neuron_new"></a>
+
+### new Neuron([bias])
+
+| Param | Type |
+| --- | --- |
+| [bias] | <code>number</code> | 
+
+**Example**  
+```js
+const { Neuron } = require("@liquidcarrot/nn")
+
+const neuron = new Neuron();
+
+neuron.activate(0); // 0
+neuron.propagate(1); // -1
+```
+**Example**  
+```js
+const { Neuron } = require("@liquidcarrot/nn")
+
+const input = new Neuron();
+const hidden = new Neuron(0.1);
+const output = new Neuron(0.2);
+
+input.connect(hidden, 0.3);
+hidden.connect(output, 0.4);
+
+input.activate(0); // 0
+hidden.activate(); // 0.52497918747894
+output.activate(); // 0.6010858826658407
+
+output.propagate(1); //  -0.09565228299910712
+hidden.propagate(); // -0.009900697661026392
+input.propagate(); // -0.0029702092983079176
+```
+<a name="Neuron+connect"></a>
+
+### neuron.connect(neuron, [weight])
+**Kind**: instance method of [<code>Neuron</code>](#Neuron)  
+
+| Param | Type |
+| --- | --- |
+| neuron | [<code>Neuron</code>](#Neuron) | 
+| [weight] | <code>number</code> | 
+
+**Example**  
+```js
+const { Neuron } = require("@liquidcarrot/nn")
+
+const neuron = new Neuron();
+const other = new Neuron();
+
+neuron.connect(other);
+```
+<a name="Neuron+activate"></a>
+
+### neuron.activate([input]) ⇒ <code>number</code>
+**Kind**: instance method of [<code>Neuron</code>](#Neuron)  
+**Returns**: <code>number</code> - Returns the neuron's output  
+
+| Param | Type |
+| --- | --- |
+| [input] | <code>number</code> | 
+
+**Example**  
+```js
+const { Neuron } = require("@liquidcarrot/nn")
+
+const neuron = new Neuron();
+
+neuron.activate(3);
+```
+**Example**  
+```js
+const { Neuron } = require("@liquidcarrot/nn")
+
+const neuron = new Neuron();
+const other = new Neuron(0.1);
+
+neuron.connect(other, 0.2);
+
+neuron.activate(3); // 3
+other.activate(); // 0.6681877721681662
+```
+<a name="Neuron+propagate"></a>
+
+### neuron.propagate(target, [rate]) ⇒ <code>number</code>
+**Kind**: instance method of [<code>Neuron</code>](#Neuron)  
+**Returns**: <code>number</code> - Returns neuron's marginal error  
+
+| Param | Type | Default |
+| --- | --- | --- |
+| target | <code>number</code> |  | 
+| [rate] | <code>number</code> | <code>0.3</code> | 
+
+**Example**  
+```js
+const { Neuron } = require("@liquidcarrot/nn")
+
+const neuron = new Neuron();
+
+neuron.activate(3); // 3
+neuron.propagate(0); // 3
+```
+**Example**  
+```js
+const { Neuron } = require("@liquidcarrot/nn")
+
+const neuron = new Neuron();
+const other = new Neuron(0.1);
+
+neuron.connect(other, 0.2);
+
+neuron.activate(3); // 3
+other.activate(); // 0.6681877721681662
+
+other.propagate(0); // 0.14814583086672545
+neuron.propagate(); // 0.009876697690471913
+```
 <a name="Datum"></a>
 
 ## Datum
