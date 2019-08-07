@@ -48,6 +48,21 @@
 
 
 
+<div class="description">
+    <h3>What is a neuron?</h3>
+<p>A <em><code>Neuron</code></em> is a simplified mathematical model of a biological neuron.</p>
+<p>In people, a neuron is a cell that collects inputs from synapses (i.e. eyes, ears, etc. or other neurons) and triggers an <code>output</code> signal when the incoming signals pass a certain threshold.</p>
+<p>In biological neurons (in animals) or in artificial neurons (i.e. AI, NN, Deep Learning, etc.), one neuron doesn’t do much, but when combined, neural networks allow us to recognize the world around us, solve problems, and interact with our environment.</p>
+<h3>How do they work?</h3>
+<p>Neural networks were inspired by the human brain, and like in a human brain the basic building block is called a <code>Neuron</code>. Its functionality is similar to a human neuron, i.e. it takes in some inputs and fires an output. In purely mathematical terms, a neuron in the machine learning world is a placeholder for a mathematical function, and its only job is to provide an output by applying the function on the inputs provided.</p>
+<p><img src="https://miro.medium.com/max/805/1*XqXu-hBHocGoHh_65Rl8lQ.png" alt=""></p>
+<p>The function used in a neuron is generally called an <em>&quot;activation function&quot;</em>. There have been 5 major activation functions tried to date, step, sigmoid, tanh, and ReLU. For this neuron we are using a <em>&quot;sigmoid&quot;</em> activation function.</p>
+<h3>What is a <em>&quot;sigmoid activation function&quot;</em>?</h3>
+<p>A sigmoid function - or logistic function - is defined mathematically as:</p>
+<p><img src="https://miro.medium.com/max/460/1*MIeka59unAhS7MQk5e7FOg.png" alt=""></p>
+<p>The value of the function tends to zero when <em><strong>z</strong></em> tends to negative infinity and tends to 1 when <em><strong>z</strong></em> tends to infinity. A sigmoid activation function is an approximation of how a &quot;real neuron&quot; would behave; it's an assumption in the field of deep learning.</p>
+</div>
+
 
 
 
@@ -482,7 +497,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="neuron.js.html">neuron.js</a>, <a href="neuron.js.html#line46">line 46</a>
+        <a href="neuron.js.html">neuron.js</a>, <a href="neuron.js.html#line75">line 75</a>
     </li></ul></dd>
     
 
@@ -511,23 +526,29 @@
 
 
 
-    <h5>Examples</h5>
+    <h5>Example</h5>
     
-    <pre class="prettyprint"><code>const { Neuron } = require("@liquidcarrot/nn")
+    <pre class="prettyprint"><code>//===============================================
+// One Neuron (No Hidden Layers) ================
+//===============================================
+const { Neuron } = require("@liquidcarrot/nn")
 
 const neuron = new Neuron();
 
 neuron.activate(0); // 0
-neuron.propagate(1); // -1</code></pre>
+neuron.propagate(1); // -1
 
-    <pre class="prettyprint"><code>const { Neuron } = require("@liquidcarrot/nn")
+//===============================================
+// Three Neurons (Hidden Layers) ================
+//===============================================
+const { Neuron } = require("@liquidcarrot/nn")
 
-const input = new Neuron();
-const hidden = new Neuron(0.1);
-const output = new Neuron(0.2);
+const input = new Neuron(); // Input Neuron (Layer)
+const hidden = new Neuron(0.1); // Hidden Neuron (Layer)
+const output = new Neuron(0.2); // Output Neuron (Layer)
 
-input.connect(hidden, 0.3);
-hidden.connect(output, 0.4);
+input.connect(hidden, 0.3); // Connects input layer to hidden layer
+hidden.connect(output, 0.4); // Connects hidden layer to output layer
 
 input.activate(0); // 0
 hidden.activate(); // 0.52497918747894
@@ -674,7 +695,7 @@ input.propagate(); // -0.0029702092983079176</code></pre>
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="neuron.js.html">neuron.js</a>, <a href="neuron.js.html#line107">line 107</a>
+        <a href="neuron.js.html">neuron.js</a>, <a href="neuron.js.html#line141">line 141</a>
     </li></ul></dd>
     
 
@@ -725,15 +746,21 @@ input.propagate(); // -0.0029702092983079176</code></pre>
 
 
 
-    <h5>Examples</h5>
+    <h5>Example</h5>
     
-    <pre class="prettyprint"><code>const { Neuron } = require("@liquidcarrot/nn")
+    <pre class="prettyprint"><code>//===============================================
+// One Neuron ===================================
+//===============================================
+const { Neuron } = require("@liquidcarrot/nn")
 
 const neuron = new Neuron();
 
-neuron.activate(3);</code></pre>
+neuron.activate(3);
 
-    <pre class="prettyprint"><code>const { Neuron } = require("@liquidcarrot/nn")
+//===============================================
+// Two Neurons ==================================
+//===============================================
+const { Neuron } = require("@liquidcarrot/nn")
 
 const neuron = new Neuron();
 const other = new Neuron(0.1);
@@ -891,7 +918,7 @@ other.activate(); // 0.6681877721681662</code></pre>
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="neuron.js.html">neuron.js</a>, <a href="neuron.js.html#line78">line 78</a>
+        <a href="neuron.js.html">neuron.js</a>, <a href="neuron.js.html#line107">line 107</a>
     </li></ul></dd>
     
 
@@ -1089,7 +1116,7 @@ neuron.connect(other);</code></pre>
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="neuron.js.html">neuron.js</a>, <a href="neuron.js.html#line157">line 157</a>
+        <a href="neuron.js.html">neuron.js</a>, <a href="neuron.js.html#line196">line 196</a>
     </li></ul></dd>
     
 
@@ -1140,16 +1167,22 @@ neuron.connect(other);</code></pre>
 
 
 
-    <h5>Examples</h5>
+    <h5>Example</h5>
     
-    <pre class="prettyprint"><code>const { Neuron } = require("@liquidcarrot/nn")
+    <pre class="prettyprint"><code>//===============================================
+// One Neuron ===================================
+//===============================================
+const { Neuron } = require("@liquidcarrot/nn")
 
 const neuron = new Neuron();
 
 neuron.activate(3); // 3
-neuron.propagate(0); // 3</code></pre>
+neuron.propagate(0); // 3
 
-    <pre class="prettyprint"><code>const { Neuron } = require("@liquidcarrot/nn")
+//===============================================
+// Two Neurons ==================================
+//===============================================
+const { Neuron } = require("@liquidcarrot/nn")
 
 const neuron = new Neuron();
 const other = new Neuron(0.1);
@@ -1186,7 +1219,7 @@ neuron.propagate(); // 0.009876697690471913</code></pre>
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.3</a> on Wed Aug 07 2019 02:31:32 GMT-0400 (Eastern Daylight Time)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.3</a> on Wed Aug 07 2019 06:18:53 GMT-0400 (Eastern Daylight Time)
 </footer>
 
 <script> prettyPrint(); </script>

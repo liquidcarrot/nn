@@ -57,3 +57,5 @@ npm run doc:markdown
 
 - https://www.youtube.com/watch?v=0e0z28wAWfg
 - https://www.youtube.com/watch?v=uXt8qF2Zzfo
+- [Understanding Neural Networks. From neuron to RNN, CNN, and Deep Learning](https://towardsdatascience.com/understanding-neural-networks-from-neuron-to-rnn-cnn-and-deep-learning-cd88e90e0a90)
+- [How to Build a Neuron: Exploring AI in JavaScript Pt 1](https://medium.com/javascript-scene/how-to-build-a-neuron-exploring-ai-in-javascript-pt-1-c2726f1f02b2?source=search_post---------0)
