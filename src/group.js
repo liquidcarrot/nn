@@ -2,6 +2,8 @@ const uid = require("cuid");
 const Neuron = require("./neuron");
 
 /**
+ * A `Group` is an abstraction of `Neuron` and a tool for creating and manipulating a group of neurons - with `Group` we can create neural network layers and and build networks faster than neuron-by-neuron construction.
+ *
  * @constructs Group
  *
  * @param {number} [size]

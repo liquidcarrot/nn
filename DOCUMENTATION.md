@@ -7,6 +7,8 @@
 <dd></dd>
 <dt><a href="#Group">Group</a></dt>
 <dd></dd>
+<dt><a href="#Network">Network</a></dt>
+<dd></dd>
 <dt><a href="#Neuron">Neuron</a></dt>
 <dd></dd>
 </dl>
@@ -167,6 +169,8 @@ const connection = new Connection(neuron, other, 0.3) // Connection { a: neuron,
 <a name="new_Group_new"></a>
 
 ### new Group([size], [bias])
+A `Group` is an abstraction of `Neuron` and a tool for creating and manipulating a group of neurons - with `Group` we can create neural network layers and and build networks faster than neuron-by-neuron construction.
+
 
 | Param | Type |
 | --- | --- |
@@ -203,10 +207,10 @@ const { Group } = require("@liquidcarrot/nn")
 const group = new Group(2);
 const other = new Group(2);
 
-// group[0] -- weight[0] --> other[0]
-// group[0] -- weight[1] --> other[1]
-// group[1] -- weight[2] --> other[0]
-// group[1] -- weight[3] --> other[1]
+// group[0] -- weights[0] --> other[0]
+// group[0] -- weights[1] --> other[1]
+// group[1] -- weights[2] --> other[0]
+// group[1] -- weights[3] --> other[1]
 group.connect(other, [0.1, 0.2, 0.3, 0.4]);
 ```
 <a name="Group+activate"></a>
@@ -287,6 +291,58 @@ output.propagate([0, 1]); //  [0, -1]
 hidden.propagate(); // [0.###, 0.###]
 input.propagate(); // [0.###, 0.###]
 ```
+<a name="Network"></a>
+
+## Network
+**Kind**: global class  
+**Properties**
+
+| Name | Type |
+| --- | --- |
+| id | <code>string</code> | 
+| groups | [<code>Array.&lt;Group&gt;</code>](#Group) | 
+
+
+* [Network](#Network)
+    * [new Network(sizes, [biases], [weights])](#new_Network_new)
+    * [.activate(inputs)](#Network+activate) ⇒ <code>Array.&lt;number&gt;</code>
+    * [.propagate(targets)](#Network+propagate) ⇒ <code>number</code>
+
+<a name="new_Network_new"></a>
+
+### new Network(sizes, [biases], [weights])
+Each `Network` is a collective of neurons functioning as an individual and indepent agent (brain).
+
+
+| Param | Type |
+| --- | --- |
+| sizes | <code>Array.&lt;number&gt;</code> | 
+| [biases] | <code>Array.&lt;number&gt;</code> | 
+| [weights] | <code>Array.&lt;Array.&lt;number&gt;&gt;</code> | 
+
+<a name="Network+activate"></a>
+
+### network.activate(inputs) ⇒ <code>Array.&lt;number&gt;</code>
+Activates network
+
+**Kind**: instance method of [<code>Network</code>](#Network)  
+
+| Param | Type |
+| --- | --- |
+| inputs | <code>Array.&lt;number&gt;</code> | 
+
+<a name="Network+propagate"></a>
+
+### network.propagate(targets) ⇒ <code>number</code>
+Calculates error & updates network weights
+
+**Kind**: instance method of [<code>Network</code>](#Network)  
+**Returns**: <code>number</code> - Returns Mean-Squared Error (MSE)  
+
+| Param | Type |
+| --- | --- |
+| targets | <code>Array.&lt;number&gt;</code> | 
+
 <a name="Neuron"></a>
 
 ## Neuron
