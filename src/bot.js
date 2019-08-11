@@ -112,6 +112,10 @@ const Neuron = require("./neuron");
  * @constructs Bot
  */
 function Bot() {
+  this.bot; // Neuron, Group, Network, Team, Population
+  this.training; // Training chunk of `this.dataset`
+  this.testing; // Testing chunk of `this.dataset`
+  this.dataset;
   
   /**
    * @param {string} url
@@ -170,7 +174,10 @@ function Bot() {
 
 /**
  * @param {Object[]} json
- * @param {string}
+ * @param {Object} options
+ * @param {number} options.test Ratio of dataset to test (e.g. `0.2` is 20%)
+ * @param {string[]} options.outputs JSON Keys which hold "outputs" desired outputs - _bots will try to mimic or recreate these keys given all the other keys in the objects given_
+ *
  *
  * @example
  * const dataset = require("@liquid-carrot/data.cjyvyspsy0000l2m932iv07k1");

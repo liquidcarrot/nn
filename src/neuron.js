@@ -91,6 +91,7 @@ function Neuron(bias) {
   this._output; // f'(x)
   this.output; // f(x)
   this.error; // E'(f(x))
+  this._error;// E(f(x))
   
   /**
    * @param {Neuron} neuron

@@ -36,6 +36,7 @@
   "homepage": "https://liquidcarrot.io/nn",
   "devDependencies": {
     "@liquid-carrot/data.cjyvyspsy0000l2m932iv07k1": "^1.0.1",
+    "@liquid-carrot/data.pima-indians-diabetes": "^1.0.1",
     "browserify": "^16.3.0",
     "chai": "^4.2.0",
     "jsdoc": "^3.6.3",

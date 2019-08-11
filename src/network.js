@@ -1,37 +1,45 @@
+const uid = require("cuid");
+const Group = require("./group");
 
-/**
- * @constructs Network
- *
- * @prop {Group[]} [layers=[]] An ordered list of groups in the network
- *
- * @param {CostFunction} [cost=cost.MSE] Cost function
- */
-function Network() {
-  this.layers = []; // Stores order of forward/backward propagation
-  this.cost; // Function: cost(outputs, targets)
+// Constructs network
+function Network(sizes, biases, weights) {
+  this.id = uid();
   
+  this.groups == sizes == undefined ? [] : sizes.map(function(size, index) {
+    return new Group(size, biases[index]);
+  });
+  
+  // Connects neurons
+  this.groups.slice(0, this.groups.length - 1).forEach(function(group, index) {
+    if(weights) group.connect(this.groups[index + 1], weights[index]);
+    else group.connect(this.groups[index + 1]);
+  })
+  
+  // Activates Network
   this.activate = function(inputs) {
-    this.layers[0].activate(inputs);
+    const outputs = this.groups.map(function(group, index) {
+      if(index === 0) return group.activate(inputs);
+      else return group.activate();
+    })
     
-    for(let l = 1, last = this.layers.length - 1; l < last; l++) {
-      this.layers[l].activate();
-    }
-    
-    return this.layers[this.layers.length - 1].activate();
+    return outputs[outputs.length - 1];
   }
   
-  
-  this.propagate = function(targets) {
-    const { error, critiques } = this.cost(this.outputs, targets);
+  // Calculates error & updates network weights
+  this.propagate= function(targets) {
+    // MSE Cost
+    const error = this.groups[this.groups.length - 1].neurons.map(function(neuron, index) {
+      return 0.5 * Math.pow(target[index] - neuron.output, 2);
+    }).reduce((a,b) => a + b);
     
-    this.layers[this.layers.length - 1].propagate(critiques); // Critques = Errors w.r.t Output Neuron
-    
-    for(let l = this.layers.length - 2; l > 0; l--) {
-      this.layers[l].propagate();
-    }
-    
-    this.layers[0].propagate();
+    // Propagate error & update weights
+    this.groups.reverse().forEach(function(group, index) {
+      if(index === 0) group.propagate(targets);
+      else return group.propagate();
+    }); this.groups.reverse();
     
     return error;
   }
 }
+
+module.exports = Network;

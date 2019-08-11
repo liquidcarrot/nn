@@ -5,7 +5,7 @@
 <dd></dd>
 <dt><a href="#Connection">Connection</a></dt>
 <dd></dd>
-<dt><a href="#Network">Network</a></dt>
+<dt><a href="#Group">Group</a></dt>
 <dd></dd>
 <dt><a href="#Neuron">Neuron</a></dt>
 <dd></dd>
@@ -101,10 +101,12 @@ bot.test(); // { error: 0.01457, accuracy: 96.453%, fitness: 34.3412 }
 ### Bot.fromJSON(json, options)
 **Kind**: static method of [<code>Bot</code>](#Bot)  
 
-| Param | Type |
-| --- | --- |
-| json | <code>Array.&lt;Object&gt;</code> | 
-| options | <code>string</code> | 
+| Param | Type | Description |
+| --- | --- | --- |
+| json | <code>Array.&lt;Object&gt;</code> |  |
+| options | <code>Object</code> |  |
+| options.test | <code>number</code> | Ratio of dataset to test (e.g. `0.2` is 20%) |
+| options.outputs | <code>Array.&lt;string&gt;</code> | JSON Keys which hold "outputs" desired outputs - _bots will try to mimic or recreate these keys given all the other keys in the objects given_ |
 
 **Example**  
 ```js
@@ -144,24 +146,147 @@ const connection = new Connection(neuron, other) // Connection { a: neuron, b: o
 
 const connection = new Connection(neuron, other, 0.3) // Connection { a: neuron, b: other, weight: 0.3 }
 ```
-<a name="Network"></a>
+<a name="Group"></a>
 
-## Network
+## Group
 **Kind**: global class  
 **Properties**
 
-| Name | Type | Default | Description |
-| --- | --- | --- | --- |
-| [layers] | <code>Array.&lt;Group&gt;</code> | <code>[]</code> | An ordered list of groups in the network |
+| Name | Type |
+| --- | --- |
+| id | <code>string</code> | 
+| neurons | [<code>Array.&lt;Neuron&gt;</code>](#Neuron) | 
 
-<a name="new_Network_new"></a>
 
-### new Network([cost])
+* [Group](#Group)
+    * [new Group([size], [bias])](#new_Group_new)
+    * [.connect(target, [weights])](#Group+connect)
+    * [.activate([inputs])](#Group+activate) ⇒ <code>Array.&lt;number&gt;</code>
+    * [.propagate([targets], [rate])](#Group+propagate) ⇒ <code>Array.&lt;number&gt;</code>
 
-| Param | Type | Default | Description |
-| --- | --- | --- | --- |
-| [cost] | <code>CostFunction</code> | <code>cost.MSE</code> | Cost function |
+<a name="new_Group_new"></a>
 
+### new Group([size], [bias])
+
+| Param | Type |
+| --- | --- |
+| [size] | <code>number</code> | 
+| [bias] | <code>number</code> | 
+
+<a name="Group+connect"></a>
+
+### group.connect(target, [weights])
+**Kind**: instance method of [<code>Group</code>](#Group)  
+
+| Param | Type |
+| --- | --- |
+| target | [<code>Group</code>](#Group) | 
+| [weights] | <code>Array.&lt;number&gt;</code> | 
+
+**Example**  
+```js
+//===============================================
+// 2x2 (No Weights) =============================
+//===============================================
+const { Group } = require("@liquidcarrot/nn")
+
+const group = new Group(2);
+const other = new Group(2);
+
+group.connect(other);
+
+//===============================================
+// 2x2 (Weights) =============================
+//===============================================
+const { Group } = require("@liquidcarrot/nn")
+
+const group = new Group(2);
+const other = new Group(2);
+
+// group[0] -- weight[0] --> other[0]
+// group[0] -- weight[1] --> other[1]
+// group[1] -- weight[2] --> other[0]
+// group[1] -- weight[3] --> other[1]
+group.connect(other, [0.1, 0.2, 0.3, 0.4]);
+```
+<a name="Group+activate"></a>
+
+### group.activate([inputs]) ⇒ <code>Array.&lt;number&gt;</code>
+**Kind**: instance method of [<code>Group</code>](#Group)  
+
+| Param | Type |
+| --- | --- |
+| [inputs] | <code>Array.&lt;number&gt;</code> | 
+
+**Example**  
+```js
+//===============================================
+// One Group (No Hidden Layers) =================
+//===============================================
+const { Group } = require("@liquidcarrot/nn")
+
+const group = new Group(2);
+
+neuron.activate([0, 0]); // [0, 0]
+
+//===============================================
+// Three Groups (Hidden Layers) =================
+//===============================================
+const { Group } = require("@liquidcarrot/nn")
+
+const input = new Group(2); // Input Neuron (Layer)
+const hidden = new Group(2,0.1); // Hidden Neuron (Layer)
+const output = new Group(2,0.15); // Output Neuron (Layer)
+
+input.connect(hidden, [0.2,0.25,0.3,0.35]); // Connects input layer to hidden layer
+hidden.connect(output, [0.4,0.45,0.5,0.55]); // Connects hidden layer to output layer
+
+input.activate([0,0]); // [0,0]
+hidden.activate(); // [0.###, 0.###]
+output.activate(); // [0.###, 0.###]
+```
+<a name="Group+propagate"></a>
+
+### group.propagate([targets], [rate]) ⇒ <code>Array.&lt;number&gt;</code>
+**Kind**: instance method of [<code>Group</code>](#Group)  
+
+| Param | Type | Default |
+| --- | --- | --- |
+| [targets] | <code>Array.&lt;number&gt;</code> |  | 
+| [rate] | <code>number</code> | <code>0.3</code> | 
+
+**Example**  
+```js
+//===============================================
+// One Group (No Hidden Layers) =================
+//===============================================
+const { Group } = require("@liquidcarrot/nn")
+
+const group = new Group(2);
+
+neuron.activate([0, 0]); // [0, 0]
+neuron.propagate([0, 1]); // [0, -1]
+
+//===============================================
+// Three Groups (Hidden Layers) =================
+//===============================================
+const { Group } = require("@liquidcarrot/nn")
+
+const input = new Group(2); // Input Neuron (Layer)
+const hidden = new Group(2,0.1); // Hidden Neuron (Layer)
+const output = new Group(2,0.15); // Output Neuron (Layer)
+
+input.connect(hidden, [0.2,0.25,0.3,0.35]); // Connects input layer to hidden layer
+hidden.connect(output, [0.4,0.45,0.5,0.55]); // Connects hidden layer to output layer
+
+input.activate([0,0]); // [0,0]
+hidden.activate(); // [0.###, 0.###]
+output.activate(); // [0.###, 0.###]
+
+output.propagate([0, 1]); //  [0, -1]
+hidden.propagate(); // [0.###, 0.###]
+input.propagate(); // [0.###, 0.###]
+```
 <a name="Neuron"></a>
 
 ## Neuron
