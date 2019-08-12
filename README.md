@@ -43,7 +43,7 @@ npm run doc:markdown
 * [ ] GPU (Node) - _"a lot of things at once"_
 * [ ] GPU (Browser) - _"a lot of things at once"_
 
-* [ ] Supervised Learning - _"if it's hot, don't touch it"; "got you, okay"_
+* [x] Supervised Learning - _"if it's hot, don't touch it"; "got you, okay"_ - **Finished: 08/12/2019**
 * [ ] Evolutionary Learning - _100 networks start; 3 "make it"; 30 die; the remaining 50 procreate and replace the 30 deaths; 16 of the original 100 are cloned/revived_
 * [ ] Transfer Learning - _copy/paste & re-train networks_
 * [ ] Mimicry Learning - _observe replicate other network or entity_
