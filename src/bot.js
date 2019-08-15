@@ -1,5 +1,5 @@
-const Neuron = require("./neuron");
-
+// const Neuron = require("./neuron");
+const Network = require("./network");
 
 /**
  * @typedef Datum
@@ -110,66 +110,148 @@ const Neuron = require("./neuron");
 
 /**
  * @constructs Bot
+ *
+ * @param {Network} [network]
+ * @param {Object} [options]
+ * @param {Dataset} [options._dataset] Testing dataset
+ * @param {Dataset} [options.dataset] Training dataset
  */
-function Bot() {
-  this.bot; // Neuron, Group, Network, Team, Population
-  this.training; // Training chunk of `this.dataset`
-  this.testing; // Testing chunk of `this.dataset`
-  this.dataset;
+function Bot(network, options={}) {
+  this.network = network || new Network();
+  this.dataset = options.dataset || []; // Training dataset
+  this._dataset = options._dataset || options.dataset || []; // Testing dataset
+  this.environment;
   
-  /**
-   * @param {string} url
-   * @param {Object} [options]
-   *
-   * @example
-   * const bot = Bot.fromURL(https://liquidcarrot.io/dataset/monkeys.csv)
-   */
-  this.fromURL = function(url, options) {
+  this.activate = function(input) {
+    return this.network.activate(input);
+  }
+  this.propagate = function(target) {
+    return this.network.propagate(target);
+  }
+  this.train = function(iterations=1) {
+    const self = this;
     
+    let error = 0;
+    
+    while(iterations > 0) {
+      error = this.dataset.map(function(datum) {
+        self.network.activate(datum.inputs);
+        return self.network.propagate(datum.outputs);
+      }).reduce(function(total, error) {
+        return total += error;
+      }, 0) / self.dataset.length;
+      
+      iterations--;
+    }
+    
+    return error;
+  }
+  this.test = function() {
+    const self = this;
+    
+    return this._dataset.map(function(datum) {
+      self.network.activate(datum.inputs);
+      return self.network.propagate(datum.outputs);
+    }).reduce(function(total, error) {
+      return total += error;
+    }, 0) / self._dataset.length;
+  }
+}
+
+/**
+ * @param {Dataset} dataset
+ * @param {Object} [options]
+ * @param {boolean|number} [options.train=1] Will train `bot` for `options.train` iterations before creating it
+ * @param {number} [options.test=0] Will use `options.test` ratio (e.g. `0.2 === 20%`) of the `dataset` for testing the bot's accuracy
+ * @param {boolean} [options.shuffle=false] Iff `true`, the dataset will be shuffled before splitting the dataset or training the bot.
+ *
+ * @returns {Bot}
+ */
+Bot.fromDataset = function(dataset, options={}) {
+  const shuffle = (array) => array.sort(() => Math.random() - 0.5);
+  const inputs = Math.max(...dataset.map(function(datum) {
+    return datum.inputs.length
+  }));
+  const outputs = Math.max(...dataset.map(function(datum) {
+    return datum.outputs.length
+  }));
+  
+  // Shuffle Dataset
+  if(options.shuffle) dataset = shuffle(dataset);
+  
+  // Create Testing Dataset
+  let _dataset = dataset || [];
+  if(options.test) {
+    options.test = Math.round(dataset.length * options.test) || 1;
+    
+    _dataset = dataset.slice(0, options.test);
+    dataset = dataset.slice(options.test);
   }
   
-  /**
-   * @example JSON
-   * const bot = Bot.fromPath("./data.train.json");
-   *
-   * bot.test(dataset); // { error: 0.01457, accuracy: 96.453%, fitness: 34.3412 }
-   *
-   * @example CSV
-   * const bot = Bot.fromPath("./data.train.csv", { outputs: ["age", "height"] });
-   *
-   * bot.test(dataset); // { error: 0.01457, accuracy: 96.453%, fitness: 34.3412 }
-   *
-   * @example XML
-   * const bot = Bot.fromPath("./data.train.xml");
-   *
-   * bot.test(dataset); // { error: 0.01457, accuracy: 96.453%, fitness: 34.3412 }
-   *
-   *
-   */
-  this.fromPath = function(path, options) {
-    
-  }
+  // Create Bot
+  const bot = new Bot(new Network([inputs, outputs]), {
+    _dataset,
+    dataset
+  })
   
-  /**
-   * @example Advanced CSV - White Wine Quality
-   * const dataset = require("data.cjyvyspsy0000l2m932iv07k1");
-   * const bot = Bot.fromString(dataset, {
-   *   type: "csv",
-   *   headers: true,
-   *   outputs: ["quality"],
-   *   delimeter: ";",
-   *   test: 0.2 // 20% of data will used for testing, not training
-   * });
-   *
-   * bot.test(); // { error: 0.01457, accuracy: 96.453%, fitness: 34.3412 }
-   */
-  this.fromString = function(string, options) {
-    
-  }
+  // Train Bot
+  if(options.train) Number.isFinite(options.train) ? bot.train(options.train) : bot.train();
   
-  this.fromStream = function(stream, options) {
-    
-  }
+  return bot;
+}
+
+/**
+ * @param {string} url
+ * @param {Object} [options]
+ *
+ * @example
+ * const bot = Bot.fromURL(https://liquidcarrot.io/dataset/monkeys.csv)
+ */
+Bot.fromURL = function(url, options) {
+  
+}
+
+/**
+ * @example JSON
+ * const bot = Bot.fromPath("./data.train.json");
+ *
+ * bot.test(dataset); // { error: 0.01457, accuracy: 96.453%, fitness: 34.3412 }
+ *
+ * @example CSV
+ * const bot = Bot.fromPath("./data.train.csv", { outputs: ["age", "height"] });
+ *
+ * bot.test(dataset); // { error: 0.01457, accuracy: 96.453%, fitness: 34.3412 }
+ *
+ * @example XML
+ * const bot = Bot.fromPath("./data.train.xml");
+ *
+ * bot.test(dataset); // { error: 0.01457, accuracy: 96.453%, fitness: 34.3412 }
+ *
+ *
+ */
+Bot.fromPath = function(path, options) {
+  
+}
+
+/**
+ * @example Advanced CSV - White Wine Quality
+ * const dataset = require("data.cjyvyspsy0000l2m932iv07k1");
+ * const bot = Bot.fromString(dataset, {
+ *   type: "csv",
+ *   headers: true,
+ *   outputs: ["quality"],
+ *   delimeter: ";",
+ *   test: 0.2 // 20% of data will used for testing, not training
+ * });
+ *
+ * bot.test(); // { error: 0.01457, accuracy: 96.453%, fitness: 34.3412 }
+ */
+Bot.fromString = function(string, options) {
+  
+}
+
+Bot.fromStream = function(stream, options) {
+  
 }
 
 /**

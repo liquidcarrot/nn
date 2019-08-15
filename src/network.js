@@ -12,6 +12,14 @@ const Group = require("./group");
  *
  * @prop {string} id
  * @prop {Group[]} groups
+ *
+ * @example
+ * const { Network } = require("@liquid-carrot/nn");
+ *
+ * const network = new Network([2,2,1]);
+ *
+ * network.activate([0,1]);
+ * network.propagate([1]);
  */
 function Network(sizes, biases, weights) {
   let self = this;
