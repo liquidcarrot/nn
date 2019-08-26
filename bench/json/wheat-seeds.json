@@ -1,0 +1,2102 @@
+[
+  {
+    "Area": "15.26",
+    "Perimeter": "14.84",
+    "Compactness": "0.871",
+    "Length of Kernel": "5.763",
+    "Width of Kernel": "3.312",
+    "Assymetry Coefficient": "2.221",
+    "Length of Kernel Grove": "5.22",
+    "Class": "1"
+  },
+  {
+    "Area": "14.88",
+    "Perimeter": "14.57",
+    "Compactness": "0.8811",
+    "Length of Kernel": "5.554",
+    "Width of Kernel": "3.333",
+    "Assymetry Coefficient": "1.018",
+    "Length of Kernel Grove": "4.956",
+    "Class": "1"
+  },
+  {
+    "Area": "14.29",
+    "Perimeter": "14.09",
+    "Compactness": "0.905",
+    "Length of Kernel": "5.291",
+    "Width of Kernel": "3.337",
+    "Assymetry Coefficient": "2.699",
+    "Length of Kernel Grove": "4.825",
+    "Class": "1"
+  },
+  {
+    "Area": "13.84",
+    "Perimeter": "13.94",
+    "Compactness": "0.8955",
+    "Length of Kernel": "5.324",
+    "Width of Kernel": "3.379",
+    "Assymetry Coefficient": "2.259",
+    "Length of Kernel Grove": "4.805",
+    "Class": "1"
+  },
+  {
+    "Area": "16.14",
+    "Perimeter": "14.99",
+    "Compactness": "0.9034",
+    "Length of Kernel": "5.658",
+    "Width of Kernel": "3.562",
+    "Assymetry Coefficient": "1.355",
+    "Length of Kernel Grove": "5.175",
+    "Class": "1"
+  },
+  {
+    "Area": "14.38",
+    "Perimeter": "14.21",
+    "Compactness": "0.8951",
+    "Length of Kernel": "5.386",
+    "Width of Kernel": "3.312",
+    "Assymetry Coefficient": "2.462",
+    "Length of Kernel Grove": "4.956",
+    "Class": "1"
+  },
+  {
+    "Area": "14.69",
+    "Perimeter": "14.49",
+    "Compactness": "0.8799",
+    "Length of Kernel": "5.563",
+    "Width of Kernel": "3.259",
+    "Assymetry Coefficient": "3.586",
+    "Length of Kernel Grove": "5.219",
+    "Class": "1"
+  },
+  {
+    "Area": "14.11",
+    "Perimeter": "14.1",
+    "Compactness": "0.8911",
+    "Length of Kernel": "5.42",
+    "Width of Kernel": "3.302",
+    "Assymetry Coefficient": "2.7",
+    "Length of Kernel Grove": "5",
+    "Class": "1"
+  },
+  {
+    "Area": "16.63",
+    "Perimeter": "15.46",
+    "Compactness": "0.8747",
+    "Length of Kernel": "6.053",
+    "Width of Kernel": "3.465",
+    "Assymetry Coefficient": "2.04",
+    "Length of Kernel Grove": "5.877",
+    "Class": "1"
+  },
+  {
+    "Area": "16.44",
+    "Perimeter": "15.25",
+    "Compactness": "0.888",
+    "Length of Kernel": "5.884",
+    "Width of Kernel": "3.505",
+    "Assymetry Coefficient": "1.969",
+    "Length of Kernel Grove": "5.533",
+    "Class": "1"
+  },
+  {
+    "Area": "15.26",
+    "Perimeter": "14.85",
+    "Compactness": "0.8696",
+    "Length of Kernel": "5.714",
+    "Width of Kernel": "3.242",
+    "Assymetry Coefficient": "4.543",
+    "Length of Kernel Grove": "5.314",
+    "Class": "1"
+  },
+  {
+    "Area": "14.03",
+    "Perimeter": "14.16",
+    "Compactness": "0.8796",
+    "Length of Kernel": "5.438",
+    "Width of Kernel": "3.201",
+    "Assymetry Coefficient": "1.717",
+    "Length of Kernel Grove": "5.001",
+    "Class": "1"
+  },
+  {
+    "Area": "13.89",
+    "Perimeter": "14.02",
+    "Compactness": "0.888",
+    "Length of Kernel": "5.439",
+    "Width of Kernel": "3.199",
+    "Assymetry Coefficient": "3.986",
+    "Length of Kernel Grove": "4.738",
+    "Class": "1"
+  },
+  {
+    "Area": "13.78",
+    "Perimeter": "14.06",
+    "Compactness": "0.8759",
+    "Length of Kernel": "5.479",
+    "Width of Kernel": "3.156",
+    "Assymetry Coefficient": "3.136",
+    "Length of Kernel Grove": "4.872",
+    "Class": "1"
+  },
+  {
+    "Area": "13.74",
+    "Perimeter": "14.05",
+    "Compactness": "0.8744",
+    "Length of Kernel": "5.482",
+    "Width of Kernel": "3.114",
+    "Assymetry Coefficient": "2.932",
+    "Length of Kernel Grove": "4.825",
+    "Class": "1"
+  },
+  {
+    "Area": "14.59",
+    "Perimeter": "14.28",
+    "Compactness": "0.8993",
+    "Length of Kernel": "5.351",
+    "Width of Kernel": "3.333",
+    "Assymetry Coefficient": "4.185",
+    "Length of Kernel Grove": "4.781",
+    "Class": "1"
+  },
+  {
+    "Area": "13.99",
+    "Perimeter": "13.83",
+    "Compactness": "0.9183",
+    "Length of Kernel": "5.119",
+    "Width of Kernel": "3.383",
+    "Assymetry Coefficient": "5.234",
+    "Length of Kernel Grove": "4.781",
+    "Class": "1"
+  },
+  {
+    "Area": "15.69",
+    "Perimeter": "14.75",
+    "Compactness": "0.9058",
+    "Length of Kernel": "5.527",
+    "Width of Kernel": "3.514",
+    "Assymetry Coefficient": "1.599",
+    "Length of Kernel Grove": "5.046",
+    "Class": "1"
+  },
+  {
+    "Area": "14.7",
+    "Perimeter": "14.21",
+    "Compactness": "0.9153",
+    "Length of Kernel": "5.205",
+    "Width of Kernel": "3.466",
+    "Assymetry Coefficient": "1.767",
+    "Length of Kernel Grove": "4.649",
+    "Class": "1"
+  },
+  {
+    "Area": "12.72",
+    "Perimeter": "13.57",
+    "Compactness": "0.8686",
+    "Length of Kernel": "5.226",
+    "Width of Kernel": "3.049",
+    "Assymetry Coefficient": "4.102",
+    "Length of Kernel Grove": "4.914",
+    "Class": "1"
+  },
+  {
+    "Area": "14.16",
+    "Perimeter": "14.4",
+    "Compactness": "0.8584",
+    "Length of Kernel": "5.658",
+    "Width of Kernel": "3.129",
+    "Assymetry Coefficient": "3.072",
+    "Length of Kernel Grove": "5.176",
+    "Class": "1"
+  },
+  {
+    "Area": "14.11",
+    "Perimeter": "14.26",
+    "Compactness": "0.8722",
+    "Length of Kernel": "5.52",
+    "Width of Kernel": "3.168",
+    "Assymetry Coefficient": "2.688",
+    "Length of Kernel Grove": "5.219",
+    "Class": "1"
+  },
+  {
+    "Area": "15.88",
+    "Perimeter": "14.9",
+    "Compactness": "0.8988",
+    "Length of Kernel": "5.618",
+    "Width of Kernel": "3.507",
+    "Assymetry Coefficient": "0.7651",
+    "Length of Kernel Grove": "5.091",
+    "Class": "1"
+  },
+  {
+    "Area": "12.08",
+    "Perimeter": "13.23",
+    "Compactness": "0.8664",
+    "Length of Kernel": "5.099",
+    "Width of Kernel": "2.936",
+    "Assymetry Coefficient": "1.415",
+    "Length of Kernel Grove": "4.961",
+    "Class": "1"
+  },
+  {
+    "Area": "15.01",
+    "Perimeter": "14.76",
+    "Compactness": "0.8657",
+    "Length of Kernel": "5.789",
+    "Width of Kernel": "3.245",
+    "Assymetry Coefficient": "1.791",
+    "Length of Kernel Grove": "5.001",
+    "Class": "1"
+  },
+  {
+    "Area": "16.19",
+    "Perimeter": "15.16",
+    "Compactness": "0.8849",
+    "Length of Kernel": "5.833",
+    "Width of Kernel": "3.421",
+    "Assymetry Coefficient": "0.903",
+    "Length of Kernel Grove": "5.307",
+    "Class": "1"
+  },
+  {
+    "Area": "13.02",
+    "Perimeter": "13.76",
+    "Compactness": "0.8641",
+    "Length of Kernel": "5.395",
+    "Width of Kernel": "3.026",
+    "Assymetry Coefficient": "3.373",
+    "Length of Kernel Grove": "4.825",
+    "Class": "1"
+  },
+  {
+    "Area": "12.74",
+    "Perimeter": "13.67",
+    "Compactness": "0.8564",
+    "Length of Kernel": "5.395",
+    "Width of Kernel": "2.956",
+    "Assymetry Coefficient": "2.504",
+    "Length of Kernel Grove": "4.869",
+    "Class": "1"
+  },
+  {
+    "Area": "14.11",
+    "Perimeter": "14.18",
+    "Compactness": "0.882",
+    "Length of Kernel": "5.541",
+    "Width of Kernel": "3.221",
+    "Assymetry Coefficient": "2.754",
+    "Length of Kernel Grove": "5.038",
+    "Class": "1"
+  },
+  {
+    "Area": "13.45",
+    "Perimeter": "14.02",
+    "Compactness": "0.8604",
+    "Length of Kernel": "5.516",
+    "Width of Kernel": "3.065",
+    "Assymetry Coefficient": "3.531",
+    "Length of Kernel Grove": "5.097",
+    "Class": "1"
+  },
+  {
+    "Area": "13.16",
+    "Perimeter": "13.82",
+    "Compactness": "0.8662",
+    "Length of Kernel": "5.454",
+    "Width of Kernel": "2.975",
+    "Assymetry Coefficient": "0.8551",
+    "Length of Kernel Grove": "5.056",
+    "Class": "1"
+  },
+  {
+    "Area": "15.49",
+    "Perimeter": "14.94",
+    "Compactness": "0.8724",
+    "Length of Kernel": "5.757",
+    "Width of Kernel": "3.371",
+    "Assymetry Coefficient": "3.412",
+    "Length of Kernel Grove": "5.228",
+    "Class": "1"
+  },
+  {
+    "Area": "14.09",
+    "Perimeter": "14.41",
+    "Compactness": "0.8529",
+    "Length of Kernel": "5.717",
+    "Width of Kernel": "3.186",
+    "Assymetry Coefficient": "3.92",
+    "Length of Kernel Grove": "5.299",
+    "Class": "1"
+  },
+  {
+    "Area": "13.94",
+    "Perimeter": "14.17",
+    "Compactness": "0.8728",
+    "Length of Kernel": "5.585",
+    "Width of Kernel": "3.15",
+    "Assymetry Coefficient": "2.124",
+    "Length of Kernel Grove": "5.012",
+    "Class": "1"
+  },
+  {
+    "Area": "15.05",
+    "Perimeter": "14.68",
+    "Compactness": "0.8779",
+    "Length of Kernel": "5.712",
+    "Width of Kernel": "3.328",
+    "Assymetry Coefficient": "2.129",
+    "Length of Kernel Grove": "5.36",
+    "Class": "1"
+  },
+  {
+    "Area": "16.12",
+    "Perimeter": "15",
+    "Compactness": "0.9",
+    "Length of Kernel": "5.709",
+    "Width of Kernel": "3.485",
+    "Assymetry Coefficient": "2.27",
+    "Length of Kernel Grove": "5.443",
+    "Class": "1"
+  },
+  {
+    "Area": "16.2",
+    "Perimeter": "15.27",
+    "Compactness": "0.8734",
+    "Length of Kernel": "5.826",
+    "Width of Kernel": "3.464",
+    "Assymetry Coefficient": "2.823",
+    "Length of Kernel Grove": "5.527",
+    "Class": "1"
+  },
+  {
+    "Area": "17.08",
+    "Perimeter": "15.38",
+    "Compactness": "0.9079",
+    "Length of Kernel": "5.832",
+    "Width of Kernel": "3.683",
+    "Assymetry Coefficient": "2.956",
+    "Length of Kernel Grove": "5.484",
+    "Class": "1"
+  },
+  {
+    "Area": "14.8",
+    "Perimeter": "14.52",
+    "Compactness": "0.8823",
+    "Length of Kernel": "5.656",
+    "Width of Kernel": "3.288",
+    "Assymetry Coefficient": "3.112",
+    "Length of Kernel Grove": "5.309",
+    "Class": "1"
+  },
+  {
+    "Area": "14.28",
+    "Perimeter": "14.17",
+    "Compactness": "0.8944",
+    "Length of Kernel": "5.397",
+    "Width of Kernel": "3.298",
+    "Assymetry Coefficient": "6.685",
+    "Length of Kernel Grove": "5.001",
+    "Class": "1"
+  },
+  {
+    "Area": "13.54",
+    "Perimeter": "13.85",
+    "Compactness": "0.8871",
+    "Length of Kernel": "5.348",
+    "Width of Kernel": "3.156",
+    "Assymetry Coefficient": "2.587",
+    "Length of Kernel Grove": "5.178",
+    "Class": "1"
+  },
+  {
+    "Area": "13.5",
+    "Perimeter": "13.85",
+    "Compactness": "0.8852",
+    "Length of Kernel": "5.351",
+    "Width of Kernel": "3.158",
+    "Assymetry Coefficient": "2.249",
+    "Length of Kernel Grove": "5.176",
+    "Class": "1"
+  },
+  {
+    "Area": "13.16",
+    "Perimeter": "13.55",
+    "Compactness": "0.9009",
+    "Length of Kernel": "5.138",
+    "Width of Kernel": "3.201",
+    "Assymetry Coefficient": "2.461",
+    "Length of Kernel Grove": "4.783",
+    "Class": "1"
+  },
+  {
+    "Area": "15.5",
+    "Perimeter": "14.86",
+    "Compactness": "0.882",
+    "Length of Kernel": "5.877",
+    "Width of Kernel": "3.396",
+    "Assymetry Coefficient": "4.711",
+    "Length of Kernel Grove": "5.528",
+    "Class": "1"
+  },
+  {
+    "Area": "15.11",
+    "Perimeter": "14.54",
+    "Compactness": "0.8986",
+    "Length of Kernel": "5.579",
+    "Width of Kernel": "3.462",
+    "Assymetry Coefficient": "3.128",
+    "Length of Kernel Grove": "5.18",
+    "Class": "1"
+  },
+  {
+    "Area": "13.8",
+    "Perimeter": "14.04",
+    "Compactness": "0.8794",
+    "Length of Kernel": "5.376",
+    "Width of Kernel": "3.155",
+    "Assymetry Coefficient": "1.56",
+    "Length of Kernel Grove": "4.961",
+    "Class": "1"
+  },
+  {
+    "Area": "15.36",
+    "Perimeter": "14.76",
+    "Compactness": "0.8861",
+    "Length of Kernel": "5.701",
+    "Width of Kernel": "3.393",
+    "Assymetry Coefficient": "1.367",
+    "Length of Kernel Grove": "5.132",
+    "Class": "1"
+  },
+  {
+    "Area": "14.99",
+    "Perimeter": "14.56",
+    "Compactness": "0.8883",
+    "Length of Kernel": "5.57",
+    "Width of Kernel": "3.377",
+    "Assymetry Coefficient": "2.958",
+    "Length of Kernel Grove": "5.175",
+    "Class": "1"
+  },
+  {
+    "Area": "14.79",
+    "Perimeter": "14.52",
+    "Compactness": "0.8819",
+    "Length of Kernel": "5.545",
+    "Width of Kernel": "3.291",
+    "Assymetry Coefficient": "2.704",
+    "Length of Kernel Grove": "5.111",
+    "Class": "1"
+  },
+  {
+    "Area": "14.86",
+    "Perimeter": "14.67",
+    "Compactness": "0.8676",
+    "Length of Kernel": "5.678",
+    "Width of Kernel": "3.258",
+    "Assymetry Coefficient": "2.129",
+    "Length of Kernel Grove": "5.351",
+    "Class": "1"
+  },
+  {
+    "Area": "14.43",
+    "Perimeter": "14.4",
+    "Compactness": "0.8751",
+    "Length of Kernel": "5.585",
+    "Width of Kernel": "3.272",
+    "Assymetry Coefficient": "3.975",
+    "Length of Kernel Grove": "5.144",
+    "Class": "1"
+  },
+  {
+    "Area": "15.78",
+    "Perimeter": "14.91",
+    "Compactness": "0.8923",
+    "Length of Kernel": "5.674",
+    "Width of Kernel": "3.434",
+    "Assymetry Coefficient": "5.593",
+    "Length of Kernel Grove": "5.136",
+    "Class": "1"
+  },
+  {
+    "Area": "14.49",
+    "Perimeter": "14.61",
+    "Compactness": "0.8538",
+    "Length of Kernel": "5.715",
+    "Width of Kernel": "3.113",
+    "Assymetry Coefficient": "4.116",
+    "Length of Kernel Grove": "5.396",
+    "Class": "1"
+  },
+  {
+    "Area": "14.33",
+    "Perimeter": "14.28",
+    "Compactness": "0.8831",
+    "Length of Kernel": "5.504",
+    "Width of Kernel": "3.199",
+    "Assymetry Coefficient": "3.328",
+    "Length of Kernel Grove": "5.224",
+    "Class": "1"
+  },
+  {
+    "Area": "14.52",
+    "Perimeter": "14.6",
+    "Compactness": "0.8557",
+    "Length of Kernel": "5.741",
+    "Width of Kernel": "3.113",
+    "Assymetry Coefficient": "1.481",
+    "Length of Kernel Grove": "5.487",
+    "Class": "1"
+  },
+  {
+    "Area": "15.03",
+    "Perimeter": "14.77",
+    "Compactness": "0.8658",
+    "Length of Kernel": "5.702",
+    "Width of Kernel": "3.212",
+    "Assymetry Coefficient": "1.933",
+    "Length of Kernel Grove": "5.439",
+    "Class": "1"
+  },
+  {
+    "Area": "14.46",
+    "Perimeter": "14.35",
+    "Compactness": "0.8818",
+    "Length of Kernel": "5.388",
+    "Width of Kernel": "3.377",
+    "Assymetry Coefficient": "2.802",
+    "Length of Kernel Grove": "5.044",
+    "Class": "1"
+  },
+  {
+    "Area": "14.92",
+    "Perimeter": "14.43",
+    "Compactness": "0.9006",
+    "Length of Kernel": "5.384",
+    "Width of Kernel": "3.412",
+    "Assymetry Coefficient": "1.142",
+    "Length of Kernel Grove": "5.088",
+    "Class": "1"
+  },
+  {
+    "Area": "15.38",
+    "Perimeter": "14.77",
+    "Compactness": "0.8857",
+    "Length of Kernel": "5.662",
+    "Width of Kernel": "3.419",
+    "Assymetry Coefficient": "1.999",
+    "Length of Kernel Grove": "5.222",
+    "Class": "1"
+  },
+  {
+    "Area": "12.11",
+    "Perimeter": "13.47",
+    "Compactness": "0.8392",
+    "Length of Kernel": "5.159",
+    "Width of Kernel": "3.032",
+    "Assymetry Coefficient": "1.502",
+    "Length of Kernel Grove": "4.519",
+    "Class": "1"
+  },
+  {
+    "Area": "11.42",
+    "Perimeter": "12.86",
+    "Compactness": "0.8683",
+    "Length of Kernel": "5.008",
+    "Width of Kernel": "2.85",
+    "Assymetry Coefficient": "2.7",
+    "Length of Kernel Grove": "4.607",
+    "Class": "1"
+  },
+  {
+    "Area": "11.23",
+    "Perimeter": "12.63",
+    "Compactness": "0.884",
+    "Length of Kernel": "4.902",
+    "Width of Kernel": "2.879",
+    "Assymetry Coefficient": "2.269",
+    "Length of Kernel Grove": "4.703",
+    "Class": "1"
+  },
+  {
+    "Area": "12.36",
+    "Perimeter": "13.19",
+    "Compactness": "0.8923",
+    "Length of Kernel": "5.076",
+    "Width of Kernel": "3.042",
+    "Assymetry Coefficient": "3.22",
+    "Length of Kernel Grove": "4.605",
+    "Class": "1"
+  },
+  {
+    "Area": "13.22",
+    "Perimeter": "13.84",
+    "Compactness": "0.868",
+    "Length of Kernel": "5.395",
+    "Width of Kernel": "3.07",
+    "Assymetry Coefficient": "4.157",
+    "Length of Kernel Grove": "5.088",
+    "Class": "1"
+  },
+  {
+    "Area": "12.78",
+    "Perimeter": "13.57",
+    "Compactness": "0.8716",
+    "Length of Kernel": "5.262",
+    "Width of Kernel": "3.026",
+    "Assymetry Coefficient": "1.176",
+    "Length of Kernel Grove": "4.782",
+    "Class": "1"
+  },
+  {
+    "Area": "12.88",
+    "Perimeter": "13.5",
+    "Compactness": "0.8879",
+    "Length of Kernel": "5.139",
+    "Width of Kernel": "3.119",
+    "Assymetry Coefficient": "2.352",
+    "Length of Kernel Grove": "4.607",
+    "Class": "1"
+  },
+  {
+    "Area": "14.34",
+    "Perimeter": "14.37",
+    "Compactness": "0.8726",
+    "Length of Kernel": "5.63",
+    "Width of Kernel": "3.19",
+    "Assymetry Coefficient": "1.313",
+    "Length of Kernel Grove": "5.15",
+    "Class": "1"
+  },
+  {
+    "Area": "14.01",
+    "Perimeter": "14.29",
+    "Compactness": "0.8625",
+    "Length of Kernel": "5.609",
+    "Width of Kernel": "3.158",
+    "Assymetry Coefficient": "2.217",
+    "Length of Kernel Grove": "5.132",
+    "Class": "1"
+  },
+  {
+    "Area": "14.37",
+    "Perimeter": "14.39",
+    "Compactness": "0.8726",
+    "Length of Kernel": "5.569",
+    "Width of Kernel": "3.153",
+    "Assymetry Coefficient": "1.464",
+    "Length of Kernel Grove": "5.3",
+    "Class": "1"
+  },
+  {
+    "Area": "12.73",
+    "Perimeter": "13.75",
+    "Compactness": "0.8458",
+    "Length of Kernel": "5.412",
+    "Width of Kernel": "2.882",
+    "Assymetry Coefficient": "3.533",
+    "Length of Kernel Grove": "5.067",
+    "Class": "1"
+  },
+  {
+    "Area": "17.63",
+    "Perimeter": "15.98",
+    "Compactness": "0.8673",
+    "Length of Kernel": "6.191",
+    "Width of Kernel": "3.561",
+    "Assymetry Coefficient": "4.076",
+    "Length of Kernel Grove": "6.06",
+    "Class": "2"
+  },
+  {
+    "Area": "16.84",
+    "Perimeter": "15.67",
+    "Compactness": "0.8623",
+    "Length of Kernel": "5.998",
+    "Width of Kernel": "3.484",
+    "Assymetry Coefficient": "4.675",
+    "Length of Kernel Grove": "5.877",
+    "Class": "2"
+  },
+  {
+    "Area": "17.26",
+    "Perimeter": "15.73",
+    "Compactness": "0.8763",
+    "Length of Kernel": "5.978",
+    "Width of Kernel": "3.594",
+    "Assymetry Coefficient": "4.539",
+    "Length of Kernel Grove": "5.791",
+    "Class": "2"
+  },
+  {
+    "Area": "19.11",
+    "Perimeter": "16.26",
+    "Compactness": "0.9081",
+    "Length of Kernel": "6.154",
+    "Width of Kernel": "3.93",
+    "Assymetry Coefficient": "2.936",
+    "Length of Kernel Grove": "6.079",
+    "Class": "2"
+  },
+  {
+    "Area": "16.82",
+    "Perimeter": "15.51",
+    "Compactness": "0.8786",
+    "Length of Kernel": "6.017",
+    "Width of Kernel": "3.486",
+    "Assymetry Coefficient": "4.004",
+    "Length of Kernel Grove": "5.841",
+    "Class": "2"
+  },
+  {
+    "Area": "16.77",
+    "Perimeter": "15.62",
+    "Compactness": "0.8638",
+    "Length of Kernel": "5.927",
+    "Width of Kernel": "3.438",
+    "Assymetry Coefficient": "4.92",
+    "Length of Kernel Grove": "5.795",
+    "Class": "2"
+  },
+  {
+    "Area": "17.32",
+    "Perimeter": "15.91",
+    "Compactness": "0.8599",
+    "Length of Kernel": "6.064",
+    "Width of Kernel": "3.403",
+    "Assymetry Coefficient": "3.824",
+    "Length of Kernel Grove": "5.922",
+    "Class": "2"
+  },
+  {
+    "Area": "20.71",
+    "Perimeter": "17.23",
+    "Compactness": "0.8763",
+    "Length of Kernel": "6.579",
+    "Width of Kernel": "3.814",
+    "Assymetry Coefficient": "4.451",
+    "Length of Kernel Grove": "6.451",
+    "Class": "2"
+  },
+  {
+    "Area": "18.94",
+    "Perimeter": "16.49",
+    "Compactness": "0.875",
+    "Length of Kernel": "6.445",
+    "Width of Kernel": "3.639",
+    "Assymetry Coefficient": "5.064",
+    "Length of Kernel Grove": "6.362",
+    "Class": "2"
+  },
+  {
+    "Area": "17.12",
+    "Perimeter": "15.55",
+    "Compactness": "0.8892",
+    "Length of Kernel": "5.85",
+    "Width of Kernel": "3.566",
+    "Assymetry Coefficient": "2.858",
+    "Length of Kernel Grove": "5.746",
+    "Class": "2"
+  },
+  {
+    "Area": "16.53",
+    "Perimeter": "15.34",
+    "Compactness": "0.8823",
+    "Length of Kernel": "5.875",
+    "Width of Kernel": "3.467",
+    "Assymetry Coefficient": "5.532",
+    "Length of Kernel Grove": "5.88",
+    "Class": "2"
+  },
+  {
+    "Area": "18.72",
+    "Perimeter": "16.19",
+    "Compactness": "0.8977",
+    "Length of Kernel": "6.006",
+    "Width of Kernel": "3.857",
+    "Assymetry Coefficient": "5.324",
+    "Length of Kernel Grove": "5.879",
+    "Class": "2"
+  },
+  {
+    "Area": "20.2",
+    "Perimeter": "16.89",
+    "Compactness": "0.8894",
+    "Length of Kernel": "6.285",
+    "Width of Kernel": "3.864",
+    "Assymetry Coefficient": "5.173",
+    "Length of Kernel Grove": "6.187",
+    "Class": "2"
+  },
+  {
+    "Area": "19.57",
+    "Perimeter": "16.74",
+    "Compactness": "0.8779",
+    "Length of Kernel": "6.384",
+    "Width of Kernel": "3.772",
+    "Assymetry Coefficient": "1.472",
+    "Length of Kernel Grove": "6.273",
+    "Class": "2"
+  },
+  {
+    "Area": "19.51",
+    "Perimeter": "16.71",
+    "Compactness": "0.878",
+    "Length of Kernel": "6.366",
+    "Width of Kernel": "3.801",
+    "Assymetry Coefficient": "2.962",
+    "Length of Kernel Grove": "6.185",
+    "Class": "2"
+  },
+  {
+    "Area": "18.27",
+    "Perimeter": "16.09",
+    "Compactness": "0.887",
+    "Length of Kernel": "6.173",
+    "Width of Kernel": "3.651",
+    "Assymetry Coefficient": "2.443",
+    "Length of Kernel Grove": "6.197",
+    "Class": "2"
+  },
+  {
+    "Area": "18.88",
+    "Perimeter": "16.26",
+    "Compactness": "0.8969",
+    "Length of Kernel": "6.084",
+    "Width of Kernel": "3.764",
+    "Assymetry Coefficient": "1.649",
+    "Length of Kernel Grove": "6.109",
+    "Class": "2"
+  },
+  {
+    "Area": "18.98",
+    "Perimeter": "16.66",
+    "Compactness": "0.859",
+    "Length of Kernel": "6.549",
+    "Width of Kernel": "3.67",
+    "Assymetry Coefficient": "3.691",
+    "Length of Kernel Grove": "6.498",
+    "Class": "2"
+  },
+  {
+    "Area": "21.18",
+    "Perimeter": "17.21",
+    "Compactness": "0.8989",
+    "Length of Kernel": "6.573",
+    "Width of Kernel": "4.033",
+    "Assymetry Coefficient": "5.78",
+    "Length of Kernel Grove": "6.231",
+    "Class": "2"
+  },
+  {
+    "Area": "20.88",
+    "Perimeter": "17.05",
+    "Compactness": "0.9031",
+    "Length of Kernel": "6.45",
+    "Width of Kernel": "4.032",
+    "Assymetry Coefficient": "5.016",
+    "Length of Kernel Grove": "6.321",
+    "Class": "2"
+  },
+  {
+    "Area": "20.1",
+    "Perimeter": "16.99",
+    "Compactness": "0.8746",
+    "Length of Kernel": "6.581",
+    "Width of Kernel": "3.785",
+    "Assymetry Coefficient": "1.955",
+    "Length of Kernel Grove": "6.449",
+    "Class": "2"
+  },
+  {
+    "Area": "18.76",
+    "Perimeter": "16.2",
+    "Compactness": "0.8984",
+    "Length of Kernel": "6.172",
+    "Width of Kernel": "3.796",
+    "Assymetry Coefficient": "3.12",
+    "Length of Kernel Grove": "6.053",
+    "Class": "2"
+  },
+  {
+    "Area": "18.81",
+    "Perimeter": "16.29",
+    "Compactness": "0.8906",
+    "Length of Kernel": "6.272",
+    "Width of Kernel": "3.693",
+    "Assymetry Coefficient": "3.237",
+    "Length of Kernel Grove": "6.053",
+    "Class": "2"
+  },
+  {
+    "Area": "18.59",
+    "Perimeter": "16.05",
+    "Compactness": "0.9066",
+    "Length of Kernel": "6.037",
+    "Width of Kernel": "3.86",
+    "Assymetry Coefficient": "6.001",
+    "Length of Kernel Grove": "5.877",
+    "Class": "2"
+  },
+  {
+    "Area": "18.36",
+    "Perimeter": "16.52",
+    "Compactness": "0.8452",
+    "Length of Kernel": "6.666",
+    "Width of Kernel": "3.485",
+    "Assymetry Coefficient": "4.933",
+    "Length of Kernel Grove": "6.448",
+    "Class": "2"
+  },
+  {
+    "Area": "16.87",
+    "Perimeter": "15.65",
+    "Compactness": "0.8648",
+    "Length of Kernel": "6.139",
+    "Width of Kernel": "3.463",
+    "Assymetry Coefficient": "3.696",
+    "Length of Kernel Grove": "5.967",
+    "Class": "2"
+  },
+  {
+    "Area": "19.31",
+    "Perimeter": "16.59",
+    "Compactness": "0.8815",
+    "Length of Kernel": "6.341",
+    "Width of Kernel": "3.81",
+    "Assymetry Coefficient": "3.477",
+    "Length of Kernel Grove": "6.238",
+    "Class": "2"
+  },
+  {
+    "Area": "18.98",
+    "Perimeter": "16.57",
+    "Compactness": "0.8687",
+    "Length of Kernel": "6.449",
+    "Width of Kernel": "3.552",
+    "Assymetry Coefficient": "2.144",
+    "Length of Kernel Grove": "6.453",
+    "Class": "2"
+  },
+  {
+    "Area": "18.17",
+    "Perimeter": "16.26",
+    "Compactness": "0.8637",
+    "Length of Kernel": "6.271",
+    "Width of Kernel": "3.512",
+    "Assymetry Coefficient": "2.853",
+    "Length of Kernel Grove": "6.273",
+    "Class": "2"
+  },
+  {
+    "Area": "18.72",
+    "Perimeter": "16.34",
+    "Compactness": "0.881",
+    "Length of Kernel": "6.219",
+    "Width of Kernel": "3.684",
+    "Assymetry Coefficient": "2.188",
+    "Length of Kernel Grove": "6.097",
+    "Class": "2"
+  },
+  {
+    "Area": "16.41",
+    "Perimeter": "15.25",
+    "Compactness": "0.8866",
+    "Length of Kernel": "5.718",
+    "Width of Kernel": "3.525",
+    "Assymetry Coefficient": "4.217",
+    "Length of Kernel Grove": "5.618",
+    "Class": "2"
+  },
+  {
+    "Area": "17.99",
+    "Perimeter": "15.86",
+    "Compactness": "0.8992",
+    "Length of Kernel": "5.89",
+    "Width of Kernel": "3.694",
+    "Assymetry Coefficient": "2.068",
+    "Length of Kernel Grove": "5.837",
+    "Class": "2"
+  },
+  {
+    "Area": "19.46",
+    "Perimeter": "16.5",
+    "Compactness": "0.8985",
+    "Length of Kernel": "6.113",
+    "Width of Kernel": "3.892",
+    "Assymetry Coefficient": "4.308",
+    "Length of Kernel Grove": "6.009",
+    "Class": "2"
+  },
+  {
+    "Area": "19.18",
+    "Perimeter": "16.63",
+    "Compactness": "0.8717",
+    "Length of Kernel": "6.369",
+    "Width of Kernel": "3.681",
+    "Assymetry Coefficient": "3.357",
+    "Length of Kernel Grove": "6.229",
+    "Class": "2"
+  },
+  {
+    "Area": "18.95",
+    "Perimeter": "16.42",
+    "Compactness": "0.8829",
+    "Length of Kernel": "6.248",
+    "Width of Kernel": "3.755",
+    "Assymetry Coefficient": "3.368",
+    "Length of Kernel Grove": "6.148",
+    "Class": "2"
+  },
+  {
+    "Area": "18.83",
+    "Perimeter": "16.29",
+    "Compactness": "0.8917",
+    "Length of Kernel": "6.037",
+    "Width of Kernel": "3.786",
+    "Assymetry Coefficient": "2.553",
+    "Length of Kernel Grove": "5.879",
+    "Class": "2"
+  },
+  {
+    "Area": "18.85",
+    "Perimeter": "16.17",
+    "Compactness": "0.9056",
+    "Length of Kernel": "6.152",
+    "Width of Kernel": "3.806",
+    "Assymetry Coefficient": "2.843",
+    "Length of Kernel Grove": "6.2",
+    "Class": "2"
+  },
+  {
+    "Area": "17.63",
+    "Perimeter": "15.86",
+    "Compactness": "0.88",
+    "Length of Kernel": "6.033",
+    "Width of Kernel": "3.573",
+    "Assymetry Coefficient": "3.747",
+    "Length of Kernel Grove": "5.929",
+    "Class": "2"
+  },
+  {
+    "Area": "19.94",
+    "Perimeter": "16.92",
+    "Compactness": "0.8752",
+    "Length of Kernel": "6.675",
+    "Width of Kernel": "3.763",
+    "Assymetry Coefficient": "3.252",
+    "Length of Kernel Grove": "6.55",
+    "Class": "2"
+  },
+  {
+    "Area": "18.55",
+    "Perimeter": "16.22",
+    "Compactness": "0.8865",
+    "Length of Kernel": "6.153",
+    "Width of Kernel": "3.674",
+    "Assymetry Coefficient": "1.738",
+    "Length of Kernel Grove": "5.894",
+    "Class": "2"
+  },
+  {
+    "Area": "18.45",
+    "Perimeter": "16.12",
+    "Compactness": "0.8921",
+    "Length of Kernel": "6.107",
+    "Width of Kernel": "3.769",
+    "Assymetry Coefficient": "2.235",
+    "Length of Kernel Grove": "5.794",
+    "Class": "2"
+  },
+  {
+    "Area": "19.38",
+    "Perimeter": "16.72",
+    "Compactness": "0.8716",
+    "Length of Kernel": "6.303",
+    "Width of Kernel": "3.791",
+    "Assymetry Coefficient": "3.678",
+    "Length of Kernel Grove": "5.965",
+    "Class": "2"
+  },
+  {
+    "Area": "19.13",
+    "Perimeter": "16.31",
+    "Compactness": "0.9035",
+    "Length of Kernel": "6.183",
+    "Width of Kernel": "3.902",
+    "Assymetry Coefficient": "2.109",
+    "Length of Kernel Grove": "5.924",
+    "Class": "2"
+  },
+  {
+    "Area": "19.14",
+    "Perimeter": "16.61",
+    "Compactness": "0.8722",
+    "Length of Kernel": "6.259",
+    "Width of Kernel": "3.737",
+    "Assymetry Coefficient": "6.682",
+    "Length of Kernel Grove": "6.053",
+    "Class": "2"
+  },
+  {
+    "Area": "20.97",
+    "Perimeter": "17.25",
+    "Compactness": "0.8859",
+    "Length of Kernel": "6.563",
+    "Width of Kernel": "3.991",
+    "Assymetry Coefficient": "4.677",
+    "Length of Kernel Grove": "6.316",
+    "Class": "2"
+  },
+  {
+    "Area": "19.06",
+    "Perimeter": "16.45",
+    "Compactness": "0.8854",
+    "Length of Kernel": "6.416",
+    "Width of Kernel": "3.719",
+    "Assymetry Coefficient": "2.248",
+    "Length of Kernel Grove": "6.163",
+    "Class": "2"
+  },
+  {
+    "Area": "18.96",
+    "Perimeter": "16.2",
+    "Compactness": "0.9077",
+    "Length of Kernel": "6.051",
+    "Width of Kernel": "3.897",
+    "Assymetry Coefficient": "4.334",
+    "Length of Kernel Grove": "5.75",
+    "Class": "2"
+  },
+  {
+    "Area": "19.15",
+    "Perimeter": "16.45",
+    "Compactness": "0.889",
+    "Length of Kernel": "6.245",
+    "Width of Kernel": "3.815",
+    "Assymetry Coefficient": "3.084",
+    "Length of Kernel Grove": "6.185",
+    "Class": "2"
+  },
+  {
+    "Area": "18.89",
+    "Perimeter": "16.23",
+    "Compactness": "0.9008",
+    "Length of Kernel": "6.227",
+    "Width of Kernel": "3.769",
+    "Assymetry Coefficient": "3.639",
+    "Length of Kernel Grove": "5.966",
+    "Class": "2"
+  },
+  {
+    "Area": "20.03",
+    "Perimeter": "16.9",
+    "Compactness": "0.8811",
+    "Length of Kernel": "6.493",
+    "Width of Kernel": "3.857",
+    "Assymetry Coefficient": "3.063",
+    "Length of Kernel Grove": "6.32",
+    "Class": "2"
+  },
+  {
+    "Area": "20.24",
+    "Perimeter": "16.91",
+    "Compactness": "0.8897",
+    "Length of Kernel": "6.315",
+    "Width of Kernel": "3.962",
+    "Assymetry Coefficient": "5.901",
+    "Length of Kernel Grove": "6.188",
+    "Class": "2"
+  },
+  {
+    "Area": "18.14",
+    "Perimeter": "16.12",
+    "Compactness": "0.8772",
+    "Length of Kernel": "6.059",
+    "Width of Kernel": "3.563",
+    "Assymetry Coefficient": "3.619",
+    "Length of Kernel Grove": "6.011",
+    "Class": "2"
+  },
+  {
+    "Area": "16.17",
+    "Perimeter": "15.38",
+    "Compactness": "0.8588",
+    "Length of Kernel": "5.762",
+    "Width of Kernel": "3.387",
+    "Assymetry Coefficient": "4.286",
+    "Length of Kernel Grove": "5.703",
+    "Class": "2"
+  },
+  {
+    "Area": "18.43",
+    "Perimeter": "15.97",
+    "Compactness": "0.9077",
+    "Length of Kernel": "5.98",
+    "Width of Kernel": "3.771",
+    "Assymetry Coefficient": "2.984",
+    "Length of Kernel Grove": "5.905",
+    "Class": "2"
+  },
+  {
+    "Area": "15.99",
+    "Perimeter": "14.89",
+    "Compactness": "0.9064",
+    "Length of Kernel": "5.363",
+    "Width of Kernel": "3.582",
+    "Assymetry Coefficient": "3.336",
+    "Length of Kernel Grove": "5.144",
+    "Class": "2"
+  },
+  {
+    "Area": "18.75",
+    "Perimeter": "16.18",
+    "Compactness": "0.8999",
+    "Length of Kernel": "6.111",
+    "Width of Kernel": "3.869",
+    "Assymetry Coefficient": "4.188",
+    "Length of Kernel Grove": "5.992",
+    "Class": "2"
+  },
+  {
+    "Area": "18.65",
+    "Perimeter": "16.41",
+    "Compactness": "0.8698",
+    "Length of Kernel": "6.285",
+    "Width of Kernel": "3.594",
+    "Assymetry Coefficient": "4.391",
+    "Length of Kernel Grove": "6.102",
+    "Class": "2"
+  },
+  {
+    "Area": "17.98",
+    "Perimeter": "15.85",
+    "Compactness": "0.8993",
+    "Length of Kernel": "5.979",
+    "Width of Kernel": "3.687",
+    "Assymetry Coefficient": "2.257",
+    "Length of Kernel Grove": "5.919",
+    "Class": "2"
+  },
+  {
+    "Area": "20.16",
+    "Perimeter": "17.03",
+    "Compactness": "0.8735",
+    "Length of Kernel": "6.513",
+    "Width of Kernel": "3.773",
+    "Assymetry Coefficient": "1.91",
+    "Length of Kernel Grove": "6.185",
+    "Class": "2"
+  },
+  {
+    "Area": "17.55",
+    "Perimeter": "15.66",
+    "Compactness": "0.8991",
+    "Length of Kernel": "5.791",
+    "Width of Kernel": "3.69",
+    "Assymetry Coefficient": "5.366",
+    "Length of Kernel Grove": "5.661",
+    "Class": "2"
+  },
+  {
+    "Area": "18.3",
+    "Perimeter": "15.89",
+    "Compactness": "0.9108",
+    "Length of Kernel": "5.979",
+    "Width of Kernel": "3.755",
+    "Assymetry Coefficient": "2.837",
+    "Length of Kernel Grove": "5.962",
+    "Class": "2"
+  },
+  {
+    "Area": "18.94",
+    "Perimeter": "16.32",
+    "Compactness": "0.8942",
+    "Length of Kernel": "6.144",
+    "Width of Kernel": "3.825",
+    "Assymetry Coefficient": "2.908",
+    "Length of Kernel Grove": "5.949",
+    "Class": "2"
+  },
+  {
+    "Area": "15.38",
+    "Perimeter": "14.9",
+    "Compactness": "0.8706",
+    "Length of Kernel": "5.884",
+    "Width of Kernel": "3.268",
+    "Assymetry Coefficient": "4.462",
+    "Length of Kernel Grove": "5.795",
+    "Class": "2"
+  },
+  {
+    "Area": "16.16",
+    "Perimeter": "15.33",
+    "Compactness": "0.8644",
+    "Length of Kernel": "5.845",
+    "Width of Kernel": "3.395",
+    "Assymetry Coefficient": "4.266",
+    "Length of Kernel Grove": "5.795",
+    "Class": "2"
+  },
+  {
+    "Area": "15.56",
+    "Perimeter": "14.89",
+    "Compactness": "0.8823",
+    "Length of Kernel": "5.776",
+    "Width of Kernel": "3.408",
+    "Assymetry Coefficient": "4.972",
+    "Length of Kernel Grove": "5.847",
+    "Class": "2"
+  },
+  {
+    "Area": "15.38",
+    "Perimeter": "14.66",
+    "Compactness": "0.899",
+    "Length of Kernel": "5.477",
+    "Width of Kernel": "3.465",
+    "Assymetry Coefficient": "3.6",
+    "Length of Kernel Grove": "5.439",
+    "Class": "2"
+  },
+  {
+    "Area": "17.36",
+    "Perimeter": "15.76",
+    "Compactness": "0.8785",
+    "Length of Kernel": "6.145",
+    "Width of Kernel": "3.574",
+    "Assymetry Coefficient": "3.526",
+    "Length of Kernel Grove": "5.971",
+    "Class": "2"
+  },
+  {
+    "Area": "15.57",
+    "Perimeter": "15.15",
+    "Compactness": "0.8527",
+    "Length of Kernel": "5.92",
+    "Width of Kernel": "3.231",
+    "Assymetry Coefficient": "2.64",
+    "Length of Kernel Grove": "5.879",
+    "Class": "2"
+  },
+  {
+    "Area": "15.6",
+    "Perimeter": "15.11",
+    "Compactness": "0.858",
+    "Length of Kernel": "5.832",
+    "Width of Kernel": "3.286",
+    "Assymetry Coefficient": "2.725",
+    "Length of Kernel Grove": "5.752",
+    "Class": "2"
+  },
+  {
+    "Area": "16.23",
+    "Perimeter": "15.18",
+    "Compactness": "0.885",
+    "Length of Kernel": "5.872",
+    "Width of Kernel": "3.472",
+    "Assymetry Coefficient": "3.769",
+    "Length of Kernel Grove": "5.922",
+    "Class": "2"
+  },
+  {
+    "Area": "13.07",
+    "Perimeter": "13.92",
+    "Compactness": "0.848",
+    "Length of Kernel": "5.472",
+    "Width of Kernel": "2.994",
+    "Assymetry Coefficient": "5.304",
+    "Length of Kernel Grove": "5.395",
+    "Class": "3"
+  },
+  {
+    "Area": "13.32",
+    "Perimeter": "13.94",
+    "Compactness": "0.8613",
+    "Length of Kernel": "5.541",
+    "Width of Kernel": "3.073",
+    "Assymetry Coefficient": "7.035",
+    "Length of Kernel Grove": "5.44",
+    "Class": "3"
+  },
+  {
+    "Area": "13.34",
+    "Perimeter": "13.95",
+    "Compactness": "0.862",
+    "Length of Kernel": "5.389",
+    "Width of Kernel": "3.074",
+    "Assymetry Coefficient": "5.995",
+    "Length of Kernel Grove": "5.307",
+    "Class": "3"
+  },
+  {
+    "Area": "12.22",
+    "Perimeter": "13.32",
+    "Compactness": "0.8652",
+    "Length of Kernel": "5.224",
+    "Width of Kernel": "2.967",
+    "Assymetry Coefficient": "5.469",
+    "Length of Kernel Grove": "5.221",
+    "Class": "3"
+  },
+  {
+    "Area": "11.82",
+    "Perimeter": "13.4",
+    "Compactness": "0.8274",
+    "Length of Kernel": "5.314",
+    "Width of Kernel": "2.777",
+    "Assymetry Coefficient": "4.471",
+    "Length of Kernel Grove": "5.178",
+    "Class": "3"
+  },
+  {
+    "Area": "11.21",
+    "Perimeter": "13.13",
+    "Compactness": "0.8167",
+    "Length of Kernel": "5.279",
+    "Width of Kernel": "2.687",
+    "Assymetry Coefficient": "6.169",
+    "Length of Kernel Grove": "5.275",
+    "Class": "3"
+  },
+  {
+    "Area": "11.43",
+    "Perimeter": "13.13",
+    "Compactness": "0.8335",
+    "Length of Kernel": "5.176",
+    "Width of Kernel": "2.719",
+    "Assymetry Coefficient": "2.221",
+    "Length of Kernel Grove": "5.132",
+    "Class": "3"
+  },
+  {
+    "Area": "12.49",
+    "Perimeter": "13.46",
+    "Compactness": "0.8658",
+    "Length of Kernel": "5.267",
+    "Width of Kernel": "2.967",
+    "Assymetry Coefficient": "4.421",
+    "Length of Kernel Grove": "5.002",
+    "Class": "3"
+  },
+  {
+    "Area": "12.7",
+    "Perimeter": "13.71",
+    "Compactness": "0.8491",
+    "Length of Kernel": "5.386",
+    "Width of Kernel": "2.911",
+    "Assymetry Coefficient": "3.26",
+    "Length of Kernel Grove": "5.316",
+    "Class": "3"
+  },
+  {
+    "Area": "10.79",
+    "Perimeter": "12.93",
+    "Compactness": "0.8107",
+    "Length of Kernel": "5.317",
+    "Width of Kernel": "2.648",
+    "Assymetry Coefficient": "5.462",
+    "Length of Kernel Grove": "5.194",
+    "Class": "3"
+  },
+  {
+    "Area": "11.83",
+    "Perimeter": "13.23",
+    "Compactness": "0.8496",
+    "Length of Kernel": "5.263",
+    "Width of Kernel": "2.84",
+    "Assymetry Coefficient": "5.195",
+    "Length of Kernel Grove": "5.307",
+    "Class": "3"
+  },
+  {
+    "Area": "12.01",
+    "Perimeter": "13.52",
+    "Compactness": "0.8249",
+    "Length of Kernel": "5.405",
+    "Width of Kernel": "2.776",
+    "Assymetry Coefficient": "6.992",
+    "Length of Kernel Grove": "5.27",
+    "Class": "3"
+  },
+  {
+    "Area": "12.26",
+    "Perimeter": "13.6",
+    "Compactness": "0.8333",
+    "Length of Kernel": "5.408",
+    "Width of Kernel": "2.833",
+    "Assymetry Coefficient": "4.756",
+    "Length of Kernel Grove": "5.36",
+    "Class": "3"
+  },
+  {
+    "Area": "11.18",
+    "Perimeter": "13.04",
+    "Compactness": "0.8266",
+    "Length of Kernel": "5.22",
+    "Width of Kernel": "2.693",
+    "Assymetry Coefficient": "3.332",
+    "Length of Kernel Grove": "5.001",
+    "Class": "3"
+  },
+  {
+    "Area": "11.36",
+    "Perimeter": "13.05",
+    "Compactness": "0.8382",
+    "Length of Kernel": "5.175",
+    "Width of Kernel": "2.755",
+    "Assymetry Coefficient": "4.048",
+    "Length of Kernel Grove": "5.263",
+    "Class": "3"
+  },
+  {
+    "Area": "11.19",
+    "Perimeter": "13.05",
+    "Compactness": "0.8253",
+    "Length of Kernel": "5.25",
+    "Width of Kernel": "2.675",
+    "Assymetry Coefficient": "5.813",
+    "Length of Kernel Grove": "5.219",
+    "Class": "3"
+  },
+  {
+    "Area": "11.34",
+    "Perimeter": "12.87",
+    "Compactness": "0.8596",
+    "Length of Kernel": "5.053",
+    "Width of Kernel": "2.849",
+    "Assymetry Coefficient": "3.347",
+    "Length of Kernel Grove": "5.003",
+    "Class": "3"
+  },
+  {
+    "Area": "12.13",
+    "Perimeter": "13.73",
+    "Compactness": "0.8081",
+    "Length of Kernel": "5.394",
+    "Width of Kernel": "2.745",
+    "Assymetry Coefficient": "4.825",
+    "Length of Kernel Grove": "5.22",
+    "Class": "3"
+  },
+  {
+    "Area": "11.75",
+    "Perimeter": "13.52",
+    "Compactness": "0.8082",
+    "Length of Kernel": "5.444",
+    "Width of Kernel": "2.678",
+    "Assymetry Coefficient": "4.378",
+    "Length of Kernel Grove": "5.31",
+    "Class": "3"
+  },
+  {
+    "Area": "11.49",
+    "Perimeter": "13.22",
+    "Compactness": "0.8263",
+    "Length of Kernel": "5.304",
+    "Width of Kernel": "2.695",
+    "Assymetry Coefficient": "5.388",
+    "Length of Kernel Grove": "5.31",
+    "Class": "3"
+  },
+  {
+    "Area": "12.54",
+    "Perimeter": "13.67",
+    "Compactness": "0.8425",
+    "Length of Kernel": "5.451",
+    "Width of Kernel": "2.879",
+    "Assymetry Coefficient": "3.082",
+    "Length of Kernel Grove": "5.491",
+    "Class": "3"
+  },
+  {
+    "Area": "12.02",
+    "Perimeter": "13.33",
+    "Compactness": "0.8503",
+    "Length of Kernel": "5.35",
+    "Width of Kernel": "2.81",
+    "Assymetry Coefficient": "4.271",
+    "Length of Kernel Grove": "5.308",
+    "Class": "3"
+  },
+  {
+    "Area": "12.05",
+    "Perimeter": "13.41",
+    "Compactness": "0.8416",
+    "Length of Kernel": "5.267",
+    "Width of Kernel": "2.847",
+    "Assymetry Coefficient": "4.988",
+    "Length of Kernel Grove": "5.046",
+    "Class": "3"
+  },
+  {
+    "Area": "12.55",
+    "Perimeter": "13.57",
+    "Compactness": "0.8558",
+    "Length of Kernel": "5.333",
+    "Width of Kernel": "2.968",
+    "Assymetry Coefficient": "4.419",
+    "Length of Kernel Grove": "5.176",
+    "Class": "3"
+  },
+  {
+    "Area": "11.14",
+    "Perimeter": "12.79",
+    "Compactness": "0.8558",
+    "Length of Kernel": "5.011",
+    "Width of Kernel": "2.794",
+    "Assymetry Coefficient": "6.388",
+    "Length of Kernel Grove": "5.049",
+    "Class": "3"
+  },
+  {
+    "Area": "12.1",
+    "Perimeter": "13.15",
+    "Compactness": "0.8793",
+    "Length of Kernel": "5.105",
+    "Width of Kernel": "2.941",
+    "Assymetry Coefficient": "2.201",
+    "Length of Kernel Grove": "5.056",
+    "Class": "3"
+  },
+  {
+    "Area": "12.44",
+    "Perimeter": "13.59",
+    "Compactness": "0.8462",
+    "Length of Kernel": "5.319",
+    "Width of Kernel": "2.897",
+    "Assymetry Coefficient": "4.924",
+    "Length of Kernel Grove": "5.27",
+    "Class": "3"
+  },
+  {
+    "Area": "12.15",
+    "Perimeter": "13.45",
+    "Compactness": "0.8443",
+    "Length of Kernel": "5.417",
+    "Width of Kernel": "2.837",
+    "Assymetry Coefficient": "3.638",
+    "Length of Kernel Grove": "5.338",
+    "Class": "3"
+  },
+  {
+    "Area": "11.35",
+    "Perimeter": "13.12",
+    "Compactness": "0.8291",
+    "Length of Kernel": "5.176",
+    "Width of Kernel": "2.668",
+    "Assymetry Coefficient": "4.337",
+    "Length of Kernel Grove": "5.132",
+    "Class": "3"
+  },
+  {
+    "Area": "11.24",
+    "Perimeter": "13",
+    "Compactness": "0.8359",
+    "Length of Kernel": "5.09",
+    "Width of Kernel": "2.715",
+    "Assymetry Coefficient": "3.521",
+    "Length of Kernel Grove": "5.088",
+    "Class": "3"
+  },
+  {
+    "Area": "11.02",
+    "Perimeter": "13",
+    "Compactness": "0.8189",
+    "Length of Kernel": "5.325",
+    "Width of Kernel": "2.701",
+    "Assymetry Coefficient": "6.735",
+    "Length of Kernel Grove": "5.163",
+    "Class": "3"
+  },
+  {
+    "Area": "11.55",
+    "Perimeter": "13.1",
+    "Compactness": "0.8455",
+    "Length of Kernel": "5.167",
+    "Width of Kernel": "2.845",
+    "Assymetry Coefficient": "6.715",
+    "Length of Kernel Grove": "4.956",
+    "Class": "3"
+  },
+  {
+    "Area": "11.27",
+    "Perimeter": "12.97",
+    "Compactness": "0.8419",
+    "Length of Kernel": "5.088",
+    "Width of Kernel": "2.763",
+    "Assymetry Coefficient": "4.309",
+    "Length of Kernel Grove": "5",
+    "Class": "3"
+  },
+  {
+    "Area": "11.4",
+    "Perimeter": "13.08",
+    "Compactness": "0.8375",
+    "Length of Kernel": "5.136",
+    "Width of Kernel": "2.763",
+    "Assymetry Coefficient": "5.588",
+    "Length of Kernel Grove": "5.089",
+    "Class": "3"
+  },
+  {
+    "Area": "10.83",
+    "Perimeter": "12.96",
+    "Compactness": "0.8099",
+    "Length of Kernel": "5.278",
+    "Width of Kernel": "2.641",
+    "Assymetry Coefficient": "5.182",
+    "Length of Kernel Grove": "5.185",
+    "Class": "3"
+  },
+  {
+    "Area": "10.8",
+    "Perimeter": "12.57",
+    "Compactness": "0.859",
+    "Length of Kernel": "4.981",
+    "Width of Kernel": "2.821",
+    "Assymetry Coefficient": "4.773",
+    "Length of Kernel Grove": "5.063",
+    "Class": "3"
+  },
+  {
+    "Area": "11.26",
+    "Perimeter": "13.01",
+    "Compactness": "0.8355",
+    "Length of Kernel": "5.186",
+    "Width of Kernel": "2.71",
+    "Assymetry Coefficient": "5.335",
+    "Length of Kernel Grove": "5.092",
+    "Class": "3"
+  },
+  {
+    "Area": "10.74",
+    "Perimeter": "12.73",
+    "Compactness": "0.8329",
+    "Length of Kernel": "5.145",
+    "Width of Kernel": "2.642",
+    "Assymetry Coefficient": "4.702",
+    "Length of Kernel Grove": "4.963",
+    "Class": "3"
+  },
+  {
+    "Area": "11.48",
+    "Perimeter": "13.05",
+    "Compactness": "0.8473",
+    "Length of Kernel": "5.18",
+    "Width of Kernel": "2.758",
+    "Assymetry Coefficient": "5.876",
+    "Length of Kernel Grove": "5.002",
+    "Class": "3"
+  },
+  {
+    "Area": "12.21",
+    "Perimeter": "13.47",
+    "Compactness": "0.8453",
+    "Length of Kernel": "5.357",
+    "Width of Kernel": "2.893",
+    "Assymetry Coefficient": "1.661",
+    "Length of Kernel Grove": "5.178",
+    "Class": "3"
+  },
+  {
+    "Area": "11.41",
+    "Perimeter": "12.95",
+    "Compactness": "0.856",
+    "Length of Kernel": "5.09",
+    "Width of Kernel": "2.775",
+    "Assymetry Coefficient": "4.957",
+    "Length of Kernel Grove": "4.825",
+    "Class": "3"
+  },
+  {
+    "Area": "12.46",
+    "Perimeter": "13.41",
+    "Compactness": "0.8706",
+    "Length of Kernel": "5.236",
+    "Width of Kernel": "3.017",
+    "Assymetry Coefficient": "4.987",
+    "Length of Kernel Grove": "5.147",
+    "Class": "3"
+  },
+  {
+    "Area": "12.19",
+    "Perimeter": "13.36",
+    "Compactness": "0.8579",
+    "Length of Kernel": "5.24",
+    "Width of Kernel": "2.909",
+    "Assymetry Coefficient": "4.857",
+    "Length of Kernel Grove": "5.158",
+    "Class": "3"
+  },
+  {
+    "Area": "11.65",
+    "Perimeter": "13.07",
+    "Compactness": "0.8575",
+    "Length of Kernel": "5.108",
+    "Width of Kernel": "2.85",
+    "Assymetry Coefficient": "5.209",
+    "Length of Kernel Grove": "5.135",
+    "Class": "3"
+  },
+  {
+    "Area": "12.89",
+    "Perimeter": "13.77",
+    "Compactness": "0.8541",
+    "Length of Kernel": "5.495",
+    "Width of Kernel": "3.026",
+    "Assymetry Coefficient": "6.185",
+    "Length of Kernel Grove": "5.316",
+    "Class": "3"
+  },
+  {
+    "Area": "11.56",
+    "Perimeter": "13.31",
+    "Compactness": "0.8198",
+    "Length of Kernel": "5.363",
+    "Width of Kernel": "2.683",
+    "Assymetry Coefficient": "4.062",
+    "Length of Kernel Grove": "5.182",
+    "Class": "3"
+  },
+  {
+    "Area": "11.81",
+    "Perimeter": "13.45",
+    "Compactness": "0.8198",
+    "Length of Kernel": "5.413",
+    "Width of Kernel": "2.716",
+    "Assymetry Coefficient": "4.898",
+    "Length of Kernel Grove": "5.352",
+    "Class": "3"
+  },
+  {
+    "Area": "10.91",
+    "Perimeter": "12.8",
+    "Compactness": "0.8372",
+    "Length of Kernel": "5.088",
+    "Width of Kernel": "2.675",
+    "Assymetry Coefficient": "4.179",
+    "Length of Kernel Grove": "4.956",
+    "Class": "3"
+  },
+  {
+    "Area": "11.23",
+    "Perimeter": "12.82",
+    "Compactness": "0.8594",
+    "Length of Kernel": "5.089",
+    "Width of Kernel": "2.821",
+    "Assymetry Coefficient": "7.524",
+    "Length of Kernel Grove": "4.957",
+    "Class": "3"
+  },
+  {
+    "Area": "10.59",
+    "Perimeter": "12.41",
+    "Compactness": "0.8648",
+    "Length of Kernel": "4.899",
+    "Width of Kernel": "2.787",
+    "Assymetry Coefficient": "4.975",
+    "Length of Kernel Grove": "4.794",
+    "Class": "3"
+  },
+  {
+    "Area": "10.93",
+    "Perimeter": "12.8",
+    "Compactness": "0.839",
+    "Length of Kernel": "5.046",
+    "Width of Kernel": "2.717",
+    "Assymetry Coefficient": "5.398",
+    "Length of Kernel Grove": "5.045",
+    "Class": "3"
+  },
+  {
+    "Area": "11.27",
+    "Perimeter": "12.86",
+    "Compactness": "0.8563",
+    "Length of Kernel": "5.091",
+    "Width of Kernel": "2.804",
+    "Assymetry Coefficient": "3.985",
+    "Length of Kernel Grove": "5.001",
+    "Class": "3"
+  },
+  {
+    "Area": "11.87",
+    "Perimeter": "13.02",
+    "Compactness": "0.8795",
+    "Length of Kernel": "5.132",
+    "Width of Kernel": "2.953",
+    "Assymetry Coefficient": "3.597",
+    "Length of Kernel Grove": "5.132",
+    "Class": "3"
+  },
+  {
+    "Area": "10.82",
+    "Perimeter": "12.83",
+    "Compactness": "0.8256",
+    "Length of Kernel": "5.18",
+    "Width of Kernel": "2.63",
+    "Assymetry Coefficient": "4.853",
+    "Length of Kernel Grove": "5.089",
+    "Class": "3"
+  },
+  {
+    "Area": "12.11",
+    "Perimeter": "13.27",
+    "Compactness": "0.8639",
+    "Length of Kernel": "5.236",
+    "Width of Kernel": "2.975",
+    "Assymetry Coefficient": "4.132",
+    "Length of Kernel Grove": "5.012",
+    "Class": "3"
+  },
+  {
+    "Area": "12.8",
+    "Perimeter": "13.47",
+    "Compactness": "0.886",
+    "Length of Kernel": "5.16",
+    "Width of Kernel": "3.126",
+    "Assymetry Coefficient": "4.873",
+    "Length of Kernel Grove": "4.914",
+    "Class": "3"
+  },
+  {
+    "Area": "12.79",
+    "Perimeter": "13.53",
+    "Compactness": "0.8786",
+    "Length of Kernel": "5.224",
+    "Width of Kernel": "3.054",
+    "Assymetry Coefficient": "5.483",
+    "Length of Kernel Grove": "4.958",
+    "Class": "3"
+  },
+  {
+    "Area": "13.37",
+    "Perimeter": "13.78",
+    "Compactness": "0.8849",
+    "Length of Kernel": "5.32",
+    "Width of Kernel": "3.128",
+    "Assymetry Coefficient": "4.67",
+    "Length of Kernel Grove": "5.091",
+    "Class": "3"
+  },
+  {
+    "Area": "12.62",
+    "Perimeter": "13.67",
+    "Compactness": "0.8481",
+    "Length of Kernel": "5.41",
+    "Width of Kernel": "2.911",
+    "Assymetry Coefficient": "3.306",
+    "Length of Kernel Grove": "5.231",
+    "Class": "3"
+  },
+  {
+    "Area": "12.76",
+    "Perimeter": "13.38",
+    "Compactness": "0.8964",
+    "Length of Kernel": "5.073",
+    "Width of Kernel": "3.155",
+    "Assymetry Coefficient": "2.828",
+    "Length of Kernel Grove": "4.83",
+    "Class": "3"
+  },
+  {
+    "Area": "12.38",
+    "Perimeter": "13.44",
+    "Compactness": "0.8609",
+    "Length of Kernel": "5.219",
+    "Width of Kernel": "2.989",
+    "Assymetry Coefficient": "5.472",
+    "Length of Kernel Grove": "5.045",
+    "Class": "3"
+  },
+  {
+    "Area": "12.67",
+    "Perimeter": "13.32",
+    "Compactness": "0.8977",
+    "Length of Kernel": "4.984",
+    "Width of Kernel": "3.135",
+    "Assymetry Coefficient": "2.3",
+    "Length of Kernel Grove": "4.745",
+    "Class": "3"
+  },
+  {
+    "Area": "11.18",
+    "Perimeter": "12.72",
+    "Compactness": "0.868",
+    "Length of Kernel": "5.009",
+    "Width of Kernel": "2.81",
+    "Assymetry Coefficient": "4.051",
+    "Length of Kernel Grove": "4.828",
+    "Class": "3"
+  },
+  {
+    "Area": "12.7",
+    "Perimeter": "13.41",
+    "Compactness": "0.8874",
+    "Length of Kernel": "5.183",
+    "Width of Kernel": "3.091",
+    "Assymetry Coefficient": "8.456",
+    "Length of Kernel Grove": "5",
+    "Class": "3"
+  },
+  {
+    "Area": "12.37",
+    "Perimeter": "13.47",
+    "Compactness": "0.8567",
+    "Length of Kernel": "5.204",
+    "Width of Kernel": "2.96",
+    "Assymetry Coefficient": "3.919",
+    "Length of Kernel Grove": "5.001",
+    "Class": "3"
+  },
+  {
+    "Area": "12.19",
+    "Perimeter": "13.2",
+    "Compactness": "0.8783",
+    "Length of Kernel": "5.137",
+    "Width of Kernel": "2.981",
+    "Assymetry Coefficient": "3.631",
+    "Length of Kernel Grove": "4.87",
+    "Class": "3"
+  },
+  {
+    "Area": "11.23",
+    "Perimeter": "12.88",
+    "Compactness": "0.8511",
+    "Length of Kernel": "5.14",
+    "Width of Kernel": "2.795",
+    "Assymetry Coefficient": "4.325",
+    "Length of Kernel Grove": "5.003",
+    "Class": "3"
+  },
+  {
+    "Area": "13.2",
+    "Perimeter": "13.66",
+    "Compactness": "0.8883",
+    "Length of Kernel": "5.236",
+    "Width of Kernel": "3.232",
+    "Assymetry Coefficient": "8.315",
+    "Length of Kernel Grove": "5.056",
+    "Class": "3"
+  },
+  {
+    "Area": "11.84",
+    "Perimeter": "13.21",
+    "Compactness": "0.8521",
+    "Length of Kernel": "5.175",
+    "Width of Kernel": "2.836",
+    "Assymetry Coefficient": "3.598",
+    "Length of Kernel Grove": "5.044",
+    "Class": "3"
+  },
+  {
+    "Area": "12.3",
+    "Perimeter": "13.34",
+    "Compactness": "0.8684",
+    "Length of Kernel": "5.243",
+    "Width of Kernel": "2.974",
+    "Assymetry Coefficient": "5.637",
+    "Length of Kernel Grove": "5.063",
+    "Class": "3"
+  }
+]

@@ -1,0 +1,9606 @@
+[
+  {
+    "variance": "3.6216",
+    "skewness": "8.6661",
+    "kurtosis": "-2.8073",
+    "entropy": "-0.44699",
+    "fake": "0"
+  },
+  {
+    "variance": "4.5459",
+    "skewness": "8.1674",
+    "kurtosis": "-2.4586",
+    "entropy": "-1.4621",
+    "fake": "0"
+  },
+  {
+    "variance": "3.866",
+    "skewness": "-2.6383",
+    "kurtosis": "1.9242",
+    "entropy": "0.10645",
+    "fake": "0"
+  },
+  {
+    "variance": "3.4566",
+    "skewness": "9.5228",
+    "kurtosis": "-4.0112",
+    "entropy": "-3.5944",
+    "fake": "0"
+  },
+  {
+    "variance": "0.32924",
+    "skewness": "-4.4552",
+    "kurtosis": "4.5718",
+    "entropy": "-0.9888",
+    "fake": "0"
+  },
+  {
+    "variance": "4.3684",
+    "skewness": "9.6718",
+    "kurtosis": "-3.9606",
+    "entropy": "-3.1625",
+    "fake": "0"
+  },
+  {
+    "variance": "3.5912",
+    "skewness": "3.0129",
+    "kurtosis": "0.72888",
+    "entropy": "0.56421",
+    "fake": "0"
+  },
+  {
+    "variance": "2.0922",
+    "skewness": "-6.81",
+    "kurtosis": "8.4636",
+    "entropy": "-0.60216",
+    "fake": "0"
+  },
+  {
+    "variance": "3.2032",
+    "skewness": "5.7588",
+    "kurtosis": "-0.75345",
+    "entropy": "-0.61251",
+    "fake": "0"
+  },
+  {
+    "variance": "1.5356",
+    "skewness": "9.1772",
+    "kurtosis": "-2.2718",
+    "entropy": "-0.73535",
+    "fake": "0"
+  },
+  {
+    "variance": "1.2247",
+    "skewness": "8.7779",
+    "kurtosis": "-2.2135",
+    "entropy": "-0.80647",
+    "fake": "0"
+  },
+  {
+    "variance": "3.9899",
+    "skewness": "-2.7066",
+    "kurtosis": "2.3946",
+    "entropy": "0.86291",
+    "fake": "0"
+  },
+  {
+    "variance": "1.8993",
+    "skewness": "7.6625",
+    "kurtosis": "0.15394",
+    "entropy": "-3.1108",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.5768",
+    "skewness": "10.843",
+    "kurtosis": "2.5462",
+    "entropy": "-2.9362",
+    "fake": "0"
+  },
+  {
+    "variance": "3.404",
+    "skewness": "8.7261",
+    "kurtosis": "-2.9915",
+    "entropy": "-0.57242",
+    "fake": "0"
+  },
+  {
+    "variance": "4.6765",
+    "skewness": "-3.3895",
+    "kurtosis": "3.4896",
+    "entropy": "1.4771",
+    "fake": "0"
+  },
+  {
+    "variance": "2.6719",
+    "skewness": "3.0646",
+    "kurtosis": "0.37158",
+    "entropy": "0.58619",
+    "fake": "0"
+  },
+  {
+    "variance": "0.80355",
+    "skewness": "2.8473",
+    "kurtosis": "4.3439",
+    "entropy": "0.6017",
+    "fake": "0"
+  },
+  {
+    "variance": "1.4479",
+    "skewness": "-4.8794",
+    "kurtosis": "8.3428",
+    "entropy": "-2.1086",
+    "fake": "0"
+  },
+  {
+    "variance": "5.2423",
+    "skewness": "11.0272",
+    "kurtosis": "-4.353",
+    "entropy": "-4.1013",
+    "fake": "0"
+  },
+  {
+    "variance": "5.7867",
+    "skewness": "7.8902",
+    "kurtosis": "-2.6196",
+    "entropy": "-0.48708",
+    "fake": "0"
+  },
+  {
+    "variance": "0.3292",
+    "skewness": "-4.4552",
+    "kurtosis": "4.5718",
+    "entropy": "-0.9888",
+    "fake": "0"
+  },
+  {
+    "variance": "3.9362",
+    "skewness": "10.1622",
+    "kurtosis": "-3.8235",
+    "entropy": "-4.0172",
+    "fake": "0"
+  },
+  {
+    "variance": "0.93584",
+    "skewness": "8.8855",
+    "kurtosis": "-1.6831",
+    "entropy": "-1.6599",
+    "fake": "0"
+  },
+  {
+    "variance": "4.4338",
+    "skewness": "9.887",
+    "kurtosis": "-4.6795",
+    "entropy": "-3.7483",
+    "fake": "0"
+  },
+  {
+    "variance": "0.7057",
+    "skewness": "-5.4981",
+    "kurtosis": "8.3368",
+    "entropy": "-2.8715",
+    "fake": "0"
+  },
+  {
+    "variance": "1.1432",
+    "skewness": "-3.7413",
+    "kurtosis": "5.5777",
+    "entropy": "-0.63578",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.38214",
+    "skewness": "8.3909",
+    "kurtosis": "2.1624",
+    "entropy": "-3.7405",
+    "fake": "0"
+  },
+  {
+    "variance": "6.5633",
+    "skewness": "9.8187",
+    "kurtosis": "-4.4113",
+    "entropy": "-3.2258",
+    "fake": "0"
+  },
+  {
+    "variance": "4.8906",
+    "skewness": "-3.3584",
+    "kurtosis": "3.4202",
+    "entropy": "1.0905",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.24811",
+    "skewness": "-0.17797",
+    "kurtosis": "4.9068",
+    "entropy": "0.15429",
+    "fake": "0"
+  },
+  {
+    "variance": "1.4884",
+    "skewness": "3.6274",
+    "kurtosis": "3.308",
+    "entropy": "0.48921",
+    "fake": "0"
+  },
+  {
+    "variance": "4.2969",
+    "skewness": "7.617",
+    "kurtosis": "-2.3874",
+    "entropy": "-0.96164",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.96511",
+    "skewness": "9.4111",
+    "kurtosis": "1.7305",
+    "entropy": "-4.8629",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.6162",
+    "skewness": "0.80908",
+    "kurtosis": "8.1628",
+    "entropy": "0.60817",
+    "fake": "0"
+  },
+  {
+    "variance": "2.4391",
+    "skewness": "6.4417",
+    "kurtosis": "-0.80743",
+    "entropy": "-0.69139",
+    "fake": "0"
+  },
+  {
+    "variance": "2.6881",
+    "skewness": "6.0195",
+    "kurtosis": "-0.46641",
+    "entropy": "-0.69268",
+    "fake": "0"
+  },
+  {
+    "variance": "3.6289",
+    "skewness": "0.81322",
+    "kurtosis": "1.6277",
+    "entropy": "0.77627",
+    "fake": "0"
+  },
+  {
+    "variance": "4.5679",
+    "skewness": "3.1929",
+    "kurtosis": "-2.1055",
+    "entropy": "0.29653",
+    "fake": "0"
+  },
+  {
+    "variance": "3.4805",
+    "skewness": "9.7008",
+    "kurtosis": "-3.7541",
+    "entropy": "-3.4379",
+    "fake": "0"
+  },
+  {
+    "variance": "4.1711",
+    "skewness": "8.722",
+    "kurtosis": "-3.0224",
+    "entropy": "-0.59699",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.2062",
+    "skewness": "9.2207",
+    "kurtosis": "-3.7044",
+    "entropy": "-6.8103",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.0068919",
+    "skewness": "9.2931",
+    "kurtosis": "-0.41243",
+    "entropy": "-1.9638",
+    "fake": "0"
+  },
+  {
+    "variance": "0.96441",
+    "skewness": "5.8395",
+    "kurtosis": "2.3235",
+    "entropy": "0.066365",
+    "fake": "0"
+  },
+  {
+    "variance": "2.8561",
+    "skewness": "6.9176",
+    "kurtosis": "-0.79372",
+    "entropy": "0.48403",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.7869",
+    "skewness": "9.5663",
+    "kurtosis": "-3.7867",
+    "entropy": "-7.5034",
+    "fake": "0"
+  },
+  {
+    "variance": "2.0843",
+    "skewness": "6.6258",
+    "kurtosis": "0.48382",
+    "entropy": "-2.2134",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.7869",
+    "skewness": "9.5663",
+    "kurtosis": "-3.7867",
+    "entropy": "-7.5034",
+    "fake": "0"
+  },
+  {
+    "variance": "3.9102",
+    "skewness": "6.065",
+    "kurtosis": "-2.4534",
+    "entropy": "-0.68234",
+    "fake": "0"
+  },
+  {
+    "variance": "1.6349",
+    "skewness": "3.286",
+    "kurtosis": "2.8753",
+    "entropy": "0.087054",
+    "fake": "0"
+  },
+  {
+    "variance": "4.3239",
+    "skewness": "-4.8835",
+    "kurtosis": "3.4356",
+    "entropy": "-0.5776",
+    "fake": "0"
+  },
+  {
+    "variance": "5.262",
+    "skewness": "3.9834",
+    "kurtosis": "-1.5572",
+    "entropy": "1.0103",
+    "fake": "0"
+  },
+  {
+    "variance": "3.1452",
+    "skewness": "5.825",
+    "kurtosis": "-0.51439",
+    "entropy": "-1.4944",
+    "fake": "0"
+  },
+  {
+    "variance": "2.549",
+    "skewness": "6.1499",
+    "kurtosis": "-1.1605",
+    "entropy": "-1.2371",
+    "fake": "0"
+  },
+  {
+    "variance": "4.9264",
+    "skewness": "5.496",
+    "kurtosis": "-2.4774",
+    "entropy": "-0.50648",
+    "fake": "0"
+  },
+  {
+    "variance": "4.8265",
+    "skewness": "0.80287",
+    "kurtosis": "1.6371",
+    "entropy": "1.1875",
+    "fake": "0"
+  },
+  {
+    "variance": "2.5635",
+    "skewness": "6.7769",
+    "kurtosis": "-0.61979",
+    "entropy": "0.38576",
+    "fake": "0"
+  },
+  {
+    "variance": "5.807",
+    "skewness": "5.0097",
+    "kurtosis": "-2.2384",
+    "entropy": "0.43878",
+    "fake": "0"
+  },
+  {
+    "variance": "3.1377",
+    "skewness": "-4.1096",
+    "kurtosis": "4.5701",
+    "entropy": "0.98963",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.78289",
+    "skewness": "11.3603",
+    "kurtosis": "-0.37644",
+    "entropy": "-7.0495",
+    "fake": "0"
+  },
+  {
+    "variance": "2.888",
+    "skewness": "0.44696",
+    "kurtosis": "4.5907",
+    "entropy": "-0.24398",
+    "fake": "0"
+  },
+  {
+    "variance": "0.49665",
+    "skewness": "5.527",
+    "kurtosis": "1.7785",
+    "entropy": "-0.47156",
+    "fake": "0"
+  },
+  {
+    "variance": "4.2586",
+    "skewness": "11.2962",
+    "kurtosis": "-4.0943",
+    "entropy": "-4.3457",
+    "fake": "0"
+  },
+  {
+    "variance": "1.7939",
+    "skewness": "-1.1174",
+    "kurtosis": "1.5454",
+    "entropy": "-0.26079",
+    "fake": "0"
+  },
+  {
+    "variance": "5.4021",
+    "skewness": "3.1039",
+    "kurtosis": "-1.1536",
+    "entropy": "1.5651",
+    "fake": "0"
+  },
+  {
+    "variance": "2.5367",
+    "skewness": "2.599",
+    "kurtosis": "2.0938",
+    "entropy": "0.20085",
+    "fake": "0"
+  },
+  {
+    "variance": "4.6054",
+    "skewness": "-4.0765",
+    "kurtosis": "2.7587",
+    "entropy": "0.31981",
+    "fake": "0"
+  },
+  {
+    "variance": "2.4235",
+    "skewness": "9.5332",
+    "kurtosis": "-3.0789",
+    "entropy": "-2.7746",
+    "fake": "0"
+  },
+  {
+    "variance": "1.0009",
+    "skewness": "7.7846",
+    "kurtosis": "-0.28219",
+    "entropy": "-2.6608",
+    "fake": "0"
+  },
+  {
+    "variance": "0.12326",
+    "skewness": "8.9848",
+    "kurtosis": "-0.9351",
+    "entropy": "-2.4332",
+    "fake": "0"
+  },
+  {
+    "variance": "3.9529",
+    "skewness": "-2.3548",
+    "kurtosis": "2.3792",
+    "entropy": "0.48274",
+    "fake": "0"
+  },
+  {
+    "variance": "4.1373",
+    "skewness": "0.49248",
+    "kurtosis": "1.093",
+    "entropy": "1.8276",
+    "fake": "0"
+  },
+  {
+    "variance": "4.7181",
+    "skewness": "10.0153",
+    "kurtosis": "-3.9486",
+    "entropy": "-3.8582",
+    "fake": "0"
+  },
+  {
+    "variance": "4.1654",
+    "skewness": "-3.4495",
+    "kurtosis": "3.643",
+    "entropy": "1.0879",
+    "fake": "0"
+  },
+  {
+    "variance": "4.4069",
+    "skewness": "10.9072",
+    "kurtosis": "-4.5775",
+    "entropy": "-4.4271",
+    "fake": "0"
+  },
+  {
+    "variance": "2.3066",
+    "skewness": "3.5364",
+    "kurtosis": "0.57551",
+    "entropy": "0.41938",
+    "fake": "0"
+  },
+  {
+    "variance": "3.7935",
+    "skewness": "7.9853",
+    "kurtosis": "-2.5477",
+    "entropy": "-1.872",
+    "fake": "0"
+  },
+  {
+    "variance": "0.049175",
+    "skewness": "6.1437",
+    "kurtosis": "1.7828",
+    "entropy": "-0.72113",
+    "fake": "0"
+  },
+  {
+    "variance": "0.24835",
+    "skewness": "7.6439",
+    "kurtosis": "0.9885",
+    "entropy": "-0.87371",
+    "fake": "0"
+  },
+  {
+    "variance": "1.1317",
+    "skewness": "3.9647",
+    "kurtosis": "3.3979",
+    "entropy": "0.84351",
+    "fake": "0"
+  },
+  {
+    "variance": "2.8033",
+    "skewness": "9.0862",
+    "kurtosis": "-3.3668",
+    "entropy": "-1.0224",
+    "fake": "0"
+  },
+  {
+    "variance": "4.4682",
+    "skewness": "2.2907",
+    "kurtosis": "0.95766",
+    "entropy": "0.83058",
+    "fake": "0"
+  },
+  {
+    "variance": "5.0185",
+    "skewness": "8.5978",
+    "kurtosis": "-2.9375",
+    "entropy": "-1.281",
+    "fake": "0"
+  },
+  {
+    "variance": "1.8664",
+    "skewness": "7.7763",
+    "kurtosis": "-0.23849",
+    "entropy": "-2.9634",
+    "fake": "0"
+  },
+  {
+    "variance": "3.245",
+    "skewness": "6.63",
+    "kurtosis": "-0.63435",
+    "entropy": "0.86937",
+    "fake": "0"
+  },
+  {
+    "variance": "4.0296",
+    "skewness": "2.6756",
+    "kurtosis": "0.80685",
+    "entropy": "0.71679",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.1313",
+    "skewness": "1.9037",
+    "kurtosis": "7.5339",
+    "entropy": "1.022",
+    "fake": "0"
+  },
+  {
+    "variance": "0.87603",
+    "skewness": "6.8141",
+    "kurtosis": "0.84198",
+    "entropy": "-0.17156",
+    "fake": "0"
+  },
+  {
+    "variance": "4.1197",
+    "skewness": "-2.7956",
+    "kurtosis": "2.0707",
+    "entropy": "0.67412",
+    "fake": "0"
+  },
+  {
+    "variance": "3.8027",
+    "skewness": "0.81529",
+    "kurtosis": "2.1041",
+    "entropy": "1.0245",
+    "fake": "0"
+  },
+  {
+    "variance": "1.4806",
+    "skewness": "7.6377",
+    "kurtosis": "-2.7876",
+    "entropy": "-1.0341",
+    "fake": "0"
+  },
+  {
+    "variance": "4.0632",
+    "skewness": "3.584",
+    "kurtosis": "0.72545",
+    "entropy": "0.39481",
+    "fake": "0"
+  },
+  {
+    "variance": "4.3064",
+    "skewness": "8.2068",
+    "kurtosis": "-2.7824",
+    "entropy": "-1.4336",
+    "fake": "0"
+  },
+  {
+    "variance": "2.4486",
+    "skewness": "-6.3175",
+    "kurtosis": "7.9632",
+    "entropy": "0.20602",
+    "fake": "0"
+  },
+  {
+    "variance": "3.2718",
+    "skewness": "1.7837",
+    "kurtosis": "2.1161",
+    "entropy": "0.61334",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.64472",
+    "skewness": "-4.6062",
+    "kurtosis": "8.347",
+    "entropy": "-2.7099",
+    "fake": "0"
+  },
+  {
+    "variance": "2.9543",
+    "skewness": "1.076",
+    "kurtosis": "0.64577",
+    "entropy": "0.89394",
+    "fake": "0"
+  },
+  {
+    "variance": "2.1616",
+    "skewness": "-6.8804",
+    "kurtosis": "8.1517",
+    "entropy": "-0.081048",
+    "fake": "0"
+  },
+  {
+    "variance": "3.82",
+    "skewness": "10.9279",
+    "kurtosis": "-4.0112",
+    "entropy": "-5.0284",
+    "fake": "0"
+  },
+  {
+    "variance": "-2.7419",
+    "skewness": "11.4038",
+    "kurtosis": "2.5394",
+    "entropy": "-5.5793",
+    "fake": "0"
+  },
+  {
+    "variance": "3.3669",
+    "skewness": "-5.1856",
+    "kurtosis": "3.6935",
+    "entropy": "-1.1427",
+    "fake": "0"
+  },
+  {
+    "variance": "4.5597",
+    "skewness": "-2.4211",
+    "kurtosis": "2.6413",
+    "entropy": "1.6168",
+    "fake": "0"
+  },
+  {
+    "variance": "5.1129",
+    "skewness": "-0.49871",
+    "kurtosis": "0.62863",
+    "entropy": "1.1189",
+    "fake": "0"
+  },
+  {
+    "variance": "3.3397",
+    "skewness": "-4.6145",
+    "kurtosis": "3.9823",
+    "entropy": "-0.23751",
+    "fake": "0"
+  },
+  {
+    "variance": "4.2027",
+    "skewness": "0.22761",
+    "kurtosis": "0.96108",
+    "entropy": "0.97282",
+    "fake": "0"
+  },
+  {
+    "variance": "3.5438",
+    "skewness": "1.2395",
+    "kurtosis": "1.997",
+    "entropy": "2.1547",
+    "fake": "0"
+  },
+  {
+    "variance": "2.3136",
+    "skewness": "10.6651",
+    "kurtosis": "-3.5288",
+    "entropy": "-4.7672",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.8584",
+    "skewness": "7.886",
+    "kurtosis": "-1.6643",
+    "entropy": "-1.8384",
+    "fake": "0"
+  },
+  {
+    "variance": "3.106",
+    "skewness": "9.5414",
+    "kurtosis": "-4.2536",
+    "entropy": "-4.003",
+    "fake": "0"
+  },
+  {
+    "variance": "2.9163",
+    "skewness": "10.8306",
+    "kurtosis": "-3.3437",
+    "entropy": "-4.122",
+    "fake": "0"
+  },
+  {
+    "variance": "3.9922",
+    "skewness": "-4.4676",
+    "kurtosis": "3.7304",
+    "entropy": "-0.1095",
+    "fake": "0"
+  },
+  {
+    "variance": "1.518",
+    "skewness": "5.6946",
+    "kurtosis": "0.094818",
+    "entropy": "-0.026738",
+    "fake": "0"
+  },
+  {
+    "variance": "3.2351",
+    "skewness": "9.647",
+    "kurtosis": "-3.2074",
+    "entropy": "-2.5948",
+    "fake": "0"
+  },
+  {
+    "variance": "4.2188",
+    "skewness": "6.8162",
+    "kurtosis": "-1.2804",
+    "entropy": "0.76076",
+    "fake": "0"
+  },
+  {
+    "variance": "1.7819",
+    "skewness": "6.9176",
+    "kurtosis": "-1.2744",
+    "entropy": "-1.5759",
+    "fake": "0"
+  },
+  {
+    "variance": "2.5331",
+    "skewness": "2.9135",
+    "kurtosis": "-0.822",
+    "entropy": "-0.12243",
+    "fake": "0"
+  },
+  {
+    "variance": "3.8969",
+    "skewness": "7.4163",
+    "kurtosis": "-1.8245",
+    "entropy": "0.14007",
+    "fake": "0"
+  },
+  {
+    "variance": "2.108",
+    "skewness": "6.7955",
+    "kurtosis": "-0.1708",
+    "entropy": "0.4905",
+    "fake": "0"
+  },
+  {
+    "variance": "2.8969",
+    "skewness": "0.70768",
+    "kurtosis": "2.29",
+    "entropy": "1.8663",
+    "fake": "0"
+  },
+  {
+    "variance": "0.9297",
+    "skewness": "-3.7971",
+    "kurtosis": "4.6429",
+    "entropy": "-0.2957",
+    "fake": "0"
+  },
+  {
+    "variance": "3.4642",
+    "skewness": "10.6878",
+    "kurtosis": "-3.4071",
+    "entropy": "-4.109",
+    "fake": "0"
+  },
+  {
+    "variance": "4.0713",
+    "skewness": "10.4023",
+    "kurtosis": "-4.1722",
+    "entropy": "-4.7582",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.4572",
+    "skewness": "9.1214",
+    "kurtosis": "1.7425",
+    "entropy": "-5.1241",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.5075",
+    "skewness": "1.9224",
+    "kurtosis": "7.1466",
+    "entropy": "0.89136",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.91718",
+    "skewness": "9.9884",
+    "kurtosis": "1.1804",
+    "entropy": "-5.2263",
+    "fake": "0"
+  },
+  {
+    "variance": "2.994",
+    "skewness": "7.2011",
+    "kurtosis": "-1.2153",
+    "entropy": "0.3211",
+    "fake": "0"
+  },
+  {
+    "variance": "-2.343",
+    "skewness": "12.9516",
+    "kurtosis": "3.3285",
+    "entropy": "-5.9426",
+    "fake": "0"
+  },
+  {
+    "variance": "3.7818",
+    "skewness": "-2.8846",
+    "kurtosis": "2.2558",
+    "entropy": "-0.15734",
+    "fake": "0"
+  },
+  {
+    "variance": "4.6689",
+    "skewness": "1.3098",
+    "kurtosis": "0.055404",
+    "entropy": "1.909",
+    "fake": "0"
+  },
+  {
+    "variance": "3.4663",
+    "skewness": "1.1112",
+    "kurtosis": "1.7425",
+    "entropy": "1.3388",
+    "fake": "0"
+  },
+  {
+    "variance": "3.2697",
+    "skewness": "-4.3414",
+    "kurtosis": "3.6884",
+    "entropy": "-0.29829",
+    "fake": "0"
+  },
+  {
+    "variance": "5.1302",
+    "skewness": "8.6703",
+    "kurtosis": "-2.8913",
+    "entropy": "-1.5086",
+    "fake": "0"
+  },
+  {
+    "variance": "2.0139",
+    "skewness": "6.1416",
+    "kurtosis": "0.37929",
+    "entropy": "0.56938",
+    "fake": "0"
+  },
+  {
+    "variance": "0.4339",
+    "skewness": "5.5395",
+    "kurtosis": "2.033",
+    "entropy": "-0.40432",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.0401",
+    "skewness": "9.3987",
+    "kurtosis": "0.85998",
+    "entropy": "-5.3336",
+    "fake": "0"
+  },
+  {
+    "variance": "4.1605",
+    "skewness": "11.2196",
+    "kurtosis": "-3.6136",
+    "entropy": "-4.0819",
+    "fake": "0"
+  },
+  {
+    "variance": "5.438",
+    "skewness": "9.4669",
+    "kurtosis": "-4.9417",
+    "entropy": "-3.9202",
+    "fake": "0"
+  },
+  {
+    "variance": "5.032",
+    "skewness": "8.2026",
+    "kurtosis": "-2.6256",
+    "entropy": "-1.0341",
+    "fake": "0"
+  },
+  {
+    "variance": "5.2418",
+    "skewness": "10.5388",
+    "kurtosis": "-4.1174",
+    "entropy": "-4.2797",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.2062",
+    "skewness": "9.2207",
+    "kurtosis": "-3.7044",
+    "entropy": "-6.8103",
+    "fake": "0"
+  },
+  {
+    "variance": "2.0911",
+    "skewness": "0.94358",
+    "kurtosis": "4.5512",
+    "entropy": "1.234",
+    "fake": "0"
+  },
+  {
+    "variance": "1.7317",
+    "skewness": "-0.34765",
+    "kurtosis": "4.1905",
+    "entropy": "-0.99138",
+    "fake": "0"
+  },
+  {
+    "variance": "4.1736",
+    "skewness": "3.3336",
+    "kurtosis": "-1.4244",
+    "entropy": "0.60429",
+    "fake": "0"
+  },
+  {
+    "variance": "3.9232",
+    "skewness": "-3.2467",
+    "kurtosis": "3.4579",
+    "entropy": "0.83705",
+    "fake": "0"
+  },
+  {
+    "variance": "3.8481",
+    "skewness": "10.1539",
+    "kurtosis": "-3.8561",
+    "entropy": "-4.2228",
+    "fake": "0"
+  },
+  {
+    "variance": "0.5195",
+    "skewness": "-3.2633",
+    "kurtosis": "3.0895",
+    "entropy": "-0.9849",
+    "fake": "0"
+  },
+  {
+    "variance": "3.8584",
+    "skewness": "0.78425",
+    "kurtosis": "1.1033",
+    "entropy": "1.7008",
+    "fake": "0"
+  },
+  {
+    "variance": "1.7496",
+    "skewness": "-0.1759",
+    "kurtosis": "5.1827",
+    "entropy": "1.2922",
+    "fake": "0"
+  },
+  {
+    "variance": "3.6277",
+    "skewness": "0.9829",
+    "kurtosis": "0.68861",
+    "entropy": "0.63403",
+    "fake": "0"
+  },
+  {
+    "variance": "2.7391",
+    "skewness": "7.4018",
+    "kurtosis": "0.071684",
+    "entropy": "-2.5302",
+    "fake": "0"
+  },
+  {
+    "variance": "4.5447",
+    "skewness": "8.2274",
+    "kurtosis": "-2.4166",
+    "entropy": "-1.5875",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.7599",
+    "skewness": "11.9211",
+    "kurtosis": "2.6756",
+    "entropy": "-3.3241",
+    "fake": "0"
+  },
+  {
+    "variance": "5.0691",
+    "skewness": "0.21313",
+    "kurtosis": "0.20278",
+    "entropy": "1.2095",
+    "fake": "0"
+  },
+  {
+    "variance": "3.4591",
+    "skewness": "11.112",
+    "kurtosis": "-4.2039",
+    "entropy": "-5.0931",
+    "fake": "0"
+  },
+  {
+    "variance": "1.9358",
+    "skewness": "8.1654",
+    "kurtosis": "-0.023425",
+    "entropy": "-2.2586",
+    "fake": "0"
+  },
+  {
+    "variance": "2.486",
+    "skewness": "-0.99533",
+    "kurtosis": "5.3404",
+    "entropy": "-0.15475",
+    "fake": "0"
+  },
+  {
+    "variance": "2.4226",
+    "skewness": "-4.5752",
+    "kurtosis": "5.947",
+    "entropy": "0.21507",
+    "fake": "0"
+  },
+  {
+    "variance": "3.9479",
+    "skewness": "-3.7723",
+    "kurtosis": "2.883",
+    "entropy": "0.019813",
+    "fake": "0"
+  },
+  {
+    "variance": "2.2634",
+    "skewness": "-4.4862",
+    "kurtosis": "3.6558",
+    "entropy": "-0.61251",
+    "fake": "0"
+  },
+  {
+    "variance": "1.3566",
+    "skewness": "4.2358",
+    "kurtosis": "2.1341",
+    "entropy": "0.3211",
+    "fake": "0"
+  },
+  {
+    "variance": "5.0452",
+    "skewness": "3.8964",
+    "kurtosis": "-1.4304",
+    "entropy": "0.86291",
+    "fake": "0"
+  },
+  {
+    "variance": "3.5499",
+    "skewness": "8.6165",
+    "kurtosis": "-3.2794",
+    "entropy": "-1.2009",
+    "fake": "0"
+  },
+  {
+    "variance": "0.17346",
+    "skewness": "7.8695",
+    "kurtosis": "0.26876",
+    "entropy": "-3.7883",
+    "fake": "0"
+  },
+  {
+    "variance": "2.4008",
+    "skewness": "9.3593",
+    "kurtosis": "-3.3565",
+    "entropy": "-3.3526",
+    "fake": "0"
+  },
+  {
+    "variance": "4.8851",
+    "skewness": "1.5995",
+    "kurtosis": "-0.00029081",
+    "entropy": "1.6401",
+    "fake": "0"
+  },
+  {
+    "variance": "4.1927",
+    "skewness": "-3.2674",
+    "kurtosis": "2.5839",
+    "entropy": "0.21766",
+    "fake": "0"
+  },
+  {
+    "variance": "1.1166",
+    "skewness": "8.6496",
+    "kurtosis": "-0.96252",
+    "entropy": "-1.8112",
+    "fake": "0"
+  },
+  {
+    "variance": "1.0235",
+    "skewness": "6.901",
+    "kurtosis": "-2.0062",
+    "entropy": "-2.7125",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.803",
+    "skewness": "11.8818",
+    "kurtosis": "2.0458",
+    "entropy": "-5.2728",
+    "fake": "0"
+  },
+  {
+    "variance": "0.11739",
+    "skewness": "6.2761",
+    "kurtosis": "-1.5495",
+    "entropy": "-2.4746",
+    "fake": "0"
+  },
+  {
+    "variance": "0.5706",
+    "skewness": "-0.0248",
+    "kurtosis": "1.2421",
+    "entropy": "-0.5621",
+    "fake": "0"
+  },
+  {
+    "variance": "4.0552",
+    "skewness": "-2.4583",
+    "kurtosis": "2.2806",
+    "entropy": "1.0323",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.6952",
+    "skewness": "1.0657",
+    "kurtosis": "8.8294",
+    "entropy": "0.94955",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.1193",
+    "skewness": "10.7271",
+    "kurtosis": "2.0938",
+    "entropy": "-5.6504",
+    "fake": "0"
+  },
+  {
+    "variance": "1.8799",
+    "skewness": "2.4707",
+    "kurtosis": "2.4931",
+    "entropy": "0.37671",
+    "fake": "0"
+  },
+  {
+    "variance": "3.583",
+    "skewness": "-3.7971",
+    "kurtosis": "3.4391",
+    "entropy": "-0.12501",
+    "fake": "0"
+  },
+  {
+    "variance": "0.19081",
+    "skewness": "9.1297",
+    "kurtosis": "-3.725",
+    "entropy": "-5.8224",
+    "fake": "0"
+  },
+  {
+    "variance": "3.6582",
+    "skewness": "5.6864",
+    "kurtosis": "-1.7157",
+    "entropy": "-0.23751",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.13144",
+    "skewness": "-1.7775",
+    "kurtosis": "8.3316",
+    "entropy": "0.35214",
+    "fake": "0"
+  },
+  {
+    "variance": "2.3925",
+    "skewness": "9.798",
+    "kurtosis": "-3.0361",
+    "entropy": "-2.8224",
+    "fake": "0"
+  },
+  {
+    "variance": "1.6426",
+    "skewness": "3.0149",
+    "kurtosis": "0.22849",
+    "entropy": "-0.147",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.11783",
+    "skewness": "-1.5789",
+    "kurtosis": "8.03",
+    "entropy": "-0.028031",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.69572",
+    "skewness": "8.6165",
+    "kurtosis": "1.8419",
+    "entropy": "-4.3289",
+    "fake": "0"
+  },
+  {
+    "variance": "2.9421",
+    "skewness": "7.4101",
+    "kurtosis": "-0.97709",
+    "entropy": "-0.88406",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.7559",
+    "skewness": "11.9459",
+    "kurtosis": "3.0946",
+    "entropy": "-4.8978",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.2537",
+    "skewness": "10.8803",
+    "kurtosis": "1.931",
+    "entropy": "-4.3237",
+    "fake": "0"
+  },
+  {
+    "variance": "3.2585",
+    "skewness": "-4.4614",
+    "kurtosis": "3.8024",
+    "entropy": "-0.15087",
+    "fake": "0"
+  },
+  {
+    "variance": "1.8314",
+    "skewness": "6.3672",
+    "kurtosis": "-0.036278",
+    "entropy": "0.049554",
+    "fake": "0"
+  },
+  {
+    "variance": "4.5645",
+    "skewness": "-3.6275",
+    "kurtosis": "2.8684",
+    "entropy": "0.27714",
+    "fake": "0"
+  },
+  {
+    "variance": "2.7365",
+    "skewness": "-5.0325",
+    "kurtosis": "6.6608",
+    "entropy": "-0.57889",
+    "fake": "0"
+  },
+  {
+    "variance": "0.9297",
+    "skewness": "-3.7971",
+    "kurtosis": "4.6429",
+    "entropy": "-0.2957",
+    "fake": "0"
+  },
+  {
+    "variance": "3.9663",
+    "skewness": "10.1684",
+    "kurtosis": "-4.1131",
+    "entropy": "-4.6056",
+    "fake": "0"
+  },
+  {
+    "variance": "1.4578",
+    "skewness": "-0.08485",
+    "kurtosis": "4.1785",
+    "entropy": "0.59136",
+    "fake": "0"
+  },
+  {
+    "variance": "4.8272",
+    "skewness": "3.0687",
+    "kurtosis": "0.68604",
+    "entropy": "0.80731",
+    "fake": "0"
+  },
+  {
+    "variance": "-2.341",
+    "skewness": "12.3784",
+    "kurtosis": "0.70403",
+    "entropy": "-7.5836",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.8584",
+    "skewness": "7.886",
+    "kurtosis": "-1.6643",
+    "entropy": "-1.8384",
+    "fake": "0"
+  },
+  {
+    "variance": "4.1454",
+    "skewness": "7.257",
+    "kurtosis": "-1.9153",
+    "entropy": "-0.86078",
+    "fake": "0"
+  },
+  {
+    "variance": "1.9157",
+    "skewness": "6.0816",
+    "kurtosis": "0.23705",
+    "entropy": "-2.0116",
+    "fake": "0"
+  },
+  {
+    "variance": "4.0215",
+    "skewness": "-2.1914",
+    "kurtosis": "2.4648",
+    "entropy": "1.1409",
+    "fake": "0"
+  },
+  {
+    "variance": "5.8862",
+    "skewness": "5.8747",
+    "kurtosis": "-2.8167",
+    "entropy": "-0.30087",
+    "fake": "0"
+  },
+  {
+    "variance": "-2.0897",
+    "skewness": "10.8265",
+    "kurtosis": "2.3603",
+    "entropy": "-3.4198",
+    "fake": "0"
+  },
+  {
+    "variance": "4.0026",
+    "skewness": "-3.5943",
+    "kurtosis": "3.5573",
+    "entropy": "0.26809",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.78689",
+    "skewness": "9.5663",
+    "kurtosis": "-3.7867",
+    "entropy": "-7.5034",
+    "fake": "0"
+  },
+  {
+    "variance": "4.1757",
+    "skewness": "10.2615",
+    "kurtosis": "-3.8552",
+    "entropy": "-4.3056",
+    "fake": "0"
+  },
+  {
+    "variance": "0.83292",
+    "skewness": "7.5404",
+    "kurtosis": "0.65005",
+    "entropy": "-0.92544",
+    "fake": "0"
+  },
+  {
+    "variance": "4.8077",
+    "skewness": "2.2327",
+    "kurtosis": "-0.26334",
+    "entropy": "1.5534",
+    "fake": "0"
+  },
+  {
+    "variance": "5.3063",
+    "skewness": "5.2684",
+    "kurtosis": "-2.8904",
+    "entropy": "-0.52716",
+    "fake": "0"
+  },
+  {
+    "variance": "2.5605",
+    "skewness": "9.2683",
+    "kurtosis": "-3.5913",
+    "entropy": "-1.356",
+    "fake": "0"
+  },
+  {
+    "variance": "2.1059",
+    "skewness": "7.6046",
+    "kurtosis": "-0.47755",
+    "entropy": "-1.8461",
+    "fake": "0"
+  },
+  {
+    "variance": "2.1721",
+    "skewness": "-0.73874",
+    "kurtosis": "5.4672",
+    "entropy": "-0.72371",
+    "fake": "0"
+  },
+  {
+    "variance": "4.2899",
+    "skewness": "9.1814",
+    "kurtosis": "-4.6067",
+    "entropy": "-4.3263",
+    "fake": "0"
+  },
+  {
+    "variance": "3.5156",
+    "skewness": "10.1891",
+    "kurtosis": "-4.2759",
+    "entropy": "-4.978",
+    "fake": "0"
+  },
+  {
+    "variance": "2.614",
+    "skewness": "8.0081",
+    "kurtosis": "-3.7258",
+    "entropy": "-1.3069",
+    "fake": "0"
+  },
+  {
+    "variance": "0.68087",
+    "skewness": "2.3259",
+    "kurtosis": "4.9085",
+    "entropy": "0.54998",
+    "fake": "0"
+  },
+  {
+    "variance": "4.1962",
+    "skewness": "0.74493",
+    "kurtosis": "0.83256",
+    "entropy": "0.753",
+    "fake": "0"
+  },
+  {
+    "variance": "6.0919",
+    "skewness": "2.9673",
+    "kurtosis": "-1.3267",
+    "entropy": "1.4551",
+    "fake": "0"
+  },
+  {
+    "variance": "1.3234",
+    "skewness": "3.2964",
+    "kurtosis": "0.2362",
+    "entropy": "-0.11984",
+    "fake": "0"
+  },
+  {
+    "variance": "1.3264",
+    "skewness": "1.0326",
+    "kurtosis": "5.6566",
+    "entropy": "-0.41337",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.16735",
+    "skewness": "7.6274",
+    "kurtosis": "1.2061",
+    "entropy": "-3.6241",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.3",
+    "skewness": "10.2678",
+    "kurtosis": "-2.953",
+    "entropy": "-5.8638",
+    "fake": "0"
+  },
+  {
+    "variance": "-2.2261",
+    "skewness": "12.5398",
+    "kurtosis": "2.9438",
+    "entropy": "-3.5258",
+    "fake": "0"
+  },
+  {
+    "variance": "2.4196",
+    "skewness": "6.4665",
+    "kurtosis": "-0.75688",
+    "entropy": "0.228",
+    "fake": "0"
+  },
+  {
+    "variance": "1.0987",
+    "skewness": "0.6394",
+    "kurtosis": "5.989",
+    "entropy": "-0.58277",
+    "fake": "0"
+  },
+  {
+    "variance": "4.6464",
+    "skewness": "10.5326",
+    "kurtosis": "-4.5852",
+    "entropy": "-4.206",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.36038",
+    "skewness": "4.1158",
+    "kurtosis": "3.1143",
+    "entropy": "-0.37199",
+    "fake": "0"
+  },
+  {
+    "variance": "1.3562",
+    "skewness": "3.2136",
+    "kurtosis": "4.3465",
+    "entropy": "0.78662",
+    "fake": "0"
+  },
+  {
+    "variance": "0.5706",
+    "skewness": "-0.0248",
+    "kurtosis": "1.2421",
+    "entropy": "-0.5621",
+    "fake": "0"
+  },
+  {
+    "variance": "-2.6479",
+    "skewness": "10.1374",
+    "kurtosis": "-1.331",
+    "entropy": "-5.4707",
+    "fake": "0"
+  },
+  {
+    "variance": "3.1219",
+    "skewness": "-3.137",
+    "kurtosis": "1.9259",
+    "entropy": "-0.37458",
+    "fake": "0"
+  },
+  {
+    "variance": "5.4944",
+    "skewness": "1.5478",
+    "kurtosis": "0.041694",
+    "entropy": "1.9284",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.3389",
+    "skewness": "1.552",
+    "kurtosis": "7.0806",
+    "entropy": "1.031",
+    "fake": "0"
+  },
+  {
+    "variance": "-2.3361",
+    "skewness": "11.9604",
+    "kurtosis": "3.0835",
+    "entropy": "-5.4435",
+    "fake": "0"
+  },
+  {
+    "variance": "2.2596",
+    "skewness": "-0.033118",
+    "kurtosis": "4.7355",
+    "entropy": "-0.2776",
+    "fake": "0"
+  },
+  {
+    "variance": "0.46901",
+    "skewness": "-0.63321",
+    "kurtosis": "7.3848",
+    "entropy": "0.36507",
+    "fake": "0"
+  },
+  {
+    "variance": "2.7296",
+    "skewness": "2.8701",
+    "kurtosis": "0.51124",
+    "entropy": "0.5099",
+    "fake": "0"
+  },
+  {
+    "variance": "2.0466",
+    "skewness": "2.03",
+    "kurtosis": "2.1761",
+    "entropy": "-0.083634",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.3274",
+    "skewness": "9.498",
+    "kurtosis": "2.4408",
+    "entropy": "-5.2689",
+    "fake": "0"
+  },
+  {
+    "variance": "3.8905",
+    "skewness": "-2.1521",
+    "kurtosis": "2.6302",
+    "entropy": "1.1047",
+    "fake": "0"
+  },
+  {
+    "variance": "3.9994",
+    "skewness": "0.90427",
+    "kurtosis": "1.1693",
+    "entropy": "1.6892",
+    "fake": "0"
+  },
+  {
+    "variance": "2.3952",
+    "skewness": "9.5083",
+    "kurtosis": "-3.1783",
+    "entropy": "-3.0086",
+    "fake": "0"
+  },
+  {
+    "variance": "3.2704",
+    "skewness": "6.9321",
+    "kurtosis": "-1.0456",
+    "entropy": "0.23447",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.3931",
+    "skewness": "1.5664",
+    "kurtosis": "7.5382",
+    "entropy": "0.78403",
+    "fake": "0"
+  },
+  {
+    "variance": "1.6406",
+    "skewness": "3.5488",
+    "kurtosis": "1.3964",
+    "entropy": "-0.36424",
+    "fake": "0"
+  },
+  {
+    "variance": "2.7744",
+    "skewness": "6.8576",
+    "kurtosis": "-1.0671",
+    "entropy": "0.075416",
+    "fake": "0"
+  },
+  {
+    "variance": "2.4287",
+    "skewness": "9.3821",
+    "kurtosis": "-3.2477",
+    "entropy": "-1.4543",
+    "fake": "0"
+  },
+  {
+    "variance": "4.2134",
+    "skewness": "-2.806",
+    "kurtosis": "2.0116",
+    "entropy": "0.67412",
+    "fake": "0"
+  },
+  {
+    "variance": "1.6472",
+    "skewness": "0.48213",
+    "kurtosis": "4.7449",
+    "entropy": "1.225",
+    "fake": "0"
+  },
+  {
+    "variance": "2.0597",
+    "skewness": "-0.99326",
+    "kurtosis": "5.2119",
+    "entropy": "-0.29312",
+    "fake": "0"
+  },
+  {
+    "variance": "0.3798",
+    "skewness": "0.7098",
+    "kurtosis": "0.7572",
+    "entropy": "-0.4444",
+    "fake": "0"
+  },
+  {
+    "variance": "1.0135",
+    "skewness": "8.4551",
+    "kurtosis": "-1.672",
+    "entropy": "-2.0815",
+    "fake": "0"
+  },
+  {
+    "variance": "4.5691",
+    "skewness": "-4.4552",
+    "kurtosis": "3.1769",
+    "entropy": "0.0042961",
+    "fake": "0"
+  },
+  {
+    "variance": "0.57461",
+    "skewness": "10.1105",
+    "kurtosis": "-1.6917",
+    "entropy": "-4.3922",
+    "fake": "0"
+  },
+  {
+    "variance": "0.5734",
+    "skewness": "9.1938",
+    "kurtosis": "-0.9094",
+    "entropy": "-1.872",
+    "fake": "0"
+  },
+  {
+    "variance": "5.2868",
+    "skewness": "3.257",
+    "kurtosis": "-1.3721",
+    "entropy": "1.1668",
+    "fake": "0"
+  },
+  {
+    "variance": "4.0102",
+    "skewness": "10.6568",
+    "kurtosis": "-4.1388",
+    "entropy": "-5.0646",
+    "fake": "0"
+  },
+  {
+    "variance": "4.1425",
+    "skewness": "-3.6792",
+    "kurtosis": "3.8281",
+    "entropy": "1.6297",
+    "fake": "0"
+  },
+  {
+    "variance": "3.0934",
+    "skewness": "-2.9177",
+    "kurtosis": "2.2232",
+    "entropy": "0.22283",
+    "fake": "0"
+  },
+  {
+    "variance": "2.2034",
+    "skewness": "5.9947",
+    "kurtosis": "0.53009",
+    "entropy": "0.84998",
+    "fake": "0"
+  },
+  {
+    "variance": "3.744",
+    "skewness": "0.79459",
+    "kurtosis": "0.95851",
+    "entropy": "1.0077",
+    "fake": "0"
+  },
+  {
+    "variance": "3.0329",
+    "skewness": "2.2948",
+    "kurtosis": "2.1135",
+    "entropy": "0.35084",
+    "fake": "0"
+  },
+  {
+    "variance": "3.7731",
+    "skewness": "7.2073",
+    "kurtosis": "-1.6814",
+    "entropy": "-0.94742",
+    "fake": "0"
+  },
+  {
+    "variance": "3.1557",
+    "skewness": "2.8908",
+    "kurtosis": "0.59693",
+    "entropy": "0.79825",
+    "fake": "0"
+  },
+  {
+    "variance": "1.8114",
+    "skewness": "7.6067",
+    "kurtosis": "-0.9788",
+    "entropy": "-2.4668",
+    "fake": "0"
+  },
+  {
+    "variance": "4.988",
+    "skewness": "7.2052",
+    "kurtosis": "-3.2846",
+    "entropy": "-1.1608",
+    "fake": "0"
+  },
+  {
+    "variance": "2.483",
+    "skewness": "6.6155",
+    "kurtosis": "-0.79287",
+    "entropy": "-0.90863",
+    "fake": "0"
+  },
+  {
+    "variance": "1.594",
+    "skewness": "4.7055",
+    "kurtosis": "1.3758",
+    "entropy": "0.081882",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.016103",
+    "skewness": "9.7484",
+    "kurtosis": "0.15394",
+    "entropy": "-1.6134",
+    "fake": "0"
+  },
+  {
+    "variance": "3.8496",
+    "skewness": "9.7939",
+    "kurtosis": "-4.1508",
+    "entropy": "-4.4582",
+    "fake": "0"
+  },
+  {
+    "variance": "0.9297",
+    "skewness": "-3.7971",
+    "kurtosis": "4.6429",
+    "entropy": "-0.2957",
+    "fake": "0"
+  },
+  {
+    "variance": "4.9342",
+    "skewness": "2.4107",
+    "kurtosis": "-0.17594",
+    "entropy": "1.6245",
+    "fake": "0"
+  },
+  {
+    "variance": "3.8417",
+    "skewness": "10.0215",
+    "kurtosis": "-4.2699",
+    "entropy": "-4.9159",
+    "fake": "0"
+  },
+  {
+    "variance": "5.3915",
+    "skewness": "9.9946",
+    "kurtosis": "-3.8081",
+    "entropy": "-3.3642",
+    "fake": "0"
+  },
+  {
+    "variance": "4.4072",
+    "skewness": "-0.070365",
+    "kurtosis": "2.0416",
+    "entropy": "1.1319",
+    "fake": "0"
+  },
+  {
+    "variance": "2.6946",
+    "skewness": "6.7976",
+    "kurtosis": "-0.40301",
+    "entropy": "0.44912",
+    "fake": "0"
+  },
+  {
+    "variance": "5.2756",
+    "skewness": "0.13863",
+    "kurtosis": "0.12138",
+    "entropy": "1.1435",
+    "fake": "0"
+  },
+  {
+    "variance": "3.4312",
+    "skewness": "6.2637",
+    "kurtosis": "-1.9513",
+    "entropy": "-0.36165",
+    "fake": "0"
+  },
+  {
+    "variance": "4.052",
+    "skewness": "-0.16555",
+    "kurtosis": "0.45383",
+    "entropy": "0.51248",
+    "fake": "0"
+  },
+  {
+    "variance": "1.3638",
+    "skewness": "-4.7759",
+    "kurtosis": "8.4182",
+    "entropy": "-1.8836",
+    "fake": "0"
+  },
+  {
+    "variance": "0.89566",
+    "skewness": "7.7763",
+    "kurtosis": "-2.7473",
+    "entropy": "-1.9353",
+    "fake": "0"
+  },
+  {
+    "variance": "1.9265",
+    "skewness": "7.7557",
+    "kurtosis": "-0.16823",
+    "entropy": "-3.0771",
+    "fake": "0"
+  },
+  {
+    "variance": "0.20977",
+    "skewness": "-0.46146",
+    "kurtosis": "7.7267",
+    "entropy": "0.90946",
+    "fake": "0"
+  },
+  {
+    "variance": "4.068",
+    "skewness": "-2.9363",
+    "kurtosis": "2.1992",
+    "entropy": "0.50084",
+    "fake": "0"
+  },
+  {
+    "variance": "2.877",
+    "skewness": "-4.0599",
+    "kurtosis": "3.6259",
+    "entropy": "-0.32544",
+    "fake": "0"
+  },
+  {
+    "variance": "0.3223",
+    "skewness": "-0.89808",
+    "kurtosis": "8.0883",
+    "entropy": "0.69222",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.3",
+    "skewness": "10.2678",
+    "kurtosis": "-2.953",
+    "entropy": "-5.8638",
+    "fake": "0"
+  },
+  {
+    "variance": "1.7747",
+    "skewness": "-6.4334",
+    "kurtosis": "8.15",
+    "entropy": "-0.89828",
+    "fake": "0"
+  },
+  {
+    "variance": "1.3419",
+    "skewness": "-4.4221",
+    "kurtosis": "8.09",
+    "entropy": "-1.7349",
+    "fake": "0"
+  },
+  {
+    "variance": "0.89606",
+    "skewness": "10.5471",
+    "kurtosis": "-1.4175",
+    "entropy": "-4.0327",
+    "fake": "0"
+  },
+  {
+    "variance": "0.44125",
+    "skewness": "2.9487",
+    "kurtosis": "4.3225",
+    "entropy": "0.7155",
+    "fake": "0"
+  },
+  {
+    "variance": "3.2422",
+    "skewness": "6.2265",
+    "kurtosis": "0.12224",
+    "entropy": "-1.4466",
+    "fake": "0"
+  },
+  {
+    "variance": "2.5678",
+    "skewness": "3.5136",
+    "kurtosis": "0.61406",
+    "entropy": "-0.40691",
+    "fake": "0"
+  },
+  {
+    "variance": "-2.2153",
+    "skewness": "11.9625",
+    "kurtosis": "0.078538",
+    "entropy": "-7.7853",
+    "fake": "0"
+  },
+  {
+    "variance": "4.1349",
+    "skewness": "6.1189",
+    "kurtosis": "-2.4294",
+    "entropy": "-0.19613",
+    "fake": "0"
+  },
+  {
+    "variance": "1.934",
+    "skewness": "-9.2828e-06",
+    "kurtosis": "4.816",
+    "entropy": "-0.33967",
+    "fake": "0"
+  },
+  {
+    "variance": "2.5068",
+    "skewness": "1.1588",
+    "kurtosis": "3.9249",
+    "entropy": "0.12585",
+    "fake": "0"
+  },
+  {
+    "variance": "2.1464",
+    "skewness": "6.0795",
+    "kurtosis": "-0.5778",
+    "entropy": "-2.2302",
+    "fake": "0"
+  },
+  {
+    "variance": "0.051979",
+    "skewness": "7.0521",
+    "kurtosis": "-2.0541",
+    "entropy": "-3.1508",
+    "fake": "0"
+  },
+  {
+    "variance": "1.2706",
+    "skewness": "8.035",
+    "kurtosis": "-0.19651",
+    "entropy": "-2.1888",
+    "fake": "0"
+  },
+  {
+    "variance": "1.143",
+    "skewness": "0.83391",
+    "kurtosis": "5.4552",
+    "entropy": "-0.56984",
+    "fake": "0"
+  },
+  {
+    "variance": "2.2928",
+    "skewness": "9.0386",
+    "kurtosis": "-3.2417",
+    "entropy": "-1.2991",
+    "fake": "0"
+  },
+  {
+    "variance": "0.3292",
+    "skewness": "-4.4552",
+    "kurtosis": "4.5718",
+    "entropy": "-0.9888",
+    "fake": "0"
+  },
+  {
+    "variance": "2.9719",
+    "skewness": "6.8369",
+    "kurtosis": "-0.2702",
+    "entropy": "0.71291",
+    "fake": "0"
+  },
+  {
+    "variance": "1.6849",
+    "skewness": "8.7489",
+    "kurtosis": "-1.2641",
+    "entropy": "-1.3858",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.9177",
+    "skewness": "11.6894",
+    "kurtosis": "2.5454",
+    "entropy": "-3.2763",
+    "fake": "0"
+  },
+  {
+    "variance": "2.3729",
+    "skewness": "10.4726",
+    "kurtosis": "-3.0087",
+    "entropy": "-3.2013",
+    "fake": "0"
+  },
+  {
+    "variance": "1.0284",
+    "skewness": "9.767",
+    "kurtosis": "-1.3687",
+    "entropy": "-1.7853",
+    "fake": "0"
+  },
+  {
+    "variance": "0.27451",
+    "skewness": "9.2186",
+    "kurtosis": "-3.2863",
+    "entropy": "-4.8448",
+    "fake": "0"
+  },
+  {
+    "variance": "1.6032",
+    "skewness": "-4.7863",
+    "kurtosis": "8.5193",
+    "entropy": "-2.1203",
+    "fake": "0"
+  },
+  {
+    "variance": "4.616",
+    "skewness": "10.1788",
+    "kurtosis": "-4.2185",
+    "entropy": "-4.4245",
+    "fake": "0"
+  },
+  {
+    "variance": "4.2478",
+    "skewness": "7.6956",
+    "kurtosis": "-2.7696",
+    "entropy": "-1.0767",
+    "fake": "0"
+  },
+  {
+    "variance": "4.0215",
+    "skewness": "-2.7004",
+    "kurtosis": "2.4957",
+    "entropy": "0.36636",
+    "fake": "0"
+  },
+  {
+    "variance": "5.0297",
+    "skewness": "-4.9704",
+    "kurtosis": "3.5025",
+    "entropy": "-0.23751",
+    "fake": "0"
+  },
+  {
+    "variance": "1.5902",
+    "skewness": "2.2948",
+    "kurtosis": "3.2403",
+    "entropy": "0.18404",
+    "fake": "0"
+  },
+  {
+    "variance": "2.1274",
+    "skewness": "5.1939",
+    "kurtosis": "-1.7971",
+    "entropy": "-1.1763",
+    "fake": "0"
+  },
+  {
+    "variance": "1.1811",
+    "skewness": "8.3847",
+    "kurtosis": "-2.0567",
+    "entropy": "-0.90345",
+    "fake": "0"
+  },
+  {
+    "variance": "0.3292",
+    "skewness": "-4.4552",
+    "kurtosis": "4.5718",
+    "entropy": "-0.9888",
+    "fake": "0"
+  },
+  {
+    "variance": "5.7353",
+    "skewness": "5.2808",
+    "kurtosis": "-2.2598",
+    "entropy": "0.075416",
+    "fake": "0"
+  },
+  {
+    "variance": "2.6718",
+    "skewness": "5.6574",
+    "kurtosis": "0.72974",
+    "entropy": "-1.4892",
+    "fake": "0"
+  },
+  {
+    "variance": "1.5799",
+    "skewness": "-4.7076",
+    "kurtosis": "7.9186",
+    "entropy": "-1.5487",
+    "fake": "0"
+  },
+  {
+    "variance": "2.9499",
+    "skewness": "2.2493",
+    "kurtosis": "1.3458",
+    "entropy": "-0.037083",
+    "fake": "0"
+  },
+  {
+    "variance": "0.5195",
+    "skewness": "-3.2633",
+    "kurtosis": "3.0895",
+    "entropy": "-0.9849",
+    "fake": "0"
+  },
+  {
+    "variance": "3.7352",
+    "skewness": "9.5911",
+    "kurtosis": "-3.9032",
+    "entropy": "-3.3487",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.7344",
+    "skewness": "2.0175",
+    "kurtosis": "7.7618",
+    "entropy": "0.93532",
+    "fake": "0"
+  },
+  {
+    "variance": "3.884",
+    "skewness": "10.0277",
+    "kurtosis": "-3.9298",
+    "entropy": "-4.0819",
+    "fake": "0"
+  },
+  {
+    "variance": "3.5257",
+    "skewness": "1.2829",
+    "kurtosis": "1.9276",
+    "entropy": "1.7991",
+    "fake": "0"
+  },
+  {
+    "variance": "4.4549",
+    "skewness": "2.4976",
+    "kurtosis": "1.0313",
+    "entropy": "0.96894",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.16108",
+    "skewness": "-6.4624",
+    "kurtosis": "8.3573",
+    "entropy": "-1.5216",
+    "fake": "0"
+  },
+  {
+    "variance": "4.2164",
+    "skewness": "9.4607",
+    "kurtosis": "-4.9288",
+    "entropy": "-5.2366",
+    "fake": "0"
+  },
+  {
+    "variance": "3.5152",
+    "skewness": "6.8224",
+    "kurtosis": "-0.67377",
+    "entropy": "-0.46898",
+    "fake": "0"
+  },
+  {
+    "variance": "1.6988",
+    "skewness": "2.9094",
+    "kurtosis": "2.9044",
+    "entropy": "0.11033",
+    "fake": "0"
+  },
+  {
+    "variance": "1.0607",
+    "skewness": "2.4542",
+    "kurtosis": "2.5188",
+    "entropy": "-0.17027",
+    "fake": "0"
+  },
+  {
+    "variance": "2.0421",
+    "skewness": "1.2436",
+    "kurtosis": "4.2171",
+    "entropy": "0.90429",
+    "fake": "0"
+  },
+  {
+    "variance": "3.5594",
+    "skewness": "1.3078",
+    "kurtosis": "1.291",
+    "entropy": "1.6556",
+    "fake": "0"
+  },
+  {
+    "variance": "3.0009",
+    "skewness": "5.8126",
+    "kurtosis": "-2.2306",
+    "entropy": "-0.66553",
+    "fake": "0"
+  },
+  {
+    "variance": "3.9294",
+    "skewness": "1.4112",
+    "kurtosis": "1.8076",
+    "entropy": "0.89782",
+    "fake": "0"
+  },
+  {
+    "variance": "3.4667",
+    "skewness": "-4.0724",
+    "kurtosis": "4.2882",
+    "entropy": "1.5418",
+    "fake": "0"
+  },
+  {
+    "variance": "3.966",
+    "skewness": "3.9213",
+    "kurtosis": "0.70574",
+    "entropy": "0.33662",
+    "fake": "0"
+  },
+  {
+    "variance": "1.0191",
+    "skewness": "2.33",
+    "kurtosis": "4.9334",
+    "entropy": "0.82929",
+    "fake": "0"
+  },
+  {
+    "variance": "0.96414",
+    "skewness": "5.616",
+    "kurtosis": "2.2138",
+    "entropy": "-0.12501",
+    "fake": "0"
+  },
+  {
+    "variance": "1.8205",
+    "skewness": "6.7562",
+    "kurtosis": "0.0099913",
+    "entropy": "0.39481",
+    "fake": "0"
+  },
+  {
+    "variance": "4.9923",
+    "skewness": "7.8653",
+    "kurtosis": "-2.3515",
+    "entropy": "-0.71984",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.1804",
+    "skewness": "11.5093",
+    "kurtosis": "0.15565",
+    "entropy": "-6.8194",
+    "fake": "0"
+  },
+  {
+    "variance": "4.0329",
+    "skewness": "0.23175",
+    "kurtosis": "0.89082",
+    "entropy": "1.1823",
+    "fake": "0"
+  },
+  {
+    "variance": "0.66018",
+    "skewness": "10.3878",
+    "kurtosis": "-1.4029",
+    "entropy": "-3.9151",
+    "fake": "0"
+  },
+  {
+    "variance": "3.5982",
+    "skewness": "7.1307",
+    "kurtosis": "-1.3035",
+    "entropy": "0.21248",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.8584",
+    "skewness": "7.886",
+    "kurtosis": "-1.6643",
+    "entropy": "-1.8384",
+    "fake": "0"
+  },
+  {
+    "variance": "4.0972",
+    "skewness": "0.46972",
+    "kurtosis": "1.6671",
+    "entropy": "0.91593",
+    "fake": "0"
+  },
+  {
+    "variance": "3.3299",
+    "skewness": "0.91254",
+    "kurtosis": "1.5806",
+    "entropy": "0.39352",
+    "fake": "0"
+  },
+  {
+    "variance": "3.1088",
+    "skewness": "3.1122",
+    "kurtosis": "0.80857",
+    "entropy": "0.4336",
+    "fake": "0"
+  },
+  {
+    "variance": "-4.2859",
+    "skewness": "8.5234",
+    "kurtosis": "3.1392",
+    "entropy": "-0.91639",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.2528",
+    "skewness": "10.2036",
+    "kurtosis": "2.1787",
+    "entropy": "-5.6038",
+    "fake": "0"
+  },
+  {
+    "variance": "0.5195",
+    "skewness": "-3.2633",
+    "kurtosis": "3.0895",
+    "entropy": "-0.9849",
+    "fake": "0"
+  },
+  {
+    "variance": "0.3292",
+    "skewness": "-4.4552",
+    "kurtosis": "4.5718",
+    "entropy": "-0.9888",
+    "fake": "0"
+  },
+  {
+    "variance": "0.88872",
+    "skewness": "5.3449",
+    "kurtosis": "2.045",
+    "entropy": "-0.19355",
+    "fake": "0"
+  },
+  {
+    "variance": "3.5458",
+    "skewness": "9.3718",
+    "kurtosis": "-4.0351",
+    "entropy": "-3.9564",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.21661",
+    "skewness": "8.0329",
+    "kurtosis": "1.8848",
+    "entropy": "-3.8853",
+    "fake": "0"
+  },
+  {
+    "variance": "2.7206",
+    "skewness": "9.0821",
+    "kurtosis": "-3.3111",
+    "entropy": "-0.96811",
+    "fake": "0"
+  },
+  {
+    "variance": "3.2051",
+    "skewness": "8.6889",
+    "kurtosis": "-2.9033",
+    "entropy": "-0.7819",
+    "fake": "0"
+  },
+  {
+    "variance": "2.6917",
+    "skewness": "10.8161",
+    "kurtosis": "-3.3",
+    "entropy": "-4.2888",
+    "fake": "0"
+  },
+  {
+    "variance": "-2.3242",
+    "skewness": "11.5176",
+    "kurtosis": "1.8231",
+    "entropy": "-5.375",
+    "fake": "0"
+  },
+  {
+    "variance": "2.7161",
+    "skewness": "-4.2006",
+    "kurtosis": "4.1914",
+    "entropy": "0.16981",
+    "fake": "0"
+  },
+  {
+    "variance": "3.3848",
+    "skewness": "3.2674",
+    "kurtosis": "0.90967",
+    "entropy": "0.25128",
+    "fake": "0"
+  },
+  {
+    "variance": "1.7452",
+    "skewness": "4.8028",
+    "kurtosis": "2.0878",
+    "entropy": "0.62627",
+    "fake": "0"
+  },
+  {
+    "variance": "2.805",
+    "skewness": "0.57732",
+    "kurtosis": "1.3424",
+    "entropy": "1.2133",
+    "fake": "0"
+  },
+  {
+    "variance": "5.7823",
+    "skewness": "5.5788",
+    "kurtosis": "-2.4089",
+    "entropy": "-0.056479",
+    "fake": "0"
+  },
+  {
+    "variance": "3.8999",
+    "skewness": "1.734",
+    "kurtosis": "1.6011",
+    "entropy": "0.96765",
+    "fake": "0"
+  },
+  {
+    "variance": "3.5189",
+    "skewness": "6.332",
+    "kurtosis": "-1.7791",
+    "entropy": "-0.020273",
+    "fake": "0"
+  },
+  {
+    "variance": "3.2294",
+    "skewness": "7.7391",
+    "kurtosis": "-0.37816",
+    "entropy": "-2.5405",
+    "fake": "0"
+  },
+  {
+    "variance": "3.4985",
+    "skewness": "3.1639",
+    "kurtosis": "0.22677",
+    "entropy": "-0.1651",
+    "fake": "0"
+  },
+  {
+    "variance": "2.1948",
+    "skewness": "1.3781",
+    "kurtosis": "1.1582",
+    "entropy": "0.85774",
+    "fake": "0"
+  },
+  {
+    "variance": "2.2526",
+    "skewness": "9.9636",
+    "kurtosis": "-3.1749",
+    "entropy": "-2.9944",
+    "fake": "0"
+  },
+  {
+    "variance": "4.1529",
+    "skewness": "-3.9358",
+    "kurtosis": "2.8633",
+    "entropy": "-0.017686",
+    "fake": "0"
+  },
+  {
+    "variance": "0.74307",
+    "skewness": "11.17",
+    "kurtosis": "-1.3824",
+    "entropy": "-4.0728",
+    "fake": "0"
+  },
+  {
+    "variance": "1.9105",
+    "skewness": "8.871",
+    "kurtosis": "-2.3386",
+    "entropy": "-0.75604",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.5055",
+    "skewness": "0.070346",
+    "kurtosis": "6.8681",
+    "entropy": "-0.50648",
+    "fake": "0"
+  },
+  {
+    "variance": "0.58836",
+    "skewness": "10.7727",
+    "kurtosis": "-1.3884",
+    "entropy": "-4.3276",
+    "fake": "0"
+  },
+  {
+    "variance": "3.2303",
+    "skewness": "7.8384",
+    "kurtosis": "-3.5348",
+    "entropy": "-1.2151",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.9922",
+    "skewness": "11.6542",
+    "kurtosis": "2.6542",
+    "entropy": "-5.2107",
+    "fake": "0"
+  },
+  {
+    "variance": "2.8523",
+    "skewness": "9.0096",
+    "kurtosis": "-3.761",
+    "entropy": "-3.3371",
+    "fake": "0"
+  },
+  {
+    "variance": "4.2772",
+    "skewness": "2.4955",
+    "kurtosis": "0.48554",
+    "entropy": "0.36119",
+    "fake": "0"
+  },
+  {
+    "variance": "1.5099",
+    "skewness": "0.039307",
+    "kurtosis": "6.2332",
+    "entropy": "-0.30346",
+    "fake": "0"
+  },
+  {
+    "variance": "5.4188",
+    "skewness": "10.1457",
+    "kurtosis": "-4.084",
+    "entropy": "-3.6991",
+    "fake": "0"
+  },
+  {
+    "variance": "0.86202",
+    "skewness": "2.6963",
+    "kurtosis": "4.2908",
+    "entropy": "0.54739",
+    "fake": "0"
+  },
+  {
+    "variance": "3.8117",
+    "skewness": "10.1457",
+    "kurtosis": "-4.0463",
+    "entropy": "-4.5629",
+    "fake": "0"
+  },
+  {
+    "variance": "0.54777",
+    "skewness": "10.3754",
+    "kurtosis": "-1.5435",
+    "entropy": "-4.1633",
+    "fake": "0"
+  },
+  {
+    "variance": "2.3718",
+    "skewness": "7.4908",
+    "kurtosis": "0.015989",
+    "entropy": "-1.7414",
+    "fake": "0"
+  },
+  {
+    "variance": "-2.4953",
+    "skewness": "11.1472",
+    "kurtosis": "1.9353",
+    "entropy": "-3.4638",
+    "fake": "0"
+  },
+  {
+    "variance": "4.6361",
+    "skewness": "-2.6611",
+    "kurtosis": "2.8358",
+    "entropy": "1.1991",
+    "fake": "0"
+  },
+  {
+    "variance": "-2.2527",
+    "skewness": "11.5321",
+    "kurtosis": "2.5899",
+    "entropy": "-3.2737",
+    "fake": "0"
+  },
+  {
+    "variance": "3.7982",
+    "skewness": "10.423",
+    "kurtosis": "-4.1602",
+    "entropy": "-4.9728",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.36279",
+    "skewness": "8.2895",
+    "kurtosis": "-1.9213",
+    "entropy": "-3.3332",
+    "fake": "0"
+  },
+  {
+    "variance": "2.1265",
+    "skewness": "6.8783",
+    "kurtosis": "0.44784",
+    "entropy": "-2.2224",
+    "fake": "0"
+  },
+  {
+    "variance": "0.86736",
+    "skewness": "5.5643",
+    "kurtosis": "1.6765",
+    "entropy": "-0.16769",
+    "fake": "0"
+  },
+  {
+    "variance": "3.7831",
+    "skewness": "10.0526",
+    "kurtosis": "-3.8869",
+    "entropy": "-3.7366",
+    "fake": "0"
+  },
+  {
+    "variance": "-2.2623",
+    "skewness": "12.1177",
+    "kurtosis": "0.28846",
+    "entropy": "-7.7581",
+    "fake": "0"
+  },
+  {
+    "variance": "1.2616",
+    "skewness": "4.4303",
+    "kurtosis": "-1.3335",
+    "entropy": "-1.7517",
+    "fake": "0"
+  },
+  {
+    "variance": "2.6799",
+    "skewness": "3.1349",
+    "kurtosis": "0.34073",
+    "entropy": "0.58489",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.39816",
+    "skewness": "5.9781",
+    "kurtosis": "1.3912",
+    "entropy": "-1.1621",
+    "fake": "0"
+  },
+  {
+    "variance": "4.3937",
+    "skewness": "0.35798",
+    "kurtosis": "2.0416",
+    "entropy": "1.2004",
+    "fake": "0"
+  },
+  {
+    "variance": "2.9695",
+    "skewness": "5.6222",
+    "kurtosis": "0.27561",
+    "entropy": "-1.1556",
+    "fake": "0"
+  },
+  {
+    "variance": "1.3049",
+    "skewness": "-0.15521",
+    "kurtosis": "6.4911",
+    "entropy": "-0.75346",
+    "fake": "0"
+  },
+  {
+    "variance": "2.2123",
+    "skewness": "-5.8395",
+    "kurtosis": "7.7687",
+    "entropy": "-0.85302",
+    "fake": "0"
+  },
+  {
+    "variance": "1.9647",
+    "skewness": "6.9383",
+    "kurtosis": "0.57722",
+    "entropy": "0.66377",
+    "fake": "0"
+  },
+  {
+    "variance": "3.0864",
+    "skewness": "-2.5845",
+    "kurtosis": "2.2309",
+    "entropy": "0.30947",
+    "fake": "0"
+  },
+  {
+    "variance": "0.3798",
+    "skewness": "0.7098",
+    "kurtosis": "0.7572",
+    "entropy": "-0.4444",
+    "fake": "0"
+  },
+  {
+    "variance": "0.58982",
+    "skewness": "7.4266",
+    "kurtosis": "1.2353",
+    "entropy": "-2.9595",
+    "fake": "0"
+  },
+  {
+    "variance": "0.14783",
+    "skewness": "7.946",
+    "kurtosis": "1.0742",
+    "entropy": "-3.3409",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.062025",
+    "skewness": "6.1975",
+    "kurtosis": "1.099",
+    "entropy": "-1.131",
+    "fake": "0"
+  },
+  {
+    "variance": "4.223",
+    "skewness": "1.1319",
+    "kurtosis": "0.72202",
+    "entropy": "0.96118",
+    "fake": "0"
+  },
+  {
+    "variance": "0.64295",
+    "skewness": "7.1018",
+    "kurtosis": "0.3493",
+    "entropy": "-0.41337",
+    "fake": "0"
+  },
+  {
+    "variance": "1.941",
+    "skewness": "0.46351",
+    "kurtosis": "4.6472",
+    "entropy": "1.0879",
+    "fake": "0"
+  },
+  {
+    "variance": "4.0047",
+    "skewness": "0.45937",
+    "kurtosis": "1.3621",
+    "entropy": "1.6181",
+    "fake": "0"
+  },
+  {
+    "variance": "3.7767",
+    "skewness": "9.7794",
+    "kurtosis": "-3.9075",
+    "entropy": "-3.5323",
+    "fake": "0"
+  },
+  {
+    "variance": "3.4769",
+    "skewness": "-0.15314",
+    "kurtosis": "2.53",
+    "entropy": "2.4495",
+    "fake": "0"
+  },
+  {
+    "variance": "1.9818",
+    "skewness": "9.2621",
+    "kurtosis": "-3.521",
+    "entropy": "-1.872",
+    "fake": "0"
+  },
+  {
+    "variance": "3.8023",
+    "skewness": "-3.8696",
+    "kurtosis": "4.044",
+    "entropy": "0.95343",
+    "fake": "0"
+  },
+  {
+    "variance": "4.3483",
+    "skewness": "11.1079",
+    "kurtosis": "-4.0857",
+    "entropy": "-4.2539",
+    "fake": "0"
+  },
+  {
+    "variance": "1.1518",
+    "skewness": "1.3864",
+    "kurtosis": "5.2727",
+    "entropy": "-0.43536",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.2576",
+    "skewness": "1.5892",
+    "kurtosis": "7.0078",
+    "entropy": "0.42455",
+    "fake": "0"
+  },
+  {
+    "variance": "1.9572",
+    "skewness": "-5.1153",
+    "kurtosis": "8.6127",
+    "entropy": "-1.4297",
+    "fake": "0"
+  },
+  {
+    "variance": "-2.484",
+    "skewness": "12.1611",
+    "kurtosis": "2.8204",
+    "entropy": "-3.7418",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.1497",
+    "skewness": "1.2954",
+    "kurtosis": "7.701",
+    "entropy": "0.62627",
+    "fake": "0"
+  },
+  {
+    "variance": "4.8368",
+    "skewness": "10.0132",
+    "kurtosis": "-4.3239",
+    "entropy": "-4.3276",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.12196",
+    "skewness": "8.8068",
+    "kurtosis": "0.94566",
+    "entropy": "-4.2267",
+    "fake": "0"
+  },
+  {
+    "variance": "1.9429",
+    "skewness": "6.3961",
+    "kurtosis": "0.092248",
+    "entropy": "0.58102",
+    "fake": "0"
+  },
+  {
+    "variance": "1.742",
+    "skewness": "-4.809",
+    "kurtosis": "8.2142",
+    "entropy": "-2.0659",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.5222",
+    "skewness": "10.8409",
+    "kurtosis": "2.7827",
+    "entropy": "-4.0974",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.3",
+    "skewness": "10.2678",
+    "kurtosis": "-2.953",
+    "entropy": "-5.8638",
+    "fake": "0"
+  },
+  {
+    "variance": "3.4246",
+    "skewness": "-0.14693",
+    "kurtosis": "0.80342",
+    "entropy": "0.29136",
+    "fake": "0"
+  },
+  {
+    "variance": "2.5503",
+    "skewness": "-4.9518",
+    "kurtosis": "6.3729",
+    "entropy": "-0.41596",
+    "fake": "0"
+  },
+  {
+    "variance": "1.5691",
+    "skewness": "6.3465",
+    "kurtosis": "-0.1828",
+    "entropy": "-2.4099",
+    "fake": "0"
+  },
+  {
+    "variance": "1.3087",
+    "skewness": "4.9228",
+    "kurtosis": "2.0013",
+    "entropy": "0.22024",
+    "fake": "0"
+  },
+  {
+    "variance": "5.1776",
+    "skewness": "8.2316",
+    "kurtosis": "-3.2511",
+    "entropy": "-1.5694",
+    "fake": "0"
+  },
+  {
+    "variance": "2.229",
+    "skewness": "9.6325",
+    "kurtosis": "-3.1123",
+    "entropy": "-2.7164",
+    "fake": "0"
+  },
+  {
+    "variance": "5.6272",
+    "skewness": "10.0857",
+    "kurtosis": "-4.2931",
+    "entropy": "-3.8142",
+    "fake": "0"
+  },
+  {
+    "variance": "1.2138",
+    "skewness": "8.7986",
+    "kurtosis": "-2.1672",
+    "entropy": "-0.74182",
+    "fake": "0"
+  },
+  {
+    "variance": "0.3798",
+    "skewness": "0.7098",
+    "kurtosis": "0.7572",
+    "entropy": "-0.4444",
+    "fake": "0"
+  },
+  {
+    "variance": "0.5415",
+    "skewness": "6.0319",
+    "kurtosis": "1.6825",
+    "entropy": "-0.46122",
+    "fake": "0"
+  },
+  {
+    "variance": "4.0524",
+    "skewness": "5.6802",
+    "kurtosis": "-1.9693",
+    "entropy": "0.026279",
+    "fake": "0"
+  },
+  {
+    "variance": "4.7285",
+    "skewness": "2.1065",
+    "kurtosis": "-0.28305",
+    "entropy": "1.5625",
+    "fake": "0"
+  },
+  {
+    "variance": "3.4359",
+    "skewness": "0.66216",
+    "kurtosis": "2.1041",
+    "entropy": "1.8922",
+    "fake": "0"
+  },
+  {
+    "variance": "0.86816",
+    "skewness": "10.2429",
+    "kurtosis": "-1.4912",
+    "entropy": "-4.0082",
+    "fake": "0"
+  },
+  {
+    "variance": "3.359",
+    "skewness": "9.8022",
+    "kurtosis": "-3.8209",
+    "entropy": "-3.7133",
+    "fake": "0"
+  },
+  {
+    "variance": "3.6702",
+    "skewness": "2.9942",
+    "kurtosis": "0.85141",
+    "entropy": "0.30688",
+    "fake": "0"
+  },
+  {
+    "variance": "1.3349",
+    "skewness": "6.1189",
+    "kurtosis": "0.46497",
+    "entropy": "0.49826",
+    "fake": "0"
+  },
+  {
+    "variance": "3.1887",
+    "skewness": "-3.4143",
+    "kurtosis": "2.7742",
+    "entropy": "-0.2026",
+    "fake": "0"
+  },
+  {
+    "variance": "2.4527",
+    "skewness": "2.9653",
+    "kurtosis": "0.20021",
+    "entropy": "-0.056479",
+    "fake": "0"
+  },
+  {
+    "variance": "3.9121",
+    "skewness": "2.9735",
+    "kurtosis": "0.92852",
+    "entropy": "0.60558",
+    "fake": "0"
+  },
+  {
+    "variance": "3.9364",
+    "skewness": "10.5885",
+    "kurtosis": "-3.725",
+    "entropy": "-4.3133",
+    "fake": "0"
+  },
+  {
+    "variance": "3.9414",
+    "skewness": "-3.2902",
+    "kurtosis": "3.1674",
+    "entropy": "1.0866",
+    "fake": "0"
+  },
+  {
+    "variance": "3.6922",
+    "skewness": "-3.9585",
+    "kurtosis": "4.3439",
+    "entropy": "1.3517",
+    "fake": "0"
+  },
+  {
+    "variance": "5.681",
+    "skewness": "7.795",
+    "kurtosis": "-2.6848",
+    "entropy": "-0.92544",
+    "fake": "0"
+  },
+  {
+    "variance": "0.77124",
+    "skewness": "9.0862",
+    "kurtosis": "-1.2281",
+    "entropy": "-1.4996",
+    "fake": "0"
+  },
+  {
+    "variance": "3.5761",
+    "skewness": "9.7753",
+    "kurtosis": "-3.9795",
+    "entropy": "-3.4638",
+    "fake": "0"
+  },
+  {
+    "variance": "1.602",
+    "skewness": "6.1251",
+    "kurtosis": "0.52924",
+    "entropy": "0.47886",
+    "fake": "0"
+  },
+  {
+    "variance": "2.6682",
+    "skewness": "10.216",
+    "kurtosis": "-3.4414",
+    "entropy": "-4.0069",
+    "fake": "0"
+  },
+  {
+    "variance": "2.0007",
+    "skewness": "1.8644",
+    "kurtosis": "2.6491",
+    "entropy": "0.47369",
+    "fake": "0"
+  },
+  {
+    "variance": "0.64215",
+    "skewness": "3.1287",
+    "kurtosis": "4.2933",
+    "entropy": "0.64696",
+    "fake": "0"
+  },
+  {
+    "variance": "4.3848",
+    "skewness": "-3.0729",
+    "kurtosis": "3.0423",
+    "entropy": "1.2741",
+    "fake": "0"
+  },
+  {
+    "variance": "0.77445",
+    "skewness": "9.0552",
+    "kurtosis": "-2.4089",
+    "entropy": "-1.3884",
+    "fake": "0"
+  },
+  {
+    "variance": "0.96574",
+    "skewness": "8.393",
+    "kurtosis": "-1.361",
+    "entropy": "-1.4659",
+    "fake": "0"
+  },
+  {
+    "variance": "3.0948",
+    "skewness": "8.7324",
+    "kurtosis": "-2.9007",
+    "entropy": "-0.96682",
+    "fake": "0"
+  },
+  {
+    "variance": "4.9362",
+    "skewness": "7.6046",
+    "kurtosis": "-2.3429",
+    "entropy": "-0.85302",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.9458",
+    "skewness": "11.2217",
+    "kurtosis": "1.9079",
+    "entropy": "-3.4405",
+    "fake": "0"
+  },
+  {
+    "variance": "5.7403",
+    "skewness": "-0.44284",
+    "kurtosis": "0.38015",
+    "entropy": "1.3763",
+    "fake": "0"
+  },
+  {
+    "variance": "-2.6989",
+    "skewness": "12.1984",
+    "kurtosis": "0.67661",
+    "entropy": "-8.5482",
+    "fake": "0"
+  },
+  {
+    "variance": "1.1472",
+    "skewness": "3.5985",
+    "kurtosis": "1.9387",
+    "entropy": "-0.43406",
+    "fake": "0"
+  },
+  {
+    "variance": "2.9742",
+    "skewness": "8.96",
+    "kurtosis": "-2.9024",
+    "entropy": "-1.0379",
+    "fake": "0"
+  },
+  {
+    "variance": "4.5707",
+    "skewness": "7.2094",
+    "kurtosis": "-3.2794",
+    "entropy": "-1.4944",
+    "fake": "0"
+  },
+  {
+    "variance": "0.1848",
+    "skewness": "6.5079",
+    "kurtosis": "2.0133",
+    "entropy": "-0.87242",
+    "fake": "0"
+  },
+  {
+    "variance": "0.87256",
+    "skewness": "9.2931",
+    "kurtosis": "-0.7843",
+    "entropy": "-2.1978",
+    "fake": "0"
+  },
+  {
+    "variance": "0.39559",
+    "skewness": "6.8866",
+    "kurtosis": "1.0588",
+    "entropy": "-0.67587",
+    "fake": "0"
+  },
+  {
+    "variance": "3.8384",
+    "skewness": "6.1851",
+    "kurtosis": "-2.0439",
+    "entropy": "-0.033204",
+    "fake": "0"
+  },
+  {
+    "variance": "2.8209",
+    "skewness": "7.3108",
+    "kurtosis": "-0.81857",
+    "entropy": "-1.8784",
+    "fake": "0"
+  },
+  {
+    "variance": "2.5817",
+    "skewness": "9.7546",
+    "kurtosis": "-3.1749",
+    "entropy": "-2.9957",
+    "fake": "0"
+  },
+  {
+    "variance": "3.8213",
+    "skewness": "0.23175",
+    "kurtosis": "2.0133",
+    "entropy": "2.0564",
+    "fake": "0"
+  },
+  {
+    "variance": "0.3798",
+    "skewness": "0.7098",
+    "kurtosis": "0.7572",
+    "entropy": "-0.4444",
+    "fake": "0"
+  },
+  {
+    "variance": "3.4893",
+    "skewness": "6.69",
+    "kurtosis": "-1.2042",
+    "entropy": "-0.38751",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.7781",
+    "skewness": "0.8546",
+    "kurtosis": "7.1303",
+    "entropy": "0.027572",
+    "fake": "0"
+  },
+  {
+    "variance": "2.0962",
+    "skewness": "2.4769",
+    "kurtosis": "1.9379",
+    "entropy": "-0.040962",
+    "fake": "0"
+  },
+  {
+    "variance": "0.94732",
+    "skewness": "-0.57113",
+    "kurtosis": "7.1903",
+    "entropy": "-0.67587",
+    "fake": "0"
+  },
+  {
+    "variance": "2.8261",
+    "skewness": "9.4007",
+    "kurtosis": "-3.3034",
+    "entropy": "-1.0509",
+    "fake": "0"
+  },
+  {
+    "variance": "0.0071249",
+    "skewness": "8.3661",
+    "kurtosis": "0.50781",
+    "entropy": "-3.8155",
+    "fake": "0"
+  },
+  {
+    "variance": "0.96788",
+    "skewness": "7.1907",
+    "kurtosis": "1.2798",
+    "entropy": "-2.4565",
+    "fake": "0"
+  },
+  {
+    "variance": "4.7432",
+    "skewness": "2.1086",
+    "kurtosis": "0.1368",
+    "entropy": "1.6543",
+    "fake": "0"
+  },
+  {
+    "variance": "3.6575",
+    "skewness": "7.2797",
+    "kurtosis": "-2.2692",
+    "entropy": "-1.144",
+    "fake": "0"
+  },
+  {
+    "variance": "3.8832",
+    "skewness": "6.4023",
+    "kurtosis": "-2.432",
+    "entropy": "-0.98363",
+    "fake": "0"
+  },
+  {
+    "variance": "3.4776",
+    "skewness": "8.811",
+    "kurtosis": "-3.1886",
+    "entropy": "-0.92285",
+    "fake": "0"
+  },
+  {
+    "variance": "1.1315",
+    "skewness": "7.9212",
+    "kurtosis": "1.093",
+    "entropy": "-2.8444",
+    "fake": "0"
+  },
+  {
+    "variance": "2.8237",
+    "skewness": "2.8597",
+    "kurtosis": "0.19678",
+    "entropy": "0.57196",
+    "fake": "0"
+  },
+  {
+    "variance": "1.9321",
+    "skewness": "6.0423",
+    "kurtosis": "0.26019",
+    "entropy": "-2.053",
+    "fake": "0"
+  },
+  {
+    "variance": "3.0632",
+    "skewness": "-3.3315",
+    "kurtosis": "5.1305",
+    "entropy": "0.8267",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.8411",
+    "skewness": "10.8306",
+    "kurtosis": "2.769",
+    "entropy": "-3.0901",
+    "fake": "0"
+  },
+  {
+    "variance": "2.8084",
+    "skewness": "11.3045",
+    "kurtosis": "-3.3394",
+    "entropy": "-4.4194",
+    "fake": "0"
+  },
+  {
+    "variance": "2.5698",
+    "skewness": "-4.4076",
+    "kurtosis": "5.9856",
+    "entropy": "0.078002",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.12624",
+    "skewness": "10.3216",
+    "kurtosis": "-3.7121",
+    "entropy": "-6.1185",
+    "fake": "0"
+  },
+  {
+    "variance": "3.3756",
+    "skewness": "-4.0951",
+    "kurtosis": "4.367",
+    "entropy": "1.0698",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.048008",
+    "skewness": "-1.6037",
+    "kurtosis": "8.4756",
+    "entropy": "0.75558",
+    "fake": "0"
+  },
+  {
+    "variance": "0.5706",
+    "skewness": "-0.0248",
+    "kurtosis": "1.2421",
+    "entropy": "-0.5621",
+    "fake": "0"
+  },
+  {
+    "variance": "0.88444",
+    "skewness": "6.5906",
+    "kurtosis": "0.55837",
+    "entropy": "-0.44182",
+    "fake": "0"
+  },
+  {
+    "variance": "3.8644",
+    "skewness": "3.7061",
+    "kurtosis": "0.70403",
+    "entropy": "0.35214",
+    "fake": "0"
+  },
+  {
+    "variance": "1.2999",
+    "skewness": "2.5762",
+    "kurtosis": "2.0107",
+    "entropy": "-0.18967",
+    "fake": "0"
+  },
+  {
+    "variance": "2.0051",
+    "skewness": "-6.8638",
+    "kurtosis": "8.132",
+    "entropy": "-0.2401",
+    "fake": "0"
+  },
+  {
+    "variance": "4.9294",
+    "skewness": "0.27727",
+    "kurtosis": "0.20792",
+    "entropy": "0.33662",
+    "fake": "0"
+  },
+  {
+    "variance": "2.8297",
+    "skewness": "6.3485",
+    "kurtosis": "-0.73546",
+    "entropy": "-0.58665",
+    "fake": "0"
+  },
+  {
+    "variance": "2.565",
+    "skewness": "8.633",
+    "kurtosis": "-2.9941",
+    "entropy": "-1.3082",
+    "fake": "0"
+  },
+  {
+    "variance": "2.093",
+    "skewness": "8.3061",
+    "kurtosis": "0.022844",
+    "entropy": "-3.2724",
+    "fake": "0"
+  },
+  {
+    "variance": "4.6014",
+    "skewness": "5.6264",
+    "kurtosis": "-2.1235",
+    "entropy": "0.19309",
+    "fake": "0"
+  },
+  {
+    "variance": "5.0617",
+    "skewness": "-0.35799",
+    "kurtosis": "0.44698",
+    "entropy": "0.99868",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.2951",
+    "skewness": "9.0489",
+    "kurtosis": "-0.52725",
+    "entropy": "-2.0789",
+    "fake": "0"
+  },
+  {
+    "variance": "3.577",
+    "skewness": "2.4004",
+    "kurtosis": "1.8908",
+    "entropy": "0.73231",
+    "fake": "0"
+  },
+  {
+    "variance": "3.9433",
+    "skewness": "2.5017",
+    "kurtosis": "1.5215",
+    "entropy": "0.903",
+    "fake": "0"
+  },
+  {
+    "variance": "2.6648",
+    "skewness": "10.754",
+    "kurtosis": "-3.3994",
+    "entropy": "-4.1685",
+    "fake": "0"
+  },
+  {
+    "variance": "5.9374",
+    "skewness": "6.1664",
+    "kurtosis": "-2.5905",
+    "entropy": "-0.36553",
+    "fake": "0"
+  },
+  {
+    "variance": "2.0153",
+    "skewness": "1.8479",
+    "kurtosis": "3.1375",
+    "entropy": "0.42843",
+    "fake": "0"
+  },
+  {
+    "variance": "5.8782",
+    "skewness": "5.9409",
+    "kurtosis": "-2.8544",
+    "entropy": "-0.60863",
+    "fake": "0"
+  },
+  {
+    "variance": "-2.3983",
+    "skewness": "12.606",
+    "kurtosis": "2.9464",
+    "entropy": "-5.7888",
+    "fake": "0"
+  },
+  {
+    "variance": "1.762",
+    "skewness": "4.3682",
+    "kurtosis": "2.1384",
+    "entropy": "0.75429",
+    "fake": "0"
+  },
+  {
+    "variance": "4.2406",
+    "skewness": "-2.4852",
+    "kurtosis": "1.608",
+    "entropy": "0.7155",
+    "fake": "0"
+  },
+  {
+    "variance": "3.4669",
+    "skewness": "6.87",
+    "kurtosis": "-1.0568",
+    "entropy": "-0.73147",
+    "fake": "0"
+  },
+  {
+    "variance": "3.1896",
+    "skewness": "5.7526",
+    "kurtosis": "-0.18537",
+    "entropy": "-0.30087",
+    "fake": "0"
+  },
+  {
+    "variance": "0.81356",
+    "skewness": "9.1566",
+    "kurtosis": "-2.1492",
+    "entropy": "-4.1814",
+    "fake": "0"
+  },
+  {
+    "variance": "0.52855",
+    "skewness": "0.96427",
+    "kurtosis": "4.0243",
+    "entropy": "-1.0483",
+    "fake": "0"
+  },
+  {
+    "variance": "2.1319",
+    "skewness": "-2.0403",
+    "kurtosis": "2.5574",
+    "entropy": "-0.061652",
+    "fake": "0"
+  },
+  {
+    "variance": "0.33111",
+    "skewness": "4.5731",
+    "kurtosis": "2.057",
+    "entropy": "-0.18967",
+    "fake": "0"
+  },
+  {
+    "variance": "1.2746",
+    "skewness": "8.8172",
+    "kurtosis": "-1.5323",
+    "entropy": "-1.7957",
+    "fake": "0"
+  },
+  {
+    "variance": "2.2091",
+    "skewness": "7.4556",
+    "kurtosis": "-1.3284",
+    "entropy": "-3.3021",
+    "fake": "0"
+  },
+  {
+    "variance": "2.5328",
+    "skewness": "7.528",
+    "kurtosis": "-0.41929",
+    "entropy": "-2.6478",
+    "fake": "0"
+  },
+  {
+    "variance": "3.6244",
+    "skewness": "1.4609",
+    "kurtosis": "1.3501",
+    "entropy": "1.9284",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.3885",
+    "skewness": "12.5026",
+    "kurtosis": "0.69118",
+    "entropy": "-7.5487",
+    "fake": "0"
+  },
+  {
+    "variance": "5.7227",
+    "skewness": "5.8312",
+    "kurtosis": "-2.4097",
+    "entropy": "-0.24527",
+    "fake": "0"
+  },
+  {
+    "variance": "3.3583",
+    "skewness": "10.3567",
+    "kurtosis": "-3.7301",
+    "entropy": "-3.6991",
+    "fake": "0"
+  },
+  {
+    "variance": "2.5227",
+    "skewness": "2.2369",
+    "kurtosis": "2.7236",
+    "entropy": "0.79438",
+    "fake": "0"
+  },
+  {
+    "variance": "0.045304",
+    "skewness": "6.7334",
+    "kurtosis": "1.0708",
+    "entropy": "-0.9332",
+    "fake": "0"
+  },
+  {
+    "variance": "4.8278",
+    "skewness": "7.7598",
+    "kurtosis": "-2.4491",
+    "entropy": "-1.2216",
+    "fake": "0"
+  },
+  {
+    "variance": "1.9476",
+    "skewness": "-4.7738",
+    "kurtosis": "8.527",
+    "entropy": "-1.8668",
+    "fake": "0"
+  },
+  {
+    "variance": "2.7659",
+    "skewness": "0.66216",
+    "kurtosis": "4.1494",
+    "entropy": "-0.28406",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.10648",
+    "skewness": "-0.76771",
+    "kurtosis": "7.7575",
+    "entropy": "0.64179",
+    "fake": "0"
+  },
+  {
+    "variance": "0.72252",
+    "skewness": "-0.053811",
+    "kurtosis": "5.6703",
+    "entropy": "-1.3509",
+    "fake": "0"
+  },
+  {
+    "variance": "4.2475",
+    "skewness": "1.4816",
+    "kurtosis": "-0.48355",
+    "entropy": "0.95343",
+    "fake": "0"
+  },
+  {
+    "variance": "3.9772",
+    "skewness": "0.33521",
+    "kurtosis": "2.2566",
+    "entropy": "2.1625",
+    "fake": "0"
+  },
+  {
+    "variance": "3.6667",
+    "skewness": "4.302",
+    "kurtosis": "0.55923",
+    "entropy": "0.33791",
+    "fake": "0"
+  },
+  {
+    "variance": "2.8232",
+    "skewness": "10.8513",
+    "kurtosis": "-3.1466",
+    "entropy": "-3.9784",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.4217",
+    "skewness": "11.6542",
+    "kurtosis": "-0.057699",
+    "entropy": "-7.1025",
+    "fake": "0"
+  },
+  {
+    "variance": "4.2458",
+    "skewness": "1.1981",
+    "kurtosis": "0.66633",
+    "entropy": "0.94696",
+    "fake": "0"
+  },
+  {
+    "variance": "4.1038",
+    "skewness": "-4.8069",
+    "kurtosis": "3.3491",
+    "entropy": "-0.49225",
+    "fake": "0"
+  },
+  {
+    "variance": "1.4507",
+    "skewness": "8.7903",
+    "kurtosis": "-2.2324",
+    "entropy": "-0.65259",
+    "fake": "0"
+  },
+  {
+    "variance": "3.4647",
+    "skewness": "-3.9172",
+    "kurtosis": "3.9746",
+    "entropy": "0.36119",
+    "fake": "0"
+  },
+  {
+    "variance": "1.8533",
+    "skewness": "6.1458",
+    "kurtosis": "1.0176",
+    "entropy": "-2.0401",
+    "fake": "0"
+  },
+  {
+    "variance": "3.5288",
+    "skewness": "0.71596",
+    "kurtosis": "1.9507",
+    "entropy": "1.9375",
+    "fake": "0"
+  },
+  {
+    "variance": "3.9719",
+    "skewness": "1.0367",
+    "kurtosis": "0.75973",
+    "entropy": "1.0013",
+    "fake": "0"
+  },
+  {
+    "variance": "3.534",
+    "skewness": "9.3614",
+    "kurtosis": "-3.6316",
+    "entropy": "-1.2461",
+    "fake": "0"
+  },
+  {
+    "variance": "3.6894",
+    "skewness": "9.887",
+    "kurtosis": "-4.0788",
+    "entropy": "-4.3664",
+    "fake": "0"
+  },
+  {
+    "variance": "3.0672",
+    "skewness": "-4.4117",
+    "kurtosis": "3.8238",
+    "entropy": "-0.81682",
+    "fake": "0"
+  },
+  {
+    "variance": "2.6463",
+    "skewness": "-4.8152",
+    "kurtosis": "6.3549",
+    "entropy": "0.003003",
+    "fake": "0"
+  },
+  {
+    "variance": "2.2893",
+    "skewness": "3.733",
+    "kurtosis": "0.6312",
+    "entropy": "-0.39786",
+    "fake": "0"
+  },
+  {
+    "variance": "1.5673",
+    "skewness": "7.9274",
+    "kurtosis": "-0.056842",
+    "entropy": "-2.1694",
+    "fake": "0"
+  },
+  {
+    "variance": "4.0405",
+    "skewness": "0.51524",
+    "kurtosis": "1.0279",
+    "entropy": "1.106",
+    "fake": "0"
+  },
+  {
+    "variance": "4.3846",
+    "skewness": "-4.8794",
+    "kurtosis": "3.3662",
+    "entropy": "-0.029324",
+    "fake": "0"
+  },
+  {
+    "variance": "2.0165",
+    "skewness": "-0.25246",
+    "kurtosis": "5.1707",
+    "entropy": "1.0763",
+    "fake": "0"
+  },
+  {
+    "variance": "4.0446",
+    "skewness": "11.1741",
+    "kurtosis": "-4.3582",
+    "entropy": "-4.7401",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.33729",
+    "skewness": "-0.64976",
+    "kurtosis": "7.6659",
+    "entropy": "0.72326",
+    "fake": "0"
+  },
+  {
+    "variance": "-2.4604",
+    "skewness": "12.7302",
+    "kurtosis": "0.91738",
+    "entropy": "-7.6418",
+    "fake": "0"
+  },
+  {
+    "variance": "4.1195",
+    "skewness": "10.9258",
+    "kurtosis": "-3.8929",
+    "entropy": "-4.1802",
+    "fake": "0"
+  },
+  {
+    "variance": "2.0193",
+    "skewness": "0.82356",
+    "kurtosis": "4.6369",
+    "entropy": "1.4202",
+    "fake": "0"
+  },
+  {
+    "variance": "1.5701",
+    "skewness": "7.9129",
+    "kurtosis": "0.29018",
+    "entropy": "-2.1953",
+    "fake": "0"
+  },
+  {
+    "variance": "2.6415",
+    "skewness": "7.586",
+    "kurtosis": "-0.28562",
+    "entropy": "-1.6677",
+    "fake": "0"
+  },
+  {
+    "variance": "5.0214",
+    "skewness": "8.0764",
+    "kurtosis": "-3.0515",
+    "entropy": "-1.7155",
+    "fake": "0"
+  },
+  {
+    "variance": "4.3435",
+    "skewness": "3.3295",
+    "kurtosis": "0.83598",
+    "entropy": "0.64955",
+    "fake": "0"
+  },
+  {
+    "variance": "1.8238",
+    "skewness": "-6.7748",
+    "kurtosis": "8.3873",
+    "entropy": "-0.54139",
+    "fake": "0"
+  },
+  {
+    "variance": "3.9382",
+    "skewness": "0.9291",
+    "kurtosis": "0.78543",
+    "entropy": "0.6767",
+    "fake": "0"
+  },
+  {
+    "variance": "2.2517",
+    "skewness": "-5.1422",
+    "kurtosis": "4.2916",
+    "entropy": "-1.2487",
+    "fake": "0"
+  },
+  {
+    "variance": "5.504",
+    "skewness": "10.3671",
+    "kurtosis": "-4.413",
+    "entropy": "-4.0211",
+    "fake": "0"
+  },
+  {
+    "variance": "2.8521",
+    "skewness": "9.171",
+    "kurtosis": "-3.6461",
+    "entropy": "-1.2047",
+    "fake": "0"
+  },
+  {
+    "variance": "1.1676",
+    "skewness": "9.1566",
+    "kurtosis": "-2.0867",
+    "entropy": "-0.80647",
+    "fake": "0"
+  },
+  {
+    "variance": "2.6104",
+    "skewness": "8.0081",
+    "kurtosis": "-0.23592",
+    "entropy": "-1.7608",
+    "fake": "0"
+  },
+  {
+    "variance": "0.32444",
+    "skewness": "10.067",
+    "kurtosis": "-1.1982",
+    "entropy": "-4.1284",
+    "fake": "0"
+  },
+  {
+    "variance": "3.8962",
+    "skewness": "-4.7904",
+    "kurtosis": "3.3954",
+    "entropy": "-0.53751",
+    "fake": "0"
+  },
+  {
+    "variance": "2.1752",
+    "skewness": "-0.8091",
+    "kurtosis": "5.1022",
+    "entropy": "-0.67975",
+    "fake": "0"
+  },
+  {
+    "variance": "1.1588",
+    "skewness": "8.9331",
+    "kurtosis": "-2.0807",
+    "entropy": "-1.1272",
+    "fake": "0"
+  },
+  {
+    "variance": "4.7072",
+    "skewness": "8.2957",
+    "kurtosis": "-2.5605",
+    "entropy": "-1.4905",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.9667",
+    "skewness": "11.8052",
+    "kurtosis": "-0.40472",
+    "entropy": "-7.8719",
+    "fake": "0"
+  },
+  {
+    "variance": "4.0552",
+    "skewness": "0.40143",
+    "kurtosis": "1.4563",
+    "entropy": "0.65343",
+    "fake": "0"
+  },
+  {
+    "variance": "2.3678",
+    "skewness": "-6.839",
+    "kurtosis": "8.4207",
+    "entropy": "-0.44829",
+    "fake": "0"
+  },
+  {
+    "variance": "0.33565",
+    "skewness": "6.8369",
+    "kurtosis": "0.69718",
+    "entropy": "-0.55691",
+    "fake": "0"
+  },
+  {
+    "variance": "4.3398",
+    "skewness": "-5.3036",
+    "kurtosis": "3.8803",
+    "entropy": "-0.70432",
+    "fake": "0"
+  },
+  {
+    "variance": "1.5456",
+    "skewness": "8.5482",
+    "kurtosis": "0.4187",
+    "entropy": "-2.1784",
+    "fake": "0"
+  },
+  {
+    "variance": "1.4276",
+    "skewness": "8.3847",
+    "kurtosis": "-2.0995",
+    "entropy": "-1.9677",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.27802",
+    "skewness": "8.1881",
+    "kurtosis": "-3.1338",
+    "entropy": "-2.5276",
+    "fake": "0"
+  },
+  {
+    "variance": "0.93611",
+    "skewness": "8.6413",
+    "kurtosis": "-1.6351",
+    "entropy": "-1.3043",
+    "fake": "0"
+  },
+  {
+    "variance": "4.6352",
+    "skewness": "-3.0087",
+    "kurtosis": "2.6773",
+    "entropy": "1.212",
+    "fake": "0"
+  },
+  {
+    "variance": "1.5268",
+    "skewness": "-5.5871",
+    "kurtosis": "8.6564",
+    "entropy": "-1.722",
+    "fake": "0"
+  },
+  {
+    "variance": "0.95626",
+    "skewness": "2.4728",
+    "kurtosis": "4.4578",
+    "entropy": "0.21636",
+    "fake": "0"
+  },
+  {
+    "variance": "-2.7914",
+    "skewness": "1.7734",
+    "kurtosis": "6.7756",
+    "entropy": "-0.39915",
+    "fake": "0"
+  },
+  {
+    "variance": "5.2032",
+    "skewness": "3.5116",
+    "kurtosis": "-1.2538",
+    "entropy": "1.0129",
+    "fake": "0"
+  },
+  {
+    "variance": "3.1836",
+    "skewness": "7.2321",
+    "kurtosis": "-1.0713",
+    "entropy": "-2.5909",
+    "fake": "0"
+  },
+  {
+    "variance": "0.65497",
+    "skewness": "5.1815",
+    "kurtosis": "1.0673",
+    "entropy": "-0.42113",
+    "fake": "0"
+  },
+  {
+    "variance": "5.6084",
+    "skewness": "10.3009",
+    "kurtosis": "-4.8003",
+    "entropy": "-4.3534",
+    "fake": "0"
+  },
+  {
+    "variance": "1.105",
+    "skewness": "7.4432",
+    "kurtosis": "0.41099",
+    "entropy": "-3.0332",
+    "fake": "0"
+  },
+  {
+    "variance": "3.9292",
+    "skewness": "-2.9156",
+    "kurtosis": "2.2129",
+    "entropy": "0.30817",
+    "fake": "0"
+  },
+  {
+    "variance": "1.1558",
+    "skewness": "6.4003",
+    "kurtosis": "1.5506",
+    "entropy": "0.6961",
+    "fake": "0"
+  },
+  {
+    "variance": "2.5581",
+    "skewness": "2.6218",
+    "kurtosis": "1.8513",
+    "entropy": "0.40257",
+    "fake": "0"
+  },
+  {
+    "variance": "2.7831",
+    "skewness": "10.9796",
+    "kurtosis": "-3.557",
+    "entropy": "-4.4039",
+    "fake": "0"
+  },
+  {
+    "variance": "3.7635",
+    "skewness": "2.7811",
+    "kurtosis": "0.66119",
+    "entropy": "0.34179",
+    "fake": "0"
+  },
+  {
+    "variance": "-2.6479",
+    "skewness": "10.1374",
+    "kurtosis": "-1.331",
+    "entropy": "-5.4707",
+    "fake": "0"
+  },
+  {
+    "variance": "1.0652",
+    "skewness": "8.3682",
+    "kurtosis": "-1.4004",
+    "entropy": "-1.6509",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.4275",
+    "skewness": "11.8797",
+    "kurtosis": "0.41613",
+    "entropy": "-6.9978",
+    "fake": "0"
+  },
+  {
+    "variance": "5.7456",
+    "skewness": "10.1808",
+    "kurtosis": "-4.7857",
+    "entropy": "-4.3366",
+    "fake": "0"
+  },
+  {
+    "variance": "5.086",
+    "skewness": "3.2798",
+    "kurtosis": "-1.2701",
+    "entropy": "1.1189",
+    "fake": "0"
+  },
+  {
+    "variance": "3.4092",
+    "skewness": "5.4049",
+    "kurtosis": "-2.5228",
+    "entropy": "-0.89958",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.2361",
+    "skewness": "9.3221",
+    "kurtosis": "2.1307",
+    "entropy": "-4.3793",
+    "fake": "0"
+  },
+  {
+    "variance": "3.8197",
+    "skewness": "8.9951",
+    "kurtosis": "-4.383",
+    "entropy": "-4.0327",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.1391",
+    "skewness": "1.8127",
+    "kurtosis": "6.9144",
+    "entropy": "0.70127",
+    "fake": "0"
+  },
+  {
+    "variance": "4.9249",
+    "skewness": "0.68906",
+    "kurtosis": "0.77344",
+    "entropy": "1.2095",
+    "fake": "0"
+  },
+  {
+    "variance": "2.5089",
+    "skewness": "6.841",
+    "kurtosis": "-0.029423",
+    "entropy": "0.44912",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.2062",
+    "skewness": "9.2207",
+    "kurtosis": "-3.7044",
+    "entropy": "-6.8103",
+    "fake": "0"
+  },
+  {
+    "variance": "3.946",
+    "skewness": "6.8514",
+    "kurtosis": "-1.5443",
+    "entropy": "-0.5582",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.278",
+    "skewness": "8.1881",
+    "kurtosis": "-3.1338",
+    "entropy": "-2.5276",
+    "fake": "0"
+  },
+  {
+    "variance": "1.8592",
+    "skewness": "3.2074",
+    "kurtosis": "-0.15966",
+    "entropy": "-0.26208",
+    "fake": "0"
+  },
+  {
+    "variance": "0.56953",
+    "skewness": "7.6294",
+    "kurtosis": "1.5754",
+    "entropy": "-3.2233",
+    "fake": "0"
+  },
+  {
+    "variance": "3.4626",
+    "skewness": "-4.449",
+    "kurtosis": "3.5427",
+    "entropy": "0.15429",
+    "fake": "0"
+  },
+  {
+    "variance": "3.3951",
+    "skewness": "1.1484",
+    "kurtosis": "2.1401",
+    "entropy": "2.0862",
+    "fake": "0"
+  },
+  {
+    "variance": "5.0429",
+    "skewness": "-0.52974",
+    "kurtosis": "0.50439",
+    "entropy": "1.106",
+    "fake": "0"
+  },
+  {
+    "variance": "3.7758",
+    "skewness": "7.1783",
+    "kurtosis": "-1.5195",
+    "entropy": "0.40128",
+    "fake": "0"
+  },
+  {
+    "variance": "4.6562",
+    "skewness": "7.6398",
+    "kurtosis": "-2.4243",
+    "entropy": "-1.2384",
+    "fake": "0"
+  },
+  {
+    "variance": "4.0948",
+    "skewness": "-2.9674",
+    "kurtosis": "2.3689",
+    "entropy": "0.75429",
+    "fake": "0"
+  },
+  {
+    "variance": "1.8384",
+    "skewness": "6.063",
+    "kurtosis": "0.54723",
+    "entropy": "0.51248",
+    "fake": "0"
+  },
+  {
+    "variance": "2.0153",
+    "skewness": "0.43661",
+    "kurtosis": "4.5864",
+    "entropy": "-0.3151",
+    "fake": "0"
+  },
+  {
+    "variance": "3.5251",
+    "skewness": "0.7201",
+    "kurtosis": "1.6928",
+    "entropy": "0.64438",
+    "fake": "0"
+  },
+  {
+    "variance": "3.757",
+    "skewness": "-5.4236",
+    "kurtosis": "3.8255",
+    "entropy": "-1.2526",
+    "fake": "0"
+  },
+  {
+    "variance": "2.5989",
+    "skewness": "3.5178",
+    "kurtosis": "0.7623",
+    "entropy": "0.81119",
+    "fake": "0"
+  },
+  {
+    "variance": "1.8994",
+    "skewness": "0.97462",
+    "kurtosis": "4.2265",
+    "entropy": "0.81377",
+    "fake": "0"
+  },
+  {
+    "variance": "3.6941",
+    "skewness": "-3.9482",
+    "kurtosis": "4.2625",
+    "entropy": "1.1577",
+    "fake": "0"
+  },
+  {
+    "variance": "4.4295",
+    "skewness": "-2.3507",
+    "kurtosis": "1.7048",
+    "entropy": "0.90946",
+    "fake": "0"
+  },
+  {
+    "variance": "6.8248",
+    "skewness": "5.2187",
+    "kurtosis": "-2.5425",
+    "entropy": "0.5461",
+    "fake": "0"
+  },
+  {
+    "variance": "1.8967",
+    "skewness": "-2.5163",
+    "kurtosis": "2.8093",
+    "entropy": "-0.79742",
+    "fake": "0"
+  },
+  {
+    "variance": "2.1526",
+    "skewness": "-6.1665",
+    "kurtosis": "8.0831",
+    "entropy": "-0.34355",
+    "fake": "0"
+  },
+  {
+    "variance": "3.3004",
+    "skewness": "7.0811",
+    "kurtosis": "-1.3258",
+    "entropy": "0.22283",
+    "fake": "0"
+  },
+  {
+    "variance": "2.7213",
+    "skewness": "7.05",
+    "kurtosis": "-0.58808",
+    "entropy": "0.41809",
+    "fake": "0"
+  },
+  {
+    "variance": "3.8846",
+    "skewness": "-3.0336",
+    "kurtosis": "2.5334",
+    "entropy": "0.20214",
+    "fake": "0"
+  },
+  {
+    "variance": "4.1665",
+    "skewness": "-0.4449",
+    "kurtosis": "0.23448",
+    "entropy": "0.27843",
+    "fake": "0"
+  },
+  {
+    "variance": "0.94225",
+    "skewness": "5.8561",
+    "kurtosis": "1.8762",
+    "entropy": "-0.32544",
+    "fake": "0"
+  },
+  {
+    "variance": "5.1321",
+    "skewness": "-0.031048",
+    "kurtosis": "0.32616",
+    "entropy": "1.1151",
+    "fake": "0"
+  },
+  {
+    "variance": "0.38251",
+    "skewness": "6.8121",
+    "kurtosis": "1.8128",
+    "entropy": "-0.61251",
+    "fake": "0"
+  },
+  {
+    "variance": "3.0333",
+    "skewness": "-2.5928",
+    "kurtosis": "2.3183",
+    "entropy": "0.303",
+    "fake": "0"
+  },
+  {
+    "variance": "2.9233",
+    "skewness": "6.0464",
+    "kurtosis": "-0.11168",
+    "entropy": "-0.58665",
+    "fake": "0"
+  },
+  {
+    "variance": "1.162",
+    "skewness": "10.2926",
+    "kurtosis": "-1.2821",
+    "entropy": "-4.0392",
+    "fake": "0"
+  },
+  {
+    "variance": "3.7791",
+    "skewness": "2.5762",
+    "kurtosis": "1.3098",
+    "entropy": "0.5655",
+    "fake": "0"
+  },
+  {
+    "variance": "0.77765",
+    "skewness": "5.9781",
+    "kurtosis": "1.1941",
+    "entropy": "-0.3526",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.38388",
+    "skewness": "-1.0471",
+    "kurtosis": "8.0514",
+    "entropy": "0.49567",
+    "fake": "0"
+  },
+  {
+    "variance": "0.21084",
+    "skewness": "9.4359",
+    "kurtosis": "-0.094543",
+    "entropy": "-1.859",
+    "fake": "0"
+  },
+  {
+    "variance": "2.9571",
+    "skewness": "-4.5938",
+    "kurtosis": "5.9068",
+    "entropy": "0.57196",
+    "fake": "0"
+  },
+  {
+    "variance": "4.6439",
+    "skewness": "-3.3729",
+    "kurtosis": "2.5976",
+    "entropy": "0.55257",
+    "fake": "0"
+  },
+  {
+    "variance": "3.3577",
+    "skewness": "-4.3062",
+    "kurtosis": "6.0241",
+    "entropy": "0.18274",
+    "fake": "0"
+  },
+  {
+    "variance": "3.5127",
+    "skewness": "2.9073",
+    "kurtosis": "1.0579",
+    "entropy": "0.40774",
+    "fake": "0"
+  },
+  {
+    "variance": "2.6562",
+    "skewness": "10.7044",
+    "kurtosis": "-3.3085",
+    "entropy": "-4.0767",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.3612",
+    "skewness": "10.694",
+    "kurtosis": "1.7022",
+    "entropy": "-2.9026",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.278",
+    "skewness": "8.1881",
+    "kurtosis": "-3.1338",
+    "entropy": "-2.5276",
+    "fake": "0"
+  },
+  {
+    "variance": "1.04",
+    "skewness": "-6.9321",
+    "kurtosis": "8.2888",
+    "entropy": "-1.2991",
+    "fake": "0"
+  },
+  {
+    "variance": "2.1881",
+    "skewness": "2.7356",
+    "kurtosis": "1.3278",
+    "entropy": "-0.1832",
+    "fake": "0"
+  },
+  {
+    "variance": "4.2756",
+    "skewness": "-2.6528",
+    "kurtosis": "2.1375",
+    "entropy": "0.94437",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.11996",
+    "skewness": "6.8741",
+    "kurtosis": "0.91995",
+    "entropy": "-0.6694",
+    "fake": "0"
+  },
+  {
+    "variance": "2.9736",
+    "skewness": "8.7944",
+    "kurtosis": "-3.6359",
+    "entropy": "-1.3754",
+    "fake": "0"
+  },
+  {
+    "variance": "3.7798",
+    "skewness": "-3.3109",
+    "kurtosis": "2.6491",
+    "entropy": "0.066365",
+    "fake": "0"
+  },
+  {
+    "variance": "5.3586",
+    "skewness": "3.7557",
+    "kurtosis": "-1.7345",
+    "entropy": "1.0789",
+    "fake": "0"
+  },
+  {
+    "variance": "1.8373",
+    "skewness": "6.1292",
+    "kurtosis": "0.84027",
+    "entropy": "0.55257",
+    "fake": "0"
+  },
+  {
+    "variance": "1.2262",
+    "skewness": "0.89599",
+    "kurtosis": "5.7568",
+    "entropy": "-0.11596",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.048008",
+    "skewness": "-0.56078",
+    "kurtosis": "7.7215",
+    "entropy": "0.453",
+    "fake": "0"
+  },
+  {
+    "variance": "0.5706",
+    "skewness": "-0.024841",
+    "kurtosis": "1.2421",
+    "entropy": "-0.56208",
+    "fake": "0"
+  },
+  {
+    "variance": "4.3634",
+    "skewness": "0.46351",
+    "kurtosis": "1.4281",
+    "entropy": "2.0202",
+    "fake": "0"
+  },
+  {
+    "variance": "3.482",
+    "skewness": "-4.1634",
+    "kurtosis": "3.5008",
+    "entropy": "-0.078462",
+    "fake": "0"
+  },
+  {
+    "variance": "0.51947",
+    "skewness": "-3.2633",
+    "kurtosis": "3.0895",
+    "entropy": "-0.98492",
+    "fake": "0"
+  },
+  {
+    "variance": "2.3164",
+    "skewness": "-2.628",
+    "kurtosis": "3.1529",
+    "entropy": "-0.08622",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.8348",
+    "skewness": "11.0334",
+    "kurtosis": "3.1863",
+    "entropy": "-4.8888",
+    "fake": "0"
+  },
+  {
+    "variance": "1.3754",
+    "skewness": "8.8793",
+    "kurtosis": "-1.9136",
+    "entropy": "-0.53751",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.16682",
+    "skewness": "5.8974",
+    "kurtosis": "0.49839",
+    "entropy": "-0.70044",
+    "fake": "0"
+  },
+  {
+    "variance": "0.29961",
+    "skewness": "7.1328",
+    "kurtosis": "-0.31475",
+    "entropy": "-1.1828",
+    "fake": "0"
+  },
+  {
+    "variance": "0.25035",
+    "skewness": "9.3262",
+    "kurtosis": "-3.6873",
+    "entropy": "-6.2543",
+    "fake": "0"
+  },
+  {
+    "variance": "2.4673",
+    "skewness": "1.3926",
+    "kurtosis": "1.7125",
+    "entropy": "0.41421",
+    "fake": "0"
+  },
+  {
+    "variance": "0.77805",
+    "skewness": "6.6424",
+    "kurtosis": "-1.1425",
+    "entropy": "-1.0573",
+    "fake": "0"
+  },
+  {
+    "variance": "3.4465",
+    "skewness": "2.9508",
+    "kurtosis": "1.0271",
+    "entropy": "0.5461",
+    "fake": "0"
+  },
+  {
+    "variance": "2.2429",
+    "skewness": "-4.1427",
+    "kurtosis": "5.2333",
+    "entropy": "-0.40173",
+    "fake": "0"
+  },
+  {
+    "variance": "3.7321",
+    "skewness": "-3.884",
+    "kurtosis": "3.3577",
+    "entropy": "-0.0060486",
+    "fake": "0"
+  },
+  {
+    "variance": "4.3365",
+    "skewness": "-3.584",
+    "kurtosis": "3.6884",
+    "entropy": "0.74912",
+    "fake": "0"
+  },
+  {
+    "variance": "-2.0759",
+    "skewness": "10.8223",
+    "kurtosis": "2.6439",
+    "entropy": "-4.837",
+    "fake": "0"
+  },
+  {
+    "variance": "4.0715",
+    "skewness": "7.6398",
+    "kurtosis": "-2.0824",
+    "entropy": "-1.1698",
+    "fake": "0"
+  },
+  {
+    "variance": "0.76163",
+    "skewness": "5.8209",
+    "kurtosis": "1.1959",
+    "entropy": "-0.64613",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.53966",
+    "skewness": "7.3273",
+    "kurtosis": "0.46583",
+    "entropy": "-1.4543",
+    "fake": "0"
+  },
+  {
+    "variance": "2.6213",
+    "skewness": "5.7919",
+    "kurtosis": "0.065686",
+    "entropy": "-1.5759",
+    "fake": "0"
+  },
+  {
+    "variance": "3.0242",
+    "skewness": "-3.3378",
+    "kurtosis": "2.5865",
+    "entropy": "-0.54785",
+    "fake": "0"
+  },
+  {
+    "variance": "5.8519",
+    "skewness": "5.3905",
+    "kurtosis": "-2.4037",
+    "entropy": "-0.061652",
+    "fake": "0"
+  },
+  {
+    "variance": "0.5706",
+    "skewness": "-0.0248",
+    "kurtosis": "1.2421",
+    "entropy": "-0.5621",
+    "fake": "0"
+  },
+  {
+    "variance": "3.9771",
+    "skewness": "11.1513",
+    "kurtosis": "-3.9272",
+    "entropy": "-4.3444",
+    "fake": "0"
+  },
+  {
+    "variance": "1.5478",
+    "skewness": "9.1814",
+    "kurtosis": "-1.6326",
+    "entropy": "-1.7375",
+    "fake": "0"
+  },
+  {
+    "variance": "0.74054",
+    "skewness": "0.36625",
+    "kurtosis": "2.1992",
+    "entropy": "0.48403",
+    "fake": "0"
+  },
+  {
+    "variance": "0.49571",
+    "skewness": "10.2243",
+    "kurtosis": "-1.097",
+    "entropy": "-4.0159",
+    "fake": "0"
+  },
+  {
+    "variance": "1.645",
+    "skewness": "7.8612",
+    "kurtosis": "-0.87598",
+    "entropy": "-3.5569",
+    "fake": "0"
+  },
+  {
+    "variance": "3.6077",
+    "skewness": "6.8576",
+    "kurtosis": "-1.1622",
+    "entropy": "0.28231",
+    "fake": "0"
+  },
+  {
+    "variance": "3.2403",
+    "skewness": "-3.7082",
+    "kurtosis": "5.2804",
+    "entropy": "0.41291",
+    "fake": "0"
+  },
+  {
+    "variance": "3.9166",
+    "skewness": "10.2491",
+    "kurtosis": "-4.0926",
+    "entropy": "-4.4659",
+    "fake": "0"
+  },
+  {
+    "variance": "3.9262",
+    "skewness": "6.0299",
+    "kurtosis": "-2.0156",
+    "entropy": "-0.065531",
+    "fake": "0"
+  },
+  {
+    "variance": "5.591",
+    "skewness": "10.4643",
+    "kurtosis": "-4.3839",
+    "entropy": "-4.3379",
+    "fake": "0"
+  },
+  {
+    "variance": "3.7522",
+    "skewness": "-3.6978",
+    "kurtosis": "3.9943",
+    "entropy": "1.3051",
+    "fake": "0"
+  },
+  {
+    "variance": "1.3114",
+    "skewness": "4.5462",
+    "kurtosis": "2.2935",
+    "entropy": "0.22541",
+    "fake": "0"
+  },
+  {
+    "variance": "3.7022",
+    "skewness": "6.9942",
+    "kurtosis": "-1.8511",
+    "entropy": "-0.12889",
+    "fake": "0"
+  },
+  {
+    "variance": "4.364",
+    "skewness": "-3.1039",
+    "kurtosis": "2.3757",
+    "entropy": "0.78532",
+    "fake": "0"
+  },
+  {
+    "variance": "3.5829",
+    "skewness": "1.4423",
+    "kurtosis": "1.0219",
+    "entropy": "1.4008",
+    "fake": "0"
+  },
+  {
+    "variance": "4.65",
+    "skewness": "-4.8297",
+    "kurtosis": "3.4553",
+    "entropy": "-0.25174",
+    "fake": "0"
+  },
+  {
+    "variance": "5.1731",
+    "skewness": "3.9606",
+    "kurtosis": "-1.983",
+    "entropy": "0.40774",
+    "fake": "0"
+  },
+  {
+    "variance": "3.2692",
+    "skewness": "3.4184",
+    "kurtosis": "0.20706",
+    "entropy": "-0.066824",
+    "fake": "0"
+  },
+  {
+    "variance": "2.4012",
+    "skewness": "1.6223",
+    "kurtosis": "3.0312",
+    "entropy": "0.71679",
+    "fake": "0"
+  },
+  {
+    "variance": "1.7257",
+    "skewness": "-4.4697",
+    "kurtosis": "8.2219",
+    "entropy": "-1.8073",
+    "fake": "0"
+  },
+  {
+    "variance": "4.7965",
+    "skewness": "6.9859",
+    "kurtosis": "-1.9967",
+    "entropy": "-0.35001",
+    "fake": "0"
+  },
+  {
+    "variance": "4.0962",
+    "skewness": "10.1891",
+    "kurtosis": "-3.9323",
+    "entropy": "-4.1827",
+    "fake": "0"
+  },
+  {
+    "variance": "2.5559",
+    "skewness": "3.3605",
+    "kurtosis": "2.0321",
+    "entropy": "0.26809",
+    "fake": "0"
+  },
+  {
+    "variance": "3.4916",
+    "skewness": "8.5709",
+    "kurtosis": "-3.0326",
+    "entropy": "-0.59182",
+    "fake": "0"
+  },
+  {
+    "variance": "0.5195",
+    "skewness": "-3.2633",
+    "kurtosis": "3.0895",
+    "entropy": "-0.9849",
+    "fake": "0"
+  },
+  {
+    "variance": "2.9856",
+    "skewness": "7.2673",
+    "kurtosis": "-0.409",
+    "entropy": "-2.2431",
+    "fake": "0"
+  },
+  {
+    "variance": "4.0932",
+    "skewness": "5.4132",
+    "kurtosis": "-1.8219",
+    "entropy": "0.23576",
+    "fake": "0"
+  },
+  {
+    "variance": "1.7748",
+    "skewness": "-0.76978",
+    "kurtosis": "5.5854",
+    "entropy": "1.3039",
+    "fake": "0"
+  },
+  {
+    "variance": "5.2012",
+    "skewness": "0.32694",
+    "kurtosis": "0.17965",
+    "entropy": "1.1797",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.45062",
+    "skewness": "-1.3678",
+    "kurtosis": "7.0858",
+    "entropy": "-0.40303",
+    "fake": "0"
+  },
+  {
+    "variance": "4.8451",
+    "skewness": "8.1116",
+    "kurtosis": "-2.9512",
+    "entropy": "-1.4724",
+    "fake": "0"
+  },
+  {
+    "variance": "0.74841",
+    "skewness": "7.2756",
+    "kurtosis": "1.1504",
+    "entropy": "-0.5388",
+    "fake": "0"
+  },
+  {
+    "variance": "5.1213",
+    "skewness": "8.5565",
+    "kurtosis": "-3.3917",
+    "entropy": "-1.5474",
+    "fake": "0"
+  },
+  {
+    "variance": "3.6181",
+    "skewness": "-3.7454",
+    "kurtosis": "2.8273",
+    "entropy": "-0.71208",
+    "fake": "0"
+  },
+  {
+    "variance": "0.040498",
+    "skewness": "8.5234",
+    "kurtosis": "1.4461",
+    "entropy": "-3.9306",
+    "fake": "0"
+  },
+  {
+    "variance": "-2.6479",
+    "skewness": "10.1374",
+    "kurtosis": "-1.331",
+    "entropy": "-5.4707",
+    "fake": "0"
+  },
+  {
+    "variance": "0.37984",
+    "skewness": "0.70975",
+    "kurtosis": "0.75716",
+    "entropy": "-0.44441",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.95923",
+    "skewness": "0.091039",
+    "kurtosis": "6.2204",
+    "entropy": "-1.4828",
+    "fake": "0"
+  },
+  {
+    "variance": "2.8672",
+    "skewness": "10.0008",
+    "kurtosis": "-3.2049",
+    "entropy": "-3.1095",
+    "fake": "0"
+  },
+  {
+    "variance": "1.0182",
+    "skewness": "9.109",
+    "kurtosis": "-0.62064",
+    "entropy": "-1.7129",
+    "fake": "0"
+  },
+  {
+    "variance": "-2.7143",
+    "skewness": "11.4535",
+    "kurtosis": "2.1092",
+    "entropy": "-3.9629",
+    "fake": "0"
+  },
+  {
+    "variance": "3.8244",
+    "skewness": "-3.1081",
+    "kurtosis": "2.4537",
+    "entropy": "0.52024",
+    "fake": "0"
+  },
+  {
+    "variance": "2.7961",
+    "skewness": "2.121",
+    "kurtosis": "1.8385",
+    "entropy": "0.38317",
+    "fake": "0"
+  },
+  {
+    "variance": "3.5358",
+    "skewness": "6.7086",
+    "kurtosis": "-0.81857",
+    "entropy": "0.47886",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.7056",
+    "skewness": "8.7241",
+    "kurtosis": "2.2215",
+    "entropy": "-4.5965",
+    "fake": "0"
+  },
+  {
+    "variance": "4.1542",
+    "skewness": "7.2756",
+    "kurtosis": "-2.4766",
+    "entropy": "-1.2099",
+    "fake": "0"
+  },
+  {
+    "variance": "0.92703",
+    "skewness": "9.4318",
+    "kurtosis": "-0.66263",
+    "entropy": "-1.6728",
+    "fake": "0"
+  },
+  {
+    "variance": "1.8216",
+    "skewness": "-6.4748",
+    "kurtosis": "8.0514",
+    "entropy": "-0.41855",
+    "fake": "0"
+  },
+  {
+    "variance": "-2.4473",
+    "skewness": "12.6247",
+    "kurtosis": "0.73573",
+    "entropy": "-7.6612",
+    "fake": "0"
+  },
+  {
+    "variance": "3.5862",
+    "skewness": "-3.0957",
+    "kurtosis": "2.8093",
+    "entropy": "0.24481",
+    "fake": "0"
+  },
+  {
+    "variance": "0.66191",
+    "skewness": "9.6594",
+    "kurtosis": "-0.28819",
+    "entropy": "-1.6638",
+    "fake": "0"
+  },
+  {
+    "variance": "4.7926",
+    "skewness": "1.7071",
+    "kurtosis": "-0.051701",
+    "entropy": "1.4926",
+    "fake": "0"
+  },
+  {
+    "variance": "4.9852",
+    "skewness": "8.3516",
+    "kurtosis": "-2.5425",
+    "entropy": "-1.2823",
+    "fake": "0"
+  },
+  {
+    "variance": "0.75736",
+    "skewness": "3.0294",
+    "kurtosis": "2.9164",
+    "entropy": "-0.068117",
+    "fake": "0"
+  },
+  {
+    "variance": "4.6499",
+    "skewness": "7.6336",
+    "kurtosis": "-1.9427",
+    "entropy": "-0.37458",
+    "fake": "0"
+  },
+  {
+    "variance": "-0.023579",
+    "skewness": "7.1742",
+    "kurtosis": "0.78457",
+    "entropy": "-0.75734",
+    "fake": "0"
+  },
+  {
+    "variance": "0.85574",
+    "skewness": "0.0082678",
+    "kurtosis": "6.6042",
+    "entropy": "-0.53104",
+    "fake": "0"
+  },
+  {
+    "variance": "0.88298",
+    "skewness": "0.66009",
+    "kurtosis": "6.0096",
+    "entropy": "-0.43277",
+    "fake": "0"
+  },
+  {
+    "variance": "4.0422",
+    "skewness": "-4.391",
+    "kurtosis": "4.7466",
+    "entropy": "1.137",
+    "fake": "0"
+  },
+  {
+    "variance": "2.2546",
+    "skewness": "8.0992",
+    "kurtosis": "-0.24877",
+    "entropy": "-3.2698",
+    "fake": "0"
+  },
+  {
+    "variance": "0.38478",
+    "skewness": "6.5989",
+    "kurtosis": "-0.3336",
+    "entropy": "-0.56466",
+    "fake": "0"
+  },
+  {
+    "variance": "3.1541",
+    "skewness": "-5.1711",
+    "kurtosis": "6.5991",
+    "entropy": "0.57455",
+    "fake": "0"
+  },
+  {
+    "variance": "2.3969",
+    "skewness": "0.23589",
+    "kurtosis": "4.8477",
+    "entropy": "1.437",
+    "fake": "0"
+  },
+  {
+    "variance": "4.7114",
+    "skewness": "2.0755",
+    "kurtosis": "-0.2702",
+    "entropy": "1.2379",
+    "fake": "0"
+  },
+  {
+    "variance": "4.0127",
+    "skewness": "10.1477",
+    "kurtosis": "-3.9366",
+    "entropy": "-4.0728",
+    "fake": "0"
+  },
+  {
+    "variance": "2.6606",
+    "skewness": "3.1681",
+    "kurtosis": "1.9619",
+    "entropy": "0.18662",
+    "fake": "0"
+  },
+  {
+    "variance": "3.931",
+    "skewness": "1.8541",
+    "kurtosis": "-0.023425",
+    "entropy": "1.2314",
+    "fake": "0"
+  },
+  {
+    "variance": "0.01727",
+    "skewness": "8.693",
+    "kurtosis": "1.3989",
+    "entropy": "-3.9668",
+    "fake": "0"
+  },
+  {
+    "variance": "3.2414",
+    "skewness": "0.40971",
+    "kurtosis": "1.4015",
+    "entropy": "1.1952",
+    "fake": "0"
+  },
+  {
+    "variance": "2.2504",
+    "skewness": "3.5757",
+    "kurtosis": "0.35273",
+    "entropy": "0.2836",
+    "fake": "0"
+  },
+  {
+    "variance": "-1.3971",
+    "skewness": "3.3191",
+    "kurtosis": "-1.3927",
+    "entropy": "-1.9948",
+    "fake": "1"
+  },
+  {
+    "variance": "0.39012",
+    "skewness": "-0.14279",
+    "kurtosis": "-0.031994",
+    "entropy": "0.35084",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.6677",
+    "skewness": "-7.1535",
+    "kurtosis": "7.8929",
+    "entropy": "0.96765",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.8483",
+    "skewness": "-12.8047",
+    "kurtosis": "15.6824",
+    "entropy": "-1.281",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.5681",
+    "skewness": "-8.213",
+    "kurtosis": "10.083",
+    "entropy": "0.96765",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.2804",
+    "skewness": "-0.30626",
+    "kurtosis": "1.3347",
+    "entropy": "1.3763",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.7582",
+    "skewness": "2.7397",
+    "kurtosis": "-2.5323",
+    "entropy": "-2.234",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.89409",
+    "skewness": "3.1991",
+    "kurtosis": "-1.8219",
+    "entropy": "-2.9452",
+    "fake": "1"
+  },
+  {
+    "variance": "0.3434",
+    "skewness": "0.12415",
+    "kurtosis": "-0.28733",
+    "entropy": "0.14654",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.9854",
+    "skewness": "-6.661",
+    "kurtosis": "5.8245",
+    "entropy": "0.5461",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.4115",
+    "skewness": "-9.1359",
+    "kurtosis": "9.3444",
+    "entropy": "-0.65259",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.5252",
+    "skewness": "-6.2534",
+    "kurtosis": "5.3524",
+    "entropy": "0.59912",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.61442",
+    "skewness": "-0.091058",
+    "kurtosis": "-0.31818",
+    "entropy": "0.50214",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.36506",
+    "skewness": "2.8928",
+    "kurtosis": "-3.6461",
+    "entropy": "-3.0603",
+    "fake": "1"
+  },
+  {
+    "variance": "-5.9034",
+    "skewness": "6.5679",
+    "kurtosis": "0.67661",
+    "entropy": "-6.6797",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.8215",
+    "skewness": "2.7521",
+    "kurtosis": "-0.72261",
+    "entropy": "-2.353",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.77461",
+    "skewness": "-1.8768",
+    "kurtosis": "2.4023",
+    "entropy": "1.1319",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.8187",
+    "skewness": "-9.0366",
+    "kurtosis": "9.0162",
+    "entropy": "-0.12243",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.5801",
+    "skewness": "-12.9309",
+    "kurtosis": "13.1779",
+    "entropy": "-2.5677",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.8219",
+    "skewness": "-6.8824",
+    "kurtosis": "5.4681",
+    "entropy": "0.057313",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.3481",
+    "skewness": "-0.38696",
+    "kurtosis": "-0.47841",
+    "entropy": "0.62627",
+    "fake": "1"
+  },
+  {
+    "variance": "0.47368",
+    "skewness": "3.3605",
+    "kurtosis": "-4.5064",
+    "entropy": "-4.0431",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.4083",
+    "skewness": "4.8587",
+    "kurtosis": "-0.76888",
+    "entropy": "-4.8668",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.6662",
+    "skewness": "-0.30005",
+    "kurtosis": "1.4238",
+    "entropy": "0.024986",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.0962",
+    "skewness": "-7.1059",
+    "kurtosis": "6.6188",
+    "entropy": "-0.33708",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.6685",
+    "skewness": "-10.4519",
+    "kurtosis": "9.1139",
+    "entropy": "-1.7323",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.47465",
+    "skewness": "-4.3496",
+    "kurtosis": "1.9901",
+    "entropy": "0.7517",
+    "fake": "1"
+  },
+  {
+    "variance": "1.0552",
+    "skewness": "1.1857",
+    "kurtosis": "-2.6411",
+    "entropy": "0.11033",
+    "fake": "1"
+  },
+  {
+    "variance": "1.1644",
+    "skewness": "3.8095",
+    "kurtosis": "-4.9408",
+    "entropy": "-4.0909",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.4779",
+    "skewness": "7.3708",
+    "kurtosis": "-0.31218",
+    "entropy": "-6.7754",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.7338",
+    "skewness": "0.45523",
+    "kurtosis": "2.4391",
+    "entropy": "0.21766",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.286",
+    "skewness": "-5.4484",
+    "kurtosis": "5.8039",
+    "entropy": "0.88231",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.6244",
+    "skewness": "-6.3444",
+    "kurtosis": "4.6575",
+    "entropy": "0.16981",
+    "fake": "1"
+  },
+  {
+    "variance": "0.50813",
+    "skewness": "0.47799",
+    "kurtosis": "-1.9804",
+    "entropy": "0.57714",
+    "fake": "1"
+  },
+  {
+    "variance": "1.6408",
+    "skewness": "4.2503",
+    "kurtosis": "-4.9023",
+    "entropy": "-2.6621",
+    "fake": "1"
+  },
+  {
+    "variance": "0.81583",
+    "skewness": "4.84",
+    "kurtosis": "-5.2613",
+    "entropy": "-6.0823",
+    "fake": "1"
+  },
+  {
+    "variance": "-5.4901",
+    "skewness": "9.1048",
+    "kurtosis": "-0.38758",
+    "entropy": "-5.9763",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.2238",
+    "skewness": "2.7935",
+    "kurtosis": "0.32274",
+    "entropy": "-0.86078",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.0631",
+    "skewness": "-1.5147",
+    "kurtosis": "1.219",
+    "entropy": "0.44524",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.91318",
+    "skewness": "-2.0113",
+    "kurtosis": "-0.19565",
+    "entropy": "0.066365",
+    "fake": "1"
+  },
+  {
+    "variance": "0.6005",
+    "skewness": "1.9327",
+    "kurtosis": "-3.2888",
+    "entropy": "-0.32415",
+    "fake": "1"
+  },
+  {
+    "variance": "0.91315",
+    "skewness": "3.3377",
+    "kurtosis": "-4.0557",
+    "entropy": "-1.6741",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.28015",
+    "skewness": "3.0729",
+    "kurtosis": "-3.3857",
+    "entropy": "-2.9155",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.6085",
+    "skewness": "3.3253",
+    "kurtosis": "-0.51954",
+    "entropy": "-3.5737",
+    "fake": "1"
+  },
+  {
+    "variance": "-6.2003",
+    "skewness": "8.6806",
+    "kurtosis": "0.0091344",
+    "entropy": "-3.703",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.2932",
+    "skewness": "3.3419",
+    "kurtosis": "0.77258",
+    "entropy": "-0.99785",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.0265",
+    "skewness": "-0.062088",
+    "kurtosis": "0.68604",
+    "entropy": "-0.055186",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.7015",
+    "skewness": "-0.010356",
+    "kurtosis": "-0.99337",
+    "entropy": "-0.53104",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.64326",
+    "skewness": "2.4748",
+    "kurtosis": "-2.9452",
+    "entropy": "-1.0276",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.86339",
+    "skewness": "1.9348",
+    "kurtosis": "-2.3729",
+    "entropy": "-1.0897",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.0659",
+    "skewness": "1.0512",
+    "kurtosis": "-0.46298",
+    "entropy": "-1.0974",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.1333",
+    "skewness": "1.5685",
+    "kurtosis": "-0.084261",
+    "entropy": "-1.7453",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.2568",
+    "skewness": "-1.4733",
+    "kurtosis": "2.8718",
+    "entropy": "0.44653",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.1128",
+    "skewness": "-6.841",
+    "kurtosis": "10.7402",
+    "entropy": "-1.0172",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.8554",
+    "skewness": "-5.9037",
+    "kurtosis": "10.9818",
+    "entropy": "-0.82199",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.588",
+    "skewness": "3.8654",
+    "kurtosis": "-0.3336",
+    "entropy": "-1.2797",
+    "fake": "1"
+  },
+  {
+    "variance": "0.24394",
+    "skewness": "1.4733",
+    "kurtosis": "-1.4192",
+    "entropy": "-0.58535",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.5322",
+    "skewness": "-5.0966",
+    "kurtosis": "6.6779",
+    "entropy": "0.17498",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.0025",
+    "skewness": "-13.4979",
+    "kurtosis": "17.6772",
+    "entropy": "-3.3202",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.0173",
+    "skewness": "-8.3123",
+    "kurtosis": "12.4547",
+    "entropy": "-1.4375",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.0731",
+    "skewness": "-0.53181",
+    "kurtosis": "2.3877",
+    "entropy": "0.77627",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.979",
+    "skewness": "3.2301",
+    "kurtosis": "-1.3575",
+    "entropy": "-2.5819",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.4294",
+    "skewness": "-0.14693",
+    "kurtosis": "0.044265",
+    "entropy": "-0.15605",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.234",
+    "skewness": "-7.0314",
+    "kurtosis": "7.4936",
+    "entropy": "0.61334",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.211",
+    "skewness": "-12.4736",
+    "kurtosis": "14.9704",
+    "entropy": "-1.3884",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.8073",
+    "skewness": "-8.0971",
+    "kurtosis": "10.1772",
+    "entropy": "0.65084",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.5912",
+    "skewness": "-0.10554",
+    "kurtosis": "1.2798",
+    "entropy": "1.0414",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.2482",
+    "skewness": "3.0915",
+    "kurtosis": "-2.3969",
+    "entropy": "-2.6711",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.4427",
+    "skewness": "3.2922",
+    "kurtosis": "-1.9702",
+    "entropy": "-3.4392",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.39416",
+    "skewness": "-0.020702",
+    "kurtosis": "-0.066267",
+    "entropy": "-0.44699",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.522",
+    "skewness": "-6.6383",
+    "kurtosis": "5.7491",
+    "entropy": "-0.10691",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.8267",
+    "skewness": "-9.0407",
+    "kurtosis": "9.0694",
+    "entropy": "-0.98233",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.7263",
+    "skewness": "-6.0237",
+    "kurtosis": "5.2419",
+    "entropy": "0.29524",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.94255",
+    "skewness": "0.039307",
+    "kurtosis": "-0.24192",
+    "entropy": "0.31593",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.89569",
+    "skewness": "3.0025",
+    "kurtosis": "-3.6067",
+    "entropy": "-3.4457",
+    "fake": "1"
+  },
+  {
+    "variance": "-6.2815",
+    "skewness": "6.6651",
+    "kurtosis": "0.52581",
+    "entropy": "-7.0107",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.3211",
+    "skewness": "3.166",
+    "kurtosis": "-1.0002",
+    "entropy": "-2.7151",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.3414",
+    "skewness": "-2.0776",
+    "kurtosis": "2.8093",
+    "entropy": "0.60688",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.258",
+    "skewness": "-9.3263",
+    "kurtosis": "9.3727",
+    "entropy": "-0.85949",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.8858",
+    "skewness": "-12.8461",
+    "kurtosis": "12.7957",
+    "entropy": "-3.1353",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.8969",
+    "skewness": "-6.7893",
+    "kurtosis": "5.2761",
+    "entropy": "-0.32544",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.52645",
+    "skewness": "-0.24832",
+    "kurtosis": "-0.45613",
+    "entropy": "0.41938",
+    "fake": "1"
+  },
+  {
+    "variance": "0.0096613",
+    "skewness": "3.5612",
+    "kurtosis": "-4.407",
+    "entropy": "-4.4103",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.8826",
+    "skewness": "4.898",
+    "kurtosis": "-0.92311",
+    "entropy": "-5.0801",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.1405",
+    "skewness": "-0.16762",
+    "kurtosis": "1.321",
+    "entropy": "-0.20906",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.4824",
+    "skewness": "-7.3046",
+    "kurtosis": "6.839",
+    "entropy": "-0.59053",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.9098",
+    "skewness": "-10.0712",
+    "kurtosis": "8.4156",
+    "entropy": "-1.9948",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.60975",
+    "skewness": "-4.002",
+    "kurtosis": "1.8471",
+    "entropy": "0.6017",
+    "fake": "1"
+  },
+  {
+    "variance": "0.83625",
+    "skewness": "1.1071",
+    "kurtosis": "-2.4706",
+    "entropy": "-0.062945",
+    "fake": "1"
+  },
+  {
+    "variance": "0.60731",
+    "skewness": "3.9544",
+    "kurtosis": "-4.772",
+    "entropy": "-4.4853",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.8861",
+    "skewness": "7.0542",
+    "kurtosis": "-0.17252",
+    "entropy": "-6.959",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.1366",
+    "skewness": "0.42212",
+    "kurtosis": "2.6225",
+    "entropy": "-0.064238",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.5754",
+    "skewness": "-5.6574",
+    "kurtosis": "6.103",
+    "entropy": "0.65214",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.8782",
+    "skewness": "-6.5865",
+    "kurtosis": "4.8486",
+    "entropy": "-0.021566",
+    "fake": "1"
+  },
+  {
+    "variance": "0.24261",
+    "skewness": "0.57318",
+    "kurtosis": "-1.9402",
+    "entropy": "0.44007",
+    "fake": "1"
+  },
+  {
+    "variance": "1.296",
+    "skewness": "4.2855",
+    "kurtosis": "-4.8457",
+    "entropy": "-2.9013",
+    "fake": "1"
+  },
+  {
+    "variance": "0.25943",
+    "skewness": "5.0097",
+    "kurtosis": "-5.0394",
+    "entropy": "-6.3862",
+    "fake": "1"
+  },
+  {
+    "variance": "-5.873",
+    "skewness": "9.1752",
+    "kurtosis": "-0.27448",
+    "entropy": "-6.0422",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.4605",
+    "skewness": "2.6901",
+    "kurtosis": "0.16165",
+    "entropy": "-1.0224",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.3797",
+    "skewness": "-1.4402",
+    "kurtosis": "1.1273",
+    "entropy": "0.16076",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.2424",
+    "skewness": "-1.7175",
+    "kurtosis": "-0.52553",
+    "entropy": "-0.21036",
+    "fake": "1"
+  },
+  {
+    "variance": "0.20216",
+    "skewness": "1.9182",
+    "kurtosis": "-3.2828",
+    "entropy": "-0.61768",
+    "fake": "1"
+  },
+  {
+    "variance": "0.59823",
+    "skewness": "3.5012",
+    "kurtosis": "-3.9795",
+    "entropy": "-1.7841",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.77995",
+    "skewness": "3.2322",
+    "kurtosis": "-3.282",
+    "entropy": "-3.1004",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.1409",
+    "skewness": "3.4619",
+    "kurtosis": "-0.47841",
+    "entropy": "-3.8879",
+    "fake": "1"
+  },
+  {
+    "variance": "-6.5084",
+    "skewness": "8.7696",
+    "kurtosis": "0.23191",
+    "entropy": "-3.937",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.4996",
+    "skewness": "3.4288",
+    "kurtosis": "0.56265",
+    "entropy": "-1.1672",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.3125",
+    "skewness": "0.10139",
+    "kurtosis": "0.55323",
+    "entropy": "-0.2957",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.9423",
+    "skewness": "0.3766",
+    "kurtosis": "-1.2898",
+    "entropy": "-0.82458",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.75793",
+    "skewness": "2.5349",
+    "kurtosis": "-3.0464",
+    "entropy": "-1.2629",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.95403",
+    "skewness": "1.9824",
+    "kurtosis": "-2.3163",
+    "entropy": "-1.1957",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.2173",
+    "skewness": "1.4671",
+    "kurtosis": "-0.72689",
+    "entropy": "-1.1724",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.799",
+    "skewness": "1.9679",
+    "kurtosis": "-0.42357",
+    "entropy": "-2.1125",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.8629",
+    "skewness": "-0.84841",
+    "kurtosis": "2.5377",
+    "entropy": "0.097399",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.5916",
+    "skewness": "-6.2285",
+    "kurtosis": "10.2389",
+    "entropy": "-1.1543",
+    "fake": "1"
+  },
+  {
+    "variance": "-5.1216",
+    "skewness": "-5.3118",
+    "kurtosis": "10.3846",
+    "entropy": "-1.0612",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.2854",
+    "skewness": "4.0372",
+    "kurtosis": "-0.45356",
+    "entropy": "-1.8228",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.56877",
+    "skewness": "1.4174",
+    "kurtosis": "-1.4252",
+    "entropy": "-1.1246",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.3518",
+    "skewness": "-4.8359",
+    "kurtosis": "6.6479",
+    "entropy": "-0.060358",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.4861",
+    "skewness": "-13.2889",
+    "kurtosis": "17.3087",
+    "entropy": "-3.2194",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.3876",
+    "skewness": "-7.7267",
+    "kurtosis": "11.9655",
+    "entropy": "-1.4543",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.3604",
+    "skewness": "-0.32696",
+    "kurtosis": "2.1324",
+    "entropy": "0.6017",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.0112",
+    "skewness": "2.9984",
+    "kurtosis": "-1.1664",
+    "entropy": "-1.6185",
+    "fake": "1"
+  },
+  {
+    "variance": "0.030219",
+    "skewness": "-1.0512",
+    "kurtosis": "1.4024",
+    "entropy": "0.77369",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.6514",
+    "skewness": "-8.4985",
+    "kurtosis": "9.1122",
+    "entropy": "1.2379",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.2692",
+    "skewness": "-12.7406",
+    "kurtosis": "15.5573",
+    "entropy": "-0.14182",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.5701",
+    "skewness": "-6.8452",
+    "kurtosis": "8.9999",
+    "entropy": "2.1353",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.3066",
+    "skewness": "0.25244",
+    "kurtosis": "0.7623",
+    "entropy": "1.7758",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.6637",
+    "skewness": "3.2881",
+    "kurtosis": "-2.2701",
+    "entropy": "-2.2224",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.55008",
+    "skewness": "2.8659",
+    "kurtosis": "-1.6488",
+    "entropy": "-2.4319",
+    "fake": "1"
+  },
+  {
+    "variance": "0.21431",
+    "skewness": "-0.69529",
+    "kurtosis": "0.87711",
+    "entropy": "0.29653",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.77288",
+    "skewness": "-7.4473",
+    "kurtosis": "6.492",
+    "entropy": "0.36119",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.8391",
+    "skewness": "-9.0883",
+    "kurtosis": "9.2416",
+    "entropy": "-0.10432",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.63298",
+    "skewness": "-5.1277",
+    "kurtosis": "4.5624",
+    "entropy": "1.4797",
+    "fake": "1"
+  },
+  {
+    "variance": "0.0040545",
+    "skewness": "0.62905",
+    "kurtosis": "-0.64121",
+    "entropy": "0.75817",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.28696",
+    "skewness": "3.1784",
+    "kurtosis": "-3.5767",
+    "entropy": "-3.1896",
+    "fake": "1"
+  },
+  {
+    "variance": "-5.2406",
+    "skewness": "6.6258",
+    "kurtosis": "-0.19908",
+    "entropy": "-6.8607",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.4446",
+    "skewness": "2.1438",
+    "kurtosis": "-0.47241",
+    "entropy": "-1.6677",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.65767",
+    "skewness": "-2.8018",
+    "kurtosis": "3.7115",
+    "entropy": "0.99739",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.5449",
+    "skewness": "-10.1498",
+    "kurtosis": "9.6152",
+    "entropy": "-1.2332",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.8957",
+    "skewness": "-12.0205",
+    "kurtosis": "11.9149",
+    "entropy": "-2.7552",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.81479",
+    "skewness": "-5.7381",
+    "kurtosis": "4.3919",
+    "entropy": "0.3211",
+    "fake": "1"
+  },
+  {
+    "variance": "0.50225",
+    "skewness": "0.65388",
+    "kurtosis": "-1.1793",
+    "entropy": "0.39998",
+    "fake": "1"
+  },
+  {
+    "variance": "0.74521",
+    "skewness": "3.6357",
+    "kurtosis": "-4.4044",
+    "entropy": "-4.1414",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.9146",
+    "skewness": "4.0537",
+    "kurtosis": "-0.45699",
+    "entropy": "-4.0327",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.3907",
+    "skewness": "-1.3781",
+    "kurtosis": "2.3055",
+    "entropy": "-0.021566",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.786",
+    "skewness": "-8.1157",
+    "kurtosis": "7.0858",
+    "entropy": "-1.2112",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.7322",
+    "skewness": "-9.2828",
+    "kurtosis": "7.719",
+    "entropy": "-1.7168",
+    "fake": "1"
+  },
+  {
+    "variance": "0.55298",
+    "skewness": "-3.4619",
+    "kurtosis": "1.7048",
+    "entropy": "1.1008",
+    "fake": "1"
+  },
+  {
+    "variance": "2.031",
+    "skewness": "1.852",
+    "kurtosis": "-3.0121",
+    "entropy": "0.003003",
+    "fake": "1"
+  },
+  {
+    "variance": "1.2279",
+    "skewness": "4.0309",
+    "kurtosis": "-4.6435",
+    "entropy": "-3.9125",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.2249",
+    "skewness": "6.2699",
+    "kurtosis": "0.15822",
+    "entropy": "-5.5457",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.5346",
+    "skewness": "-0.77392",
+    "kurtosis": "3.3602",
+    "entropy": "0.00171",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.749",
+    "skewness": "-6.332",
+    "kurtosis": "6.0987",
+    "entropy": "0.14266",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.539",
+    "skewness": "-5.167",
+    "kurtosis": "3.4399",
+    "entropy": "0.052141",
+    "fake": "1"
+  },
+  {
+    "variance": "1.5631",
+    "skewness": "0.89599",
+    "kurtosis": "-1.9702",
+    "entropy": "0.65472",
+    "fake": "1"
+  },
+  {
+    "variance": "2.3917",
+    "skewness": "4.5565",
+    "kurtosis": "-4.9888",
+    "entropy": "-2.8987",
+    "fake": "1"
+  },
+  {
+    "variance": "0.89512",
+    "skewness": "4.7738",
+    "kurtosis": "-4.8431",
+    "entropy": "-5.5909",
+    "fake": "1"
+  },
+  {
+    "variance": "-5.4808",
+    "skewness": "8.1819",
+    "kurtosis": "0.27818",
+    "entropy": "-5.0323",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.8833",
+    "skewness": "1.7713",
+    "kurtosis": "0.68946",
+    "entropy": "-0.4638",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.4174",
+    "skewness": "-2.2535",
+    "kurtosis": "1.518",
+    "entropy": "0.61981",
+    "fake": "1"
+  },
+  {
+    "variance": "0.4283",
+    "skewness": "-0.94981",
+    "kurtosis": "-1.0731",
+    "entropy": "0.3211",
+    "fake": "1"
+  },
+  {
+    "variance": "1.5904",
+    "skewness": "2.2121",
+    "kurtosis": "-3.1183",
+    "entropy": "-0.11725",
+    "fake": "1"
+  },
+  {
+    "variance": "1.7425",
+    "skewness": "3.6833",
+    "kurtosis": "-4.0129",
+    "entropy": "-1.7207",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.23356",
+    "skewness": "3.2405",
+    "kurtosis": "-3.0669",
+    "entropy": "-2.7784",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.6227",
+    "skewness": "3.9958",
+    "kurtosis": "-0.35845",
+    "entropy": "-3.9047",
+    "fake": "1"
+  },
+  {
+    "variance": "-6.1536",
+    "skewness": "7.9295",
+    "kurtosis": "0.61663",
+    "entropy": "-3.2646",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.9172",
+    "skewness": "2.6652",
+    "kurtosis": "0.78886",
+    "entropy": "-0.7819",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.2214",
+    "skewness": "-0.23798",
+    "kurtosis": "0.56008",
+    "entropy": "0.05602",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.49241",
+    "skewness": "0.89392",
+    "kurtosis": "-1.6283",
+    "entropy": "-0.56854",
+    "fake": "1"
+  },
+  {
+    "variance": "0.26517",
+    "skewness": "2.4066",
+    "kurtosis": "-2.8416",
+    "entropy": "-0.59958",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.10234",
+    "skewness": "1.8189",
+    "kurtosis": "-2.2169",
+    "entropy": "-0.56725",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.6176",
+    "skewness": "1.0926",
+    "kurtosis": "-0.35502",
+    "entropy": "-0.59958",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.8448",
+    "skewness": "1.254",
+    "kurtosis": "0.27218",
+    "entropy": "-1.0728",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.2786",
+    "skewness": "-2.4087",
+    "kurtosis": "4.5735",
+    "entropy": "0.47627",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.902",
+    "skewness": "-7.6563",
+    "kurtosis": "11.8318",
+    "entropy": "-0.84268",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.3773",
+    "skewness": "-5.5167",
+    "kurtosis": "10.939",
+    "entropy": "-0.4082",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.0529",
+    "skewness": "3.8385",
+    "kurtosis": "-0.79544",
+    "entropy": "-1.2138",
+    "fake": "1"
+  },
+  {
+    "variance": "0.18868",
+    "skewness": "0.70148",
+    "kurtosis": "-0.51182",
+    "entropy": "0.0055892",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.7279",
+    "skewness": "-6.841",
+    "kurtosis": "8.9494",
+    "entropy": "0.68058",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.3793",
+    "skewness": "-13.7731",
+    "kurtosis": "17.9274",
+    "entropy": "-2.0323",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.1273",
+    "skewness": "-7.1121",
+    "kurtosis": "11.3897",
+    "entropy": "-0.083634",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.121",
+    "skewness": "-0.05588",
+    "kurtosis": "1.949",
+    "entropy": "1.353",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.7697",
+    "skewness": "3.4329",
+    "kurtosis": "-1.2144",
+    "entropy": "-2.3789",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.0012852",
+    "skewness": "0.13863",
+    "kurtosis": "-0.19651",
+    "entropy": "0.0081754",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.682",
+    "skewness": "-6.8121",
+    "kurtosis": "7.1398",
+    "entropy": "1.3323",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.4917",
+    "skewness": "-12.1736",
+    "kurtosis": "14.3689",
+    "entropy": "-0.61639",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.1158",
+    "skewness": "-8.6289",
+    "kurtosis": "10.4403",
+    "entropy": "0.97153",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.0891",
+    "skewness": "-0.48422",
+    "kurtosis": "1.704",
+    "entropy": "1.7435",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.6936",
+    "skewness": "2.7852",
+    "kurtosis": "-2.1835",
+    "entropy": "-1.9276",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.2846",
+    "skewness": "3.2715",
+    "kurtosis": "-1.7671",
+    "entropy": "-3.2608",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.092194",
+    "skewness": "0.39315",
+    "kurtosis": "-0.32846",
+    "entropy": "-0.13794",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.0292",
+    "skewness": "-6.3879",
+    "kurtosis": "5.5255",
+    "entropy": "0.79955",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.2083",
+    "skewness": "-9.1069",
+    "kurtosis": "8.9991",
+    "entropy": "-0.28406",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.0744",
+    "skewness": "-6.3113",
+    "kurtosis": "5.355",
+    "entropy": "0.80472",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.51003",
+    "skewness": "-0.23591",
+    "kurtosis": "0.020273",
+    "entropy": "0.76334",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.36372",
+    "skewness": "3.0439",
+    "kurtosis": "-3.4816",
+    "entropy": "-2.7836",
+    "fake": "1"
+  },
+  {
+    "variance": "-6.3979",
+    "skewness": "6.4479",
+    "kurtosis": "1.0836",
+    "entropy": "-6.6176",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.2501",
+    "skewness": "3.3129",
+    "kurtosis": "-0.88369",
+    "entropy": "-2.8974",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.1859",
+    "skewness": "-1.2519",
+    "kurtosis": "2.2635",
+    "entropy": "0.77239",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.8076",
+    "skewness": "-8.8131",
+    "kurtosis": "8.7086",
+    "entropy": "-0.21682",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.3863",
+    "skewness": "-12.9889",
+    "kurtosis": "13.0545",
+    "entropy": "-2.7202",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.4106",
+    "skewness": "-7.108",
+    "kurtosis": "5.6454",
+    "entropy": "0.31335",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.21394",
+    "skewness": "-0.68287",
+    "kurtosis": "0.096532",
+    "entropy": "1.1965",
+    "fake": "1"
+  },
+  {
+    "variance": "0.48797",
+    "skewness": "3.5674",
+    "kurtosis": "-4.3882",
+    "entropy": "-3.8116",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.8167",
+    "skewness": "5.1401",
+    "kurtosis": "-0.65063",
+    "entropy": "-5.4306",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.9555",
+    "skewness": "0.20692",
+    "kurtosis": "1.2473",
+    "entropy": "-0.3707",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.1786",
+    "skewness": "-6.4479",
+    "kurtosis": "6.0344",
+    "entropy": "-0.20777",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.3299",
+    "skewness": "-9.9532",
+    "kurtosis": "8.4756",
+    "entropy": "-1.8733",
+    "fake": "1"
+  },
+  {
+    "variance": "0.0031201",
+    "skewness": "-4.0061",
+    "kurtosis": "1.7956",
+    "entropy": "0.91722",
+    "fake": "1"
+  },
+  {
+    "variance": "1.3518",
+    "skewness": "1.0595",
+    "kurtosis": "-2.3437",
+    "entropy": "0.39998",
+    "fake": "1"
+  },
+  {
+    "variance": "1.2309",
+    "skewness": "3.8923",
+    "kurtosis": "-4.8277",
+    "entropy": "-4.0069",
+    "fake": "1"
+  },
+  {
+    "variance": "-5.0301",
+    "skewness": "7.5032",
+    "kurtosis": "-0.13396",
+    "entropy": "-7.5034",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.0799",
+    "skewness": "0.60836",
+    "kurtosis": "2.7039",
+    "entropy": "-0.23751",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.2987",
+    "skewness": "-5.227",
+    "kurtosis": "5.63",
+    "entropy": "0.91722",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.239",
+    "skewness": "-6.541",
+    "kurtosis": "4.8151",
+    "entropy": "-0.033204",
+    "fake": "1"
+  },
+  {
+    "variance": "0.75896",
+    "skewness": "0.29176",
+    "kurtosis": "-1.6506",
+    "entropy": "0.83834",
+    "fake": "1"
+  },
+  {
+    "variance": "1.6799",
+    "skewness": "4.2068",
+    "kurtosis": "-4.5398",
+    "entropy": "-2.3931",
+    "fake": "1"
+  },
+  {
+    "variance": "0.63655",
+    "skewness": "5.2022",
+    "kurtosis": "-5.2159",
+    "entropy": "-6.1211",
+    "fake": "1"
+  },
+  {
+    "variance": "-6.0598",
+    "skewness": "9.2952",
+    "kurtosis": "-0.43642",
+    "entropy": "-6.3694",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.518",
+    "skewness": "2.8763",
+    "kurtosis": "0.1548",
+    "entropy": "-1.2086",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.0336",
+    "skewness": "-1.4092",
+    "kurtosis": "1.1582",
+    "entropy": "0.36507",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.69745",
+    "skewness": "-1.7672",
+    "kurtosis": "-0.34474",
+    "entropy": "-0.12372",
+    "fake": "1"
+  },
+  {
+    "variance": "0.75108",
+    "skewness": "1.9161",
+    "kurtosis": "-3.1098",
+    "entropy": "-0.20518",
+    "fake": "1"
+  },
+  {
+    "variance": "0.84546",
+    "skewness": "3.4826",
+    "kurtosis": "-3.6307",
+    "entropy": "-1.3961",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.55648",
+    "skewness": "3.2136",
+    "kurtosis": "-3.3085",
+    "entropy": "-2.7965",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.6817",
+    "skewness": "3.2239",
+    "kurtosis": "-0.69347",
+    "entropy": "-3.4004",
+    "fake": "1"
+  },
+  {
+    "variance": "-6.7526",
+    "skewness": "8.8172",
+    "kurtosis": "-0.061983",
+    "entropy": "-3.725",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.577",
+    "skewness": "3.4515",
+    "kurtosis": "0.66719",
+    "entropy": "-0.94742",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.9883",
+    "skewness": "0.31245",
+    "kurtosis": "0.45041",
+    "entropy": "0.068951",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.4781",
+    "skewness": "0.14277",
+    "kurtosis": "-1.1622",
+    "entropy": "-0.48579",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.46651",
+    "skewness": "2.3383",
+    "kurtosis": "-2.9812",
+    "entropy": "-1.0431",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.8734",
+    "skewness": "1.6533",
+    "kurtosis": "-2.1964",
+    "entropy": "-0.78061",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.1234",
+    "skewness": "1.1815",
+    "kurtosis": "-0.55552",
+    "entropy": "-0.81165",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.3142",
+    "skewness": "2.0838",
+    "kurtosis": "-0.46813",
+    "entropy": "-1.6767",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.4233",
+    "skewness": "-0.98912",
+    "kurtosis": "2.3586",
+    "entropy": "0.39481",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.0866",
+    "skewness": "-6.6362",
+    "kurtosis": "10.5405",
+    "entropy": "-0.89182",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.7331",
+    "skewness": "-6.1789",
+    "kurtosis": "11.388",
+    "entropy": "-1.0741",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.8829",
+    "skewness": "3.8964",
+    "kurtosis": "-0.1888",
+    "entropy": "-1.1672",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.036127",
+    "skewness": "1.525",
+    "kurtosis": "-1.4089",
+    "entropy": "-0.76121",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.7104",
+    "skewness": "-4.778",
+    "kurtosis": "6.2109",
+    "entropy": "0.3974",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.8203",
+    "skewness": "-13.0551",
+    "kurtosis": "16.9583",
+    "entropy": "-2.3052",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.7181",
+    "skewness": "-8.5089",
+    "kurtosis": "12.363",
+    "entropy": "-0.95518",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.899",
+    "skewness": "-0.60424",
+    "kurtosis": "2.6045",
+    "entropy": "1.3776",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.98193",
+    "skewness": "2.7956",
+    "kurtosis": "-1.2341",
+    "entropy": "-1.5668",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.17296",
+    "skewness": "-1.1816",
+    "kurtosis": "1.3818",
+    "entropy": "0.7336",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.9409",
+    "skewness": "-8.6848",
+    "kurtosis": "9.155",
+    "entropy": "0.94049",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.5713",
+    "skewness": "-12.4922",
+    "kurtosis": "14.8881",
+    "entropy": "-0.47027",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.9915",
+    "skewness": "-6.6258",
+    "kurtosis": "8.6521",
+    "entropy": "1.8198",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.8483",
+    "skewness": "0.31038",
+    "kurtosis": "0.77344",
+    "entropy": "1.4189",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.2677",
+    "skewness": "3.2964",
+    "kurtosis": "-2.2563",
+    "entropy": "-2.4642",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.50816",
+    "skewness": "2.868",
+    "kurtosis": "-1.8108",
+    "entropy": "-2.2612",
+    "fake": "1"
+  },
+  {
+    "variance": "0.14329",
+    "skewness": "-1.0885",
+    "kurtosis": "1.0039",
+    "entropy": "0.48791",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.90784",
+    "skewness": "-7.9026",
+    "kurtosis": "6.7807",
+    "entropy": "0.34179",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.0042",
+    "skewness": "-9.3676",
+    "kurtosis": "9.3333",
+    "entropy": "-0.10303",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.93587",
+    "skewness": "-5.1008",
+    "kurtosis": "4.5367",
+    "entropy": "1.3866",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.40804",
+    "skewness": "0.54214",
+    "kurtosis": "-0.52725",
+    "entropy": "0.6586",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.8172",
+    "skewness": "3.3812",
+    "kurtosis": "-3.6684",
+    "entropy": "-3.456",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.8392",
+    "skewness": "6.6755",
+    "kurtosis": "-0.24278",
+    "entropy": "-6.5775",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.2792",
+    "skewness": "2.1376",
+    "kurtosis": "-0.47584",
+    "entropy": "-1.3974",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.66008",
+    "skewness": "-3.226",
+    "kurtosis": "3.8058",
+    "entropy": "1.1836",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.7713",
+    "skewness": "-10.7665",
+    "kurtosis": "10.2184",
+    "entropy": "-1.0043",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.0061",
+    "skewness": "-12.2377",
+    "kurtosis": "11.9552",
+    "entropy": "-2.1603",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.1022",
+    "skewness": "-5.8395",
+    "kurtosis": "4.5641",
+    "entropy": "0.68705",
+    "fake": "1"
+  },
+  {
+    "variance": "0.11806",
+    "skewness": "0.39108",
+    "kurtosis": "-0.98223",
+    "entropy": "0.42843",
+    "fake": "1"
+  },
+  {
+    "variance": "0.11686",
+    "skewness": "3.735",
+    "kurtosis": "-4.4379",
+    "entropy": "-4.3741",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.7264",
+    "skewness": "3.9213",
+    "kurtosis": "-0.49212",
+    "entropy": "-3.6371",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.2369",
+    "skewness": "-1.6906",
+    "kurtosis": "2.518",
+    "entropy": "0.51636",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.8439",
+    "skewness": "-8.6475",
+    "kurtosis": "7.6796",
+    "entropy": "-0.66682",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.8554",
+    "skewness": "-9.6035",
+    "kurtosis": "7.7764",
+    "entropy": "-0.97716",
+    "fake": "1"
+  },
+  {
+    "variance": "0.16358",
+    "skewness": "-3.3584",
+    "kurtosis": "1.3749",
+    "entropy": "1.3569",
+    "fake": "1"
+  },
+  {
+    "variance": "1.5077",
+    "skewness": "1.9596",
+    "kurtosis": "-3.0584",
+    "entropy": "-0.12243",
+    "fake": "1"
+  },
+  {
+    "variance": "0.67886",
+    "skewness": "4.1199",
+    "kurtosis": "-4.569",
+    "entropy": "-4.1414",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.9934",
+    "skewness": "5.8333",
+    "kurtosis": "0.54723",
+    "entropy": "-4.9379",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.3898",
+    "skewness": "-0.78427",
+    "kurtosis": "3.0141",
+    "entropy": "0.76205",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.7976",
+    "skewness": "-6.7686",
+    "kurtosis": "6.6753",
+    "entropy": "0.89912",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.70867",
+    "skewness": "-5.5602",
+    "kurtosis": "4.0483",
+    "entropy": "0.903",
+    "fake": "1"
+  },
+  {
+    "variance": "1.0194",
+    "skewness": "1.1029",
+    "kurtosis": "-2.3",
+    "entropy": "0.59395",
+    "fake": "1"
+  },
+  {
+    "variance": "1.7875",
+    "skewness": "4.78",
+    "kurtosis": "-5.1362",
+    "entropy": "-3.2362",
+    "fake": "1"
+  },
+  {
+    "variance": "0.27331",
+    "skewness": "4.8773",
+    "kurtosis": "-4.9194",
+    "entropy": "-5.8198",
+    "fake": "1"
+  },
+  {
+    "variance": "-5.1661",
+    "skewness": "8.0433",
+    "kurtosis": "0.044265",
+    "entropy": "-4.4983",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.7028",
+    "skewness": "1.6327",
+    "kurtosis": "0.83598",
+    "entropy": "-0.091393",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.4904",
+    "skewness": "-2.2183",
+    "kurtosis": "1.6054",
+    "entropy": "0.89394",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.014902",
+    "skewness": "-1.0243",
+    "kurtosis": "-0.94024",
+    "entropy": "0.64955",
+    "fake": "1"
+  },
+  {
+    "variance": "0.88992",
+    "skewness": "2.2638",
+    "kurtosis": "-3.1046",
+    "entropy": "-0.11855",
+    "fake": "1"
+  },
+  {
+    "variance": "1.0637",
+    "skewness": "3.6957",
+    "kurtosis": "-4.1594",
+    "entropy": "-1.9379",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.8471",
+    "skewness": "3.1329",
+    "kurtosis": "-3.0112",
+    "entropy": "-2.9388",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.9594",
+    "skewness": "4.0289",
+    "kurtosis": "-0.35845",
+    "entropy": "-3.8957",
+    "fake": "1"
+  },
+  {
+    "variance": "-5.8818",
+    "skewness": "7.6584",
+    "kurtosis": "0.5558",
+    "entropy": "-2.9155",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.7747",
+    "skewness": "2.5162",
+    "kurtosis": "0.83341",
+    "entropy": "-0.30993",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.4198",
+    "skewness": "-0.24418",
+    "kurtosis": "0.70146",
+    "entropy": "0.41809",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.83535",
+    "skewness": "0.80494",
+    "kurtosis": "-1.6411",
+    "entropy": "-0.19225",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.30432",
+    "skewness": "2.6528",
+    "kurtosis": "-2.7756",
+    "entropy": "-0.65647",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.60254",
+    "skewness": "1.7237",
+    "kurtosis": "-2.1501",
+    "entropy": "-0.77027",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.1059",
+    "skewness": "1.1815",
+    "kurtosis": "-0.53324",
+    "entropy": "-0.82716",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.0441",
+    "skewness": "1.2271",
+    "kurtosis": "0.18564",
+    "entropy": "-1.091",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.5621",
+    "skewness": "-2.2121",
+    "kurtosis": "4.2591",
+    "entropy": "0.27972",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.2305",
+    "skewness": "-7.2135",
+    "kurtosis": "11.6433",
+    "entropy": "-0.94613",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.8426",
+    "skewness": "-4.9932",
+    "kurtosis": "10.4052",
+    "entropy": "-0.53104",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.3147",
+    "skewness": "3.6668",
+    "kurtosis": "-0.6969",
+    "entropy": "-1.2474",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.11716",
+    "skewness": "0.60422",
+    "kurtosis": "-0.38587",
+    "entropy": "-0.059065",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.0066",
+    "skewness": "-6.719",
+    "kurtosis": "9.0162",
+    "entropy": "0.099985",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.6961",
+    "skewness": "-13.6779",
+    "kurtosis": "17.5795",
+    "entropy": "-2.6181",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.6012",
+    "skewness": "-6.5389",
+    "kurtosis": "10.5234",
+    "entropy": "-0.48967",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.6286",
+    "skewness": "0.18002",
+    "kurtosis": "1.7956",
+    "entropy": "0.97282",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.82601",
+    "skewness": "2.9611",
+    "kurtosis": "-1.2864",
+    "entropy": "-1.4647",
+    "fake": "1"
+  },
+  {
+    "variance": "0.31803",
+    "skewness": "-0.99326",
+    "kurtosis": "1.0947",
+    "entropy": "0.88619",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.4454",
+    "skewness": "-8.4385",
+    "kurtosis": "8.8483",
+    "entropy": "0.96894",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.1423",
+    "skewness": "-13.0365",
+    "kurtosis": "15.6773",
+    "entropy": "-0.66165",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.5373",
+    "skewness": "-6.959",
+    "kurtosis": "8.8054",
+    "entropy": "1.5289",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.366",
+    "skewness": "0.18416",
+    "kurtosis": "0.90539",
+    "entropy": "1.5806",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.7064",
+    "skewness": "3.3088",
+    "kurtosis": "-2.2829",
+    "entropy": "-2.1978",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.41965",
+    "skewness": "2.9094",
+    "kurtosis": "-1.7859",
+    "entropy": "-2.2069",
+    "fake": "1"
+  },
+  {
+    "variance": "0.37637",
+    "skewness": "-0.82358",
+    "kurtosis": "0.78543",
+    "entropy": "0.74524",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.55355",
+    "skewness": "-7.9233",
+    "kurtosis": "6.7156",
+    "entropy": "0.74394",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.6001",
+    "skewness": "-9.5828",
+    "kurtosis": "9.4044",
+    "entropy": "0.081882",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.37013",
+    "skewness": "-5.554",
+    "kurtosis": "4.7749",
+    "entropy": "1.547",
+    "fake": "1"
+  },
+  {
+    "variance": "0.12126",
+    "skewness": "0.22347",
+    "kurtosis": "-0.47327",
+    "entropy": "0.97024",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.27068",
+    "skewness": "3.2674",
+    "kurtosis": "-3.5562",
+    "entropy": "-3.0888",
+    "fake": "1"
+  },
+  {
+    "variance": "-5.119",
+    "skewness": "6.6486",
+    "kurtosis": "-0.049987",
+    "entropy": "-6.5206",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.3946",
+    "skewness": "2.3134",
+    "kurtosis": "-0.44499",
+    "entropy": "-1.4905",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.69879",
+    "skewness": "-3.3771",
+    "kurtosis": "4.1211",
+    "entropy": "1.5043",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.48",
+    "skewness": "-10.5244",
+    "kurtosis": "9.9176",
+    "entropy": "-0.5026",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.6649",
+    "skewness": "-12.813",
+    "kurtosis": "12.6689",
+    "entropy": "-1.9082",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.62684",
+    "skewness": "-6.301",
+    "kurtosis": "4.7843",
+    "entropy": "1.106",
+    "fake": "1"
+  },
+  {
+    "variance": "0.518",
+    "skewness": "0.25865",
+    "kurtosis": "-0.84085",
+    "entropy": "0.96118",
+    "fake": "1"
+  },
+  {
+    "variance": "0.64376",
+    "skewness": "3.764",
+    "kurtosis": "-4.4738",
+    "entropy": "-4.0483",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.9821",
+    "skewness": "4.1986",
+    "kurtosis": "-0.5898",
+    "entropy": "-3.9642",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.4628",
+    "skewness": "-1.5706",
+    "kurtosis": "2.4357",
+    "entropy": "0.49826",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.7101",
+    "skewness": "-8.7903",
+    "kurtosis": "7.9735",
+    "entropy": "-0.45475",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.5572",
+    "skewness": "-9.8808",
+    "kurtosis": "8.1088",
+    "entropy": "-1.0806",
+    "fake": "1"
+  },
+  {
+    "variance": "0.74428",
+    "skewness": "-3.7723",
+    "kurtosis": "1.6131",
+    "entropy": "1.5754",
+    "fake": "1"
+  },
+  {
+    "variance": "2.0177",
+    "skewness": "1.7982",
+    "kurtosis": "-2.9581",
+    "entropy": "0.2099",
+    "fake": "1"
+  },
+  {
+    "variance": "1.164",
+    "skewness": "3.913",
+    "kurtosis": "-4.5544",
+    "entropy": "-3.8672",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.3667",
+    "skewness": "6.0692",
+    "kurtosis": "0.57208",
+    "entropy": "-5.4668",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.5919",
+    "skewness": "-1.0553",
+    "kurtosis": "3.8949",
+    "entropy": "0.77757",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.8046",
+    "skewness": "-6.8141",
+    "kurtosis": "6.7019",
+    "entropy": "1.1681",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.71868",
+    "skewness": "-5.7154",
+    "kurtosis": "3.8298",
+    "entropy": "1.0233",
+    "fake": "1"
+  },
+  {
+    "variance": "1.4378",
+    "skewness": "0.66837",
+    "kurtosis": "-2.0267",
+    "entropy": "1.0271",
+    "fake": "1"
+  },
+  {
+    "variance": "2.1943",
+    "skewness": "4.5503",
+    "kurtosis": "-4.976",
+    "entropy": "-2.7254",
+    "fake": "1"
+  },
+  {
+    "variance": "0.7376",
+    "skewness": "4.8525",
+    "kurtosis": "-4.7986",
+    "entropy": "-5.6659",
+    "fake": "1"
+  },
+  {
+    "variance": "-5.637",
+    "skewness": "8.1261",
+    "kurtosis": "0.13081",
+    "entropy": "-5.0142",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.0193",
+    "skewness": "1.7775",
+    "kurtosis": "0.73745",
+    "entropy": "-0.45346",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.6706",
+    "skewness": "-2.09",
+    "kurtosis": "1.584",
+    "entropy": "0.71162",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.1269",
+    "skewness": "-1.1505",
+    "kurtosis": "-0.95138",
+    "entropy": "0.57843",
+    "fake": "1"
+  },
+  {
+    "variance": "1.2198",
+    "skewness": "2.0982",
+    "kurtosis": "-3.1954",
+    "entropy": "0.12843",
+    "fake": "1"
+  },
+  {
+    "variance": "1.4501",
+    "skewness": "3.6067",
+    "kurtosis": "-4.0557",
+    "entropy": "-1.5966",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.40857",
+    "skewness": "3.0977",
+    "kurtosis": "-2.9607",
+    "entropy": "-2.6892",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.8952",
+    "skewness": "3.8157",
+    "kurtosis": "-0.31304",
+    "entropy": "-3.8194",
+    "fake": "1"
+  },
+  {
+    "variance": "-6.3679",
+    "skewness": "8.0102",
+    "kurtosis": "0.4247",
+    "entropy": "-3.2207",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.1429",
+    "skewness": "2.7749",
+    "kurtosis": "0.68261",
+    "entropy": "-0.71984",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.6864",
+    "skewness": "-0.097265",
+    "kurtosis": "0.61663",
+    "entropy": "0.061192",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.0555",
+    "skewness": "0.79459",
+    "kurtosis": "-1.6968",
+    "entropy": "-0.46768",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.29858",
+    "skewness": "2.4769",
+    "kurtosis": "-2.9512",
+    "entropy": "-0.66165",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.49948",
+    "skewness": "1.7734",
+    "kurtosis": "-2.2469",
+    "entropy": "-0.68104",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.9881",
+    "skewness": "0.99945",
+    "kurtosis": "-0.28562",
+    "entropy": "-0.70044",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.9389",
+    "skewness": "1.5706",
+    "kurtosis": "0.045979",
+    "entropy": "-1.122",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.4375",
+    "skewness": "-1.8624",
+    "kurtosis": "4.026",
+    "entropy": "0.55127",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.1875",
+    "skewness": "-7.5756",
+    "kurtosis": "11.8678",
+    "entropy": "-0.57889",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.6765",
+    "skewness": "-5.6636",
+    "kurtosis": "10.969",
+    "entropy": "-0.33449",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.0285",
+    "skewness": "3.8468",
+    "kurtosis": "-0.63435",
+    "entropy": "-1.175",
+    "fake": "1"
+  },
+  {
+    "variance": "0.26637",
+    "skewness": "0.73252",
+    "kurtosis": "-0.67891",
+    "entropy": "0.03533",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.7589",
+    "skewness": "-6.4624",
+    "kurtosis": "8.4773",
+    "entropy": "0.31981",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.5985",
+    "skewness": "-13.6593",
+    "kurtosis": "17.6052",
+    "entropy": "-2.4927",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.3582",
+    "skewness": "-7.2404",
+    "kurtosis": "11.4419",
+    "entropy": "-0.57113",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.3629",
+    "skewness": "-0.10554",
+    "kurtosis": "1.9336",
+    "entropy": "1.1358",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.1802",
+    "skewness": "3.3791",
+    "kurtosis": "-1.2256",
+    "entropy": "-2.6621",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.40951",
+    "skewness": "-0.15521",
+    "kurtosis": "0.060545",
+    "entropy": "-0.088807",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.2918",
+    "skewness": "-7.257",
+    "kurtosis": "7.9597",
+    "entropy": "0.9211",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.0214",
+    "skewness": "-12.8006",
+    "kurtosis": "15.6199",
+    "entropy": "-0.95647",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.3884",
+    "skewness": "-8.215",
+    "kurtosis": "10.3315",
+    "entropy": "0.98187",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.0046",
+    "skewness": "-0.49457",
+    "kurtosis": "1.333",
+    "entropy": "1.6543",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.7063",
+    "skewness": "2.7956",
+    "kurtosis": "-2.378",
+    "entropy": "-2.3491",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.6386",
+    "skewness": "3.3584",
+    "kurtosis": "-1.7302",
+    "entropy": "-3.5646",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.41645",
+    "skewness": "0.32487",
+    "kurtosis": "-0.33617",
+    "entropy": "-0.36036",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.5877",
+    "skewness": "-6.6072",
+    "kurtosis": "5.8022",
+    "entropy": "0.31593",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.5961",
+    "skewness": "-9.349",
+    "kurtosis": "9.7942",
+    "entropy": "-0.28018",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.5228",
+    "skewness": "-6.4789",
+    "kurtosis": "5.7568",
+    "entropy": "0.87325",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.53072",
+    "skewness": "-0.097265",
+    "kurtosis": "-0.21793",
+    "entropy": "1.0426",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.49081",
+    "skewness": "2.8452",
+    "kurtosis": "-3.6436",
+    "entropy": "-3.1004",
+    "fake": "1"
+  },
+  {
+    "variance": "-6.5773",
+    "skewness": "6.8017",
+    "kurtosis": "0.85483",
+    "entropy": "-7.5344",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.4621",
+    "skewness": "2.7645",
+    "kurtosis": "-0.62578",
+    "entropy": "-2.8573",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.3995",
+    "skewness": "-1.9162",
+    "kurtosis": "2.5154",
+    "entropy": "0.59912",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.3221",
+    "skewness": "-9.3304",
+    "kurtosis": "9.233",
+    "entropy": "-0.79871",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.73",
+    "skewness": "-12.9723",
+    "kurtosis": "12.9817",
+    "entropy": "-2.684",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.6988",
+    "skewness": "-7.1163",
+    "kurtosis": "5.7902",
+    "entropy": "0.16723",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.26654",
+    "skewness": "-0.64562",
+    "kurtosis": "-0.42014",
+    "entropy": "0.89136",
+    "fake": "1"
+  },
+  {
+    "variance": "0.33325",
+    "skewness": "3.3108",
+    "kurtosis": "-4.5081",
+    "entropy": "-4.012",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.2091",
+    "skewness": "4.7283",
+    "kurtosis": "-0.49126",
+    "entropy": "-5.2159",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.3142",
+    "skewness": "-0.68494",
+    "kurtosis": "1.9833",
+    "entropy": "-0.44829",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.4835",
+    "skewness": "-7.4494",
+    "kurtosis": "6.8964",
+    "entropy": "-0.64484",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.7611",
+    "skewness": "-10.5099",
+    "kurtosis": "9.0239",
+    "entropy": "-1.9547",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.36025",
+    "skewness": "-4.449",
+    "kurtosis": "2.1067",
+    "entropy": "0.94308",
+    "fake": "1"
+  },
+  {
+    "variance": "1.0117",
+    "skewness": "0.9022",
+    "kurtosis": "-2.3506",
+    "entropy": "0.42714",
+    "fake": "1"
+  },
+  {
+    "variance": "0.96708",
+    "skewness": "3.8426",
+    "kurtosis": "-4.9314",
+    "entropy": "-4.1323",
+    "fake": "1"
+  },
+  {
+    "variance": "-5.2049",
+    "skewness": "7.259",
+    "kurtosis": "0.070827",
+    "entropy": "-7.3004",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.3203",
+    "skewness": "-0.02691",
+    "kurtosis": "2.9618",
+    "entropy": "-0.44958",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.565",
+    "skewness": "-5.7899",
+    "kurtosis": "6.0122",
+    "entropy": "0.046968",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.5951",
+    "skewness": "-6.572",
+    "kurtosis": "4.7689",
+    "entropy": "-0.94354",
+    "fake": "1"
+  },
+  {
+    "variance": "0.7049",
+    "skewness": "0.17174",
+    "kurtosis": "-1.7859",
+    "entropy": "0.36119",
+    "fake": "1"
+  },
+  {
+    "variance": "1.7331",
+    "skewness": "3.9544",
+    "kurtosis": "-4.7412",
+    "entropy": "-2.5017",
+    "fake": "1"
+  },
+  {
+    "variance": "0.6818",
+    "skewness": "4.8504",
+    "kurtosis": "-5.2133",
+    "entropy": "-6.1043",
+    "fake": "1"
+  },
+  {
+    "variance": "-6.3364",
+    "skewness": "9.2848",
+    "kurtosis": "0.014275",
+    "entropy": "-6.7844",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.8053",
+    "skewness": "2.4273",
+    "kurtosis": "0.6809",
+    "entropy": "-1.0871",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.1979",
+    "skewness": "-2.1252",
+    "kurtosis": "1.7151",
+    "entropy": "0.45171",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.87874",
+    "skewness": "-2.2121",
+    "kurtosis": "-0.051701",
+    "entropy": "0.099985",
+    "fake": "1"
+  },
+  {
+    "variance": "0.74067",
+    "skewness": "1.7299",
+    "kurtosis": "-3.1963",
+    "entropy": "-0.1457",
+    "fake": "1"
+  },
+  {
+    "variance": "0.98296",
+    "skewness": "3.4226",
+    "kurtosis": "-3.9692",
+    "entropy": "-1.7116",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.3489",
+    "skewness": "3.1929",
+    "kurtosis": "-3.4054",
+    "entropy": "-3.1832",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.8552",
+    "skewness": "3.5219",
+    "kurtosis": "-0.38415",
+    "entropy": "-3.8608",
+    "fake": "1"
+  },
+  {
+    "variance": "-6.9599",
+    "skewness": "8.9931",
+    "kurtosis": "0.2182",
+    "entropy": "-4.572",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.7462",
+    "skewness": "3.1205",
+    "kurtosis": "1.075",
+    "entropy": "-1.2966",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.2051",
+    "skewness": "-0.14279",
+    "kurtosis": "0.97565",
+    "entropy": "0.045675",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.7549",
+    "skewness": "-0.080711",
+    "kurtosis": "-0.75774",
+    "entropy": "-0.3707",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.59587",
+    "skewness": "2.4811",
+    "kurtosis": "-2.8673",
+    "entropy": "-0.89828",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.89542",
+    "skewness": "2.0279",
+    "kurtosis": "-2.3652",
+    "entropy": "-1.2746",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.0754",
+    "skewness": "1.2767",
+    "kurtosis": "-0.64206",
+    "entropy": "-1.2642",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.2778",
+    "skewness": "1.8023",
+    "kurtosis": "0.1805",
+    "entropy": "-2.3931",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.2183",
+    "skewness": "-1.254",
+    "kurtosis": "2.9986",
+    "entropy": "0.36378",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.5895",
+    "skewness": "-6.572",
+    "kurtosis": "10.5251",
+    "entropy": "-0.16381",
+    "fake": "1"
+  },
+  {
+    "variance": "-5.0477",
+    "skewness": "-5.8023",
+    "kurtosis": "11.244",
+    "entropy": "-0.3901",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.5741",
+    "skewness": "3.944",
+    "kurtosis": "-0.07912",
+    "entropy": "-2.1203",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.7351",
+    "skewness": "1.7361",
+    "kurtosis": "-1.4938",
+    "entropy": "-1.1582",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.2617",
+    "skewness": "-4.7428",
+    "kurtosis": "6.3489",
+    "entropy": "0.11162",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.244",
+    "skewness": "-13.0634",
+    "kurtosis": "17.1116",
+    "entropy": "-2.8017",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.0218",
+    "skewness": "-8.304",
+    "kurtosis": "12.555",
+    "entropy": "-1.5099",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.0201",
+    "skewness": "-0.67253",
+    "kurtosis": "2.7056",
+    "entropy": "0.85774",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.4941",
+    "skewness": "3.5447",
+    "kurtosis": "-1.3721",
+    "entropy": "-2.8483",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.83121",
+    "skewness": "0.039307",
+    "kurtosis": "0.05369",
+    "entropy": "-0.23105",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.5665",
+    "skewness": "-6.8824",
+    "kurtosis": "7.5416",
+    "entropy": "0.70774",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.4018",
+    "skewness": "-12.9371",
+    "kurtosis": "15.6559",
+    "entropy": "-1.6806",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.7573",
+    "skewness": "-8.2916",
+    "kurtosis": "10.3032",
+    "entropy": "0.38059",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.4725",
+    "skewness": "-0.40145",
+    "kurtosis": "1.4855",
+    "entropy": "1.1189",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.9725",
+    "skewness": "2.8825",
+    "kurtosis": "-2.3086",
+    "entropy": "-2.3724",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.0149",
+    "skewness": "3.6874",
+    "kurtosis": "-1.9385",
+    "entropy": "-3.8918",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.82053",
+    "skewness": "0.65181",
+    "kurtosis": "-0.48869",
+    "entropy": "-0.52716",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.7886",
+    "skewness": "-6.3486",
+    "kurtosis": "5.6154",
+    "entropy": "0.42584",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.9138",
+    "skewness": "-9.4711",
+    "kurtosis": "9.7668",
+    "entropy": "-0.60216",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.8343",
+    "skewness": "-6.5907",
+    "kurtosis": "5.6429",
+    "entropy": "0.54998",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.8734",
+    "skewness": "-0.033118",
+    "kurtosis": "-0.20165",
+    "entropy": "0.55774",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.70346",
+    "skewness": "2.957",
+    "kurtosis": "-3.5947",
+    "entropy": "-3.1457",
+    "fake": "1"
+  },
+  {
+    "variance": "-6.7387",
+    "skewness": "6.9879",
+    "kurtosis": "0.67833",
+    "entropy": "-7.5887",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.7723",
+    "skewness": "3.2777",
+    "kurtosis": "-0.9351",
+    "entropy": "-3.1457",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.6641",
+    "skewness": "-1.3678",
+    "kurtosis": "1.997",
+    "entropy": "0.52283",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.4349",
+    "skewness": "-9.2497",
+    "kurtosis": "8.9922",
+    "entropy": "-0.50001",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.793",
+    "skewness": "-12.7095",
+    "kurtosis": "12.7957",
+    "entropy": "-2.825",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.9551",
+    "skewness": "-6.9756",
+    "kurtosis": "5.5383",
+    "entropy": "-0.12889",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.69078",
+    "skewness": "-0.50077",
+    "kurtosis": "-0.35417",
+    "entropy": "0.47498",
+    "fake": "1"
+  },
+  {
+    "variance": "0.025013",
+    "skewness": "3.3998",
+    "kurtosis": "-4.4327",
+    "entropy": "-4.2655",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.3967",
+    "skewness": "4.9601",
+    "kurtosis": "-0.64892",
+    "entropy": "-5.4719",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.456",
+    "skewness": "-0.24418",
+    "kurtosis": "1.4041",
+    "entropy": "-0.45863",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.62",
+    "skewness": "-6.8555",
+    "kurtosis": "6.2169",
+    "entropy": "-0.62285",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.9662",
+    "skewness": "-10.3257",
+    "kurtosis": "8.784",
+    "entropy": "-2.1138",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.71494",
+    "skewness": "-4.4448",
+    "kurtosis": "2.2241",
+    "entropy": "0.49826",
+    "fake": "1"
+  },
+  {
+    "variance": "0.6005",
+    "skewness": "0.99945",
+    "kurtosis": "-2.2126",
+    "entropy": "0.097399",
+    "fake": "1"
+  },
+  {
+    "variance": "0.61652",
+    "skewness": "3.8944",
+    "kurtosis": "-4.7275",
+    "entropy": "-4.3948",
+    "fake": "1"
+  },
+  {
+    "variance": "-5.4414",
+    "skewness": "7.2363",
+    "kurtosis": "0.10938",
+    "entropy": "-7.5642",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.5798",
+    "skewness": "0.45937",
+    "kurtosis": "2.3457",
+    "entropy": "-0.45734",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.7769",
+    "skewness": "-5.6967",
+    "kurtosis": "5.9179",
+    "entropy": "0.37671",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.8356",
+    "skewness": "-6.7562",
+    "kurtosis": "5.0585",
+    "entropy": "-0.55044",
+    "fake": "1"
+  },
+  {
+    "variance": "0.30081",
+    "skewness": "0.17381",
+    "kurtosis": "-1.7542",
+    "entropy": "0.48921",
+    "fake": "1"
+  },
+  {
+    "variance": "1.3403",
+    "skewness": "4.1323",
+    "kurtosis": "-4.7018",
+    "entropy": "-2.5987",
+    "fake": "1"
+  },
+  {
+    "variance": "0.26877",
+    "skewness": "4.987",
+    "kurtosis": "-5.1508",
+    "entropy": "-6.3913",
+    "fake": "1"
+  },
+  {
+    "variance": "-6.5235",
+    "skewness": "9.6014",
+    "kurtosis": "-0.25392",
+    "entropy": "-6.9642",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.0679",
+    "skewness": "2.4955",
+    "kurtosis": "0.79571",
+    "entropy": "-1.1039",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.564",
+    "skewness": "-1.7051",
+    "kurtosis": "1.5026",
+    "entropy": "0.32757",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.3414",
+    "skewness": "-1.9162",
+    "kurtosis": "-0.15538",
+    "entropy": "-0.11984",
+    "fake": "1"
+  },
+  {
+    "variance": "0.23874",
+    "skewness": "2.0879",
+    "kurtosis": "-3.3522",
+    "entropy": "-0.66553",
+    "fake": "1"
+  },
+  {
+    "variance": "0.6212",
+    "skewness": "3.6771",
+    "kurtosis": "-4.0771",
+    "entropy": "-2.0711",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.77848",
+    "skewness": "3.4019",
+    "kurtosis": "-3.4859",
+    "entropy": "-3.5569",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.1244",
+    "skewness": "3.7909",
+    "kurtosis": "-0.6532",
+    "entropy": "-4.1802",
+    "fake": "1"
+  },
+  {
+    "variance": "-7.0421",
+    "skewness": "9.2",
+    "kurtosis": "0.25933",
+    "entropy": "-4.6832",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.9462",
+    "skewness": "3.5716",
+    "kurtosis": "0.82742",
+    "entropy": "-1.4957",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.5359",
+    "skewness": "0.30417",
+    "kurtosis": "0.6569",
+    "entropy": "-0.2957",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.0662",
+    "skewness": "0.16967",
+    "kurtosis": "-1.0054",
+    "entropy": "-0.82975",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.88728",
+    "skewness": "2.808",
+    "kurtosis": "-3.1432",
+    "entropy": "-1.2035",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.0941",
+    "skewness": "2.3072",
+    "kurtosis": "-2.5237",
+    "entropy": "-1.4453",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.4458",
+    "skewness": "1.6285",
+    "kurtosis": "-0.88541",
+    "entropy": "-1.4802",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.551",
+    "skewness": "1.8955",
+    "kurtosis": "0.1865",
+    "entropy": "-2.4409",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.2811",
+    "skewness": "-0.85669",
+    "kurtosis": "2.7185",
+    "entropy": "0.044382",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.6053",
+    "skewness": "-5.974",
+    "kurtosis": "10.0916",
+    "entropy": "-0.82846",
+    "fake": "1"
+  },
+  {
+    "variance": "-5.0676",
+    "skewness": "-5.1877",
+    "kurtosis": "10.4266",
+    "entropy": "-0.86725",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.9204",
+    "skewness": "4.0723",
+    "kurtosis": "-0.23678",
+    "entropy": "-2.1151",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.1306",
+    "skewness": "1.8458",
+    "kurtosis": "-1.3575",
+    "entropy": "-1.3806",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.4561",
+    "skewness": "-4.5566",
+    "kurtosis": "6.4534",
+    "entropy": "-0.056479",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.4775",
+    "skewness": "-13.0303",
+    "kurtosis": "17.0834",
+    "entropy": "-3.0345",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.1958",
+    "skewness": "-8.1819",
+    "kurtosis": "12.1291",
+    "entropy": "-1.6017",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.38",
+    "skewness": "-0.7077",
+    "kurtosis": "2.5325",
+    "entropy": "0.71808",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.4365",
+    "skewness": "3.6026",
+    "kurtosis": "-1.4166",
+    "entropy": "-2.8948",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.77688",
+    "skewness": "0.13036",
+    "kurtosis": "-0.031137",
+    "entropy": "-0.35389",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.7083",
+    "skewness": "-6.8266",
+    "kurtosis": "7.5339",
+    "entropy": "0.59007",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.5531",
+    "skewness": "-12.5854",
+    "kurtosis": "15.4417",
+    "entropy": "-1.4983",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.8894",
+    "skewness": "-7.8322",
+    "kurtosis": "9.8208",
+    "entropy": "0.47498",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.5084",
+    "skewness": "-0.22763",
+    "kurtosis": "1.488",
+    "entropy": "1.2069",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.1652",
+    "skewness": "3.0211",
+    "kurtosis": "-2.4132",
+    "entropy": "-2.4241",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.8974",
+    "skewness": "3.5074",
+    "kurtosis": "-1.7842",
+    "entropy": "-3.8491",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.62043",
+    "skewness": "0.5587",
+    "kurtosis": "-0.38587",
+    "entropy": "-0.66423",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.8387",
+    "skewness": "-6.301",
+    "kurtosis": "5.6506",
+    "entropy": "0.19567",
+    "fake": "1"
+  },
+  {
+    "variance": "-3",
+    "skewness": "-9.1566",
+    "kurtosis": "9.5766",
+    "entropy": "-0.73018",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.9116",
+    "skewness": "-6.1603",
+    "kurtosis": "5.606",
+    "entropy": "0.48533",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.005",
+    "skewness": "0.084831",
+    "kurtosis": "-0.2462",
+    "entropy": "0.45688",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.87834",
+    "skewness": "3.257",
+    "kurtosis": "-3.6778",
+    "entropy": "-3.2944",
+    "fake": "1"
+  },
+  {
+    "variance": "-6.651",
+    "skewness": "6.7934",
+    "kurtosis": "0.68604",
+    "entropy": "-7.5887",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.5463",
+    "skewness": "3.1101",
+    "kurtosis": "-0.83228",
+    "entropy": "-3.0358",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.4377",
+    "skewness": "-1.432",
+    "kurtosis": "2.1144",
+    "entropy": "0.42067",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.4554",
+    "skewness": "-9.0407",
+    "kurtosis": "8.862",
+    "entropy": "-0.86983",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.9411",
+    "skewness": "-12.8792",
+    "kurtosis": "13.0597",
+    "entropy": "-3.3125",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.1241",
+    "skewness": "-6.8969",
+    "kurtosis": "5.5992",
+    "entropy": "-0.47156",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.74324",
+    "skewness": "-0.32902",
+    "kurtosis": "-0.42785",
+    "entropy": "0.23317",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.071503",
+    "skewness": "3.7412",
+    "kurtosis": "-4.5415",
+    "entropy": "-4.2526",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.2333",
+    "skewness": "4.9166",
+    "kurtosis": "-0.49212",
+    "entropy": "-5.3207",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.3675",
+    "skewness": "-0.43663",
+    "kurtosis": "1.692",
+    "entropy": "-0.43018",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.5526",
+    "skewness": "-7.3625",
+    "kurtosis": "6.9255",
+    "entropy": "-0.66811",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.0986",
+    "skewness": "-10.4602",
+    "kurtosis": "8.9717",
+    "entropy": "-2.3427",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.89809",
+    "skewness": "-4.4862",
+    "kurtosis": "2.2009",
+    "entropy": "0.50731",
+    "fake": "1"
+  },
+  {
+    "variance": "0.56232",
+    "skewness": "1.0015",
+    "kurtosis": "-2.2726",
+    "entropy": "-0.0060486",
+    "fake": "1"
+  },
+  {
+    "variance": "0.53936",
+    "skewness": "3.8944",
+    "kurtosis": "-4.8166",
+    "entropy": "-4.3418",
+    "fake": "1"
+  },
+  {
+    "variance": "-5.3012",
+    "skewness": "7.3915",
+    "kurtosis": "0.029699",
+    "entropy": "-7.3987",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.3553",
+    "skewness": "0.35591",
+    "kurtosis": "2.6473",
+    "entropy": "-0.37846",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.7908",
+    "skewness": "-5.7133",
+    "kurtosis": "5.953",
+    "entropy": "0.45946",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.9983",
+    "skewness": "-6.6072",
+    "kurtosis": "4.8254",
+    "entropy": "-0.41984",
+    "fake": "1"
+  },
+  {
+    "variance": "0.15423",
+    "skewness": "0.11794",
+    "kurtosis": "-1.6823",
+    "entropy": "0.59524",
+    "fake": "1"
+  },
+  {
+    "variance": "1.208",
+    "skewness": "4.0744",
+    "kurtosis": "-4.7635",
+    "entropy": "-2.6129",
+    "fake": "1"
+  },
+  {
+    "variance": "0.2952",
+    "skewness": "4.8856",
+    "kurtosis": "-5.149",
+    "entropy": "-6.2323",
+    "fake": "1"
+  },
+  {
+    "variance": "-6.4247",
+    "skewness": "9.5311",
+    "kurtosis": "0.022844",
+    "entropy": "-6.8517",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.9933",
+    "skewness": "2.6218",
+    "kurtosis": "0.62863",
+    "entropy": "-1.1595",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.659",
+    "skewness": "-1.6058",
+    "kurtosis": "1.3647",
+    "entropy": "0.16464",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.4094",
+    "skewness": "-2.1252",
+    "kurtosis": "-0.10397",
+    "entropy": "-0.19225",
+    "fake": "1"
+  },
+  {
+    "variance": "0.11032",
+    "skewness": "1.9741",
+    "kurtosis": "-3.3668",
+    "entropy": "-0.65259",
+    "fake": "1"
+  },
+  {
+    "variance": "0.52374",
+    "skewness": "3.644",
+    "kurtosis": "-4.0746",
+    "entropy": "-1.9909",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.76794",
+    "skewness": "3.4598",
+    "kurtosis": "-3.4405",
+    "entropy": "-3.4276",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.9698",
+    "skewness": "3.6812",
+    "kurtosis": "-0.60008",
+    "entropy": "-4.0133",
+    "fake": "1"
+  },
+  {
+    "variance": "-7.0364",
+    "skewness": "9.2931",
+    "kurtosis": "0.16594",
+    "entropy": "-4.5396",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.9447",
+    "skewness": "3.3005",
+    "kurtosis": "1.063",
+    "entropy": "-1.444",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.5933",
+    "skewness": "0.22968",
+    "kurtosis": "0.7126",
+    "entropy": "-0.3332",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.1674",
+    "skewness": "0.12415",
+    "kurtosis": "-1.0465",
+    "entropy": "-0.86208",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.9607",
+    "skewness": "2.6963",
+    "kurtosis": "-3.1226",
+    "entropy": "-1.3121",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.0802",
+    "skewness": "2.1996",
+    "kurtosis": "-2.5862",
+    "entropy": "-1.2759",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.3277",
+    "skewness": "1.4381",
+    "kurtosis": "-0.82114",
+    "entropy": "-1.2862",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.7244",
+    "skewness": "1.9037",
+    "kurtosis": "-0.035421",
+    "entropy": "-2.5095",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.5724",
+    "skewness": "-0.95602",
+    "kurtosis": "2.7073",
+    "entropy": "-0.16639",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.9297",
+    "skewness": "-6.0816",
+    "kurtosis": "10.0958",
+    "entropy": "-1.0147",
+    "fake": "1"
+  },
+  {
+    "variance": "-5.2943",
+    "skewness": "-5.1463",
+    "kurtosis": "10.3332",
+    "entropy": "-1.1181",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.8953",
+    "skewness": "4.0392",
+    "kurtosis": "-0.3019",
+    "entropy": "-2.1836",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.2244",
+    "skewness": "1.7485",
+    "kurtosis": "-1.4801",
+    "entropy": "-1.4181",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.6406",
+    "skewness": "-4.4159",
+    "kurtosis": "5.983",
+    "entropy": "-0.13924",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.6338",
+    "skewness": "-12.7509",
+    "kurtosis": "16.7166",
+    "entropy": "-3.2168",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.2887",
+    "skewness": "-7.8633",
+    "kurtosis": "11.8387",
+    "entropy": "-1.8978",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.3458",
+    "skewness": "-0.50491",
+    "kurtosis": "2.6328",
+    "entropy": "0.53705",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.1188",
+    "skewness": "3.3357",
+    "kurtosis": "-1.3455",
+    "entropy": "-1.9573",
+    "fake": "1"
+  },
+  {
+    "variance": "0.55939",
+    "skewness": "-0.3104",
+    "kurtosis": "0.18307",
+    "entropy": "0.44653",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.5078",
+    "skewness": "-7.3191",
+    "kurtosis": "7.8981",
+    "entropy": "1.2289",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.506",
+    "skewness": "-12.5667",
+    "kurtosis": "15.1606",
+    "entropy": "-0.75216",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.9498",
+    "skewness": "-8.273",
+    "kurtosis": "10.2646",
+    "entropy": "1.1629",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.6029",
+    "skewness": "-0.38903",
+    "kurtosis": "1.62",
+    "entropy": "1.9103",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.2667",
+    "skewness": "2.8183",
+    "kurtosis": "-2.426",
+    "entropy": "-1.8862",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.49281",
+    "skewness": "3.0605",
+    "kurtosis": "-1.8356",
+    "entropy": "-2.834",
+    "fake": "1"
+  },
+  {
+    "variance": "0.66365",
+    "skewness": "-0.045533",
+    "kurtosis": "-0.18794",
+    "entropy": "0.23447",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.72068",
+    "skewness": "-6.7583",
+    "kurtosis": "5.8408",
+    "entropy": "0.62369",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.9966",
+    "skewness": "-9.5001",
+    "kurtosis": "9.682",
+    "entropy": "-0.12889",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.97325",
+    "skewness": "-6.4168",
+    "kurtosis": "5.6026",
+    "entropy": "1.0323",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.025314",
+    "skewness": "-0.17383",
+    "kurtosis": "-0.11339",
+    "entropy": "1.2198",
+    "fake": "1"
+  },
+  {
+    "variance": "0.062525",
+    "skewness": "2.9301",
+    "kurtosis": "-3.5467",
+    "entropy": "-2.6737",
+    "fake": "1"
+  },
+  {
+    "variance": "-5.525",
+    "skewness": "6.3258",
+    "kurtosis": "0.89768",
+    "entropy": "-6.6241",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.2943",
+    "skewness": "2.6735",
+    "kurtosis": "-0.84085",
+    "entropy": "-2.0323",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.24037",
+    "skewness": "-1.7837",
+    "kurtosis": "2.135",
+    "entropy": "1.2418",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.3968",
+    "skewness": "-9.6698",
+    "kurtosis": "9.4652",
+    "entropy": "-0.34872",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.9672",
+    "skewness": "-13.2869",
+    "kurtosis": "13.4727",
+    "entropy": "-2.6271",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.1005",
+    "skewness": "-7.2508",
+    "kurtosis": "6.0139",
+    "entropy": "0.36895",
+    "fake": "1"
+  },
+  {
+    "variance": "0.22432",
+    "skewness": "-0.52147",
+    "kurtosis": "-0.40386",
+    "entropy": "1.2017",
+    "fake": "1"
+  },
+  {
+    "variance": "0.90407",
+    "skewness": "3.3708",
+    "kurtosis": "-4.4987",
+    "entropy": "-3.6965",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.8619",
+    "skewness": "4.5193",
+    "kurtosis": "-0.58123",
+    "entropy": "-4.2629",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.0833",
+    "skewness": "-0.31247",
+    "kurtosis": "1.2815",
+    "entropy": "0.41291",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.5681",
+    "skewness": "-7.2446",
+    "kurtosis": "6.5537",
+    "entropy": "-0.1276",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.0545",
+    "skewness": "-10.8679",
+    "kurtosis": "9.4926",
+    "entropy": "-1.4116",
+    "fake": "1"
+  },
+  {
+    "variance": "0.2346",
+    "skewness": "-4.5152",
+    "kurtosis": "2.1195",
+    "entropy": "1.4448",
+    "fake": "1"
+  },
+  {
+    "variance": "1.581",
+    "skewness": "0.86909",
+    "kurtosis": "-2.3138",
+    "entropy": "0.82412",
+    "fake": "1"
+  },
+  {
+    "variance": "1.5514",
+    "skewness": "3.8013",
+    "kurtosis": "-4.9143",
+    "entropy": "-3.7483",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.1479",
+    "skewness": "7.1225",
+    "kurtosis": "-0.083404",
+    "entropy": "-6.4172",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.2625",
+    "skewness": "-0.099335",
+    "kurtosis": "2.8127",
+    "entropy": "0.48662",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.7479",
+    "skewness": "-5.823",
+    "kurtosis": "5.8699",
+    "entropy": "1.212",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.95923",
+    "skewness": "-6.7128",
+    "kurtosis": "4.9857",
+    "entropy": "0.32886",
+    "fake": "1"
+  },
+  {
+    "variance": "1.3451",
+    "skewness": "0.23589",
+    "kurtosis": "-1.8785",
+    "entropy": "1.3258",
+    "fake": "1"
+  },
+  {
+    "variance": "2.2279",
+    "skewness": "4.0951",
+    "kurtosis": "-4.8037",
+    "entropy": "-2.1112",
+    "fake": "1"
+  },
+  {
+    "variance": "1.2572",
+    "skewness": "4.8731",
+    "kurtosis": "-5.2861",
+    "entropy": "-5.8741",
+    "fake": "1"
+  },
+  {
+    "variance": "-5.3857",
+    "skewness": "9.1214",
+    "kurtosis": "-0.41929",
+    "entropy": "-5.9181",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.9786",
+    "skewness": "2.3445",
+    "kurtosis": "0.52667",
+    "entropy": "-0.40173",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.5851",
+    "skewness": "-2.1562",
+    "kurtosis": "1.7082",
+    "entropy": "0.9017",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.21888",
+    "skewness": "-2.2038",
+    "kurtosis": "-0.0954",
+    "entropy": "0.56421",
+    "fake": "1"
+  },
+  {
+    "variance": "1.3183",
+    "skewness": "1.9017",
+    "kurtosis": "-3.3111",
+    "entropy": "0.065071",
+    "fake": "1"
+  },
+  {
+    "variance": "1.4896",
+    "skewness": "3.4288",
+    "kurtosis": "-4.0309",
+    "entropy": "-1.4259",
+    "fake": "1"
+  },
+  {
+    "variance": "0.11592",
+    "skewness": "3.2219",
+    "kurtosis": "-3.4302",
+    "entropy": "-2.8457",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.3924",
+    "skewness": "3.3564",
+    "kurtosis": "-0.72004",
+    "entropy": "-3.5233",
+    "fake": "1"
+  },
+  {
+    "variance": "-6.1632",
+    "skewness": "8.7096",
+    "kurtosis": "-0.21621",
+    "entropy": "-3.6345",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.0786",
+    "skewness": "2.9239",
+    "kurtosis": "0.87026",
+    "entropy": "-0.65389",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.5899",
+    "skewness": "-0.3911",
+    "kurtosis": "0.93452",
+    "entropy": "0.42972",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.0116",
+    "skewness": "-0.19038",
+    "kurtosis": "-0.90597",
+    "entropy": "0.003003",
+    "fake": "1"
+  },
+  {
+    "variance": "0.066129",
+    "skewness": "2.4914",
+    "kurtosis": "-2.9401",
+    "entropy": "-0.62156",
+    "fake": "1"
+  },
+  {
+    "variance": "-0.24745",
+    "skewness": "1.9368",
+    "kurtosis": "-2.4697",
+    "entropy": "-0.80518",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.5732",
+    "skewness": "1.0636",
+    "kurtosis": "-0.71232",
+    "entropy": "-0.8388",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.1668",
+    "skewness": "1.5933",
+    "kurtosis": "0.045122",
+    "entropy": "-1.678",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.1667",
+    "skewness": "-1.4237",
+    "kurtosis": "2.9241",
+    "entropy": "0.66119",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.8391",
+    "skewness": "-6.63",
+    "kurtosis": "10.4849",
+    "entropy": "-0.42113",
+    "fake": "1"
+  },
+  {
+    "variance": "-4.5046",
+    "skewness": "-5.8126",
+    "kurtosis": "10.8867",
+    "entropy": "-0.52846",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.41",
+    "skewness": "3.7433",
+    "kurtosis": "-0.40215",
+    "entropy": "-1.2953",
+    "fake": "1"
+  },
+  {
+    "variance": "0.40614",
+    "skewness": "1.3492",
+    "kurtosis": "-1.4501",
+    "entropy": "-0.55949",
+    "fake": "1"
+  },
+  {
+    "variance": "-1.3887",
+    "skewness": "-4.8773",
+    "kurtosis": "6.4774",
+    "entropy": "0.34179",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.7503",
+    "skewness": "-13.4586",
+    "kurtosis": "17.5932",
+    "entropy": "-2.7771",
+    "fake": "1"
+  },
+  {
+    "variance": "-3.5637",
+    "skewness": "-8.3827",
+    "kurtosis": "12.393",
+    "entropy": "-1.2823",
+    "fake": "1"
+  },
+  {
+    "variance": "-2.5419",
+    "skewness": "-0.65804",
+    "kurtosis": "2.6842",
+    "entropy": "1.1952",
+    "fake": "1"
+  }
+]

@@ -3,11 +3,12 @@ const path = require("path");
 const { Transform } = require("stream");
 const csv = require("fast-csv");
 
+const source = "raw";
+const destination = "csv";
+
 // abalone.csv
 {
   const filename = "abalone.csv";
-  const source = "csv";
-  const destination = "dataset";
   
   const output = csv.format({ headers: true });
   const outputfile = fs.createWriteStream(path.resolve(__dirname, destination, filename));
@@ -22,8 +23,6 @@ const csv = require("fast-csv");
 // auto-insurance-sweden.csv
 {
   const filename = "auto-insurance-sweden.csv";
-  const source = "csv";
-  const destination = "dataset";
   
   const output = csv.format({ headers: true, delimeter: "," });
   const outputfile = fs.createWriteStream(path.resolve(__dirname, destination, filename));
@@ -43,8 +42,6 @@ const csv = require("fast-csv");
 // banknote.csv
 {
   const filename = "banknote.csv";
-  const source = "csv";
-  const destination = "dataset";
   
   const output = csv.format({ headers: true, delimeter: "," });
   const outputfile = fs.createWriteStream(path.resolve(__dirname, destination, filename));
@@ -59,8 +56,6 @@ const csv = require("fast-csv");
 // boston-housing-prices.csv
 {
   const filename = "boston-housing-prices.csv";
-  const source = "csv";
-  const destination = "dataset";
   
   const output = csv.format({ headers: true });
   const outputfile = fs.createWriteStream(path.resolve(__dirname, destination, filename));
@@ -83,8 +78,6 @@ const csv = require("fast-csv");
 // ionosphere.csv
 {
   const filename = "ionosphere.csv";
-  const source = "csv";
-  const destination = "dataset";
   
   const output = csv.format({ headers: true });
   const outputfile = fs.createWriteStream(path.resolve(__dirname, destination, filename));
@@ -102,8 +95,6 @@ const csv = require("fast-csv");
 // iris-flower.csv
 {
   const filename = "iris-flower.csv";
-  const source = "csv";
-  const destination = "dataset";
   
   const output = csv.format({ headers: true });
   const outputfile = fs.createWriteStream(path.resolve(__dirname, destination, filename));
@@ -124,8 +115,6 @@ const csv = require("fast-csv");
 // pima-indians-diabetes.csv
 {
   const filename = "pima-indians-diabetes.csv";
-  const source = "csv";
-  const destination = "dataset";
   
   const output = csv.format({ headers: true });
   const outputfile = fs.createWriteStream(path.resolve(__dirname, destination, filename));
@@ -140,8 +129,6 @@ const csv = require("fast-csv");
 // sonar.csv
 {
   const filename = "sonar.csv";
-  const source = "csv";
-  const destination = "dataset";
   
   const output = csv.format({ headers: true });
   const outputfile = fs.createWriteStream(path.resolve(__dirname, destination, filename));
@@ -159,8 +146,6 @@ const csv = require("fast-csv");
 // wheat-seeds.csv
 {
   const filename = "wheat-seeds.csv";
-  const source = "csv";
-  const destination = "dataset";
   
   const output = csv.format({ headers: true });
   const outputfile = fs.createWriteStream(path.resolve(__dirname, destination, filename));
@@ -183,8 +168,6 @@ const csv = require("fast-csv");
 // wine-quality.csv
 {
   const filename = "wine-quality.csv";
-  const source = "csv";
-  const destination = "dataset";
   
   const output = csv.format({ headers: true });
   const outputfile = fs.createWriteStream(path.resolve(__dirname, destination, filename));
