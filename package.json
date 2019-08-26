@@ -2,7 +2,7 @@
   "name": "@liquid-carrot/nn",
   "version": "1.0.0",
   "description": "Neural Networks &  Deep Learning in JavaScript",
-  "main": "index.js",
+  "main": "cores.js",
   "scripts": {
     "test": "npm run test:node && npm run test:browser",
     "test:node": "mocha test/node.js",
@@ -37,18 +37,28 @@
   "devDependencies": {
     "@liquid-carrot/data.cjyvyspsy0000l2m932iv07k1": "^1.0.1",
     "@liquid-carrot/data.pima-indians-diabetes": "^1.0.1",
+    "@tensorflow/tfjs": "^1.2.7",
+    "@tensorflow/tfjs-node": "^1.2.7",
+    "benchmark": "^2.1.4",
+    "benchmark.js": "^2.0.0",
     "browserify": "^16.3.0",
     "chai": "^4.2.0",
+    "csv-parse": "^4.4.5",
+    "faker": "^4.1.0",
+    "fast-csv": "^3.4.0",
     "jsdoc": "^3.6.3",
     "jsdoc-to-markdown": "^5.0.0",
     "live-server": "^1.2.1",
     "mocha": "^6.2.0",
+    "neataptic": "^1.4.7",
     "nodemon": "^1.19.1",
     "puppeteer": "^1.18.1",
+    "synaptic": "^1.1.4",
     "webpack": "^4.38.0",
     "webpack-cli": "^3.3.6"
   },
   "dependencies": {
-    "cuid": "^2.1.6"
+    "cuid": "^2.1.6",
+    "highland": "^2.13.5"
   }
 }
