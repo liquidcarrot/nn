@@ -34,17 +34,41 @@
 **Kind**: global class  
 
 * [Bot](#Bot)
-    * _instance_
-        * [.fromURL(url, [options])](#Bot+fromURL)
-        * [.fromPath()](#Bot+fromPath)
-        * [.fromString()](#Bot+fromString)
-    * _static_
-        * [.fromJSON(json, options)](#Bot.fromJSON)
+    * [new Bot([network], [options])](#new_Bot_new)
+    * [.fromDataset(dataset, [options])](#Bot.fromDataset) ⇒ [<code>Bot</code>](#Bot)
+    * [.fromURL(url, [options])](#Bot.fromURL)
+    * [.fromPath()](#Bot.fromPath)
+    * [.fromString()](#Bot.fromString)
+    * [.fromJSON(json, options)](#Bot.fromJSON)
 
-<a name="Bot+fromURL"></a>
+<a name="new_Bot_new"></a>
 
-### bot.fromURL(url, [options])
-**Kind**: instance method of [<code>Bot</code>](#Bot)  
+### new Bot([network], [options])
+
+| Param | Type | Description |
+| --- | --- | --- |
+| [network] | [<code>Network</code>](#Network) |  |
+| [options] | <code>Object</code> |  |
+| [options._dataset] | [<code>Dataset</code>](#Dataset) | Testing dataset |
+| [options.dataset] | [<code>Dataset</code>](#Dataset) | Training dataset |
+
+<a name="Bot.fromDataset"></a>
+
+### Bot.fromDataset(dataset, [options]) ⇒ [<code>Bot</code>](#Bot)
+**Kind**: static method of [<code>Bot</code>](#Bot)  
+
+| Param | Type | Default | Description |
+| --- | --- | --- | --- |
+| dataset | [<code>Dataset</code>](#Dataset) |  |  |
+| [options] | <code>Object</code> |  |  |
+| [options.train] | <code>boolean</code> \| <code>number</code> | <code>1</code> | Will train `bot` for `options.train` iterations before creating it |
+| [options.test] | <code>number</code> | <code>0</code> | Will use `options.test` ratio (e.g. `0.2 === 20%`) of the `dataset` for testing the bot's accuracy |
+| [options.shuffle] | <code>boolean</code> | <code>false</code> | Iff `true`, the dataset will be shuffled before splitting the dataset or training the bot. |
+
+<a name="Bot.fromURL"></a>
+
+### Bot.fromURL(url, [options])
+**Kind**: static method of [<code>Bot</code>](#Bot)  
 
 | Param | Type |
 | --- | --- |
@@ -55,10 +79,10 @@
 ```js
 const bot = Bot.fromURL(https://liquidcarrot.io/dataset/monkeys.csv)
 ```
-<a name="Bot+fromPath"></a>
+<a name="Bot.fromPath"></a>
 
-### bot.fromPath()
-**Kind**: instance method of [<code>Bot</code>](#Bot)  
+### Bot.fromPath()
+**Kind**: static method of [<code>Bot</code>](#Bot)  
 **Example**  
 ```js
 JSON
@@ -80,10 +104,10 @@ const bot = Bot.fromPath("./data.train.xml");
 
 bot.test(dataset); // { error: 0.01457, accuracy: 96.453%, fitness: 34.3412 }
 ```
-<a name="Bot+fromString"></a>
+<a name="Bot.fromString"></a>
 
-### bot.fromString()
-**Kind**: instance method of [<code>Bot</code>](#Bot)  
+### Bot.fromString()
+**Kind**: static method of [<code>Bot</code>](#Bot)  
 **Example**  
 ```js
 Advanced CSV - White Wine Quality
@@ -320,6 +344,15 @@ Each `Network` is a collective of neurons functioning as an individual and indep
 | [biases] | <code>Array.&lt;number&gt;</code> | 
 | [weights] | <code>Array.&lt;Array.&lt;number&gt;&gt;</code> | 
 
+**Example**  
+```js
+const { Network } = require("@liquid-carrot/nn");
+
+const network = new Network([2,2,1]);
+
+network.activate([0,1]);
+network.propagate([1]);
+```
 <a name="Network+activate"></a>
 
 ### network.activate(inputs) ⇒ <code>Array.&lt;number&gt;</code>
@@ -369,6 +402,7 @@ Calculates error & updates network weights
     * [.connect(neuron, [weight])](#Neuron+connect)
     * [.activate([input])](#Neuron+activate) ⇒ <code>number</code>
     * [.propagate(target, [rate])](#Neuron+propagate) ⇒ <code>number</code>
+    * [.weights([array])](#Neuron+weights) ⇒ <code>Object</code> \| <code>Array.&lt;Array.&lt;Number&gt;&gt;</code>
 
 <a name="new_Neuron_new"></a>
 
@@ -526,6 +560,16 @@ other.activate(); // 0.6681877721681662
 other.propagate(0); // 0.14814583086672545
 neuron.propagate(); // 0.009876697690471913
 ```
+<a name="Neuron+weights"></a>
+
+### neuron.weights([array]) ⇒ <code>Object</code> \| <code>Array.&lt;Array.&lt;Number&gt;&gt;</code>
+**Kind**: instance method of [<code>Neuron</code>](#Neuron)  
+**Returns**: <code>Object</code> \| <code>Array.&lt;Array.&lt;Number&gt;&gt;</code> - Returns an `Array` or `Object` of incoming and outgoing weights  
+
+| Param | Type | Default | Description |
+| --- | --- | --- | --- |
+| [array] | <code>boolean</code> | <code>false</code> | Iff `true`, will return an `Array` (`[[INCOMING_WEIGHTS], [OUTGOING_WEIGHTS]]`) - instead of a JSON Object (`{ incoming: [INCOMING_WEIGHTS], outgoing: [OUTGOING_WEIGHTS]`) |
+
 <a name="Datum"></a>
 
 ## Datum
