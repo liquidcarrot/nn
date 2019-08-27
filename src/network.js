@@ -35,8 +35,11 @@ function Network(sizes, biases, weights) {
   this.groups.slice(0, this.groups.length - 1).forEach(function(group, index) {
     if(weights) group.connect(self.groups[index + 1], weights[index]);
     else group.connect(self.groups[index + 1]);
-  })
+  });
   
+  //================================================
+  // CORE FUNCTIONS ================================
+  //================================================
   /**
    * Activates network
    *
@@ -74,6 +77,19 @@ function Network(sizes, biases, weights) {
     
     return error;
   }
+  //================================================
+  // END CORE FUNCTIONS ============================
+  //================================================
+  
+  //================================================
+  // UTILITY FUNCTIONS =============================
+  //================================================
+  
+  //Code here...
+  
+  //================================================
+  // END UTILITY FUNCTIONS =========================
+  //================================================
 }
 
 module.exports = Network;

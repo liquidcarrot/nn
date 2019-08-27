@@ -101,6 +101,7 @@ describe("Bot", function() {
         { inputs: [1,0], outputs: [0] },
         { inputs: [1,1], outputs: [1] }
       ];
+      
       const network = new Network([2,1]);
       const bot = new Bot(network, {
         dataset
@@ -121,7 +122,8 @@ describe("Bot", function() {
         { inputs: [1,0], outputs: [0] },
         { inputs: [1,1], outputs: [1] }
       ];
-      const bot = Bot.fromDataset(dataset)
+      
+      const bot = Bot.fromDataset(dataset);
       
       expect(bot.dataset).to.be.an("array").with.lengthOf(4);
       expect(bot._dataset).to.be.an("array").with.lengthOf(4);

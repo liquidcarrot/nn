@@ -32,6 +32,15 @@ function Connection(a, b, weight, options) {
     forward: undefined,
     backward: undefined
   }
+  
+  this.push = function(payload, forward=true) {
+    if(forward) this.queue.forward.unshift(payload);
+    else this.queue.backward.unshift(payload)
+  }
+  this.pull = function(forward=false) {
+    if(forward) return this.queue.forward.shift(payload);
+    else return this.queue.backward.shift(payload);
+  }
 }
 
 module.exports = Connection;

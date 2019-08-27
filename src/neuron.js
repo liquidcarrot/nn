@@ -1,4 +1,5 @@
 const uid = require("cuid");
+const Connection = require("./connection");
 
 /**
  * ### What is a neuron?
@@ -81,11 +82,13 @@ function Neuron(bias) {
   
   this.incoming = {
     targets: {}, //new Map(),
-    weights: {} //new Map()
+    weights: {}, //new Map(),
+    connections: {}
   }
   this.outgoing = {
     targets: {}, // new Map(),
-    weights: {} // new Map()
+    weights: {}, // new Map(),
+    connections: {}
   }
   
   this._output; // f'(x)
@@ -93,6 +96,9 @@ function Neuron(bias) {
   this.error; // E'(f(x))
   this._error;// E(f(x))
   
+  //================================================
+  // CORE FUNCTIONS ================================
+  //================================================
   /**
    * @param {Neuron} neuron
    * @param {number} [weight]
@@ -106,9 +112,16 @@ function Neuron(bias) {
    * neuron.connect(other);
    */
   this.connect = function(neuron, weight) {
+    const connection = new Connection(neuron, weight);
+    
     this.outgoing.targets[neuron.id] = neuron;
+    this.outgoing.connections[neuron.id] = connection;
+    
     neuron.incoming.targets[this.id] = this;
+    neuron.incoming.connections[this.id] = connection;
+    
     this.outgoing.weights[neuron.id] = neuron.incoming.weights[this.id] = weight == undefined ? Math.random() * 2 - 1 : weight;
+    this.outgoing.connections[connection.id] = neuron.incoming.connections[connection.id] = connection;
   }
   
   /**
@@ -213,6 +226,37 @@ function Neuron(bias) {
     
     return this.error;
   }
+  //================================================
+  // END CORE FUNCTIONS ============================
+  //================================================
+  
+  //================================================
+  // UTILITY FUNCTIONS =============================
+  //================================================
+  
+  /**
+   * @param {boolean} [array=false] Iff `true`, will return an `Array` (`[[INCOMING_WEIGHTS], [OUTGOING_WEIGHTS]]`) - instead of a JSON Object (`{ incoming: [INCOMING_WEIGHTS], outgoing: [OUTGOING_WEIGHTS]`)
+   *
+   * @returns {Object|Array.<Array.<Number>>} Returns an `Array` or `Object` of incoming and outgoing weights
+   */
+  this.weights = function(options) {
+    options = options || {
+      json: true
+    }
+    
+    if(options.json) return {
+      incoming: Object.values(this.incoming.weights),
+      outgoing: Object.values(this.outgoing.weights)
+    }
+    else return [Object.values(this.incoming.weights), Object.values(this.outgoing.weights)];
+  }
+  
+  
+  //Code here...
+  
+  //================================================
+  // END UTILITY FUNCTIONS =========================
+  //================================================
 }
 
 module.exports = Neuron;

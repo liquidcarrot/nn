@@ -146,7 +146,17 @@ function Bot(network, options={}) {
     
     return error;
   }
-  this.test = function() {
+  
+  /**
+   * Test the bots performance on the test dataset
+   *
+   * @param {Object} options
+   * @param {boolean} [options.accuracy=false] Iff `true`, returns model accuracy instead of error
+   * @param {boolean} [options.round=false] Iff `true`, rounds the output when testing
+   *
+   * @returns {number} Returns the average error on the test dataset
+   */
+  this.test = function(options={}) {
     const self = this;
     
     return this._dataset.map(function(datum) {

@@ -3,6 +3,9 @@ const Neuron = require("../../src/neuron");
 const { expect } = require("chai");
 
 describe("Neuron", function() {
+  //================================================
+  // CORE FUNCTIONS ================================
+  //================================================
   describe("new Neuron()", function() {
     it("should create new neuron", function() {
       const neuron = new Neuron();
@@ -90,6 +93,46 @@ describe("Neuron", function() {
       expect(input.outgoing.weights[hidden.id]).to.be.closeTo(0.20081977623002534, 0.0015);
     })
   })
+  //================================================
+  // CORE FUNCTIONS ================================
+  //================================================
+  
+  //================================================
+  // UTILITY FUNCTIONS =============================
+  //================================================
+  describe("neuron.weights()", function() {
+    it("should return weights", function() {
+      const incoming = [new Neuron, new Neuron()];
+      const outgoing = [new Neuron, new Neuron()];
+      const neuron = new Neuron();
+      
+      incoming[0].connect(neuron, 0.1);
+      incoming[1].connect(neuron, 0.2);
+      neuron.connect(outgoing[0], 0.3);
+      neuron.connect(outgoing[1], 0.4);
+      
+      const jsonweights = neuron.weights();
+      
+      expect(jsonweights.incoming).to.have.lengthOf(2);
+      expect(jsonweights.incoming[0]).to.eql(0.1);
+      expect(jsonweights.incoming[1]).to.eql(0.2);
+      expect(jsonweights.outgoing).to.have.lengthOf(2);
+      expect(jsonweights.outgoing[0]).to.eql(0.3);
+      expect(jsonweights.outgoing[1]).to.eql(0.4);
+      
+      const arrayweights = neuron.weights({ array: true });
+      
+      expect(arrayweights[0]).to.have.lengthOf(2);
+      expect(arrayweights[0][0]).to.eql(0.1);
+      expect(arrayweights[0][1]).to.eql(0.2);
+      expect(arrayweights[1]).to.have.lengthOf(2);
+      expect(arrayweights[1][0]).to.eql(0.3);
+      expect(arrayweights[1][1]).to.eql(0.4);
+    })
+  })
+  //================================================
+  // END UTILITY FUNCTIONS =========================
+  //================================================
 })
 
 // describe("Neuron", function() {

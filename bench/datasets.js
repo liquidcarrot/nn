@@ -1,6 +1,19 @@
-const fs = require("fs");
-const path = require("path");
+const Bot = require("../src/bot");
+const Benchmark = require("benchmark").Suite;
 
-const files = fs.readdirSync(path.resolve(__dirname,"csv"));
+const dataset = require("./dataset/pima-indians-diabetes.json");
 
-console.log(files);
+const bot = Bot.fromDataset(dataset, {
+  test: 0.2,
+  shuffle: true
+});
+
+console.log(`Initial error: ${bot.test({
+  accuracy: true
+})}`);
+
+bot.train(10000);
+
+console.log(`Final error: ${bot.test({
+  accuracy: true
+})}`);
