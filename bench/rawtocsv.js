@@ -17,6 +17,10 @@ const destination = "csv";
   
   const input = csv.parseFile(path.resolve(__dirname, source, filename), {
     headers: ["sex", "length", "diameter", "height", "whole weight", "shucked weight", "viscera weight", "shell weight", "rings"]
+  }).transform(function(data) {
+    data["sex"] = data["sex"] === "M" ? 1 :
+                     data["sex"] === "F" ? 2 : 0;
+    return data;
   }).pipe(output);
 }
 
