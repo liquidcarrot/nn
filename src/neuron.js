@@ -1,4 +1,4 @@
-const uid = require("cuid");
+// const uid = require("cuid");
 const Connection = require("./connection");
 
 /**
@@ -73,13 +73,16 @@ const Connection = require("./connection");
  * hidden.propagate(); // -0.009900697661026392
  * input.propagate(); // -0.0029702092983079176
  */
-function Neuron(bias) {
-  this.id = uid();
-  
-  this.bias = bias == undefined ? Math.random() * 2 - 1 : bias;
+function Neuron(neuron={}) {
+  this.id = Neuron.uid();
+
+  this.type = "hidden"; // "input", "hidden", "output"
+  this.bias = neuron.bias == undefined ? Math.random() * 2 - 1 : bias;
   this.squash;
   this.cost;
-  
+
+  this.connections = [];
+
   this.incoming = {
     targets: {}, //new Map(),
     weights: {}, //new Map(),
@@ -90,12 +93,12 @@ function Neuron(bias) {
     weights: {}, // new Map(),
     connections: {}
   }
-  
+
   this._output; // f'(x)
   this.output; // f(x)
   this.error; // E'(f(x))
   this._error;// E(f(x))
-  
+
   //================================================
   // CORE FUNCTIONS ================================
   //================================================
@@ -113,17 +116,17 @@ function Neuron(bias) {
    */
   this.connect = function(neuron, weight) {
     const connection = new Connection(neuron, weight);
-    
+
     this.outgoing.targets[neuron.id] = neuron;
     this.outgoing.connections[neuron.id] = connection;
-    
+
     neuron.incoming.targets[this.id] = this;
     neuron.incoming.connections[this.id] = connection;
-    
+
     this.outgoing.weights[neuron.id] = neuron.incoming.weights[this.id] = weight == undefined ? Math.random() * 2 - 1 : weight;
     this.outgoing.connections[connection.id] = neuron.incoming.connections[connection.id] = connection;
   }
-  
+
   /**
    * @param {number} [input]
    *
@@ -154,10 +157,10 @@ function Neuron(bias) {
    */
   this.activate = function(input) {
     const self = this;
-    
+
     function sigmoid(x) { return 1 / (1 + Math.exp(-x)) } // f(x)
     function _sigmoid(x) { return sigmoid(x) * (1 - sigmoid(x)) } // f'(x)
-    
+
     if(input != undefined) {
       this._output = 1; // f'(x)
       this.output = input; // f(x)
@@ -166,14 +169,14 @@ function Neuron(bias) {
       const sum = Object.keys(this.incoming.targets).reduce(function(total, target, index) {
         return total += self.incoming.targets[target].output * self.incoming.weights[target];
       }, this.bias);
-      
+
       this._output = _sigmoid(sum); // f'(x)
       this.output = sigmoid(sum); // f(x)
     }
-    
+
     return this.output;
   }
-  
+
   /**
    * @param {number} target
    * @param {number} [rate=0.3]
@@ -209,31 +212,39 @@ function Neuron(bias) {
    */
   this.propagate = function(target, rate=0.3) {
     const self = this;
-    
+
     //𝛿E /𝛿squash
     const sum = target == undefined ? Object.keys(this.outgoing.targets).reduce(function(total, target, index) {
         // Δweight
         self.outgoing.targets[target].incoming.weights[self.id] = self.outgoing.weights[target] -= rate * self.outgoing.targets[target].error * self.output;
-        
+
         return total += self.outgoing.targets[target].error * self.outgoing.weights[target];
       }, 0) : this.output - target;
-    
+
     // 𝛿squash/𝛿sum
     this.error = sum * this._output
-    
+
     // Δbias
     this.bias -= rate * this.error;
-    
+
     return this.error;
   }
   //================================================
   // END CORE FUNCTIONS ============================
   //================================================
-  
+
   //================================================
   // UTILITY FUNCTIONS =============================
   //================================================
-  
+
+  this.toJSON = function() {
+    return {
+      id: this.id,
+      bias: this.bias,
+      type: this.type
+    }
+  }
+
   /**
    * @param {boolean} [array=false] Iff `true`, will return an `Array` (`[[INCOMING_WEIGHTS], [OUTGOING_WEIGHTS]]`) - instead of a JSON Object (`{ incoming: [INCOMING_WEIGHTS], outgoing: [OUTGOING_WEIGHTS]`)
    *
@@ -243,20 +254,25 @@ function Neuron(bias) {
     options = options || {
       json: true
     }
-    
+
     if(options.json) return {
       incoming: Object.values(this.incoming.weights),
       outgoing: Object.values(this.outgoing.weights)
     }
     else return [Object.values(this.incoming.weights), Object.values(this.outgoing.weights)];
   }
-  
-  
+
+
   //Code here...
-  
+
   //================================================
   // END UTILITY FUNCTIONS =========================
   //================================================
+}
+
+Neuron.neurons = 0;
+Neuron.uid = function() {
+  return ++Neurons.neurons;
 }
 
 module.exports = Neuron;
