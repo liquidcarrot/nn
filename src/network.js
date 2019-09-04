@@ -1,4 +1,4 @@
-const uid = require("cuid");
+// const uid = require("cuid");
 const Group = require("./group");
 
 /**
@@ -23,20 +23,22 @@ const Group = require("./group");
  */
 function Network(sizes, biases, weights) {
   let self = this;
-  
+
   this.id = uid();
-  
+  this.neurons = [];
+  this.connections = [];
+
   this.groups = sizes == undefined ? [] : sizes.map(function(size, index) {
     if(biases == undefined) return new Group(size);
     else return new Group(size, biases[index]);
   });
-  
+
   // Connects neurons
   this.groups.slice(0, this.groups.length - 1).forEach(function(group, index) {
     if(weights) group.connect(self.groups[index + 1], weights[index]);
     else group.connect(self.groups[index + 1]);
   });
-  
+
   //================================================
   // CORE FUNCTIONS ================================
   //================================================
@@ -52,10 +54,10 @@ function Network(sizes, biases, weights) {
       if(index === 0) return group.activate(inputs);
       else return group.activate();
     })
-    
+
     return outputs[outputs.length - 1];
   }
-  
+
   /**
    * Calculates error & updates network weights
    *
@@ -68,28 +70,42 @@ function Network(sizes, biases, weights) {
     const error = this.groups[this.groups.length - 1].neurons.map(function(neuron, index) {
       return 0.5 * Math.pow(targets[index] - neuron.output, 2);
     }).reduce((a,b) => a + b);
-    
+
     // Propagate error & update weights
     this.groups.reverse().forEach(function(group, index) {
       if(index === 0) group.propagate(targets);
       else return group.propagate();
     }); this.groups.reverse();
-    
+
     return error;
   }
   //================================================
   // END CORE FUNCTIONS ============================
   //================================================
-  
+
   //================================================
   // UTILITY FUNCTIONS =============================
   //================================================
-  
+
+  this.toJSON = function() {
+    const neurons = this.neurons.map(function(neuron) {
+      return neuron.toJSON();
+    });
+    const connections = this.connections.map(function(connection) {
+      return connection.toJSON();
+    });
+    return { neurons, connections }
+  }
   //Code here...
-  
+
   //================================================
   // END UTILITY FUNCTIONS =========================
   //================================================
+}
+
+Network.networks = 0;
+Network.uid = function() {
+  return ++Network.networks;
 }
 
 module.exports = Network;
