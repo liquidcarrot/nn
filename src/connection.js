@@ -1,4 +1,4 @@
-const uid = require("cuid");
+// const uid = require("cuid");
 
 /**
  * Connections help a) control the flow information inside of a neural network,
@@ -35,11 +35,27 @@ const uid = require("cuid");
  * const connection = new Connection(neuron, other, 0.3) // Connection { a: neuron, b: other, weight: 0.3 }
  */
 function Connection(from, to, weight, options) {
-  this.id = uid();
+  this.id = Connection.uid(from.id, to.id);
   this.from = from;
   this.to = to;
   this.weight = weight == undefined ? Math.random() * 2 - 1 : weight;
 
+
+  //================================================
+  // UTILITY FUNCTIONS =============================
+  //================================================
+  this.toJSON = function() {
+    return {
+      id: this.id,
+      from: this.from.id,
+      to: this.to.id,
+      weight: this.weight
+    }
+  }
+
+  //================================================
+  // EXPERIMENTAL ==================================
+  //================================================
   this.queue = {
     forward: [],
     backward: []
@@ -57,6 +73,9 @@ function Connection(from, to, weight, options) {
     if(forward) return this.queue.forward.shift(payload);
     else return this.queue.backward.shift(payload);
   }
+  //================================================
+  // END EXPERIMENTAL ==============================
+  //================================================
 }
 
 /**
