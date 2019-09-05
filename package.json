@@ -60,7 +60,6 @@
     "webpack-cli": "^3.3.6"
   },
   "dependencies": {
-    "cuid": "^2.1.6",
     "highland": "^2.13.5",
     "vis": "^4.21.0-EOL"
   }
