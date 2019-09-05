@@ -1,5 +1,6 @@
 // const uid = require("cuid");
 const Group = require("./group");
+const vis = require("vis");
 
 /**
  * Each `Network` is a collective of neurons functioning as an individual and indepent agent (brain).
@@ -95,6 +96,28 @@ function Network(sizes, biases, weights) {
       return connection.toJSON();
     });
     return { neurons, connections }
+  }
+
+  /**
+  * **BROWSER ONLY**
+  */
+  this.toGraph = function(element) {
+    const { neurons, connections } = this.toJSON();
+
+    const nodes = new vis.DataSet(neurons.map(function(neuron) {
+      neuron.label = `${neuron.id}`;
+      neuron.color = neuron.type === "input" ? "gray" : neuron.type === "output" ? "lime" : "orange"; // "input" || "output" || "hidden"
+      return neuron;
+    }));
+    const edges = new vis.DataSet(connections.map(function(connection) {
+      connection.arrows = "to";
+      return connection;
+    }));
+
+    // DOM id
+    if(typeof div === "string") div = document.getElementById(div);
+
+    return new vis.Network(div, { nodes, edges }, {});
   }
   //Code here...
 
