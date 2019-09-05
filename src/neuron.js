@@ -1,22 +1,40 @@
 // const uid = require("cuid");
+const _ = require("_");
 const Connection = require("./connection");
 
 /**
+ * Neurons are the engines that process and guide information though a neural
+ * network. A neural networks "intelligence" is usually measured by the ability
+ * for neurons to effectively process information as a group.
+ *
  * ### What is a neuron?
  *
  * A _`Neuron`_ is a simplified mathematical model of a biological neuron.
  *
- * In people, a neuron is a cell that collects inputs from synapses (i.e. eyes, ears, etc. or other neurons) and triggers an `output` signal when the incoming signals pass a certain threshold.
+ * In people, a neuron is a cell that collects inputs from synapses (i.e. eyes,
+ * ears, etc. or other neurons) and triggers an `output` signal when the
+ * incoming signals pass a certain threshold.
  *
- * In biological neurons (in animals) or in artificial neurons (i.e. AI, NN, Deep Learning, etc.), one neuron doesn’t do much, but when combined, neural networks allow us to recognize the world around us, solve problems, and interact with our environment.
+ * In biological neurons (in animals) or in artificial neurons (i.e. AI, NN,
+ * Deep Learning, etc.), one neuron doesn’t do much, but when combined, neural
+ * networks allow us to recognize the world around us, solve problems, and
+ * interact with our environment.
  *
  * ### How do they work?
  *
- * Neural networks were inspired by the human brain, and like in a human brain the basic building block is called a `Neuron`. Its functionality is similar to a human neuron, i.e. it takes in some inputs and fires an output. In purely mathematical terms, a neuron in the machine learning world is a placeholder for a mathematical function, and its only job is to provide an output by applying the function on the inputs provided.
+ * Neural networks were inspired by the human brain, and like in a human brain
+ * the basic building block is called a `Neuron`. Its functionality is similar
+ * to a human neuron, i.e. it takes in some inputs and fires an output. In
+ * purely mathematical terms, a neuron in the machine learning world is a
+ * placeholder for a mathematical function, and its only job is to provide an
+ * output by applying the function on the inputs provided.
  *
  * ![](https://miro.medium.com/max/805/1*XqXu-hBHocGoHh_65Rl8lQ.png)
  *
- * The function used in a neuron is generally called an _"activation function"_. There have been 5 major activation functions tried to date, step, sigmoid, tanh, and ReLU. For this neuron we are using a _"sigmoid"_ activation function.
+ * The function used in a neuron is generally called an _"activation function"_.
+ * There have been 5 major activation functions tried to date, step, sigmoid,
+ * tanh, and ReLU. For this neuron we are using a _"sigmoid"_ activation
+ * function.
  *
  * ### What is a _"sigmoid activation function"_?
  *
@@ -24,7 +42,10 @@ const Connection = require("./connection");
  *
  * ![](https://miro.medium.com/max/460/1*MIeka59unAhS7MQk5e7FOg.png)
  *
- * The value of the function tends to zero when _**z**_ tends to negative infinity and tends to 1 when _**z**_ tends to infinity. A sigmoid activation function is an approximation of how a "real neuron" would behave; it's an assumption in the field of deep learning.
+ * The value of the function tends to zero when _**z**_ tends to negative
+ * infinity and tends to 1 when _**z**_ tends to infinity. A sigmoid activation
+ * function is an approximation of how a "real neuron" would behave; it's an
+ * assumption in the field of deep learning.
  *
  * @constructs Neuron
  *
@@ -273,6 +294,33 @@ function Neuron(neuron={}) {
 Neuron.neurons = 0;
 Neuron.uid = function() {
   return ++Neurons.neurons;
+}
+Neuron.activations = {
+  SIGMOID: function(x, dx) {
+    const fx = 1 / (1 + Math.exp(-x));
+
+    if(!dx) return _.clamp(fx);
+    else return _.clamp(fx * (1 - fx));
+  },
+  RELU: function(x, dx) {
+    if(x > 0) {
+      const fx = x;
+
+      return !dx ? _.clamp(x) : 1;
+    } else return 0;
+  },
+  TANH: function(x, dx) {
+    const fx = Math.tanh(x);
+
+    if(!dx) return _.clamp(fx);
+    else return _.clamp(1 - (fx * fx));
+  },
+  IDENTITY: function(x, dx) {
+    return !dx ? _.clamp(x) : 1;
+  },
+  STEP: function(x, dx) {
+    return x > 0 && dx ? 1 : 0;
+  }
 }
 
 module.exports = Neuron;

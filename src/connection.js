@@ -1,9 +1,10 @@
 // const uid = require("cuid");
 
 /**
- * Connections help a) control the flow information inside of a neural network,
- * b) describe the shape of a neural network, and c) ease the use of
- * Evolutionary Algoriths.
+ * Connections help:
+ *     * a) control the flow information inside of a neural network
+ *     * b) describe the shape of a neural network
+ *     * c) ease the use of Evolutionary Algoriths
  *
  * To facilitate the use of Evolutionary Algoriths, Connections are given Unique
  * _Temporal-Structural IDs_ using the [Cantor Pairing Algorithm](https://en.wikipedia.org/wiki/Pairing_function).
@@ -20,12 +21,12 @@
  * @constructs Connection
  *
  * @prop {string} id Unique connection ID
- * @prop {Neuron|Neuron[]} a Side "A" of connection(s)
- * @prop {Neuron|Neuron[]} b Side "B" of connection(s)
+ * @prop {Neuron|Group} a Side "A" of connection(s)
+ * @prop {Neuron|Group} b Side "B" of connection(s)
  * @prop {number|number[]} [weight] Weight of connection(s)
  *
- * @param {Neuron|Neuron[]} a Neuron(s) on one edge of the connection
- * @param {Neuron|Neuron[]} b Neruon(s) on another edge of the connection
+ * @param {Neuron|Group} a Neuron(s) on one edge of the connection
+ * @param {Neuron|Group} b Neruon(s) on another edge of the connection
  * @param {number|number[]} [weight] Weight of connection(s)
  * @param {Object} [options]
  *
