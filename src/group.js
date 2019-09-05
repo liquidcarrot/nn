@@ -1,4 +1,4 @@
-const uid = require("cuid");
+// const uid = require("cuid");
 const Neuron = require("./neuron");
 
 /**
@@ -13,12 +13,12 @@ const Neuron = require("./neuron");
  * @prop {Neuron[]} neurons
  */
 function Group(size, bias) {
-  this.id = uid();
-  
+  // this.id = uid();
+
   this.neurons = size == undefined ? [] : Array.from({ length: size }, function() {
     return new Neuron(bias);
   });
-  
+
   //================================================
   // CORE FUNCTIONS ================================
   //================================================
@@ -53,7 +53,7 @@ function Group(size, bias) {
    */
   this.connect = function(target, weights) {
     const self = this;
-    
+
     this.neurons.forEach(function(neuron, a) {
       target.neurons.forEach(function(other, b) {
         if(weights) neuron.connect(other, weights[self.neurons.length * a + b]);
@@ -61,7 +61,7 @@ function Group(size, bias) {
       })
     })
   }
-  
+
   /**
    * @param {number[]} [inputs]
    *
@@ -100,7 +100,7 @@ function Group(size, bias) {
       else return neuron.activate();
     })
   }
-  
+
   /**
    * @param {number[]} [targets]
    * @param {number} [rate=0.3]
@@ -147,13 +147,13 @@ function Group(size, bias) {
   //================================================
   // END CORE FUNCTIONS ============================
   //================================================
-  
+
   //================================================
   // UTILITY FUNCTIONS =============================
   //================================================
-  
+
   //Code here...
-  
+
   //================================================
   // END UTILITY FUNCTIONS =========================
   //================================================
