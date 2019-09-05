@@ -1,5 +1,5 @@
 // const uid = require("cuid");
-const _ = require("_");
+const _ = require("./_");
 const Connection = require("./connection");
 
 /**

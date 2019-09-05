@@ -1,8 +1,8 @@
 {
-  "name": "@liquid-carrot/nn",
+  "name": "@liquidcarrot/nn",
   "version": "1.0.0",
   "description": "Neural Networks &  Deep Learning in JavaScript",
-  "main": "cores.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "npm run test:node && npm run test:browser",
     "test:node": "mocha test/node.js",
