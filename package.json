@@ -30,6 +30,7 @@
     "Luis Carbonell <lulucarbonell@protonmail.com> (https://luiscarbonell.com)"
   ],
   "license": "MIT",
+  "private": false,
   "bugs": {
     "url": "https://github.com/liquidcarrot/nn/issues"
   },
