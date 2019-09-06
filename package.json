@@ -1,6 +1,6 @@
 {
   "name": "@liquid-carrot/nn",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Neural Networks &  Deep Learning in JavaScript",
   "main": "dist/bundle.js",
   "scripts": {
