@@ -1,5 +1,3 @@
-// const uid = require("cuid");
-
 /**
  * Connections help:
  *     * a) control the flow information inside of a neural network

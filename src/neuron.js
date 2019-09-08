@@ -49,10 +49,27 @@ const Connection = require("./connection");
  *
  * @constructs Neuron
  *
- * @param {number} [bias]
+ * @param {Object} options
+ * @param {number} [options.id]
+ * @param {number} [options.bias]
+ * @param {Object} options.optimizer
+ * @param {number} options.optimizer.rate
+ * @param {number} options.optimizer.momentum
+ * @param {number} options.optimizer.decay
+ * @param {number} options.optimizer.alpha
+ * @param {number} options.optimizer.beta
+ * @param {number} options.optimizer.gamma
+ *
  *
  * @prop {string} id
  * @prop {number} bias
+ * @prop {Object} optimizer
+ * @prop {number} optimizer.rate
+ * @prop {number} optimizer.momentum
+ * @prop {number} optimizer.decay
+ * @prop {number} optimizer.alpha
+ * @prop {number} optimizer.beta
+ * @prop {number} optimizer.gamma
  * @prop {Object} incoming
  * @prop {{ "[ID]": Neuron }} incoming.targets
  * @prop {{ "[ID]": number }} incoming.weights
@@ -99,6 +116,19 @@ function Neuron(neuron={}) {
 
   this.type = "hidden"; // "input", "hidden", "output"
   this.bias = neuron.bias == undefined ? Math.random() * 2 - 1 : neuron.bias;
+
+  // OPTIMIZERS
+  // CHECK: https://keras.io/optimizers/
+  // CHECK: http://ruder.io/optimizing-gradient-descent/index.html
+  // this._optimizer = Neuron.optimizers[Object.keys(Neuron.optimizers)[Math.floor(Object.keys(Neuron.optimizers).length * Math.random())];
+  this.optimizer = {}
+  this.optimizer.rate;
+  this.optimizer.momentum;
+  this.optimizer.decay;
+  this.optimizer.alpha;
+  this.optimizer.beta;
+  this.optimizer.gamma;
+
   this.squash;
   this.cost;
 
@@ -136,7 +166,7 @@ function Neuron(neuron={}) {
    * neuron.connect(other);
    */
   this.connect = function(neuron, weight) {
-    const connection = new Connection(neuron, weight);
+    const connection = new Connection(this, neuron, weight);
 
     this.outgoing.targets[neuron.id] = neuron;
     this.outgoing.connections[neuron.id] = connection;
@@ -321,6 +351,23 @@ Neuron.activations = {
   STEP: function(x, dx) {
     return x > 0 && dx ? 1 : 0;
   }
+}
+
+
+/**
+* Optimizers are initiated with
+* { rate, momentum, decay, alpha, beta, epsilon, gamma }
+*/
+Neuron.optimizers = {
+  SGD: function() {},
+  NESTEROV: function() {},
+  RMSPROP: function() {},
+  ADAGRAD: function() {},
+  ADADELTA: function() {},
+  ADAM: function() {},
+  AMSGRAD: function() {},
+  ADAMAX: function() {},
+  NADAM: function() {}
 }
 
 module.exports = Neuron;
