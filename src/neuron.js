@@ -98,7 +98,7 @@ function Neuron(neuron={}) {
   this.id = Neuron.uid();
 
   this.type = "hidden"; // "input", "hidden", "output"
-  this.bias = neuron.bias == undefined ? Math.random() * 2 - 1 : bias;
+  this.bias = neuron.bias == undefined ? Math.random() * 2 - 1 : neuron.bias;
   this.squash;
   this.cost;
 
@@ -293,7 +293,7 @@ function Neuron(neuron={}) {
 
 Neuron.neurons = 0;
 Neuron.uid = function() {
-  return ++Neurons.neurons;
+  return ++Neuron.neurons;
 }
 Neuron.activations = {
   SIGMOID: function(x, dx) {

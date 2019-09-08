@@ -57,23 +57,23 @@ function Connection(from, to, weight, options) {
   //================================================
   // EXPERIMENTAL ==================================
   //================================================
-  this.queue = {
-    forward: [],
-    backward: []
-  }
-  this.stream = {
-    forward: undefined,
-    backward: undefined
-  }
+  // this.queue = {
+  //   forward: [],
+  //   backward: []
+  // }
+  // this.stream = {
+  //   forward: undefined,
+  //   backward: undefined
+  // }
 
-  this.push = function(payload, forward=true) {
-    if(forward) this.queue.forward.unshift(payload);
-    else this.queue.backward.unshift(payload)
-  }
-  this.pull = function(forward=false) {
-    if(forward) return this.queue.forward.shift(payload);
-    else return this.queue.backward.shift(payload);
-  }
+  // this.push = function(payload, forward=true) {
+  //   if(forward) this.queue.forward.unshift(payload);
+  //   else this.queue.backward.unshift(payload)
+  // }
+  // this.pull = function(forward=false) {
+  //   if(forward) return this.queue.forward.shift(payload);
+  //   else return this.queue.backward.shift(payload);
+  // }
   //================================================
   // END EXPERIMENTAL ==============================
   //================================================

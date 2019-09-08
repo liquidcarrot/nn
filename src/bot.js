@@ -1,5 +1,5 @@
-// const Neuron = require("./neuron");
-const Network = require("./network");
+const Neuron = require("./neuron");
+// const Network = require("./network");
 
 /**
  * @typedef Datum
@@ -13,7 +13,7 @@ const Network = require("./network");
  *   "outputs": [1]
  * }
  */
- 
+
 /**
  * @typedef {Datum[]} Dataset
  *
@@ -32,7 +32,7 @@ const Network = require("./network");
  *   "outputs": [0]
  * }]
  */
- 
+
 /**
  * @typedef {Object[]} JSON
  *
@@ -55,7 +55,7 @@ const Network = require("./network");
  *   "c": 0
  * }]
  */
- 
+
 /**
  * @typedef {string} CSV
  *
@@ -78,7 +78,7 @@ const Network = require("./network");
  * 1;0;1
  * 1;1;0
  */
- 
+
 /**
  * @typedef {string} XML
  *
@@ -121,7 +121,7 @@ function Bot(network, options={}) {
   this.dataset = options.dataset || []; // Training dataset
   this._dataset = options._dataset || options.dataset || []; // Testing dataset
   this.environment;
-  
+
   this.activate = function(input) {
     return this.network.activate(input);
   }
@@ -130,9 +130,9 @@ function Bot(network, options={}) {
   }
   this.train = function(iterations=1) {
     const self = this;
-    
+
     let error = 0;
-    
+
     while(iterations > 0) {
       error = this.dataset.map(function(datum) {
         self.network.activate(datum.inputs);
@@ -140,13 +140,13 @@ function Bot(network, options={}) {
       }).reduce(function(total, error) {
         return total += error;
       }, 0) / self.dataset.length;
-      
+
       iterations--;
     }
-    
+
     return error;
   }
-  
+
   /**
    * Test the bots performance on the test dataset
    *
@@ -158,7 +158,7 @@ function Bot(network, options={}) {
    */
   this.test = function(options={}) {
     const self = this;
-    
+
     return this._dataset.map(function(datum) {
       self.network.activate(datum.inputs);
       return self.network.propagate(datum.outputs);
@@ -185,28 +185,28 @@ Bot.fromDataset = function(dataset, options={}) {
   const outputs = Math.max(...dataset.map(function(datum) {
     return datum.outputs.length
   }));
-  
+
   // Shuffle Dataset
   if(options.shuffle) dataset = shuffle(dataset);
-  
+
   // Create Testing Dataset
   let _dataset = dataset || [];
   if(options.test) {
     options.test = Math.round(dataset.length * options.test) || 1;
-    
+
     _dataset = dataset.slice(0, options.test);
     dataset = dataset.slice(options.test);
   }
-  
+
   // Create Bot
   const bot = new Bot(new Network([inputs, outputs]), {
     _dataset,
     dataset
   })
-  
+
   // Train Bot
   if(options.train) Number.isFinite(options.train) ? bot.train(options.train) : bot.train();
-  
+
   return bot;
 }
 
@@ -218,7 +218,7 @@ Bot.fromDataset = function(dataset, options={}) {
  * const bot = Bot.fromURL(https://liquidcarrot.io/dataset/monkeys.csv)
  */
 Bot.fromURL = function(url, options) {
-  
+
 }
 
 /**
@@ -240,7 +240,7 @@ Bot.fromURL = function(url, options) {
  *
  */
 Bot.fromPath = function(path, options) {
-  
+
 }
 
 /**
@@ -257,11 +257,11 @@ Bot.fromPath = function(path, options) {
  * bot.test(); // { error: 0.01457, accuracy: 96.453%, fitness: 34.3412 }
  */
 Bot.fromString = function(string, options) {
-  
+
 }
 
 Bot.fromStream = function(stream, options) {
-  
+
 }
 
 /**
@@ -280,39 +280,39 @@ Bot.fromStream = function(stream, options) {
  */
 Bot.fromJSON = function(json, options) {
   const keys = new Set();
-  
+
   json.forEach(function(datum) {
     Object.keys(datum).forEach(function(key) {
       keys.add(key);
     })
   })
-  
+
   const outputs = options.outputs;
   const inputs = Array.from(keys).filter(function(key) {
     return outputs.every(function(output) {
       return output !== key;
     })
   })
-  
+
   console.log(Array.from(keys));
   console.log(`Inputs: ${inputs.length}`);
   console.log(`Outputs ${outputs.length}`);
-  
+
   const ineurons = Array.from({ length: inputs.length }, () => new Neuron()); // Input Neurons
   const oneurons = Array.from({ length: outputs.length }, () => new Neuron()); // Output Neurons
-  
+
   ineurons.forEach(function(ineuron) {
     oneurons.forEach(function(oneuron) {
       ineuron.connect(oneuron);
     })
   })
-  
+
   const shuffle = (array) => array.sort(() => Math.random() - 0.5);
-  
+
   json = shuffle(json);
-  
+
   const testing = Math.round(json.length * options.test);
-  
+
   const testset = json.slice(0, testing).map(function(entry) {
     const inps = inputs.map(function(input) {
       return entry[input];
@@ -320,7 +320,7 @@ Bot.fromJSON = function(json, options) {
     const outs = outputs.map(function(output) {
       return entry[output];
     })
-    
+
     return {
       inputs: inps,
       outputs: outs
@@ -333,17 +333,17 @@ Bot.fromJSON = function(json, options) {
     const outs = outputs.map(function(output) {
       return entry[output];
     })
-    
+
     return {
       inputs: inps,
       outputs: outs
     }
   });
-  
+
   console.log(testing);
   console.log(testset.length);
   console.log(trainset.length);
-  
+
   const activate = function(inputs) {
     ineurons.forEach(function(neuron, index) {
       neuron.activate(inputs[index]);
@@ -357,14 +357,14 @@ Bot.fromJSON = function(json, options) {
     const error = targets.reduce(function(total, target, index) {
       return total += 0.5 * Math.pow(target - oneurons[index].output, 2);
     }, 0)
-    
+
     oneurons.forEach(function(neuron, index) {
       return neuron.propagate(targets[index],0.5);
     })
     ineurons.forEach(function(neuron) {
       return neuron.propagate(undefined,0.5);
     })
-    
+
     return error;
   }
   const train = function(iterations=1) {
@@ -377,29 +377,29 @@ Bot.fromJSON = function(json, options) {
     }
     const error = Array.from({ length: iterations }, () => {
       const error = _train();
-      
+
       console.log(error);
-      
+
       return error;
     }).reduce(function(total, error) {
       return total += error;
     }, 0);
-    
+
     return error / iterations;
   }
   const test = function() {
     // console.log(testset.length);
-    
+
     const error = testset.reduce(function(total, datum) {
       activate(datum.inputs);
       return total += propagate(datum.outputs);
     }, 0)
-    
+
     // console.log(error);
-    
+
     return error / testset.length;
   }
-  
+
   console.log(train(60));
   console.log(test());
 }

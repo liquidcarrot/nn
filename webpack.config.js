@@ -1,4 +1,5 @@
 // CHECK: https://tech.trivago.com/2015/12/17/export-multiple-javascript-module-formats/
+// CHECK: https://github.com/vuejs/vue/blob/dev/package.json
 const path = require("path");
 const variants = require("parallel-webpack").createVariants;
 

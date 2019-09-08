@@ -1,5 +1,5 @@
-const stream = require("highland");
-const fake = require("faker");
+// const stream = require("highland");
+// const fake = require("faker");
 
 function activate(inputs) {
   return inputs - 2 * 30 + "";
@@ -20,7 +20,7 @@ function activate(inputs) {
 
 // const input = function(word) {
 //   this.stream = stream();
-  
+
 //   this.activate = function(word) {
 //     this.stream.write(word)
 //   }
@@ -28,38 +28,38 @@ function activate(inputs) {
 
 // const hidden = function() {
 //   this.stream = stream();
-  
+
 //   this.connections = [];
-  
+
 //   this.connect = function(a) {
 //     this.connections.push(a);
 //     this.stream = stream(this.connections);
 //   }
-  
+
 //   this.activate = function() {
 //     const word = this.stream.map(function(word) {
 //       return word + " " + fake.lorem.word();
 //     }).parallel(10);
-    
+
 //     return word;
 //   }
 // }
 
 // const output = function() {
 //   this.stream = stream();
-  
+
 //   this.connections = [];
-  
+
 //   this.connect = function(a) {
 //     this.connections.push(a);
 //     this.stream = stream(this.connections);
 //   }
-  
+
 //   this.activate = function() {
 //     const word = this.stream.map(function(word) {
 //       return word + " " + fake.lorem.word();
 //     }).parallel(10);
-    
+
 //     return word;
 //   }
 // }
@@ -68,7 +68,7 @@ function activate(inputs) {
 
 // const network = function() {
 //   this.activate = function(callback) {
-    
+
 //   }
 // }
 
@@ -131,11 +131,11 @@ function activate(inputs) {
 //     [0.65, 0.65],
 //     [0.7]
 //   ];
-  
+
 //   this.outputs = [];
 //   this._outputs = [];
 //   this.error = [];
-  
+
 //   function dot(a, b) {
 //     return a.map(function(_, i) {
 //       return a[i] * b[i]
@@ -143,18 +143,18 @@ function activate(inputs) {
 //       return m + n
 //     })
 //   }
-  
+
 //   function squash(x) {
 //     return 1 / (1 + Math.exp(-x));
 //   }
 //   function _squash(x) {
 //     return squash(x) * (1 - squash(x));
 //   }
-  
+
 //   this.activate = function(input) {
 //     this.outputs = [];
 //     this.outputs.push(input);
-    
+
 //     // this.weights.forEach(function(_,l) {
 //     //   _.forEach(function(weight, n) {
 //     //     if(l === 0) {
@@ -163,32 +163,32 @@ function activate(inputs) {
 //     //         squash(dot(this.weights[l][n], input) + this.biases[l][n])
 //     //       ]);
 //     //     } else {
-          
+
 //     //     }
 //     //   })
 //     // })
-    
+
 //     // L === 1
 //     this.outputs.push([
 //       squash(dot(this.weights[0][0], input) + this.biases[0][0]),
 //       squash(dot(this.weights[0][1], input) + this.biases[0][1])
 //     ]);
-    
+
 //     this.outputs.push([
 //       squash(dot(this.weights[1][0], this.outputs[1]) + this.biases[1][0]),
 //       squash(dot(this.weights[1][1], this.outputs[1]) + this.biases[1][1])
 //     ]);
-    
+
 //     this.outputs.push([
 //       squash(dot(this.weights[2][0], this.outputs[2]) + this.biases[2][0])
 //     ])
-    
-    
+
+
 //     return this.outputs;;
 //   }
-  
+
 //   this.propagate = function(targets) {
-    
+
 //   }
 // }
 
@@ -227,7 +227,7 @@ function activate(inputs) {
 
 // function crossover(mother, father) {
 //   const rate = 0.5;
-  
+
 //   return mother.map(function(_, gene) {
 //     return Math.random() < rate ? mother[gene] : father[gene];
 //   })
@@ -235,7 +235,7 @@ function activate(inputs) {
 
 // function mutate(child) {
 //   const rate = 0.1;
-  
+
 //   return child.map(function(_, gene) {
 //     return Math.random() < rate ? random() : _;
 //   })
