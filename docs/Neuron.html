@@ -28,7 +28,7 @@
 
 <header>
     
-        <h2><span class="attribs"><span class="type-signature"></span></span>Neuron<span class="signature">(bias<span class="signature-attributes">opt</span>)</span><span class="type-signature"></span></h2>
+        <h2><span class="attribs"><span class="type-signature"></span></span>Neuron<span class="signature">(options)</span><span class="type-signature"></span></h2>
         
     
 </header>
@@ -41,7 +41,7 @@
     
 
     
-    <h4 class="name" id="Neuron"><span class="type-signature"></span>new Neuron<span class="signature">(bias<span class="signature-attributes">opt</span>)</span><span class="type-signature"></span></h4>
+    <h4 class="name" id="Neuron"><span class="type-signature"></span>new Neuron<span class="signature">(options)</span><span class="type-signature"></span></h4>
     
 
     
@@ -49,18 +49,37 @@
 
 
 <div class="description">
-    <h3>What is a neuron?</h3>
+    <p>Neurons are the engines that process and guide information though a neural
+network. A neural networks &quot;intelligence&quot; is usually measured by the ability
+for neurons to effectively process information as a group.</p>
+<h3>What is a neuron?</h3>
 <p>A <em><code>Neuron</code></em> is a simplified mathematical model of a biological neuron.</p>
-<p>In people, a neuron is a cell that collects inputs from synapses (i.e. eyes, ears, etc. or other neurons) and triggers an <code>output</code> signal when the incoming signals pass a certain threshold.</p>
-<p>In biological neurons (in animals) or in artificial neurons (i.e. AI, NN, Deep Learning, etc.), one neuron doesn’t do much, but when combined, neural networks allow us to recognize the world around us, solve problems, and interact with our environment.</p>
+<p>In people, a neuron is a cell that collects inputs from synapses (i.e. eyes,
+ears, etc. or other neurons) and triggers an <code>output</code> signal when the
+incoming signals pass a certain threshold.</p>
+<p>In biological neurons (in animals) or in artificial neurons (i.e. AI, NN,
+Deep Learning, etc.), one neuron doesn’t do much, but when combined, neural
+networks allow us to recognize the world around us, solve problems, and
+interact with our environment.</p>
 <h3>How do they work?</h3>
-<p>Neural networks were inspired by the human brain, and like in a human brain the basic building block is called a <code>Neuron</code>. Its functionality is similar to a human neuron, i.e. it takes in some inputs and fires an output. In purely mathematical terms, a neuron in the machine learning world is a placeholder for a mathematical function, and its only job is to provide an output by applying the function on the inputs provided.</p>
+<p>Neural networks were inspired by the human brain, and like in a human brain
+the basic building block is called a <code>Neuron</code>. Its functionality is similar
+to a human neuron, i.e. it takes in some inputs and fires an output. In
+purely mathematical terms, a neuron in the machine learning world is a
+placeholder for a mathematical function, and its only job is to provide an
+output by applying the function on the inputs provided.</p>
 <p><img src="https://miro.medium.com/max/805/1*XqXu-hBHocGoHh_65Rl8lQ.png" alt=""></p>
-<p>The function used in a neuron is generally called an <em>&quot;activation function&quot;</em>. There have been 5 major activation functions tried to date, step, sigmoid, tanh, and ReLU. For this neuron we are using a <em>&quot;sigmoid&quot;</em> activation function.</p>
+<p>The function used in a neuron is generally called an <em>&quot;activation function&quot;</em>.
+There have been 5 major activation functions tried to date, step, sigmoid,
+tanh, and ReLU. For this neuron we are using a <em>&quot;sigmoid&quot;</em> activation
+function.</p>
 <h3>What is a <em>&quot;sigmoid activation function&quot;</em>?</h3>
 <p>A sigmoid function - or logistic function - is defined mathematically as:</p>
 <p><img src="https://miro.medium.com/max/460/1*MIeka59unAhS7MQk5e7FOg.png" alt=""></p>
-<p>The value of the function tends to zero when <em><strong>z</strong></em> tends to negative infinity and tends to 1 when <em><strong>z</strong></em> tends to infinity. A sigmoid activation function is an approximation of how a &quot;real neuron&quot; would behave; it's an assumption in the field of deep learning.</p>
+<p>The value of the function tends to zero when <em><strong>z</strong></em> tends to negative
+infinity and tends to 1 when <em><strong>z</strong></em> tends to infinity. A sigmoid activation
+function is an approximation of how a &quot;real neuron&quot; would behave; it's an
+assumption in the field of deep learning.</p>
 </div>
 
 
@@ -84,6 +103,48 @@
         <th>Type</th>
 
         
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>options</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">
+                <h6>Properties</h6>
+                
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
         <th>Attributes</th>
         
 
@@ -94,6 +155,39 @@
     </thead>
 
     <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>id</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
     
 
         <tr>
@@ -125,6 +219,208 @@
             
 
             <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>optimizer</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last">
+                <h6>Properties</h6>
+                
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>rate</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>momentum</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>decay</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>alpha</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>beta</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>gamma</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+            </td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+            </td>
         </tr>
 
     
@@ -202,6 +498,192 @@
             
 
             <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>optimizer</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">
+                <h6>Properties</h6>
+
+<table class="props">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>rate</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>momentum</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>decay</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>alpha</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>beta</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>gamma</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+            </td>
         </tr>
 
     
@@ -497,7 +979,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="neuron.js.html">neuron.js</a>, <a href="neuron.js.html#line76">line 76</a>
+        <a href="neuron.js.html">neuron.js</a>, <a href="neuron.js.html#line114">line 114</a>
     </li></ul></dd>
     
 
@@ -575,6 +1057,73 @@ input.propagate(); // -0.0029702092983079176</code></pre>
 
     
 
+    
+        <h3 class="subsection-title">Members</h3>
+
+        
+            
+<h4 class="name" id=".optimizers"><span class="type-signature">(static) </span>optimizers<span class="type-signature"></span></h4>
+
+
+
+
+<div class="description">
+    <p>Optimizers are initiated with
+{ rate, momentum, decay, alpha, beta, epsilon, gamma }</p>
+</div>
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="neuron.js.html">neuron.js</a>, <a href="neuron.js.html#line362">line 362</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+        
     
 
     
@@ -695,7 +1244,7 @@ input.propagate(); // -0.0029702092983079176</code></pre>
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="neuron.js.html">neuron.js</a>, <a href="neuron.js.html#line158">line 158</a>
+        <a href="neuron.js.html">neuron.js</a>, <a href="neuron.js.html#line210">line 210</a>
     </li></ul></dd>
     
 
@@ -918,7 +1467,7 @@ other.activate(); // 0.6681877721681662</code></pre>
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="neuron.js.html">neuron.js</a>, <a href="neuron.js.html#line117">line 117</a>
+        <a href="neuron.js.html">neuron.js</a>, <a href="neuron.js.html#line169">line 169</a>
     </li></ul></dd>
     
 
@@ -1116,7 +1665,7 @@ neuron.connect(other);</code></pre>
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="neuron.js.html">neuron.js</a>, <a href="neuron.js.html#line213">line 213</a>
+        <a href="neuron.js.html">neuron.js</a>, <a href="neuron.js.html#line265">line 265</a>
     </li></ul></dd>
     
 
@@ -1320,7 +1869,7 @@ neuron.propagate(); // 0.009876697690471913</code></pre>
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="neuron.js.html">neuron.js</a>, <a href="neuron.js.html#line253">line 253</a>
+        <a href="neuron.js.html">neuron.js</a>, <a href="neuron.js.html#line305">line 305</a>
     </li></ul></dd>
     
 
@@ -1397,7 +1946,7 @@ neuron.propagate(); // 0.009876697690471913</code></pre>
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.3</a> on Thu Sep 05 2019 12:29:37 GMT-0400 (Eastern Daylight Time)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.3</a> on Mon Sep 09 2019 14:16:14 GMT-0400 (Eastern Daylight Time)
 </footer>
 
 <script> prettyPrint(); </script>
