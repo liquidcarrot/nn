@@ -6,7 +6,7 @@
   "module": "dist/nn.commonjs2.min.js",
   "browser": "dist/nn.window.min.js",
   "unpkg": "dist/nn.umd2.min.js",
-  "jsdeliver": "dist/nn.umd2.min.js",
+  "jsdelivr": "dist/nn.umd2.min.js",
   "scripts": {
     "test": "npm run test:node && npm run test:browser",
     "test:node": "mocha test/node.js",
