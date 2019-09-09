@@ -8,14 +8,16 @@ function config(options) {
     "entry": "./src/index.js",
     "output": {
       "path": path.resolve(__dirname, "dist"),
-      "filename": `nn.${options.target}.js`,
+      "filename": `nn.${options.target}${options.mode === "development" ? "" : ".min" }.js`,
       "library": "NN",
       "libraryTarget": options.target
     },
-    "mode": "production"
+    "mode": options.mode
   }
 }
 
 module.exports = variants({
-  target: ["window", "commonjs2", "amd", "umd2"]
+  // target: ["var", "assign", "this", "window", "self", "global", "commonjs", "commonjs2", "commonjs-module", "amd", "umd", "umd2", "jsonp"]
+  target: ["window", "commonjs2", "amd", "umd2"],
+  mode: ["development", "production"]
 }, config);

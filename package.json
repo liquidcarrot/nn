@@ -2,11 +2,11 @@
   "name": "@liquid-carrot/nn",
   "version": "1.0.11",
   "description": "Neural Networks &  Deep Learning in JavaScript",
-  "main": "dist/nn.commonjs2.js",
-  "module": "dist/nn.commonjs2.js",
-  "browser": "dist/nn.window.js",
-  "unpkg": "dist/nn.umd2.js",
-  "jsdeliver": "dist/nn.umd2.js",
+  "main": "dist/nn.commonjs2.min.js",
+  "module": "dist/nn.commonjs2.min.js",
+  "browser": "dist/nn.window.min.js",
+  "unpkg": "dist/nn.umd2.min.js",
+  "jsdeliver": "dist/nn.umd2.min.js",
   "scripts": {
     "test": "npm run test:node && npm run test:browser",
     "test:node": "mocha test/node.js",
@@ -67,6 +67,6 @@
   },
   "dependencies": {
     "highland": "^2.13.5",
-    "vis": "^4.21.0-EOL"
+    "vis-network": "^5.4.1"
   }
 }

@@ -1,5 +1,6 @@
 // const uid = require("cuid");
 const Neuron = require("./neuron");
+const Connection = require("./connection");
 
 /**
  * A `Group` is an abstraction of `Neuron` and a tool for creating and manipulating a group of neurons - with `Group` we can create neural network layers and and build networks faster than neuron-by-neuron construction.
@@ -157,6 +158,16 @@ function Group(size, bias) {
   //================================================
   // END UTILITY FUNCTIONS =========================
   //================================================
+}
+
+Group.connect = function(from, to) {
+  const connections = [];
+  for(let f = 0; f < from.length; f++) {
+    for(let t = 0; t < to.length; t++) {
+      connections.push(new Connection(from[f], to[t]));
+    }
+  }
+  return connections;
 }
 
 module.exports = Group;
