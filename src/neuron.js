@@ -112,10 +112,12 @@ const Connection = require("./connection");
  * input.propagate(); // -0.0029702092983079176
  */
 function Neuron(neuron={}) {
-  this.id = Neuron.uid();
+  this.id = neuron.id || Neuron.uid();
 
-  this.type = "hidden"; // "input", "hidden", "output"
+  this.type = neuron.type == undefined ? "hidden" : neuron.type; // "input", "hidden", "output"
   this.bias = neuron.bias == undefined ? Math.random() * 2 - 1 : neuron.bias;
+
+  this.connections = [];
 
   // OPTIMIZERS
   // CHECK: https://keras.io/optimizers/
@@ -132,7 +134,6 @@ function Neuron(neuron={}) {
   this.squash;
   this.cost;
 
-  this.connections = [];
 
   this.incoming = {
     targets: {}, //new Map(),
