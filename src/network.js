@@ -140,7 +140,7 @@ function Network(network, biases, weights) {
         }
       },
       layout: {
-        heirarchichal: {
+        hierarchical: {
           direction: "LR",
           sortMethod: "directed"
         }
@@ -160,6 +160,64 @@ function Network(network, biases, weights) {
 Network.networks = 0;
 Network.uid = function() {
   return ++Network.networks;
+}
+
+/**
+* Creates a new genome from the two given genomes. Genomes are merged using the
+* standard in the [NEAT] algorithm.
+*/
+Network.crossoverGenomes = function(genomeX, genomeY) {
+  const genome = genomeX;
+
+  // Compares and randomly chooses which connections from the different
+  // genomes to pass along to the offspring
+  genomeY.connections.forEach(function(connectionY) {
+    const index = genome.connections.findIndex(function(gene) {
+      return gene.id === connectionY.id;
+    });
+
+    // Did not have a match for GeneY in GeneX, therefor adding
+    // GeneY to the offspring. Also checks to see if the
+    // unknown connection has a neuron that is not in the genome
+    // yet - in which case, it is added to the genome.
+    if(index === -1) {
+      // Adds the disjointed or excess connection from genomeY to genomeX
+      genome.connections.push(connectionY);
+
+      console.log(`${connectionY.id} from: ${connectionY.from}`);
+      console.log(`${connectionY.id} to: ${connectionY.to}`);
+
+      // Adds the neurons from GenomeY to the offsprings genome if it doesn't
+      // exist already.
+      [connectionY.from, connectionY.to].forEach(function(neuronY) {
+        const index = genome.neurons.findIndex(function(neuron) {
+          return neuron.id === neuronY;
+        });
+
+        // Adds neuron from genome Y to the offsprings genome
+        if(index === -1) genome.neurons.push(genomeY.neurons.find(function(neuron) {
+          return neuron.id === neuronY;
+        }));
+
+        // We can add another selection method here.
+        // This just runs a random 50/50 chance selection.
+        // There's a 50/50 chance that the neuron will be picked from
+        // Genome Y or Genome X.
+        else genome.neurons[index] = Math.random() > 0.5 ? genome.neurons[index] : genomeY.neurons.find(function(neuron) {
+          return neuron.id === neuronY;
+        });
+      })
+    }
+    // There was a match for GeneY in GeneX, therefor randomly picking one
+    // to add to offspring
+    else {
+      // We can add another selection method here
+      // This just runs a random 50/50 chance selection
+      genome.connections[index] = Math.random() > 0.5 ? genome.connections[index] : connectionY;
+    }
+  })
+
+  return genome;
 }
 
 //================================================

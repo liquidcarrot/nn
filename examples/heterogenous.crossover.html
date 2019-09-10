@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang=">" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="https://unpkg.com/vis-network"></script>
+  </head>
+  <body>
+    <div id="mother" class="network"></div>
+    <div id="father" class="network"></div>
+    <div id="child" class="network"></div>
+
+    <script src="../dist/nn.window.min.js"></script>
+    <script>
+      // Create 2 identical networks
+      var mother = NN.Network.fromSizes([1,1,1,1,1]);
+      var father = NN.Network.fromGenome(mother.toJSON());
+
+      //========================================================================
+      // MUTATE FATHER =========================================================
+      // Mutate one of the networks ============================================
+      //========================================================================
+      // Change EVERY weight
+      father.connections.forEach(function(connection, index) {
+        father.connections[index].weight = Math.random() * 2 - 1;
+      });
+      // Add 1 connection
+      father.connections.push(father.neurons[1].connect(father.neurons[3]));
+      // Add 1 neuron
+      father.neurons.push(new NN.Neuron());
+      father.connections.push(father.neurons[3].connect(father.neurons[5]));
+      father.connections.push(father.neurons[5].connect(father.neurons[4]));
+      //========================================================================
+      // END MUTATE FATHER =====================================================
+      //========================================================================
+
+      // Graph 2 networks
+      mother.toGraph("mother");
+      father.toGraph("father");
+
+      // Merge both networks
+      var child = NN.Network.fromGenome(NN.Network.crossoverGenomes(mother.toJSON(), father.toJSON()));
+
+      // Graph "child" network
+      child.toGraph("child");
+    </script>
+  </body>
+</html>

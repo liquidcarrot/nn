@@ -177,6 +177,8 @@ function Neuron(neuron={}) {
 
     this.outgoing.weights[neuron.id] = neuron.incoming.weights[this.id] = weight == undefined ? Math.random() * 2 - 1 : weight;
     this.outgoing.connections[connection.id] = neuron.incoming.connections[connection.id] = connection;
+
+    return connection;
   }
 
   /**
