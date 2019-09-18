@@ -1,5 +1,6 @@
 const NN = {
   _: require("./_"),
+  Expression: reuqire("./neo.expression"),
   Connection: require("./connection"),
   Neuron: require("./neuron"),
   Group: require("./group"),

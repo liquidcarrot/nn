@@ -1,7 +1,8 @@
 const _ = require("./_");
+const Expression = require("./expression");
 const Math = require("mathjs");
 const { Parser } = require("expr-eval");
-const Expression = new Parser();
+const ExpressionParsers = new Parser();
 
 function Connection(from, to, options={}) {
   this.id = Connection.uid(from, to);
@@ -17,9 +18,28 @@ function Connection(from, to, options={}) {
   this.expression = options.expression || Connection.expressions.LINEAR.expression();
   this.partials = options.partials || Connection.expressions.LINEAR.partials();
 
+  /**
+  * Edits the output of the incoming object `from` using, `this.expression`
+  *
+  * @param {number} x
+  *
+  * @returns {number}
+  */
   this.activate = function(x) {
     return this.expression(x);
   }
+
+  /**
+  * Updates the constants used by `this.expression` in forward propagation by
+  * `options.rate` and returns the network error (i.e. partial derivative) w.r.t. `x`.
+  *
+  * @param {number} x
+  * @param {Object} options
+  * @param {number} options.rate - Learning rate: i.e. the rate by which the give parameters will get updated for any given error, and value (`x`)
+  * @param {number} options.error - The error w.r.t. to this connection as determined by propagation through the network
+  *
+  * @returns {number}
+  */
   this.propagate = function(x, options) {
     const self = this;
 
@@ -38,6 +58,10 @@ function Connection(from, to, options={}) {
     this.coefficients = { ...coefficients };
   }
 
+  this.setExpression = function(expression) {
+
+  }
+
   this.toJSON = function() {
     return {
       id: this.id,
@@ -52,6 +76,8 @@ function Connection(from, to, options={}) {
     }
   }
 }
+
+// Connection.
 
 Connection.expressions = {
   // w * x
@@ -123,6 +149,26 @@ Connection.uid = function(from, to) {
   return _.cantor(from.id, to.id);
 }
 
+const ExpressionSchema = {
+  name: String, // Using a pre-defined expressions name
+  definition: String, // Custom definition - do not use with "name"
+  constants: {
+    [String]: {
+      value: Number,
+      optimizer: Optimizer
+    }
+  }
+}
+
+const OptimizerSchema = new ExpressionSchema();
+
+const ConnectionSchema = {
+  id: Number,
+  from: Number,
+  to: Number,
+  expression: Expression
+}
+
 /**
 * Used to describe the variables in an `Expression`
 * @typedef Coefficient
@@ -133,8 +179,15 @@ Connection.uid = function(from, to) {
 */
 
 /**
+* @typedef {{value: number, optimizer: Expression}} Constant
+*/
+
+/**
 * Mathematical expression that can be prased by, both, `mathjs` & `expr-eval`
-* @typedef {string} Expression
+* @typedef {Object} Expression
+* @prop {string} name
+* @prop {string} definition
+* @prop {{Object.<string, Constant>}} constants
 */
 
 /**
