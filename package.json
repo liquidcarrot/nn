@@ -1,6 +1,6 @@
 {
   "name": "@liquid-carrot/nn",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Neural Networks &  Deep Learning in JavaScript",
   "main": "dist/nn.commonjs2.min.js",
   "module": "dist/nn.commonjs2.min.js",
