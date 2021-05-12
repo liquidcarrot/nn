@@ -57,7 +57,7 @@
     "jsdoc-to-markdown": "^5.0.0",
     "live-server": "^1.2.1",
     "lodash": "^4.17.15",
-    "mathjs": "^6.2.1",
+    "mathjs": "^7.5.1",
     "mocha": "^6.2.0",
     "neataptic": "^1.4.7",
     "nodemon": "^1.19.1",
