@@ -58,7 +58,7 @@
     "live-server": "^1.2.1",
     "lodash": "^4.17.15",
     "mathjs": "^6.2.1",
-    "mocha": "^6.2.0",
+    "mocha": "^10.2.0",
     "neataptic": "^1.4.7",
     "nodemon": "^1.19.1",
     "parallel-webpack": "^2.4.0",
